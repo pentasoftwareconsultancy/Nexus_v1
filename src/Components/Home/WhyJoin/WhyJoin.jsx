@@ -1,5 +1,5 @@
 import styles from "./WhyJoin.module.css";
-import coursesImg3 from "./Images/Home_20240823_153805_0000.jpg";
+// import coursesImg3 from "./Images/Home_20240823_153805_0000.jpg";
 
 function WhyJoin() {
   const courses = [
