@@ -1,0 +1,49 @@
+.container {
+    background-color: #ffffff; /* Background color for the entire component */
+    padding: 20px; /* Padding around the container */
+    min-height: 80vh; /* Full height to cover the viewport */
+    gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align all child elements horizontally */
+  justify-content: center; /* Center align all child elements vertically */
+  }
+  
+  .courseList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center align cards */
+  }
+  
+  .courseCard {
+    background-color: #ffffff; /* Background color for each card */
+    border-radius: 8px; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+    padding: 20px; /* Padding inside each card */
+    width: 300px; /* Fixed width for each card */
+    text-align: center; /* Center align text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .courseCard:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  .courseTitle {
+    font-size: 2rem; /* Title font size */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .courseDescription {
+    font-size: 1rem; /* Description font size */
+    margin-bottom: 10px; /* Space below the description */
+  }
+  
+  .courseDuration,
+  .courseDate {
+    font-size: 2rem; /* Font size for duration and date */
+    color: orange; /* Color for duration and date text */
+  }
+  
