@@ -19,6 +19,7 @@ const Navbar = () => {
           <li><a href="/about">About Us</a></li>
           <li><a href="/batch">Upcoming Batches</a></li>
           <li><a href="/contactus">Contact Us</a></li>
+          <li><a href="/exam">Exam</a></li>
         </ul>
         <div className={styles.hamburger} onClick={toggleMenu}>
           <div className={styles.bar}></div>
