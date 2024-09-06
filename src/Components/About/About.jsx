@@ -1,6 +1,93 @@
 import styles from "./About.module.css"; // Importing the CSS module
-
+import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 const About = () => {
+
+  const courses = [
+   
+    {
+      title: "AI Develpoer",
+      description: "This is a description for Course 2.",
+      duration: "8 weeks",
+      date: "2024-11-01",
+      imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+      // trending: "Trending",
+      stars: "★★★★☆", // Example star rating
+      skillTitle: "Advanced Skills",
+    },
+    {
+      title: "Java Developer",
+      description: "This is a description for Course 3.",
+      duration: "12 weeks",
+      date: "2024-12-01",
+      imageUrl: "https://sourcebae.com/blog/wp-content/uploads/2023/08/top-ai-programming-languages.png", // Example image URL
+      // trending: "Trending",
+      stars: "★★★☆☆", // Example star rating
+      skillTitle: "Beginner Skills",
+    },
+
+    {
+      title: "Advance Power BI",
+      description: "This is a description for Course 3.",
+      duration: "12 weeks",
+      date: "2024-12-01",
+      imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+      // trending: "Trending",
+      stars: "★★★☆☆", // Example star rating
+      skillTitle: "Beginner Skills",
+    },
+    {
+      title: "Course 3",
+      description: "This is a description for Course 3.",
+      duration: "12 weeks",
+      date: "2024-12-01",
+      imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+      // trending: "Trending",
+      stars: "★★★☆☆", // Example star rating
+      skillTitle: "Beginner Skills",
+    },
+    {
+      title: "Course 3",
+      description: "This is a description for Course 3.",
+      duration: "12 weeks",
+      date: "2024-12-01",
+      imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+      // trending: "Trending",
+      stars: "★★★☆☆", // Example star rating
+      skillTitle: "Beginner Skills",
+    },
+    {
+      title: "Course 3",
+      description: "This is a description for Course 3.",
+      duration: "12 weeks",
+      date: "2024-12-01",
+      imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+      // trending: "Trending",
+      stars: "★★★☆☆", // Example star rating
+      skillTitle: "Beginner Skills",
+    },
+    {
+      title: "Course 3",
+      description: "This is a description for Course 3.",
+      duration: "12 weeks",
+      date: "2024-12-01",
+      imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+      // trending: "Trending",
+      stars: "★★★☆☆", // Example star rating
+      skillTitle: "Beginner Skills",
+    },
+    {
+      title: "Course 3",
+      description: "This is a description for Course 3.",
+      duration: "12 weeks",
+      date: "2024-12-01",
+      imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+      // trending: "Trending",
+      stars: "★★★☆☆", // Example star rating
+      skillTitle: "Beginner Skills",
+    }
+  ];
+
   return (
     <div className={styles.aboutPage}>
       {/* Hero Section */}
@@ -15,7 +102,7 @@ const About = () => {
 
       {/* About Us Section */}
       <section className={styles.aboutUs}>
-        <h2>About Us</h2>
+        <h1>About Us</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
           nisi augue. Pellentesque volutpat neque et felis ornare, in gravida
@@ -30,7 +117,7 @@ const About = () => {
       <section className={styles.visionMissionValues}>
         <div className={styles.vision}>
           <div className={styles.text}>
-            <h3>Our Vision</h3>
+            <h1>Our Vision</h1>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
           nisi augue. Pellentesque volutpat neque et felis ornare, in gravida
@@ -50,7 +137,7 @@ const About = () => {
             <img src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg" alt="Mission" />
           </div>
           <div className={styles.text}>
-            <h3>Our Mission</h3>
+            <h1>Our Mission</h1>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
           nisi augue. Pellentesque volutpat neque et felis ornare, in gravida
@@ -64,7 +151,7 @@ const About = () => {
 
         <div className={styles.values}>
           <div className={styles.text}>
-            <h3>Our Values</h3>
+            <h1>Our Values</h1>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec
           nisi augue. Pellentesque volutpat neque et felis ornare, in gravida
@@ -82,26 +169,41 @@ const About = () => {
 
       {/* Success Stories Section */}
       <section className={styles.successStories}>
-        <h2>Success Stories</h2>
-        <div className={styles.slider}>
+        <h1>Success Stories</h1>
+        <Carousel
+          showThumbs={false}
+          infiniteLoop={true}
+          autoPlay={true}
+          interval={3000}
+          showStatus={false}
+          className={styles.carousel}
+        >
           {[...Array(5)].map((_, index) => (
             <div key={index} className={styles.slide}>
-              <img
-                src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
-                alt={`Success Story ${index + 1}`}
-              />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent vel libero sit amet justo facilisis luctus.
-              </p>
+              <div className={styles.slideContent}>
+                <div className={styles.imageContainer}>
+                  <img
+                    src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
+                    alt={`Success Story ${index + 1}`}
+                  />
+                </div>
+                <div className={styles.textContainer}>
+                  <h3>Success Story {index + 1}</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent vel libero sit amet justo facilisis luctus. Aenean
+                    vitae velit vitae mauris blandit pulvinar at nec metus.
+                  </p>
+                </div>
+              </div>
             </div>
           ))}
-        </div>
+        </Carousel>
       </section>
 
       {/* Why Choose Us Section */}
       <section className={styles.whyChooseUs}>
-        <h2>Why Choose Us</h2>
+        <h1>Why Choose Us</h1>
         <div className={styles.cards}>
           {[...Array(3)].map((_, index) => (
             <div key={index} className={styles.card}>
@@ -109,7 +211,7 @@ const About = () => {
                 src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
                 alt="Why Choose Us"
               />
-              <h3>Reason {index + 1}</h3>
+              <h1>Reason {index + 1}</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 vel urna felis.
@@ -120,24 +222,31 @@ const About = () => {
       </section>
 
       {/* Our Team Section */}
-      <section className={styles.ourTeam}>
-        <h2>Our Team</h2>
-        <div className={styles.teamMembers}>
-          {[...Array(8)].map((_, index) => (
-            <div key={index} className={styles.teamMember}>
+      <div className={styles.container}>
+      <h1>Our Team</h1>
+      <div className={styles.courseList}>
+        {courses.map((course, index) => (
+          <div key={index} className={styles.courseCard}>
+            <div className={styles.cardImage}>
               <img
-                src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
-                alt={`Teacher ${index + 1}`}
+                src={course.imageUrl}
+                alt={course.title}
+                className={styles.cardImage}
               />
-              <div className={styles.details}>
-                <h3>Teacher Name {index + 1}</h3>
-                <p>Education: Lorem ipsum dolor sit amet</p>
-                <p>Experience: 5 years</p>
-              </div>
+              {/* <div className={styles.trendingText}>{course.trending}</div> */}
             </div>
-          ))}
-        </div>
-      </section>
+            <h1 className={styles.courseTitle}>{course.title}</h1>
+            <div className={styles.stars}>{course.stars}</div>
+            <div className={styles.skillTitle}>{course.skillTitle}</div>
+            <p className={styles.courseDescription}>{course.description}</p>
+            <div className={styles.buttonContainer}>
+              <div className={styles.btnLearn}>Learn More</div>
+              <div className={styles.btn}>Book Demo</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
     </div>
   );
 };

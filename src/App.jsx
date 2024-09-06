@@ -8,12 +8,12 @@ import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage";
 
 function App() {
   return (
-    <Router> {/* Wrap the application with Router */}
+    <Router>
       <Navbar />
-      <Routes> {/* Define the Routes */}
-        <Route path="/" element={<HomePage />} /> {/* Home Page Route */}
-        <Route path="/about" element={<AboutUsPage />} /> {/* About Us Page Route */}
-        <Route path="/contactUs" element={<ContactUsPage />} /> {/* About Us Page Route */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutUsPage />} />
+        <Route path="/contactUs" element={<ContactUsPage />} />
       </Routes>
       <Footer />
     </Router>
