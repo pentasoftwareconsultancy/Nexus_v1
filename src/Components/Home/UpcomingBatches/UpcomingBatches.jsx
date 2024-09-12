@@ -1,8 +1,8 @@
 import styles from "./UpcomingBatches.module.css";
 
 function UpcomingBatches() {
-  return (<>
-      {/* <>Upcoming Batches</h1> */}
+  return (<div className={styles.container}>
+      <h1>Upcoming Batches</h1>
     <div className={styles.tableContainer}>
       <table className={styles.upcomingBatchesTable}>
         <thead>
@@ -83,7 +83,7 @@ function UpcomingBatches() {
         </tbody>
       </table>
     </div>
-    </>
+    </div>
   );
 }
 

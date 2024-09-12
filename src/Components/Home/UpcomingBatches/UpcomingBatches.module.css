@@ -1,4 +1,15 @@
+.container{
+  padding: 20px; 
+  min-height: 80vh; /* Full height to cover the viewport */
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align all child elements horizontally */
+  justify-content: center;
+}
+
 .tableContainer {
+  width: 100%;
     max-height: 300px; /* Adjust the height as needed */
     overflow-y: auto; /* Enable vertical scrolling */
     margin: 20px; /* Add some spacing around the table container */

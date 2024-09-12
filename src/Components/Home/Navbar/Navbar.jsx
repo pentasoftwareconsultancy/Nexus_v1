@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navContainer}>
         <div className={styles.logo}>
-          <a href="/">YourLogo</a>
+          <a href="./nexus-updated logo.webp">NEXUS</a>
         </div>
         <ul className={`${styles.navLinks} ${isOpen ? styles.active : ''}`}>
           <li><a href="/">Home</a></li>

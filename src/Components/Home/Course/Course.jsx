@@ -9,7 +9,7 @@ function Course() {
       description: "This is a description for Course 1.",
       duration: "10 weeks",
       date: "2024-10-01",
-      imageUrl: coursesImg2, // Example image URL
+      imageUrl: "https://codewave.com/insights/wp-content/uploads/2022/08/mern-stack-header-codewave.jpg", // Example image URL
       trending: "New",
       stars: "★★★★★", // Example star rating
       skillTitle: "Multiple Skills",
@@ -46,21 +46,21 @@ function Course() {
       skillTitle: "Beginner Skills",
     },
     {
-      title: "Course 3",
+      title: "Python Developer",
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
-      imageUrl: coursesImg3, // Example image URL
+      imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Example image URL
       trending: "Trending",
       stars: "★★★☆☆", // Example star rating
       skillTitle: "Beginner Skills",
     },
     {
-      title: "Course 3",
+      title: "Medical Coding",
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
-      imageUrl: coursesImg3, // Example image URL
+      imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
       trending: "Trending",
       stars: "★★★☆☆", // Example star rating
       skillTitle: "Beginner Skills",

@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import styles from "./Hero.module.css";
-import img1 from "./Images/pexels-freestocks-1122528.jpg";
-import img2 from "./Images/pexels-iliescu-victor-95204-306198.jpg";
 import img3 from "./Images/pexels-kevin-ku-92347-577585.jpg";
 import img4 from "./Images/pexels-mikhail-nilov-6963944.jpg";
 
@@ -10,17 +8,42 @@ const Hero = () => {
   const [menuActive, setMenuActive] = useState(false);
 
   const handleMenuClick = () => {
-    setMenuActive(!menuActive);
+    setMenuActive((prev) => !prev);
   };
 
   const handleNavClick = (index) => {
     setActiveIndex(index);
   };
+
   const slides = [
-    "https://t3.ftcdn.net/jpg/04/69/70/96/360_F_469709690_v1xpZt24mqGORK5HxilKoNNJrqqxgs8U.jpg",
-    "https://media.istockphoto.com/id/1255099921/vector/innovation-business-project-start-up-launching-product-with-rocket-concept-landing-page.jpg?s=612x612&w=0&k=20&c=G1xES4zIU0e2rdvN6T5BE9g71UAK1LTIPgcw_opq1gE=",
-    img3,
-    img4,
+    {
+      image:
+        "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/b8fcc053-ee65-4817-accc-de443e99586d/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_0.jpg",
+      slogan: "Innovate Beyond Imagination",
+      description:
+        "Discover cutting-edge technology that propels your ideas into the future.",
+    },
+    {
+      image:
+        "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/b8fcc053-ee65-4817-accc-de443e99586d/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_3.jpg",
+      slogan: "Empowering Your Vision",
+      description:
+        "Unleash your creativity with tools designed to transform your vision into reality.",
+    },
+    {
+      image:
+        "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/8af2e3b1-8715-4be9-b51b-1fdf8534786a/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_3.jpg",
+      slogan: "Technology Meets Excellence",
+      description:
+        "Elevate your business with technology that drives excellence and growth.",
+    },
+    {
+      image:
+        "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/8af2e3b1-8715-4be9-b51b-1fdf8534786a/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_1.jpg",
+      slogan: "Innovation at Its Finest",
+      description:
+        "Experience the future today with innovative solutions for every challenge.",
+    },
   ];
 
   useEffect(() => {
@@ -34,45 +57,41 @@ const Hero = () => {
   return (
     <div>
       <header className={styles.header}>
-        {/* <a href="/" className={styles.brand}>
-          <strong>
-            <h2>Matrimony</h2>
-          </strong>
-        </a> */}
         <div
           className={`${styles.menuBtn} ${menuActive ? styles.active : ""}`}
           onClick={handleMenuClick}
         >
           <div
-            className={`${styles.navigation} ${
-              menuActive ? styles.active : ""
-            }`}
+            className={`${styles.navigation} ${menuActive ? styles.active : ""}`}
           >
-            {/* <div className={styles.navigationItems}>
-              <a href="/">Home</a>
-              <a href="about">About</a>
-              <a href="services">Services</a>
-              <a href="/contact">Contact</a>
-              <a href="/briedcard">Bride</a>
-              <a href="/groom">Groom</a>
-              <a href="/form">Profile Form</a>
-              <a href="/login">Login</a>
-            </div> */}
+            {/* Navigation Items */}
           </div>
         </div>
       </header>
 
       <section className={styles.home}>
         {slides.map((slide, index) => (
-          <img
+          <div
             key={index}
-            decoding="async"
-            className={`${styles.imgSlide} ${
+            className={`${styles.slide} ${
               activeIndex === index ? styles.active : ""
             }`}
-            src={slide}
-            alt=""
-          />
+          >
+            <img
+              decoding="async"
+              className={`${styles.imgSlide} ${
+                activeIndex === index ? styles.active : ""
+              }`}
+              src={slide.image}
+              alt={`Slide ${index + 1}`}
+            />
+            {activeIndex === index && (
+              <div className={styles.slideContent}>
+                <span className={styles.slideText}>{slide.slogan}</span>
+                {/* <p className={styles.slideDescription}>{slide.description}</p> */}
+              </div>
+            )}
+          </div>
         ))}
       </section>
     </div>

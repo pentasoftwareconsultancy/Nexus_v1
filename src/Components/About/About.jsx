@@ -1,6 +1,7 @@
 import styles from "./About.module.css"; // Importing the CSS module
 import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import WhyJoin from "../Home/WhyJoin/WhyJoin";
 const About = () => {
 
   const courses = [
@@ -20,7 +21,7 @@ const About = () => {
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
-      imageUrl: "https://sourcebae.com/blog/wp-content/uploads/2023/08/top-ai-programming-languages.png", // Example image URL
+      imageUrl: "https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg", // Example image URL
       // trending: "Trending",
       stars: "★★★☆☆", // Example star rating
       skillTitle: "Beginner Skills",
@@ -31,7 +32,7 @@ const About = () => {
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
-      imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+      imageUrl: "https://imgcdn.stablediffusionweb.com/2024/2/28/64f23186-ec94-4291-885b-3c0f433877df.jpg", // Example image URL
       // trending: "Trending",
       stars: "★★★☆☆", // Example star rating
       skillTitle: "Beginner Skills",
@@ -93,11 +94,11 @@ const About = () => {
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <img
-          src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
+          src="https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/3c75b5e7-3268-4c80-bef1-7422a2e54976/Cinematic_Kino_dark_black_ai_images_for_technology_in_website_1.jpg"
           alt="Hero"
           className={styles.heroImage}
         />
-        <h1 className={styles.heroTitle}>About Nexus</h1>
+        <span className={styles.heroTitle}>About Nexus</span>
       </section>
 
       {/* About Us Section */}
@@ -202,24 +203,8 @@ const About = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className={styles.whyChooseUs}>
-        <h1>Why Choose Us</h1>
-        <div className={styles.cards}>
-          {[...Array(3)].map((_, index) => (
-            <div key={index} className={styles.card}>
-              <img
-                src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
-                alt="Why Choose Us"
-              />
-              <h1>Reason {index + 1}</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                vel urna felis.
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
+     
+      <WhyJoin/>
 
       {/* Our Team Section */}
       <div className={styles.container}>

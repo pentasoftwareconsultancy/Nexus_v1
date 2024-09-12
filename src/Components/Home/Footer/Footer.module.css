@@ -40,9 +40,14 @@ p {
 }
 
 .footer {
-  background: #112d60; /* Example background color for the footer */
+  background-color: #0f0f0f;
+  /* background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);  */
+  /* background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);  */
+  /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(184,0,255,1) 100%); */
   color: #ffffff; /* Text color for the footer */
   padding: 20px 0; /* Padding for the footer */
+  height: 70vh;
 }
 
 .footerContainer {

@@ -1,19 +1,28 @@
-import Course from "../../Components/Home/Course/Course";
-// import Footer from "../../Components/Home/Footer/Footer";
-import Home from "../../Components/Home/Hero/Hero";
-import UpcomingBatches from "../../Components/Home/UpcomingBatches/UpcomingBatches";
-import UpcomingEvents from "../../Components/Home/UpcomingEvents/UpcomingEvents";
-import WhyJoin from "../../Components/Home/WhyJoin/WhyJoin";
+import FadeInSection from '../../Hookes/useInView'; 
+import Course from '../../Components/Home/Course/Course';
+import Home from '../../Components/Home/Hero/Hero';
+import UpcomingBatches from '../../Components/Home/UpcomingBatches/UpcomingBatches';
+import UpcomingEvents from '../../Components/Home/UpcomingEvents/UpcomingEvents';
+import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
 
 function HomePage() {
   return (
     <div>
-      <Home />
-      <UpcomingBatches />
-      <Course />
-      <WhyJoin/>
-      <UpcomingEvents/>
-      {/* <Footer/> */}
+      <FadeInSection>
+        <Home />
+      </FadeInSection>
+      <FadeInSection>
+        <UpcomingBatches />
+      </FadeInSection>
+      <FadeInSection>
+        <Course />
+      </FadeInSection>
+      <FadeInSection>
+        <WhyJoin />
+      </FadeInSection>
+      <FadeInSection>
+        <UpcomingEvents />
+      </FadeInSection>
     </div>
   );
 }

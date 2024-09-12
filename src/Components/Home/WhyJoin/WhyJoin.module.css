@@ -1,41 +1,53 @@
 /* Container styling */
 .container {
-  background-color: #e3e3e3; /* Background color for the entire component */
-  padding: 20px; /* Padding around the container */
-  min-height: 80vh; /* Full height to cover the viewport */
+  background-color: #0f0f0f;
+  padding: 20px;
+  min-height: 100vh;
   gap: 3rem;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align all child elements horizontally */
-  justify-content: center; /* Center align all child elements vertically */
+  align-items: center;
+  justify-content: center;
 }
 
 /* Course list styling */
 .courseList {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem; /* Increased space between cards */
-  justify-content: center; /* Center align cards */
+  gap: 5rem;
+  justify-content: center;
+}
+
+/* 3D effect container */
+.courseListContainer {
+  perspective: 1000px; /* Provides perspective for 3D effect */
 }
 
 /* Course card styling */
 .courseCard {
-  background-color: #ffffff; /* Background color for each card */
-  border-radius: 8px; /* Rounded corners for cards */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
-  overflow: hidden; /* Hide overflow to keep rounded corners */
-  width: 380px; /* Fixed width for each card */
-  text-align: center; /* Center align text */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
-  position: relative; /* To position elements absolutely within the card */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 6px 6px 6px rgba(255, 255, 255, 0.8); /* Increased shadow for 3D effect */
+  overflow: hidden;
+  width: 380px;
+  text-align: center;
+  transition: transform 0.5s, box-shadow 0.5s;
+  position: relative;
+  transform-style: preserve-3d; /* Preserve 3D transformation */
+}
+
+/* Hover effect for 3D transformation */
+.courseCard:hover {
+  transform: rotateY(10deg) rotateX(10deg);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
 
 /* Image styling */
 .cardImage {
   width: 100%;
-  height: 200px; /* Adjust height as needed */
-  object-fit: cover; /* Ensure the image covers the container */
-  position: relative; /* To position text absolutely over the image */
+  height: 200px;
+  object-fit: cover;
+  position: relative;
 }
 
 /* Trending text on the image */
@@ -43,7 +55,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: rgb(255, 157, 0); /* Semi-transparent background */
+  background: rgb(255, 157, 0);
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -52,29 +64,29 @@
 
 /* Course title styling */
 .courseTitle {
-  font-size: 1.2rem; /* Title font size */
-  margin: 10px 0; /* Space above and below the title */
+  font-size: 1.2rem;
+  margin: 10px 0;
   font-weight: bold;
 }
 
 /* Stars rating */
 .stars {
-  color: #f5c518; /* Gold color for stars */
-  font-size: 1rem; /* Font size for stars */
+  color: #f5c518;
+  font-size: 1rem;
 }
 
 /* Skill title cover styling */
 .skillTitle {
-  font-size: 1rem; /* Font size for skill title */
-  color: #333; /* Dark color for skill title */
-  margin: 10px 0; /* Space above and below skill title */
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
 }
 
 /* Course description styling */
 .courseDescription {
-  font-size: 1.2rem; /* Description font size */
-  margin: 10px 0; /* Space above and below the description */
-  color: #666; /* Color for description text */
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #666;
 }
 
 /* Button container styling */
@@ -85,61 +97,59 @@
 }
 
 /* Button styling */
-.btn {
+.btn, .btnLearn {
   flex: 1;
-  margin: 0 5px; /* Space between buttons */
-  height: 40px; /* Adjust button height */
-  font-size: 0.9rem; /* Adjust font size */
+  margin: 0 5px;
+  height: 40px;
+  font-size: 0.9rem;
   border-radius: 5px;
-  background-color: orange;
-  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-}
-.btnLearn {
-  flex: 1;
-  margin: 0 5px; /* Space between buttons */
-  height: 40px; /* Adjust button height */
-  font-size: 0.9rem; /* Adjust font size */
-  border-radius: 5px;
-  background-color: #144c8c;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer; /* Pointer cursor on hover */
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
+.btn {
+  background-color: orange;
+  color: #ffffff;
+}
+
 .btn:hover {
-  background-color: #e68a00; /* Darker orange for hover effect */
+  background-color: #e68a00;
+}
+
+.btnLearn {
+  background-color: #144c8c;
+  color: #ffffff;
+}
+
+.btnLearn:hover {
+  background-color: #103d70; /* Darker blue for hover effect */
 }
 
 /* Responsive design for different screen sizes */
 @media (max-width: 1200px) {
   .courseList {
-    gap: 20px; /* Space between cards */
+    gap: 20px;
   }
 }
 
 @media (max-width: 900px) {
   .courseCard {
-    width: 100%; /* Full width for smaller screens */
+    width: 100%;
   }
   .courseList {
     flex-direction: column;
-    gap: 20px; /* Space between cards */
+    gap: 20px;
   }
 }
 
 @media (max-width: 600px) {
   .courseCard {
-    width: 100%; /* Full width for smaller screens */
+    width: 100%;
   }
   .courseList {
-    gap: 10px; /* Less space between cards */
+    gap: 10px;
   }
 }
