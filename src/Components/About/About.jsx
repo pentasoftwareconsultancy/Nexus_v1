@@ -1,7 +1,7 @@
-import styles from "./About.module.css"; // Importing the CSS module
 import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from "../Home/WhyJoin/WhyJoin";
+import styles from "./About.module.css"; // Importing the CSS module
 const About = () => {
 
   const courses = [
