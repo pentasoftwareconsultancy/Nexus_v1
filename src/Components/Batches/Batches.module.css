@@ -1,0 +1,145 @@
+/* Hero Section */
+.heroSection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .heroTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  
+/* Our Team Section */
+/* Container styling */
+.container {
+    background-color: #dceafa; /* Background color for the entire component */
+    padding: 20px; /* Padding around the container */
+    min-height: 80vh; /* Full height to cover the viewport */
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align all child elements horizontally */
+    justify-content: center; /* Center align all child elements vertically */
+  }
+  
+  /* Course list styling */
+  .courseList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Increased space between cards */
+    justify-content: center; /* Center align cards */
+  }
+  
+  /* Course card styling */
+  .courseCard {
+    background-color: #ffffff; /* Background color for each card */
+    border-radius: 8px; /* Rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
+    overflow: hidden; /* Hide overflow to keep rounded corners */
+    width: 350px; /* Fixed width for each card */
+    text-align: center; /* Center align text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    position: relative; /* To position elements absolutely within the card */
+  }
+  
+  /* Image styling */
+  .cardImage {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure the image covers the container */
+    position: relative; /* To position text absolutely over the image */
+  }
+  
+  /* Trending text on the image */
+  .trendingText {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgb(255, 157, 0); /* Semi-transparent background */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Course title styling */
+  .courseTitle {
+    font-size: 1.2rem; /* Title font size */
+    margin: 10px 0; /* Space above and below the title */
+    font-weight: bold;
+  }
+  
+  /* Stars rating */
+  .stars {
+    color: #f5c518; /* Gold color for stars */
+    font-size: 1rem; /* Font size for stars */
+  }
+  
+  /* Skill title cover styling */
+  .skillTitle {
+    font-size: 1rem; /* Font size for skill title */
+    color: #333; /* Dark color for skill title */
+    margin: 10px 0; /* Space above and below skill title */
+  }
+  
+  /* Course description styling */
+  .courseDescription {
+    font-size: 0.9rem; /* Description font size */
+    margin: 10px 0; /* Space above and below the description */
+    color: #666; /* Color for description text */
+  }
+  
+  /* Button container styling */
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  /* Button styling */
+  .btn {
+    flex: 1;
+    margin: 0 5px; /* Space between buttons */
+    height: 40px; /* Adjust button height */
+    font-size: 0.9rem; /* Adjust font size */
+    border-radius: 5px;
+    background-color: orange;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  .btnLearn {
+    flex: 1;
+    margin: 0 5px; /* Space between buttons */
+    height: 40px; /* Adjust button height */
+    font-size: 0.9rem; /* Adjust font size */
+    border-radius: 5px;
+    background-color: #144c8c;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e68a00; /* Darker orange for hover effect */
+  }
+  
