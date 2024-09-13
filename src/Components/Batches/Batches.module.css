@@ -1,0 +1,30 @@
+
+  /* Tearms and condition CSS */
+  .termsSection {
+    margin: 30px 20px;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    background-color: #f9f9f9;
+    font-size: 18px;
+  }
+  
+  .termsSection h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .termsSection ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .termsSection ul li {
+    margin-bottom: 5px;
+  }
+  
+  .termsSection p {
+    margin-top: 10px;
+    color: #555;
+  }
+  
