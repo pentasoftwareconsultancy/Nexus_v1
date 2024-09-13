@@ -1,0 +1,132 @@
+.examPanel {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* max-width: 800px; */
+    margin: auto;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin: 80px 40px 40px 40px;
+    min-height: 80vh;
+   
+  }
+  
+  .header {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f00;
+    height: 80px;
+    border-radius: 15px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .timer {
+    font-size: 1.2rem;
+    color: rgb(252, 252, 252);
+  }
+  
+  .userInfo {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 15px;
+    color:white;
+    background-color: #007bff;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .userName,
+  .userId {
+    font-size: 1rem;
+  }
+  
+  .mainContent {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 20px;
+  }
+  
+  .questionSection {
+    width: 60%;
+  }
+  
+  .questionHeader {
+    margin-bottom: 10px;
+  }
+  
+  .questionNumber {
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 5px;
+    background-color: blueviolet;
+  }
+  
+  .questionText {
+    background-color: beige;
+    color: black;
+    margin-bottom: 15px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    margin-bottom: 5px;
+  }
+  
+  .totalQuestions {
+    width: 30%;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .navButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .mainContent {
+      flex-direction: column;
+    }
+  
+    .questionSection, .totalQuestions {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .header, .footer, .userInfo {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  
