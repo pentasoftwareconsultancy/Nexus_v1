@@ -58,9 +58,11 @@
   }
   
   .text {
-    flex: 1;
-    padding: 20px;
-    
+   flex: 1;
+    padding: 20px; 
+  }
+  .text h1{
+     text-align: center;
   }
   .text p{
     font-size: 25px;
