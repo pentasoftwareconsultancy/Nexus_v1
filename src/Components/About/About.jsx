@@ -1,6 +1,5 @@
 import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import WhyJoin from "../Home/WhyJoin/WhyJoin";
 import styles from "./About.module.css"; // Importing the CSS module
 const About = () => {
 
@@ -132,11 +131,8 @@ const successStories = [
     {/* About Us Section */}
     <section className={styles.aboutUs}>
       <h1>About Us</h1>
-      <p>1. Location: Nexus Corporate Training Center is situated in Pimple Gurav, Pune, known for its professional training and development services.
-         2. Services Offered: Technical Training: Courses on the latest technologies, programming languages, software development methodologies, etc.
-            Leadership Training: Programs designed to enhance leadership skills, including strategic thinking, decision-making, and team management.
-            Soft Skills Development: Training in communication, negotiation, conflict resolution, and other interpersonal skills.
-            Real-Time Experience: Practical, hands-on training to simulate real-world scenarios and challenges in IT and development.
+      <p>Welcome to Nexus Corporate Training Center LLP, one of the leading IT training institutes in Pune, dedicated to empowering 
+        individuals with the skills and knowledge to thrive in today's fast-evolving tech landscape.
       </p>
     </section>
 
@@ -147,11 +143,10 @@ const successStories = [
           <h1>Our Vision</h1>
           <p>
             <strong>
-              Transforming the Digital Landscape:
-              Objective: To significantly impact and reshape how technology is used and perceived.
-              Approach: Innovating in software solutions to drive this transformation.
-              Innovative Software Solutions:
-              "Transforming the digital landscape through innovative software solutions that redefine the way individuals and organizations engage with technology, fostering efficiency, empowerment, and sustainable growth for the future is our vision."
+            As a top IT training institute in Pune with placement, we are dedicated to delivering high-quality, 
+            accessible education. With our flexible course structures and learning formats, individuals from all backgrounds can 
+            access top-tier training that suits their schedule and learning style. We foster inclusivity and collaboration, creating 
+            a global learning community where students can engage with peers and mentors from around the world.
             </strong>
           </p>
         </div>
@@ -168,8 +163,10 @@ const successStories = [
           <h1>Our Mission</h1>
           <p>
             <strong>
-              Empowering businesses and individuals worldwide by delivering cutting-edge software solutions that enhance productivity, streamline processes, and drive digital transformation, while prioritizing security, reliability, and customer satisfaction as the cornerstone of our mission.
-            </strong>
+            Our mission is to offer a transformative learning experience through a comprehensive range of job-focused software courses. 
+            Whether you're a beginner starting your coding journey
+             or an experienced professional looking to enhance your skills, we have the ideal program for you.            
+             </strong>
           </p>
         </div>
       </div>
@@ -179,8 +176,9 @@ const successStories = [
           <h1>Our Values</h1>
           <p>
             <strong>
-              "Nexus Corporate Training Center is committed to driving innovation across all aspects of our training programs. We continually explore and integrate the latest methodologies and technologies to provide cutting-edge solutions that meet the evolving demands of the industry."
-            </strong>
+            What sets Nexus CTC apart is our unwavering commitment to student success. With 100% placement assistance,
+             we go beyond the classroom to ensure our students are well-prepared for the workforce. 
+            Our career services team offers personalized support and resources to help students secure fulfilling roles in their chosen fields.            </strong>
           </p>
         </div>
         <div className={styles.image}>
