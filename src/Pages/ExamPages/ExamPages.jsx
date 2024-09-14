@@ -1,4 +1,3 @@
-// import ExamPanel from "../../Components/Exam/ExamPanel";
 import ExamCard from "../../Components/ExamCard/ExamCard";
 
 function ExamPages() {

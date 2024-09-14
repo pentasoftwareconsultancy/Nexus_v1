@@ -1,0 +1,79 @@
+.appContainer {
+  width: 100vw;
+  height: 40vh; /* Increased container height */
+  color: #000000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.marquee {
+  display: flex;
+  width: 1200px;
+  overflow: hidden;
+  user-select: none;
+  mask-image: linear-gradient(
+    to right,
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 10%,
+    hsl(0 0% 0% / 1) 90%,
+    hsl(0 0% 0% / 0)
+  );
+}
+
+@keyframes scrollX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.common {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  white-space: nowrap;
+  width: 100%;
+  animation: scrollX 30s linear infinite;
+}
+
+.marqueeGroup {
+  composes: common;
+}
+
+.marqueeGroup2 {
+  composes: common;
+  animation-direction: reverse;
+  animation-delay: -3s;
+}
+
+.imageGroup {
+  display: grid;
+  place-items: center;
+  width: clamp(12rem, 2rem + 50vmin, 40rem); /* Increased size */
+  padding: calc(clamp(12rem, 2rem + 50vmin, 40rem) / 10);
+}
+
+.image {
+  object-fit: contain;
+  width: 150%; /* Increased width */
+  height: auto; /* Keep aspect ratio */
+  border-radius: 0.5rem;
+  aspect-ratio: 16/9;
+  padding: 10px 20px; /* Increase padding if needed */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

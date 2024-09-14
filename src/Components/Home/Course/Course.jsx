@@ -1,5 +1,4 @@
 import styles from "./Course.module.css";
-import coursesImg2 from "./Images/Home_20240904_165412_0000.png";
 import coursesImg3 from "./Images/Home_20240823_153805_0000.jpg";
 
 function Course() {
@@ -130,6 +129,12 @@ function Course() {
   return (
     <div className={styles.container}>
       <h1>We Offer Following Courses</h1>
+      <h4>
+      At Nexus CTC, we provide a diverse selection of courses designed to meet the needs of the modern tech industry.
+       From Python Full Stack and Java Full Stack Developer courses to Data Analytics, Power BI, Tableau Certification, 
+       Software Testing, AngularJS, ReactJS, Python, Java, and MEAN-MERN Stack, we cover the essential topics required for a 
+       successful career.
+      </h4>
       <div className={styles.courseList}>
         {courses.map((course, index) => (
           <div key={index} className={styles.courseCard}>

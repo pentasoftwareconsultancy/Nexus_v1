@@ -1,6 +1,9 @@
 import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
 import styles from "./About.module.css"; // Importing the CSS module
+
+
 const About = () => {
   const courses = [
     {
@@ -197,28 +200,21 @@ const About = () => {
           </div>
         </div>
 
-        <div className={styles.values}>
-          <div className={styles.text}>
-            <h1>Our Values</h1>
-            <p>
-              <strong>
-                What sets Nexus CTC apart is our unwavering commitment to
-                student success. With 100% placement assistance, we go beyond
-                the classroom to ensure our students are well-prepared for the
-                workforce. Our career services team offers personalized support
-                and resources to help students secure fulfilling roles in their
-                chosen fields.{" "}
-              </strong>
-            </p>
-          </div>
-          <div className={styles.image}>
-            <img
-              src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
-              alt="Values"
-            />
-          </div>
+      <div className={styles.values}>
+        <div className={styles.text}>
+          <h1>Our Values</h1>
+          <p>
+            <strong>
+            What sets Nexus CTC apart is our unwavering commitment to student success. With 100% placement assistance,
+             we go beyond the classroom to ensure our students are well-prepared for the workforce. 
+            Our career services team offers personalized support and resources to help students secure fulfilling roles in their chosen fields.            </strong>
+          </p>
         </div>
-      </section>
+        <div className={styles.image}>
+          <img src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg" alt="Values" />
+        </div>
+      </div>
+    </section>
 
       {/* Success Stories Section */}
       <section className={styles.successStories}>
@@ -258,24 +254,8 @@ const About = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className={styles.whyChooseUs}>
-        <h1>Why Choose Us</h1>
-        <div className={styles.cards}>
-          {[...Array(3)].map((_, index) => (
-            <div key={index} className={styles.card}>
-              <img
-                src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
-                alt="Why Choose Us"
-              />
-              <h1>Reason {index + 1}</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                vel urna felis.
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <WhyJoin />
+
 
       {/* Our Team Section */}
       <div className={styles.container}>
