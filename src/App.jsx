@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/contactUs" element={<ContactUsPage />} />
-        <Route path="/batches" element={<BatchesPage />} /> {/* Fixed the syntax error here */}
+        <Route path="/batches" element={<BatchesPage />} />
       </Routes>
       <Footer />
     </Router>
