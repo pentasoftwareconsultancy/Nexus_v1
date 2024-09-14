@@ -1,9 +1,11 @@
-import ExamPanel from "../../Components/Exam/ExamPanel";
+// import ExamPanel from "../../Components/Exam/ExamPanel";
+import ExamCard from "../../Components/ExamCard/ExamCard";
 
 function ExamPages() {
   return (
     <div>
-      <ExamPanel />
+      
+      <ExamCard/>
     </div>
   );
 }

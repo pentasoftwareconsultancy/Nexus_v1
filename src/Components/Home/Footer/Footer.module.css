@@ -19,6 +19,13 @@
   object-fit: cover; /* Ensures the image covers the container */
 }
 
+.logoImage {
+  width: 150px; /* Adjust the width of the logo */
+  height: auto; /* Ensures the logo maintains aspect ratio */
+  margin-left: 10px; /* Adds spacing between the logo and text */
+}
+
+
 .overlayText {
   position: absolute;
   top: 50%;
@@ -47,8 +54,9 @@ p {
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(184,0,255,1) 100%); */
   color: #ffffff; /* Text color for the footer */
   padding: 20px 0; /* Padding for the footer */
-  height: 70vh;
+  height: 50vh;
 }
+
 
 .footerContainer {
   display: flex;

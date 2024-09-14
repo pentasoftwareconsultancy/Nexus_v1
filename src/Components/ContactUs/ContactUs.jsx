@@ -1,7 +1,9 @@
-import React from "react";
-import "./ContactUs.css";
+import styles from "./ContactUs.module.css";
 import Msg_Icon from "../../assets/msg-icon.png";
-import Mail_Icon from "../../assets/mail-icon.png";
+import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+
 import Phone_Icon from "../../assets/phone-icon.png";
 import Location_Icon from "../../assets/location-icon.png";
 import White_Icon from "../../assets/white-arrow.png";
@@ -9,87 +11,95 @@ import White_Icon from "../../assets/white-arrow.png";
 const ContactUs = () => {
   return (
     <>
-      <section className="heroSection">
+      <section className={styles.heroSection}>
         <img
-          src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
+          src="https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/10c58bd4-986f-4cb0-bb57-ec0e4985d14b/Leonardo_Kino_XL_dark_black_ai_images_for_technology_in_websit_1.jpg"
           alt="Hero"
-          className="heroImage"
+          className={styles.heroImage}
         />
-        <h1 className="heroTitle">Contact Us</h1>
+        <span className={styles.heroTitle}>Contact Us</span>
       </section>
-      <div className="contact">
-        <div className="contact-col">
+      <div className={styles.contactSection}>
+        <div className={styles.contactCol}>
           <h3>
-            Send Nexus A Msg <img src={Msg_Icon} alt="" />{" "}
+            Send Nexus A Msg <img src={Msg_Icon} alt="" />
           </h3>
-          <p>
+          <span>
             We are a team of skilled and experienced web developers dedicated to
-            creating high-quality, responsive and user-friendly websites for our
-            clients. From responsive designs to robust backend systems, we
+            creating high-quality, responsive, and user-friendly websites for
+            our clients. From responsive designs to robust backend systems, we
             leverage a diverse skill set to deliver tailored web solutions.
-          </p>
+          </span>
           <ul>
             <li>
-              <img src={Mail_Icon} alt="" />
+              <span>
+              <MdEmail />
+              </span>
               hr@devconsoftware.com
             </li>
             <li>
-              <img src={Phone_Icon} alt="" />
+              <span>
+              <FaPhoneAlt />
+              </span>
               +91 9112100663
             </li>
             <li>
-              <img src={Location_Icon} alt="" />
+              <span>
+              <FaLocationDot />
+              </span>
               Our Address Office No. 4-B, Second Floor, Ganesham Commercial -A,
               Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027
             </li>
           </ul>
         </div>
-        <div className="contact-col">
-          <form>
-            <label>Your Name:</label>
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter Your Name"
-              required
-            />
+        <div className={styles.contactCol}>
+          <div className={styles.formContainer}>
+            <form>
+              <label>Your Name:</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter Your Name"
+                required
+              />
 
-            <label>Your Mobile Number:</label>
-            <input
-              type="number"
-              name="mobile"
-              placeholder="Enter Mobile Number"
-              required
-            />
+              <label>Your Mobile Number:</label>
+              <input
+                type="number"
+                name="mobile"
+                placeholder="Enter Mobile Number"
+                required
+              />
 
-            <label>Your Email:</label>
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter Email ID"
-              required
-            />
+              <label>Your Email:</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Email ID"
+                required
+              />
 
-            <label>Your Course:</label>
-            <input
-              type="text"
-              name="course"
-              placeholder="Enter Your Course"
-              required
-            />
+              <label>Your Course:</label>
+              <input
+                type="text"
+                name="course"
+                placeholder="Enter Your Course"
+                required
+              />
 
-            <label>Write Your Message Here:</label>
-            <textarea
-              name="message"
-              rows={6}
-              placeholder="Enter Message"
-              required
-            />
+              <label>Write Your Message Here:</label>
+              <textarea
+                name="message"
+                rows={6}
+                placeholder="Enter Message"
+                required
+              />
 
-            <button type="submit" className="btn dark-btn">
-              Submit Now <img src={White_Icon} alt="" />
-            </button>
-          </form>
+              <button type="submit" className="btn dark-btn">
+                Submit Now
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </>

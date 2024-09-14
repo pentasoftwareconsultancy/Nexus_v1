@@ -1,5 +1,6 @@
 import styles from "./Footer.module.css";
 import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
+import logo from "./Images/nexus-updated logo.webp"; // Import your logo
 
 const Footer = () => {
   return (
@@ -13,9 +14,9 @@ const Footer = () => {
           />
         </div>
         <div className={styles.overlayText}>
-          <p>London Eye, London, UK</p>
-          <p>+ (876) 765 685</p>
-          <p>mail@influenca.ld</p>
+          <p>Nexus - Corporate Training Center</p>
+          <p> +91 9545450788 / +91 9545450677</p>
+          <p> contact@Nexus-CTC-LLP</p>
           <p>
             Nexus - Corporate Training Center is leading IT Training service
             provider mainly provide training of latest technology with real time
@@ -26,10 +27,14 @@ const Footer = () => {
       <footer className={styles.footer}>
         <div className={styles.footerContainer}>
           <div className={styles.footerSection}>
-            <h2>NEXUS</h2>
+            <h2>
+             
+              <img src={logo} alt="Nexus Logo" className={styles.logoImage} />
+            </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis elit
-              tellus.
+              Nexus - Corporate Training Center is leading IT Training service
+              provider mainly provide training of latest technology with real
+              time experience. Get connect with us for more details.
             </p>
           </div>
           <div className={styles.footerSection}>
@@ -84,7 +89,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-       
       </footer>
       <div className={styles.footerCredit}>
         <p style={{ textAlign: "center" }}>

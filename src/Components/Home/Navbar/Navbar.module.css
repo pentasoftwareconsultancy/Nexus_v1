@@ -12,6 +12,13 @@
   z-index: 1000;
 }
 
+.logo img {
+  max-width: 100px; /* Adjust the size of the logo */
+  height: auto;
+  display: block; /* Ensure it respects block-level formatting */
+}
+
+
 .navContainer {
   display: flex;
   justify-content: space-between;

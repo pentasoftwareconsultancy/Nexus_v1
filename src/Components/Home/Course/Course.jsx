@@ -65,66 +65,66 @@ function Course() {
       stars: "★★★☆☆", // Example star rating
       skillTitle: "Beginner Skills",
     },
-    {
-      title: "Course 3",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: coursesImg3, // Example image URL
-      trending: "Trending",
-      stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
-    },
-    {
-      title: "Course 3",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: coursesImg3, // Example image URL
-      trending: "Trending",
-      stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
-    },
-    {
-      title: "Course 3",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: coursesImg3, // Example image URL
-      trending: "Trending",
-      stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
-    },
-    {
-      title: "Course 3",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: coursesImg3, // Example image URL
-      trending: "Trending",
-      stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
-    },
-    {
-      title: "Course 3",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: coursesImg3, // Example image URL
-      trending: "Trending",
-      stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
-    },
-    {
-      title: "Course 3",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: coursesImg3, // Example image URL
-      trending: "Trending",
-      stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
-    },
+    // {
+    //   title: "Course 3",
+    //   description: "This is a description for Course 3.",
+    //   duration: "12 weeks",
+    //   date: "2024-12-01",
+    //   imageUrl: coursesImg3, // Example image URL
+    //   trending: "Trending",
+    //   stars: "★★★☆☆", // Example star rating
+    //   skillTitle: "Beginner Skills",
+    // },
+    // {
+    //   title: "Course 3",
+    //   description: "This is a description for Course 3.",
+    //   duration: "12 weeks",
+    //   date: "2024-12-01",
+    //   imageUrl: coursesImg3, // Example image URL
+    //   trending: "Trending",
+    //   stars: "★★★☆☆", // Example star rating
+    //   skillTitle: "Beginner Skills",
+    // },
+    // {
+    //   title: "Course 3",
+    //   description: "This is a description for Course 3.",
+    //   duration: "12 weeks",
+    //   date: "2024-12-01",
+    //   imageUrl: coursesImg3, // Example image URL
+    //   trending: "Trending",
+    //   stars: "★★★☆☆", // Example star rating
+    //   skillTitle: "Beginner Skills",
+    // },
+    // {
+    //   title: "Course 3",
+    //   description: "This is a description for Course 3.",
+    //   duration: "12 weeks",
+    //   date: "2024-12-01",
+    //   imageUrl: coursesImg3, // Example image URL
+    //   trending: "Trending",
+    //   stars: "★★★☆☆", // Example star rating
+    //   skillTitle: "Beginner Skills",
+    // },
+    // {
+    //   title: "Course 3",
+    //   description: "This is a description for Course 3.",
+    //   duration: "12 weeks",
+    //   date: "2024-12-01",
+    //   imageUrl: coursesImg3, // Example image URL
+    //   trending: "Trending",
+    //   stars: "★★★☆☆", // Example star rating
+    //   skillTitle: "Beginner Skills",
+    // },
+    // {
+    //   title: "Course 3",
+    //   description: "This is a description for Course 3.",
+    //   duration: "12 weeks",
+    //   date: "2024-12-01",
+    //   imageUrl: coursesImg3, // Example image URL
+    //   trending: "Trending",
+    //   stars: "★★★☆☆", // Example star rating
+    //   skillTitle: "Beginner Skills",
+    // },
   ];
 
   return (
