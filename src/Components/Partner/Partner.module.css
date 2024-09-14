@@ -73,7 +73,7 @@
   width: 150%; /* Increased width */
   height: auto; /* Keep aspect ratio */
   border-radius: 0.5rem;
-  aspect-ratio: 16/9;
+  aspect-ratio: 30/30;
   padding: 10px 20px; /* Increase padding if needed */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
