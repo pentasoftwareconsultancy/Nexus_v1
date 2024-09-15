@@ -144,7 +144,7 @@ const About = () => {
 
       {/* About Us Section */}
       <section className={styles.aboutUs}>
-        <h1 >About Us</h1>
+        <h1 className= {styles.headline} >About Us</h1>
         <p>
           Welcome to Nexus Corporate Training Center LLP, one of the leading IT
           training institutes in Pune, dedicated to empowering individuals with
@@ -159,7 +159,6 @@ const About = () => {
           <div className={styles.text}>
             <h1>Our Vision</h1>
             <p>
-              <>
                 As a top IT training institute in Pune with placement, we are
                 dedicated to delivering high-quality, accessible education. With
                 our flexible course structures and learning formats, individuals
@@ -168,7 +167,6 @@ const About = () => {
                 collaboration, creating a global learning community where
                 students can engage with peers and mentors from around the
                 world.
-              </>
             </p>
           </div>
           <div className={styles.image}>
@@ -189,13 +187,11 @@ const About = () => {
           <div className={styles.text}>
             <h1>Our Mission</h1>
             <p>
-              <>
                 Our mission is to offer a transformative learning experience
                 through a comprehensive range of job-focused software courses.
                 Whether you're a beginner starting your coding journey or an
                 experienced professional looking to enhance your skills, we have
                 the ideal program for you.
-              </>
             </p>
           </div>
         </div>
@@ -204,10 +200,11 @@ const About = () => {
         <div className={styles.text}>
           <h1>Our Values</h1>
           <p>
-            <>
+          
             What sets Nexus CTC apart is our unwavering commitment to student success. With 100% placement assistance,
              we go beyond the classroom to ensure our students are well-prepared for the workforce. 
-            Our career services team offers personalized support and resources to help students secure fulfilling roles in their chosen fields.            </>
+            Our career services team offers personalized support and resources to help students secure fulfilling roles in their chosen fields.         
+              
           </p>
         </div>
         <div className={styles.image}>

@@ -39,7 +39,7 @@ const ContactUs = () => {
             </li>
             <li>
               <span>
-              <FaPhoneAlt />
+              <FaPhoneAlt />  
               </span>
               +91 9112100663
             </li>

@@ -1,6 +1,6 @@
 .appContainer {
   width: 100vw;
-  height: 40vh; /* Increased container height */
+  height: 40vh; /* Adjust height based on device */
   color: #000000;
   position: relative;
   display: flex;
@@ -17,10 +17,9 @@
   flex-direction: column;
 }
 
-
 .marquee {
   display: flex;
-  width: 1200px;
+  width: 100%; /* Adjust width to fit screen */
   overflow: hidden;
   user-select: none;
   mask-image: linear-gradient(
@@ -30,6 +29,10 @@
     hsl(0 0% 0% / 1) 90%,
     hsl(0 0% 0% / 0)
   );
+}
+
+.marquee:hover .common {
+  animation-play-state: paused; /* Pause animation on hover */
 }
 
 @keyframes scrollX {
@@ -49,6 +52,7 @@
   white-space: nowrap;
   width: 100%;
   animation: scrollX 30s linear infinite;
+  animation-play-state: running; /* Ensure animation runs by default */
 }
 
 .marqueeGroup {
@@ -64,16 +68,53 @@
 .imageGroup {
   display: grid;
   place-items: center;
-  width: clamp(12rem, 2rem + 50vmin, 40rem); /* Increased size */
-  padding: calc(clamp(12rem, 2rem + 50vmin, 40rem) / 10);
+  width: clamp(8rem, 2rem + 25vmin, 20rem); /* Adjust size for responsiveness */
+  padding: calc(clamp(8rem, 2rem + 25vmin, 20rem) / 10); /* Responsive padding */
 }
 
 .image {
   object-fit: contain;
-  width: 150%; /* Increased width */
+  width: 100%; /* Set to 100% to be responsive */
   height: auto; /* Keep aspect ratio */
   border-radius: 0.5rem;
   aspect-ratio: 30/30;
-  padding: 10px 20px; /* Increase padding if needed */
+  padding: 10px 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .marquee {
+    width: 100%; /* Ensure full width on smaller screens */
+  }
+  .imageGroup {
+    width: clamp(6rem, 2rem + 20vmin, 15rem); /* Adjust size for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .appContainer {
+    height: 60vh; /* Adjust height for smaller devices */
+  }
+
+  .imageGroup {
+    width: clamp(4rem, 2rem + 15vmin, 12rem); /* Smaller size for tablets */
+    padding: calc(clamp(4rem, 2rem + 15vmin, 12rem) / 10);
+  }
+}
+
+@media (max-width: 480px) {
+  .appContainer {
+    height: 80vh; /* Increased height for mobile devices */
+  }
+
+  .imageGroup {
+    width: clamp(3rem, 2rem + 10vmin, 10rem); /* Even smaller size for mobile */
+    padding: calc(clamp(3rem, 2rem + 10vmin, 10rem) / 10);
+  }
+
+  .image {
+    width: 90%; /* Adjust image width for mobile */
+    padding: 5px 10px; /* Adjust padding for mobile */
+  }
 }

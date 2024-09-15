@@ -10,6 +10,7 @@
   justify-content: center; /* Center align all child elements vertically */
 }
 
+
 /* Course list styling */
 .courseList {
   display: flex;
@@ -49,6 +50,7 @@
   border-radius: 5px;
   font-weight: bold;
 }
+
 
 /* Course title styling */
 .courseTitle {
