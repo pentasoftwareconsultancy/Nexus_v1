@@ -28,10 +28,11 @@
   
   /* About Us Section */
   .aboutUs {
-    height: 50vh;
+    height: 70vh;
     background-color: #dceafa;
     text-align: center;
     margin: -10px;
+
   }
   
   .aboutUs h2 {
@@ -40,14 +41,15 @@
   
   .aboutUs p {
     max-width: 600px;
-    margin: 0 auto;
-    font-size: 20px;
+    margin: 50px auto;
+    font-size: 25px;
     line-height: 1.5;
   }
   
   /* Vision, Mission, Values Section */
   .visionMissionValues {
     margin: 40px 0;
+    font-size: 20px;
   }
   
   .vision, .mission, .values {
