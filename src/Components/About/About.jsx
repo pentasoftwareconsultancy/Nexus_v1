@@ -144,7 +144,9 @@ const About = () => {
 
       {/* About Us Section */}
       <section className={styles.aboutUs}>
+        <div>
         <h1 className= {styles.headline} >About Us</h1>
+        </div>
         <p>
           Welcome to Nexus Corporate Training Center LLP, one of the leading IT
           training institutes in Pune, dedicated to empowering individuals with

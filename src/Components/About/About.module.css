@@ -28,6 +28,7 @@
   
 .headline {
     text-align: center;
+    /* margin: 5rem; */
   }
  
   /* About Us Section */
@@ -46,7 +47,7 @@
   .aboutUs p {
     max-width: 600px;
     margin: 50px auto;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
   }
   
