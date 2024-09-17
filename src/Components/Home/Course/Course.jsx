@@ -132,11 +132,11 @@ function Course() {
 
   // Function to handle button click
   const handleLearnMoreClick = (course) => {
-    navigate("/course-details", { state: { course } });
+    navigate("/learnMore", { state: { course } });
   };
 
   const handleBookDemoClick = (course) => {
-    navigate("/book-demo", { state: { course } }); // Replace with the actual path for booking demo
+    navigate("/bookdemo", { state: { course } }); 
   };
 
   return (
@@ -164,7 +164,7 @@ function Course() {
               onClick={()=> handleLearnMoreClick (course)}>
                 Learn More</div>
               <div className={styles.btn}
-              onClick={()=> handleLearnMoreClick (course)}>
+              onClick={()=> handleBookDemoClick (course)}>
                 Book Demo</div>
             </div>
           </div>

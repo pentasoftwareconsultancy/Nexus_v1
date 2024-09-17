@@ -8,9 +8,10 @@ import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage";
 import HomePage from "./Pages/HomePage/HomePage";
 // import ContactUs from "./Components/ContactUs/ContactUs";
 import ExamPanel from "./Components/Exam/ExamPanel";
+import BookDemo from "./Components/Home/bookdemo/bookdemo";
+import CourseDetails from "./Components/Home/CourseDetails/CourseDetails";
+import LearnMore from "./Components/Home/learnMore/learnMore";
 import ExamPages from "./Pages/ExamPages/ExamPages";
-import CourseDetails from "./Components/Home/CourseDetails/CourseDetails"
-
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         <Route path="/exam" element={<ExamPanel />} />
         <Route path="/examDetails" element={<ExamPages />} />
         <Route path="/course-details" element={<CourseDetails />} /> 
+        <Route path="/learnMore" element={<LearnMore />} /> 
+        <Route path="/bookdemo" element={<BookDemo />} />
+
       </Routes>
       <Footer />
     </Router>

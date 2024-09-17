@@ -1,0 +1,15 @@
+.learnMoreContainer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .title {
+    margin-top: 50px ;
+  }
+  .courseImage {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
