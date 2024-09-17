@@ -4,11 +4,12 @@ import Footer from "./Components/Home/Footer/Footer";
 import Navbar from "./Components/Home/Navbar/Navbar";
 import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage";
 import BatchesPage from "./Pages/BatchesPage/BatchesPage";
+import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage";
 import HomePage from "./Pages/HomePage/HomePage";
-import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage"
 // import ContactUs from "./Components/ContactUs/ContactUs";
+import ExamPanel from "./Components/Exam/ExamPanel";
 import ExamPages from "./Pages/ExamPages/ExamPages";
-import ExamPanel from "./Components/Exam/ExamPanel"
+import CourseDetails from "./Components/Home/CourseDetails/CourseDetails"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/batches" element={<BatchesPage />} />
         <Route path="/exam" element={<ExamPanel />} />
         <Route path="/examDetails" element={<ExamPages />} />
+        <Route path="/course-details" element={<CourseDetails />} /> 
       </Routes>
       <Footer />
     </Router>

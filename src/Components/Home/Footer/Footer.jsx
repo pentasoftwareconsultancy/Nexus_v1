@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
-import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
 import logo from "./Images/nexus-updated logo.webp"; // Import your logo
+import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
 
 const Footer = () => {
   return (
@@ -92,7 +92,7 @@ const Footer = () => {
       </footer>
       <div className={styles.footerCredit}>
         <p style={{ textAlign: "center" }}>
-          © 2023 Influenca Template - All Rights Reserved
+          © 2024 Influenca Template - All Rights Reserved
         </p>
       </div>
     </>

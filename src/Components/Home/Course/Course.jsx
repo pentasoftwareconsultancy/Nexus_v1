@@ -1,7 +1,11 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Course.module.css";
-import coursesImg3 from "./Images/Home_20240823_153805_0000.jpg";
+
 
 function Course() {
+  const navigate = useNavigate();
+
   const courses = [
     {
       title: "MERN Stack",
@@ -126,6 +130,15 @@ function Course() {
     // },
   ];
 
+  // Function to handle button click
+  const handleLearnMoreClick = (course) => {
+    navigate("/course-details", { state: { course } });
+  };
+
+  const handleBookDemoClick = (course) => {
+    navigate("/book-demo", { state: { course } }); // Replace with the actual path for booking demo
+  };
+
   return (
     <div className={styles.container}>
       <h1>We Offer Following Courses</h1>
@@ -145,9 +158,14 @@ function Course() {
             <div className={styles.stars}>{course.stars}</div>
             <div className={styles.skillTitle}>{course.skillTitle}</div>
             <p className={styles.courseDescription}>{course.description}</p>
+            
             <div className={styles.buttonContainer}>
-              <div className={styles.btnLearn}>Learn More</div>
-              <div className={styles.btn}>Book Demo</div>
+              <div className={styles.btnLearn}
+              onClick={()=> handleLearnMoreClick (course)}>
+                Learn More</div>
+              <div className={styles.btn}
+              onClick={()=> handleLearnMoreClick (course)}>
+                Book Demo</div>
             </div>
           </div>
         ))}
