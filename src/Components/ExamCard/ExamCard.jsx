@@ -1,9 +1,23 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import styles from "./ExamCard.module.css"; // Import your CSS
 
 function ExamCard() {
   return (
     <div className={styles.card}>
+
+      <Helmet>
+        <title>Nexus Corporate Training Center- Exam </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
       {/* Exam Title */}
       <div className={styles.title}>MERN Stack Internship Entrance Exam</div>
 

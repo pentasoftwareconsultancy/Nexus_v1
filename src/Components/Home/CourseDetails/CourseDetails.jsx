@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from 'react';
 import { useLocation } from "react-router-dom";
 import styles from "./CourseDetails.module.css";
 
 function CourseDetails() {
+  
   const location = useLocation();
   const { course } = location.state;
+
+  // Scroll to top when the component is mounted
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
 
   return (
     <div className={styles.container}>

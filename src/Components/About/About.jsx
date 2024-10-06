@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
@@ -132,6 +133,19 @@ const About = () => {
 
   return (
     <div className={styles.aboutPage}>
+
+      <Helmet>
+        <title>Nexus Corporate Training Center - About </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <img

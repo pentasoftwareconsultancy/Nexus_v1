@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import styles from "./ExamPanel.module.css";
 import questions from "./data"; // Import questions from data.js
 
@@ -88,6 +88,8 @@ const ExamPanel = () => {
 
   return (
     <div className={styles.examPanel} id="examPanel">
+     
+
       <div className={styles.header}>
         <div className={styles.title}>Entrance Exam</div>
         <div className={styles.timer}>Timer: 10:00</div>

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import UpcomingBatches from "../Home/UpcomingBatches/UpcomingBatches";
 import WhyJoin from "../Home/WhyJoin/WhyJoin";
 import Terms from "../Terms/Terms";
@@ -93,6 +94,19 @@ const courses = [
 function Batches() {
   return (
     <div>
+
+      <Helmet>
+        <title>Nexus Corporate Training Center - Batches </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
       <section className= {styles.heroSection}>
         <img
         src="https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/3c75b5e7-3268-4c80-bef1-7422a2e54976/Cinematic_Kino_dark_black_ai_images_for_technology_in_website_1.jpg"

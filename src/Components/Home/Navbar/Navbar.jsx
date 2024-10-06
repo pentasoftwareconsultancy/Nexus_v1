@@ -22,7 +22,7 @@ const Navbar = () => {
           <li><a href="/about">About Us</a></li>
           <li><a href="/batches">Upcoming Batches</a></li>
           <li><a href="/contactUs">Contact Us</a></li>
-          <li><a href="/examDetails">Exam</a></li>
+          {/* <li><a href="/examDetails">Exam</a></li> */}
         </ul>
         <div className={styles.hamburger} onClick={toggleMenu}>
           <div className={styles.bar}></div>
