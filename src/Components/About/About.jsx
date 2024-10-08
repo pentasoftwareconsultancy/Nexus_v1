@@ -173,7 +173,7 @@ const About = () => {
           </div>
           <div className={styles.image}>
             <img
-              src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
+              src="https://www.techopedia.com/wp-content/uploads/2023/02/istock-958259766-1.jpeg"
               alt="Vision"
             />
           </div>
@@ -182,7 +182,7 @@ const About = () => {
         <div className={styles.mission}>
           <div className={styles.image}>
             <img
-              src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg"
+              src="https://i0.wp.com/www.policycircle.org/wp-content/uploads/2023/05/ai10.jpg"
               alt="Mission"
             />
           </div>
@@ -211,7 +211,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.image}>
-          <img src="https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg" alt="Values" />
+          <img src="https://imageio.forbes.com/specials-images/imageserve/62468a610c6dc8f419eac76b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds" alt="Values" />
         </div>
       </div>
     </section>

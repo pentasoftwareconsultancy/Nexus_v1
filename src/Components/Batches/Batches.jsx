@@ -95,7 +95,7 @@ function Batches() {
     <div>
       <section className= {styles.heroSection}>
         <img
-        src="https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/3c75b5e7-3268-4c80-bef1-7422a2e54976/Cinematic_Kino_dark_black_ai_images_for_technology_in_website_1.jpg"
+        src="https://www.newjobs.ai/assets/front/img/Data_Science.jpg"
         alt="Hero"
         className={styles.heroImage}
         />
