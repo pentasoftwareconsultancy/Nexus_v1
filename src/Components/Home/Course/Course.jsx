@@ -1,6 +1,9 @@
-  import React from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Course.module.css";
+// import img form ""
+import Img from "../Course/Images/DataScience.jpeg"; 
+
 
 
   function Course() {
@@ -26,11 +29,11 @@ import styles from "./Course.module.css";
         keyfeatures:"keyFeatures",
       },
       {
-        title: "AR Caller",
+        title: "AR Caller/RCM",
         description: "This is a description for AI Developer.",
         duration: "8 weeks",
         date: "2024-11-01",
-        imageUrl: "https://s3.us-east-1.amazonaws.com/asugv5-assets/archive/uploads/images/main/_featureLarge/artificial-intelligence.jpg", // Example image URL
+        imageUrl: "https://static.vecteezy.com/system/resources/thumbnails/028/578/963/small_2x/ar-glasses-technology-concept-with-transparent-goggles-augmented-reality-futuristic-immersive-experience-generated-ai-photo.jpg", 
         trending: "Trending",
         stars: "★★★★☆",
         skillTitle: "Advanced Skills",
@@ -45,11 +48,11 @@ import styles from "./Course.module.css";
       },
       
       {
-        title: " Medical Coding ",
+        title: " Medical Coding/Billing ",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
-        imageUrl: "https://sourcebae.com/blog/wp-content/uploads/2023/08/top-ai-programming-languages.png", // Example image URL
+        imageUrl: "https://nividous.com/wp-content/uploads/2022/07/artificial-intelligence-in-medical-billing-an-introduction-nividous.jpg", // Example image URL
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
@@ -64,7 +67,7 @@ import styles from "./Course.module.css";
       },
 
       {
-        title: "AWS and Linux",
+        title: "AWS Administrator",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
@@ -79,7 +82,7 @@ import styles from "./Course.module.css";
         keyfeatures:"keyFeatures",
       },
       {
-        title: " Soft Skills",
+        title: "Soft Skills",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
@@ -93,82 +96,114 @@ import styles from "./Course.module.css";
         syllabus:"one two three",
         keyfeatures:"keyFeatures",
       },
-      // {
-      //   title: "Medical Coding",
-      //   description: "This is a description for Course 3.",
-      //   duration: "12 weeks",
-      //   date: "2024-12-01",
-      //   imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
-      //   trending: "Trending",
-      //   stars: "★★★☆☆", // Example star rating
-      //   skillTitle: "Beginner Skills",
-      //    learningPoint1:"hello",
-      //   learningPoint2:"hello",
-      //   learningPoint3:"hello",
-      //   syllabus:"one two three",
-      //   keyfeatures:"keyFeatures",
+      {
+        title: "Testing",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
        
-      // },
-      // {
-      //   title: "Course 3",
-      //   description: "This is a description for Course 3.",
-      //   duration: "12 weeks",
-      //   date: "2024-12-01",
-      //   imageUrl: coursesImg3, // Example image URL
-      //   trending: "Trending",
-      //   stars: "★★★☆☆", // Example star rating
-      //   skillTitle: "Beginner Skills",
-      // },
-      // {
-      //   title: "Course 3",
-      //   description: "This is a description for Course 3.",
-      //   duration: "12 weeks",
-      //   date: "2024-12-01",
-      //   imageUrl: coursesImg3, // Example image URL
-      //   trending: "Trending",
-      //   stars: "★★★☆☆", // Example star rating
-      //   skillTitle: "Beginner Skills",
-      // },
-      // {
-      //   title: "Course 3",
-      //   description: "This is a description for Course 3.",
-      //   duration: "12 weeks",
-      //   date: "2024-12-01",
-      //   imageUrl: coursesImg3, // Example image URL
-      //   trending: "Trending",
-      //   stars: "★★★☆☆", // Example star rating
-      //   skillTitle: "Beginner Skills",
-      // },
-      // {
-      //   title: "Course 3",
-      //   description: "This is a description for Course 3.",
-      //   duration: "12 weeks",
-      //   date: "2024-12-01",
-      //   imageUrl: coursesImg3, // Example image URL
-      //   trending: "Trending",
-      //   stars: "★★★☆☆", // Example star rating
-      //   skillTitle: "Beginner Skills",
-      // },
-      // {
-      //   title: "Course 3",
-      //   description: "This is a description for Course 3.",
-      //   duration: "12 weeks",
-      //   date: "2024-12-01",
-      //   imageUrl: coursesImg3, // Example image URL
-      //   trending: "Trending",
-      //   stars: "★★★☆☆", // Example star rating
-      //   skillTitle: "Beginner Skills",
-      // },
-      // {
-      //   title: "Course 3",
-      //   description: "This is a description for Course 3.",
-      //   duration: "12 weeks",
-      //   date: "2024-12-01",
-      //   imageUrl: coursesImg3, // Example image URL
-      //   trending: "Trending",
-      //   stars: "★★★☆☆", // Example star rating
-      //   skillTitle: "Beginner Skills",
-      // },
+      },
+      {
+        title: "Sales Force Adm/Dev",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        imageUrl: "https://s3.us-east-1.amazonaws.com/asugv5-assets/archive/uploads/images/main/_featureLarge/artificial-intelligence.jpg", // Example image URL
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
+      },
+      {
+        title: "Data Science",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        imageUrl: Img, // Use the imported Img variable
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
+      },
+      {
+        title: "Machine Learning ",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+      },
+      {
+        title: "Python",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+      },
+      {
+        title: "Java And ASP.Net",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+      },
+      {
+        title: "Business Analyst",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+      },
+      {
+        title: "Agile Methodology",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        imageUrl: "https://www.shutterstock.com/image-photo/agile-development-methodology-concept-on-260nw-1341139619.jpg", // Example image URL
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+      },
+      {
+        title: "Dev-Ops",
+        description: "This is a description for Course 3.",
+        duration: "12 weeks",
+        date: "2024-12-01",
+        imageUrl: "https://sourcebae.com/blog/wp-content/uploads/2023/08/top-ai-programming-languages.png", // Example image URL
+        trending: "Trending",
+        stars: "★★★☆☆", // Example star rating
+        skillTitle: "Beginner Skills",
+      },
     ];
 
     // Function to handle button click

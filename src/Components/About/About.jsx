@@ -162,10 +162,11 @@ const About = () => {
         <h1 className= {styles.headline} >About Us</h1>
         </div>
         <p>
-          Welcome to Nexus Corporate Training Center LLP, one of the leading IT
-          training institutes in Pune, dedicated to empowering individuals with
-          the skills and knowledge to thrive in today's fast-evolving tech
-          landscape.
+        Welcome to Nexus Corporate Training Center LLP, a premier IT training institute in Pune, 
+        committed to empowering individuals with cutting-edge skills and industry-relevant knowledge to excel in the dynamic
+         tech world. At Nexus, we offer a wide range of specialized courses designed to meet the growing demand for IT 
+         professionals across various sectors. Our experienced instructors provide hands-on training in the latest technologies,
+          ensuring that learners gain practical experience in real-world applications.
         </p>
       </section>
 
