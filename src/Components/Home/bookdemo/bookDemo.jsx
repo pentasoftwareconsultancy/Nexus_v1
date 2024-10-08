@@ -1,10 +1,16 @@
-import React from 'react';
+import React , {useEffect} from 'react';
 import { useLocation } from 'react-router-dom';
 import styles from "./BookDemo.module.css"; // Add your custom styles here
 
 function bookDemo() {
   const location = useLocation();
   const { course } = location.state;
+
+  // Scroll to top when the component is mounted
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
   return (
     <div className={styles.bookDemoContainer}>

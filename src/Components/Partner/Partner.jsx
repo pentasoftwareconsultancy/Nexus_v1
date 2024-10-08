@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import styles from './Partner.module.css'; // Import the CSS module
 
 // Import local images
@@ -84,7 +84,7 @@ function Partner() {
           </div>
         </div>
       </div>
-    </div>
+    </div>  
   );
 }
 

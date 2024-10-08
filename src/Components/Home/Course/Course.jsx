@@ -1,6 +1,6 @@
   import React from "react";
-  import { useNavigate } from "react-router-dom";
-  import styles from "./Course.module.css";
+import { useNavigate } from "react-router-dom";
+import styles from "./Course.module.css";
 
 
   function Course() {
@@ -13,22 +13,39 @@
         duration: "10 weeks",
         date: "2024-10-01",
         imageUrl: "https://codewave.com/insights/wp-content/uploads/2022/08/mern-stack-header-codewave.jpg", // Example image URL
-        trending: "New",
+        trending: "Trending",
         stars: "★★★★★", // Example star rating
         skillTitle: "Multiple Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
       {
-        title: "AI Develpoer",
-        description: "This is a description for Course 2.",
+        title: "AR Caller",
+        description: "This is a description for AI Developer.",
         duration: "8 weeks",
         date: "2024-11-01",
         imageUrl: "https://s3.us-east-1.amazonaws.com/asugv5-assets/archive/uploads/images/main/_featureLarge/artificial-intelligence.jpg", // Example image URL
         trending: "Trending",
-        stars: "★★★★☆", // Example star rating
+        stars: "★★★★☆",
         skillTitle: "Advanced Skills",
+        instructor: "John Doe",
+        contact: "1234567890",
+        fees: "$499",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
+      
       {
-        title: "Java Developer",
+        title: " Medical Coding ",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
@@ -36,10 +53,18 @@
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
 
       {
-        title: "Advance Power BI",
+        title: "AWS and Linux",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
@@ -47,9 +72,14 @@
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
       {
-        title: "Python Developer",
+        title: " Soft Skills",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
@@ -57,17 +87,28 @@
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
-      {
-        title: "Medical Coding",
-        description: "This is a description for Course 3.",
-        duration: "12 weeks",
-        date: "2024-12-01",
-        imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
-        trending: "Trending",
-        stars: "★★★☆☆", // Example star rating
-        skillTitle: "Beginner Skills",
-      },
+      // {
+      //   title: "Medical Coding",
+      //   description: "This is a description for Course 3.",
+      //   duration: "12 weeks",
+      //   date: "2024-12-01",
+      //   imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
+      //   trending: "Trending",
+      //   stars: "★★★☆☆", // Example star rating
+      //   skillTitle: "Beginner Skills",
+      //    learningPoint1:"hello",
+      //   learningPoint2:"hello",
+      //   learningPoint3:"hello",
+      //   syllabus:"one two three",
+      //   keyfeatures:"keyFeatures",
+       
+      // },
       // {
       //   title: "Course 3",
       //   description: "This is a description for Course 3.",

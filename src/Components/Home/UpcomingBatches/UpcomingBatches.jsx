@@ -103,7 +103,7 @@ function UpcomingBatches() {
 
   // Function to handle row click and navigate to another page
   const handleRowClick = (course) => {
-    navigate("/course-details", { state: { course } });
+    navigate("/details", { state: { course } });
   };
 
   return (

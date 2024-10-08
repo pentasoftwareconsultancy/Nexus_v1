@@ -9,7 +9,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 // import ContactUs from "./Components/ContactUs/ContactUs";
 import ExamPanel from "./Components/Exam/ExamPanel";
 import BookDemo from "./Components/Home/bookdemo/bookdemo";
-import CourseDetails from "./Components/Home/CourseDetails/CourseDetails";
+import Details from "./Components/Home/UpcomingBatches/details"
 import LearnMore from "./Components/Home/learnMore/learnMore";
 import ExamPages from "./Pages/ExamPages/ExamPages";
 
@@ -24,9 +24,10 @@ function App() {
         <Route path="/batches" element={<BatchesPage />} />
         <Route path="/exam" element={<ExamPanel />} />
         <Route path="/examDetails" element={<ExamPages />} />
-        <Route path="/course-details" element={<CourseDetails />} /> 
         <Route path="/learnMore" element={<LearnMore />} /> 
         <Route path="/bookdemo" element={<BookDemo />} />
+        <Route path="/details" element={<Details />} />
+
 
       </Routes>
       <Footer />
