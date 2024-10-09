@@ -34,7 +34,8 @@ const ContactUs = () => {
       <div className={styles.contactSection}>
         <div className={styles.contactCol}>
           <h3>
-            Send Nexus A Msg <img src={Msg_Icon} alt="" />
+           Send NeXus a message
+              {/*  <img src={Msg_Icon} alt="" /> */}
           </h3>
           <span>
             We are a team of skilled and experienced web developers dedicated to
@@ -45,19 +46,19 @@ const ContactUs = () => {
           <ul>
             <li>
               <span>
-              <MdEmail />
+              {/* <MdEmail /> */}
               </span>
               hr@devconsoftware.com
             </li>
             <li>
               <span>
-              <FaPhoneAlt />  
+              {/* <FaPhoneAlt />   */}
               </span>
               +91 9112100663
             </li>
             <li>
               <span>
-              <FaLocationDot />
+              {/* <FaLocationDot /> */}
               </span>
               Our Address Office No. 4-B, Second Floor, Ganesham Commercial -A,
               Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027
