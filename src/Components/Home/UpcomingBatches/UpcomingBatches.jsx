@@ -8,32 +8,32 @@ function UpcomingBatches() {
   // Sample data (this can be dynamic if needed)
   const courses = [
     {
-      name: "Software Testing ",
-      duration: "4 weeks",
+      name: "AR caller/ RCM ",
+      duration: "30 days",
       date: "10th Sep 2024",
       slot: "10:00 AM - 12:00 PM",
-      payment: "$200",
+      payment: "15,000",
     },
     {
       name: "AWS Administrator ",
-      duration: "6 weeks",
+      duration: "6 months",
       date: "15th Sep 2024",
       slot: "2:00 PM - 4:00 PM",
-      payment: "$300",
+      payment: "35,000",
     },
     {
-      name: "Sales Force Adm/Dev",
-      duration: "6 weeks",
+      name: "Meadical Coding and Billing",
+      duration: "3 months",
       date: "15th Sep 2024",
       slot: "2:00 PM - 4:00 PM",
-      payment: "$300",
+      payment: "30,000",
     },
     {
       name: "Power BI",
-      duration: "6 weeks",
+      duration: "3 months",
       date: "15th Sep 2024",
       slot: "2:00 PM - 4:00 PM",
-      payment: "$300",
+      payment: "35,000",
     },
     {
       name: "Data Science",
@@ -72,7 +72,7 @@ function UpcomingBatches() {
       payment: "$300",
     },
     {
-      name: "Agile Methodology ",
+      name: "Mearn stack Developer ",
       duration: "6 weeks",
       date: "15th Sep 2024",
       slot: "2:00 PM - 4:00 PM",
@@ -86,14 +86,14 @@ function UpcomingBatches() {
       payment: "$300",
     },
     {
-      name: "Medical Coding/Billing",
+      name: "Software Teasting",
       duration: "6 weeks",
       date: "15th Sep 2024",
       slot: "2:00 PM - 4:00 PM",
       payment: "$300",
     },
     {
-      name: "AR Caller/RCM ",
+      name: "Sales Force Adm/Dev  ",
       duration: "6 weeks",
       date: "15th Sep 2024",
       slot: "2:00 PM - 4:00 PM",

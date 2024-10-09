@@ -32,33 +32,49 @@ function LearnMore() {
           <p><strong>Duration:</strong> {course.duration}</p>
           <p><strong>Start Date:</strong> {course.date}</p>
           <p><strong>Skill Level:</strong> {course.skillTitle}</p>
+          <img src={course.imageUrl} className={styles.image}/>
           <p><strong>Stars:</strong> {course.stars}</p>
           <p><strong>Syllabus:</strong> {course.syllabus}</p>
+          <p><strong>instructor:</strong> {course.instructor}</p>
+
 
           {/* Additional Course Details */}
           <section className={styles.additionalInfoSection}>
             <h2 className={styles.additionalInfoTitle}>What You'll Learn</h2>
             <ul className={styles.learningPoints}>
+              <li>{course.skillTitle}</li>
               <li>{course.learningPoint1}</li>
               <li>{course.learningPoint2}</li>
               <li>{course.learningPoint3}</li>
             </ul>
           </section>
+
+          <section className={styles.additionalInfoSection}>
+            <h2 className={styles.additionalInfoTitle}>keyfeatures</h2>
+            <ul className={styles.learningPoints}>
+              <li>{course.keyfeatures}</li>
+              <li>{course.learningPoint1}</li>
+              <li>{course.learningPoint2}</li>
+              <li>{course.learningPoint3}</li>
+            </ul>
+          </section>
+
         </div>
 
         {/* Right Column - Sticky Fee Structure */}
         <div className={styles.feeColumn}>
           <div className={styles.sticky}>
             <h2>Fee Structure</h2>
-            <p><strong>Instructor:</strong> {course.instructor ? course.instructor : 'Not available'}</p>
-            <p><strong>Fees:</strong> {course.fees ? course.fees : 'Not available'}</p>
-            <p><strong>Contact:</strong> {course.contact ? course.contact : 'Not available'}</p>
+            <p><strong>Instructor:</strong> {course.instructor }</p>
+            <p><strong>Fees:</strong> {course.fees} </p>
+            <p><strong>Contact:</strong> {course.contact }</p>
           </div>
         </div>
       </div>
 
       {/* Terms Section */}
       <Tearms />
+
     </div>
   );
 }

@@ -1,6 +1,6 @@
-.learnMoreContainer {
+/* .learnMoreContainer {
   padding: 20px;
-}
+} */
 
 .heroSection {
   position: relative;
@@ -16,6 +16,7 @@
   transition: transform 0.3s ease;
 }
 
+
 .heroImage:hover {
   transform: scale(1.02);
 }
@@ -29,9 +30,9 @@
   font-size: 5rem;
   text-align: center;
 }
-
 .content {
   display: flex;
+  padding: 20px;
   justify-content: space-between;
   gap: 40px;
   margin-top: 40px;
@@ -47,8 +48,9 @@
 
 .sticky {
   position: sticky;
-  top: 20px;
-  background-color: #f9f9f9;
+  top: 70px;
+  background-color: lightblue;
+  border: 2px solid rgba(88, 114, 198, 0.269);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -66,11 +68,13 @@
   margin-bottom: 10px;
 }
 
+.image {
+  width: 80%;
+  margin: 20px;
+}
 .additionalInfoSection {
   padding: 20px;
-  background-color: #f9f9f9;
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
 
