@@ -4,12 +4,14 @@ import Footer from "./Components/Home/Footer/Footer";
 import Navbar from "./Components/Home/Navbar/Navbar";
 import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage";
 import BatchesPage from "./Pages/BatchesPage/BatchesPage";
+import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage";
 import HomePage from "./Pages/HomePage/HomePage";
-import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage"
-// import ContactUs from "./Components/ContactUs/ContactUs";
+import ExamPanel from "./Components/Exam/ExamPanel";
+import BookDemo from "./Components/Home/bookdemo/bookdemo";
+import Details from "./Components/Home/UpcomingBatches/details"
+import LearnMore from "./Components/Home/learnMore/learnMore";
 import ExamPages from "./Pages/ExamPages/ExamPages";
-import ExamPanel from "./Components/Exam/ExamPanel"
-
+import GalleryPages from "./Pages/GalleryPages/GalleryPages";
 
 function App() {
   return (
@@ -22,6 +24,12 @@ function App() {
         <Route path="/batches" element={<BatchesPage />} />
         <Route path="/exam" element={<ExamPanel />} />
         <Route path="/examDetails" element={<ExamPages />} />
+        <Route path="/learnMore" element={<LearnMore />} /> 
+        <Route path="/bookdemo" element={<BookDemo />} />
+        <Route path="/details" element={<Details />} />
+        <Route path="/gallery" element={<GalleryPages />} />
+
+
       </Routes>
       <Footer />
     </Router>

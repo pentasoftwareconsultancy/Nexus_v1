@@ -7,10 +7,22 @@ import { FaLocationDot } from "react-icons/fa6";
 import Phone_Icon from "../../assets/phone-icon.png";
 import Location_Icon from "../../assets/location-icon.png";
 import White_Icon from "../../assets/white-arrow.png";
+import { Helmet } from "react-helmet";
 
 const ContactUs = () => {
   return (
     <>
+      <Helmet>
+        <title>Nexus Corporate Training Center - Contact  </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
       <section className={styles.heroSection}>
         <img
           src="https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/10c58bd4-986f-4cb0-bb57-ec0e4985d14b/Leonardo_Kino_XL_dark_black_ai_images_for_technology_in_websit_1.jpg"
@@ -39,7 +51,7 @@ const ContactUs = () => {
             </li>
             <li>
               <span>
-              <FaPhoneAlt />
+              <FaPhoneAlt />  
               </span>
               +91 9112100663
             </li>

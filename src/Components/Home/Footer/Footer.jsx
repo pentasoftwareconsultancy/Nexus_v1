@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
-import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
 import logo from "./Images/nexus-updated logo.webp"; // Import your logo
+import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
 
 const Footer = () => {
   return (
@@ -38,53 +38,63 @@ const Footer = () => {
             </p>
           </div>
           <div className={styles.footerSection}>
+
             <h3>Navigation</h3>
             <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">Pages</a>
-              </li>
-              <li>
-                <a href="#">About Us</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/batches">Upcoming Batches</a></li>
+            <li><a href="/contactUs">Contact Us</a></li>
             </ul>
+
           </div>
+
           <div className={styles.footerSection}>
             <h3>Quick Link</h3>
             <ul>
               <li>
-                <a href="#">Contact Us</a>
+                <a href="/batches">Software Testing </a>
               </li>
               <li>
-                <a href="#">FAQs</a>
+                <a href="/batches">AWS</a>
               </li>
               <li>
-                <a href="#">Booking</a>
+                <a href="/batches">Power BI </a>
               </li>
               <li>
-                <a href="#">Pricing</a>
+                <a href="/batches">Sales Force Adm/Dev </a>
+              </li>
+              <li>
+                <a href="/batches">Data Science</a>
+              </li>
+              <li>
+                <a href="/batches">Machine Learnig </a>
+              </li>
+              <li>
+                <a href="/batches">Medical Coding and builling  </a>
               </li>
             </ul>
           </div>
           <div className={styles.footerSection}>
-            <h3>Services</h3>
+            <h3>Qucik Links </h3>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="/batches">Python</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="/batches">Java & ASP Dot Net </a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="/batches">Business Analyst</a>
               </li>
               <li>
-                <a href="#">404</a>
+                <a href="/batches">Agile Methodology </a>
+              </li>
+              <li>
+                <a href="/batches">Devops </a>
+              </li>
+              <li>
+                <a href="/batches">AR caller/ RCM  </a>
               </li>
             </ul>
           </div>
@@ -92,7 +102,7 @@ const Footer = () => {
       </footer>
       <div className={styles.footerCredit}>
         <p style={{ textAlign: "center" }}>
-          © 2023 Influenca Template - All Rights Reserved
+          © 2024 Influenca Template - All Rights Reserved
         </p>
       </div>
     </>

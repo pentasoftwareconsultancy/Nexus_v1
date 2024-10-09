@@ -47,6 +47,7 @@ function WhyJoin() {
   return (
     <div className={styles.container}>
       <h1>Why Choose Us?</h1>
+      {/* <h3 className={styles.text}>Best software training institute in Pune with placement </h3> */}
       <div className={styles.courseList}>
         {courses.map((course, index) => (
           <div key={index} className={styles.courseCard}>

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
@@ -132,6 +133,19 @@ const About = () => {
 
   return (
     <div className={styles.aboutPage}>
+
+      <Helmet>
+        <title>Nexus Corporate Training Center - About </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <img
@@ -144,12 +158,15 @@ const About = () => {
 
       {/* About Us Section */}
       <section className={styles.aboutUs}>
-        <h1 >About Us</h1>
+        <div>
+        <h1 className= {styles.headline} >About Us</h1>
+        </div>
         <p>
-          Welcome to Nexus Corporate Training Center LLP, one of the leading IT
-          training institutes in Pune, dedicated to empowering individuals with
-          the skills and knowledge to thrive in today's fast-evolving tech
-          landscape.
+        Welcome to Nexus Corporate Training Center LLP, a premier IT training institute in Pune, 
+        committed to empowering individuals with cutting-edge skills and industry-relevant knowledge to excel in the dynamic
+         tech world. At Nexus, we offer a wide range of specialized courses designed to meet the growing demand for IT 
+         professionals across various sectors. Our experienced instructors provide hands-on training in the latest technologies,
+          ensuring that learners gain practical experience in real-world applications.
         </p>
       </section>
 
@@ -159,7 +176,6 @@ const About = () => {
           <div className={styles.text}>
             <h1>Our Vision</h1>
             <p>
-              <>
                 As a top IT training institute in Pune with placement, we are
                 dedicated to delivering high-quality, accessible education. With
                 our flexible course structures and learning formats, individuals
@@ -168,7 +184,6 @@ const About = () => {
                 collaboration, creating a global learning community where
                 students can engage with peers and mentors from around the
                 world.
-              </>
             </p>
           </div>
           <div className={styles.image}>
@@ -189,13 +204,11 @@ const About = () => {
           <div className={styles.text}>
             <h1>Our Mission</h1>
             <p>
-              <>
                 Our mission is to offer a transformative learning experience
                 through a comprehensive range of job-focused software courses.
                 Whether you're a beginner starting your coding journey or an
                 experienced professional looking to enhance your skills, we have
                 the ideal program for you.
-              </>
             </p>
           </div>
         </div>
@@ -204,10 +217,11 @@ const About = () => {
         <div className={styles.text}>
           <h1>Our Values</h1>
           <p>
-            <>
+          
             What sets Nexus CTC apart is our unwavering commitment to student success. With 100% placement assistance,
              we go beyond the classroom to ensure our students are well-prepared for the workforce. 
-            Our career services team offers personalized support and resources to help students secure fulfilling roles in their chosen fields.            </>
+            Our career services team offers personalized support and resources to help students secure fulfilling roles in their chosen fields.         
+              
           </p>
         </div>
         <div className={styles.image}>

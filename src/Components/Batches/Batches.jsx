@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import UpcomingBatches from "../Home/UpcomingBatches/UpcomingBatches";
 import WhyJoin from "../Home/WhyJoin/WhyJoin";
 import Terms from "../Terms/Terms";
@@ -93,6 +94,19 @@ const courses = [
 function Batches() {
   return (
     <div>
+
+      <Helmet>
+        <title>Nexus Corporate Training Center - Batches </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
       <section className= {styles.heroSection}>
         <img
         src="https://www.newjobs.ai/assets/front/img/Data_Science.jpg"
