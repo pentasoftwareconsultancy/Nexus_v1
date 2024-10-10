@@ -1,12 +1,6 @@
-import styles from "./ContactUs.module.css";
 import Msg_Icon from "../../assets/msg-icon.png";
-import { MdEmail } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+import styles from "./ContactUs.module.css";
 
-import Phone_Icon from "../../assets/phone-icon.png";
-import Location_Icon from "../../assets/location-icon.png";
-import White_Icon from "../../assets/white-arrow.png";
 import { Helmet } from "react-helmet";
 
 const ContactUs = () => {
@@ -34,8 +28,7 @@ const ContactUs = () => {
       <div className={styles.contactSection}>
         <div className={styles.contactCol}>
           <h3>
-           Send NeXus a message
-              {/*  <img src={Msg_Icon} alt="" /> */}
+            Send Nexus A Msg <img src={Msg_Icon} alt="" />
           </h3>
           <span>
             We are a team of skilled and experienced web developers dedicated to

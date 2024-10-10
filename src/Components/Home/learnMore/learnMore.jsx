@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Tearms from '../../Terms/Terms';
 import styles from './LearnMore.module.css';

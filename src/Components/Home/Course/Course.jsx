@@ -276,39 +276,34 @@ import Img from "../Course/Images/DataScience.jpeg";
       navigate("/bookdemo", { state: { course } }); 
     };
 
-    return (
-      <div className={styles.container}>
-        <h1>We Offer Following Courses</h1>
-        
-        <div className={styles.courseList}>
-          {courses.map((course, index) => (
-            <div key={index} className={styles.courseCard}>
-              <div className={styles.cardImage}>
-                <img
-                  src={course.imageUrl}
-                  alt={course.title}
-                  className={styles.cardImage}
-                />
-                <div className={styles.trendingText}>{course.trending}</div>
-              </div>
-              <h2 className={styles.courseTitle}>{course.title}</h2>
-              <div className={styles.stars}>{course.stars}</div>
-              <div className={styles.skillTitle}>{course.skillTitle}</div>
-              <p className={styles.courseDescription}>{course.description}</p>
-              
-              <div className={styles.buttonContainer}>
-                <div className={styles.btnLearn}
-                onClick={()=> handleLearnMoreClick (course)}>
-                  Learn More</div>
-                <div className={styles.btn}
-                onClick={()=> handleBookDemoClick (course)}>
-                  Book Demo</div>
-              </div>
+  return (
+    <div className={styles.container}>
+      <h1>We Offer Following Courses</h1>
+      
+      <div className={styles.courseList}>
+        {courses.map((course, index) => (
+          <div key={index} className={styles.courseCard}>
+            <div className={styles.cardImage}>
+              <img
+                src={course.imageUrl}
+                alt={course.title}
+                className={styles.cardImage}
+              />
+              <div className={styles.trendingText}>{course.trending}</div>
             </div>
-          ))}
-        </div>
+            <h2 className={styles.courseTitle}>{course.title}</h2>
+            <div className={styles.stars}>{course.stars}</div>
+            <div className={styles.skillTitle}>{course.skillTitle}</div>
+            <p className={styles.courseDescription}>{course.description}</p>
+            <div className={styles.buttonContainer}>
+              <div className={styles.btnLearn}>Learn More</div>
+              <div className={styles.btn}>Book Demo</div>
+            </div>
+          </div>
+        ))}
       </div>
-    );
-  }
+    </div>
+  );
+}
 
   export default Course;

@@ -1,17 +1,17 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom"; // Importing necessary components from react-router-dom
 import "./App.css";
+import ExamPanel from "./Components/Exam/ExamPanel";
+import BookDemo from "./Components/Home/bookdemo/bookdemo";
 import Footer from "./Components/Home/Footer/Footer";
+import LearnMore from "./Components/Home/learnMore/learnMore";
 import Navbar from "./Components/Home/Navbar/Navbar";
+import Details from "./Components/Home/UpcomingBatches/details";
 import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage";
 import BatchesPage from "./Pages/BatchesPage/BatchesPage";
 import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage";
-import HomePage from "./Pages/HomePage/HomePage";
-// import ContactUs from "./Components/ContactUs/ContactUs";
-import ExamPanel from "./Components/Exam/ExamPanel";
-import BookDemo from "./Components/Home/bookdemo/bookdemo";
-import Details from "./Components/Home/UpcomingBatches/details"
-import LearnMore from "./Components/Home/learnMore/learnMore";
 import ExamPages from "./Pages/ExamPages/ExamPages";
+import GalleryPages from "./Pages/GalleryPages/GalleryPages";
+import HomePage from "./Pages/HomePage/HomePage";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/learnMore" element={<LearnMore />} /> 
         <Route path="/bookdemo" element={<BookDemo />} />
         <Route path="/details" element={<Details />} />
-
+        <Route path="/gallery" element={<GalleryPages />} />
 
       </Routes>
       <Footer />
