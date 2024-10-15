@@ -1,5 +1,7 @@
 import styles from "./Footer.module.css";
-import logo from "./Images/nexus-updated logo.webp"; // Import your logo
+// import logo from "./Images/nexus-updated logo.webp"; // Import your logo
+
+import logo from "./Images/NctcLogo.png"; // Import your logo
 import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
 
 const Footer = () => {
