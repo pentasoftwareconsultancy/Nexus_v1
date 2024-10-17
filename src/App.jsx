@@ -1,5 +1,4 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom"; // Importing necessary components from react-router-dom
-import "./App.css";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Footer from "./Components/Home/Footer/Footer";
 import Navbar from "./Components/Home/Navbar/Navbar";
 import AboutUsPage from "./Pages/AboutUsPage/AboutUsPage";
@@ -12,6 +11,8 @@ import Details from "./Components/Home/UpcomingBatches/details"
 import LearnMore from "./Components/Home/learnMore/learnMore";
 import ExamPages from "./Pages/ExamPages/ExamPages";
 import GalleryPages from "./Pages/GalleryPages/GalleryPages";
+import BlogsPages from "./Pages/BlogsPages/BlogsPages";
+import "./App.css";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/bookdemo" element={<BookDemo />} />
         <Route path="/details" element={<Details />} />
         <Route path="/gallery" element={<GalleryPages />} />
+        <Route path="/blogs" element={<BlogsPages />} />
 
 
       </Routes>
