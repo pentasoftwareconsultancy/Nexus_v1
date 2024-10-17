@@ -295,10 +295,27 @@ import Img from "../Course/Images/DataScience.jpeg";
             <div className={styles.stars}>{course.stars}</div>
             <div className={styles.skillTitle}>{course.skillTitle}</div>
             <p className={styles.courseDescription}>{course.description}</p>
-            <div className={styles.buttonContainer}>
+            {/* <div className={styles.buttonContainer}>
               <div className={styles.btnLearn}>Learn More</div>
               <div className={styles.btn}>Book Demo</div>
-            </div>
+              
+            </div> */}
+
+              <div className={styles.buttonContainer}>
+                <button
+                  onClick={() => handleLearnMoreClick(course)}
+                  className={styles.btnLearn}
+                >
+                  Learn More
+                </button>
+                <button
+                  onClick={() => handleBookDemoClick(course)}
+                  className={styles.btn}
+                >
+                  Book Demo
+                </button>
+              </div>
+
           </div>
         ))}
       </div>

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Tearms from '../../Terms/Terms';
+import Tearms from '../../../Terms/Terms';
 import styles from './LearnMore.module.css';
 
 function LearnMore() {
