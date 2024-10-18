@@ -1,6 +1,8 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css"; // Importing the CSS module
-import logo from "./nexus-updated logo.webp"; // Ensure the path to the logo is correct
+// import logo from "./nexus-updated logo.webp"; // Ensure the path to the logo is correct
+import logo from "./Nctclogo.png"; // Ensure the path to the logo is correct
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,6 +38,9 @@ const Navbar = () => {
           </li>
           <li>
             <a href="/gallery">Gallery</a>
+          </li>
+          <li>
+            {/* <a href="/exam">Exam</a> */}
           </li>
         </ul>
         <div className={styles.hamburger} onClick={toggleMenu}>

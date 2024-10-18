@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import Tearms from '../../Terms/Terms';
+import Tearms from '../../../Terms/Terms';
 import styles from './LearnMore.module.css';
 
 function LearnMore() {
@@ -50,7 +50,7 @@ function LearnMore() {
           </section>
 
           <section className={styles.additionalInfoSection}>
-            <h2 className={styles.additionalInfoTitle}>keyfeatures</h2>
+            <h2 className={styles.additionalInfoTitle}>key features</h2>
             <ul className={styles.learningPoints}>
               <li>{course.keyfeatures}</li>
               <li>{course.learningPoint1}</li>

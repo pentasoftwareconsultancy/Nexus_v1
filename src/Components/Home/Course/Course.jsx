@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Course.module.css";
 // import img form ""
-import Img from "../Course/Images/DataScience.jpeg"; 
+import Img from "../Course/Images/DataScience.jpeg";
 
 
 
@@ -93,6 +93,9 @@ import Img from "../Course/Images/DataScience.jpeg";
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "30,000",
+        fees: "8988765679",
         learningPoint1:"hello",
         learningPoint2:"hello",
         learningPoint3:"hello",
@@ -108,6 +111,9 @@ import Img from "../Course/Images/DataScience.jpeg";
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "30,000",
+        fees: "8988765679",
         learningPoint1:"hello",
         learningPoint2:"hello",
         learningPoint3:"hello",
@@ -156,36 +162,72 @@ import Img from "../Course/Images/DataScience.jpeg";
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
+        imageUrl: Img, // Use the imported Img variable
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
       {
         title: "Python",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
+        imageUrl: Img, // Use the imported Img variable
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
       {
         title: "Java And ASP.Net",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
+        imageUrl: Img, // Use the imported Img variable
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
       {
         title: "Business Analyst",
         description: "This is a description for Course 3.",
         duration: "12 weeks",
         date: "2024-12-01",
+        imageUrl: Img, // Use the imported Img variable
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
       {
         title: "Agile Methodology",
@@ -196,6 +238,14 @@ import Img from "../Course/Images/DataScience.jpeg";
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
       {
         title: "Dev-Ops",
@@ -206,6 +256,14 @@ import Img from "../Course/Images/DataScience.jpeg";
         trending: "Trending",
         stars: "★★★☆☆", // Example star rating
         skillTitle: "Beginner Skills",
+        instructor: "Hello",
+        contact: "8988765679",
+        fees: "8988765679",
+        learningPoint1:"hello",
+        learningPoint2:"hello",
+        learningPoint3:"hello",
+        syllabus:"one two three",
+        keyfeatures:"keyFeatures",
       },
     ];
 
@@ -237,10 +295,27 @@ import Img from "../Course/Images/DataScience.jpeg";
             <div className={styles.stars}>{course.stars}</div>
             <div className={styles.skillTitle}>{course.skillTitle}</div>
             <p className={styles.courseDescription}>{course.description}</p>
-            <div className={styles.buttonContainer}>
+            {/* <div className={styles.buttonContainer}>
               <div className={styles.btnLearn}>Learn More</div>
               <div className={styles.btn}>Book Demo</div>
-            </div>
+              
+            </div> */}
+
+              <div className={styles.buttonContainer}>
+                <button
+                  onClick={() => handleLearnMoreClick(course)}
+                  className={styles.btnLearn}
+                >
+                  Learn More
+                </button>
+                <button
+                  onClick={() => handleBookDemoClick(course)}
+                  className={styles.btn}
+                >
+                  Book Demo
+                </button>
+              </div>
+
           </div>
         ))}
       </div>

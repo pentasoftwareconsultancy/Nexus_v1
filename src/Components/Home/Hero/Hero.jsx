@@ -1,14 +1,12 @@
 import { useState, useEffect } from "react";
-import styles from "./Hero.module.css";
-// import img3 from "./Images/pexels-kevin-ku-92347-577585.jpg";
-// import img4 from "./Images/pexels-mikhail-nilov-6963944.jpg";
+import styles from "./Hero.module.css"; 
 
-const Hero = () => {
+const Main = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [menuActive, setMenuActive] = useState(false);
 
   const handleMenuClick = () => {
-    setMenuActive((prev) => !prev);
+    setMenuActive(!menuActive);
   };
 
   const handleNavClick = (index) => {
@@ -16,33 +14,33 @@ const Hero = () => {
   };
 
   const slides = [
+    "https://img.freepik.com/free-photo/kids-having-their-hands-dirty-after-planting_23-2149002815.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1717804800&semt=ais_user",
+    "https://img.freepik.com/premium-photo/group-diverse-cheerful-fun-happy-multiethnic-children-outdoors_146482-14096.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716768000&semt=ais_user",
+    "https://img.freepik.com/premium-photo/children-play-laugh-sunny-day_232104-8036.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716681600&semt=ais_user",
+    "https://equityforchildren.org/wp-content/uploads/2024/05/children-laughing-in-woods-compressed-1.jpg",
+    "https://udaipurblog.com/wp-content/uploads/2018/02/About-Us-Bal-Utsav-Bangalore-India.jpg",
+  ];
+
+  const contents = [
     {
-      image:
-        "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/8af2e3b1-8715-4be9-b51b-1fdf8534786a/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_3.jpg",
-      slogan: "Innovate Beyond Imagination",
-      description:
-        "Discover cutting-edge technology that propels your ideas into the future.",
+      title: "Your Support is Powerful",
+      //   text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna anime. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut farhan ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum daily web design nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
-      image:
-        "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/b8fcc053-ee65-4817-accc-de443e99586d/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_3.jpg",
-      slogan: "Empowering Your Vision",
-      description:
-        "Unleash your creativity with tools designed to transform your vision into reality.",
+      title: "We work Together",
+      //   text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna anime. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut farhan ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum daily web design nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
-      image:
-        "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/b8fcc053-ee65-4817-accc-de443e99586d/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_0.jpg",
-      slogan: "Technology Meets Excellence",
-      description:
-        "Elevate your business with technology that drives excellence and growth.",
+      title: "To the Homeless & Hpoeless People",
+      //   text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna anime. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut farhan ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum daily web design nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
-      image:
-        "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/8af2e3b1-8715-4be9-b51b-1fdf8534786a/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_1.jpg",
-      slogan: "Innovation at Its Finest",
-      description:
-        "Experience the future today with innovative solutions for every challenge.",
+      title: "Together we can Change",
+      //   text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna anime. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut farhan ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum daily web design nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    },
+    {
+      title: "Save a Child's Life",
+      //   text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna anime. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut farhan ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum daily web design nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
   ];
 
@@ -57,47 +55,72 @@ const Hero = () => {
   return (
     <div>
       <header className={styles.header}>
+        <a href="#" className={styles.brand}>
+          <strong>
+            <h2>NGO</h2>
+          </strong>
+        </a>
         <div
           className={`${styles.menuBtn} ${menuActive ? styles.active : ""}`}
           onClick={handleMenuClick}
         >
-          <div
-            className={`${styles.navigation} ${
-              menuActive ? styles.active : ""
-            }`}
-          >
-            {/* Navigation Items */}
+          <div className={`${styles.navigation} ${menuActive ? styles.active : ""}`}>
+            <div className={styles.navigationItems}>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Explore</a>
+              <a href="#">Gallery</a>
+              <a href="#">Contact</a>
+            </div>
           </div>
         </div>
       </header>
 
       <section className={styles.home}>
         {slides.map((slide, index) => (
+          <img
+            key={index}
+            decoding="async"
+            className={`${styles.imgSlide} ${activeIndex === index ? styles.active : ""}`}
+            src={slide}
+            alt=""
+          />
+        ))}
+        {contents.map((content, index) => (
           <div
             key={index}
-            className={`${styles.slide} ${
-              activeIndex === index ? styles.active : ""
-            }`}
+            className={`${styles.content} ${activeIndex === index ? styles.active : ""}`}
           >
-            <img
-              decoding="async"
-              className={`${styles.imgSlide} ${
-                activeIndex === index ? styles.active : ""
-              }`}
-              src={slide.image}
-              alt={`Slide ${index + 1}`}
-            />
-            {activeIndex === index && (
-              <div className={styles.slideContent}>
-                <span className={styles.slideText}>{slide.slogan}</span>
-                {/* <p className={styles.slideDescription}>{slide.description}</p> */}
-              </div>
-            )}
+            <h1>{content.title}</h1>
+            <p>{content.text}</p>
+            <a href="#">
+              <strong>DONATE</strong>
+            </a>
           </div>
         ))}
+        <div className={styles.mediaIcons}>
+          <a href="#">
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i className="fab fa-twitter"></i>
+          </a>
+        </div>
+        <div className={styles.sliderNavigation}>
+          {contents.map((_, index) => (
+            <div
+              key={index}
+              className={`${styles.navBtn} ${activeIndex === index ? styles.active : ""}`}
+              onClick={() => handleNavClick(index)}
+            ></div>
+          ))}
+        </div>
       </section>
     </div>
   );
 };
 
-export default Hero;
+export default Main;
