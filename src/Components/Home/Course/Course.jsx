@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Course.module.css";
@@ -278,6 +279,19 @@ import Img from "../Course/Images/DataScience.jpeg";
 
   return (
     <div className={styles.container}>
+
+<Helmet>
+        <title>Nexus Corporate Training Center - Courses </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
       <h1>We Offer Following Courses</h1>
       
       <div className={styles.courseList}>

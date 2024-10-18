@@ -1,4 +1,6 @@
+import { Helmet } from "react-helmet";
 import styles from './FeedbackCard.module.css';
+
 
 const FeedbackCard = () => {
   // Dummy data
@@ -70,6 +72,17 @@ const FeedbackCard = () => {
 
   return (
     <div className={styles.cardContainer}>
+      <Helmet>
+        <title>Nexus Corporate Training Center - Success Stories And Placements </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
       {students.map((student, index) => (
         <div key={index} className={styles.card}>
           <img src={student.image} alt={student.name} className={styles.studentImage} />

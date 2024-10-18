@@ -21,6 +21,7 @@ const Hero = () => {
 
   return (
     <div className={styles.hero}>
+      
       <div className={styles.slider}>
         {slides.map((slide, index) => (
           <img

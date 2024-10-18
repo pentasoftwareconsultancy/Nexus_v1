@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import {useEffect} from 'react';
 import { useLocation } from 'react-router-dom';
 import styles from "./BookDemo.module.css"; // Add your custom styles here
@@ -14,6 +16,18 @@ function bookDemo() {
 
   return (
     <div className={styles.bookDemoContainer}>
+      <Helmet>
+        <title>Nexus Corporate Training Center - Courses Demo </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
       <h1 className={styles.title}>{course.title} - Demo</h1>
       <p>Watch this demo video to learn more about the course. </p>
       <video width="600" controls>

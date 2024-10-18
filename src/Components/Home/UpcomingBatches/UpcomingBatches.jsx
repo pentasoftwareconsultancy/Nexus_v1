@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./UpcomingBatches.module.css";
@@ -108,6 +110,20 @@ function UpcomingBatches() {
 
   return (
     <div className={styles.container}>
+
+<Helmet>
+        <title>Nexus Corporate Training Center - Courses / Batches </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
+
       <h1>Upcoming Batches</h1>
       <div className={styles.tableContainer}>
         <table className={styles.upcomingBatchesTable}>

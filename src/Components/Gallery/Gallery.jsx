@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import Slider from "./Slider/Slider";
 import HeroSlider from "./HeroSlider/HeroSlider";
 import styles from "./Gallery.module.css";
@@ -17,6 +19,19 @@ const images1 = [
 function Gallery() {
   return (
     <div>
+
+     <Helmet>
+        <title>Nexus Corporate Training Center - Gallery  </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet> 
+
       <HeroSlider />
       <Slider />
 
