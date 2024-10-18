@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import styles from "./Hero.module.css";
 // import img3 from "./Images/pexels-kevin-ku-92347-577585.jpg";

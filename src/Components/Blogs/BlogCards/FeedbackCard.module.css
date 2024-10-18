@@ -1,0 +1,55 @@
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px; /* Adjust width as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .studentImage {
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 15px; 
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .cardContent {
+    margin-top: 10px;
+  }
+  
+  .studentName {
+    color: rgb(55, 55, 155);
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+
+  .studentRole{
+    color: gray;
+    font-size: 15px;
+
+  }
+  
+  .feedback {
+    font-style: italic;
+  }
+  
+  .additionalInfo,
+  .highlights {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
