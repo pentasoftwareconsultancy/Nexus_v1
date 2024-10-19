@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Tearms from '../../../Terms/Terms';
@@ -14,6 +16,18 @@ function LearnMore() {
 
   return (
     <div className={styles.learnMoreContainer}>
+      <Helmet>
+        <title>Nexus Corporate Training Center - About Courses </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <img src={course.imageUrl} alt={course.title} className={styles.heroImage} />

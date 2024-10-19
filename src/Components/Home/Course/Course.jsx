@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Course.module.css";
@@ -33,7 +34,7 @@ import Img from "../Course/Images/DataScience.jpeg";
         description: "This is a description for AI Developer.",
         duration: "8 weeks",
         date: "2024-11-01",
-        imageUrl: "https://static.vecteezy.com/system/resources/thumbnails/028/578/963/small_2x/ar-glasses-technology-concept-with-transparent-goggles-augmented-reality-futuristic-immersive-experience-generated-ai-photo.jpg", 
+        imageUrl: "https://codewave.com/insights/wp-content/uploads/2022/08/mern-stack-header-codewave.jpg", // Example image URL
         trending: "Trending",
         stars: "★★★★☆",
         skillTitle: "Advanced Skills",
@@ -278,6 +279,19 @@ import Img from "../Course/Images/DataScience.jpeg";
 
   return (
     <div className={styles.container}>
+
+      <Helmet>
+        <title>Nexus Corporate Training Center - Home | Courses </title>
+        <meta
+          name="description"
+          content="Nexus Corporate Training Institute, a leading online IT course and certification provider, offers professional training across India. Advance your career today! "
+        />
+        <meta
+          name="keywords"
+          content="Best Software training institute in pune with placement "
+        />
+      </Helmet>
+
       <h1>We Offer Following Courses</h1>
       
       <div className={styles.courseList}>

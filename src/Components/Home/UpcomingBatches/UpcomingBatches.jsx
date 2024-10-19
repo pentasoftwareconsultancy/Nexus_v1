@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./UpcomingBatches.module.css";
@@ -108,6 +110,20 @@ function UpcomingBatches() {
 
   return (
     <div className={styles.container}>
+
+      <Helmet>
+        <title>Nexus Corporate Training Center - Courses | Batches </title>
+        <meta
+          name="description"
+          content="Online IT Courses - Nexus Corporate Training Institute, one of the world's leading certification training providers, offers short-term online courses designed to help professionals in India enhance their skills."
+        />
+        <meta
+          name="keywords"
+          content="Best Software training institute in pune with placement"
+        />
+      </Helmet>
+
+
       <h1>Upcoming Batches</h1>
       <div className={styles.tableContainer}>
         <table className={styles.upcomingBatchesTable}>

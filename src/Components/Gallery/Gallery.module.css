@@ -45,3 +45,30 @@
     height: 40vh;
     border-radius: 10px;
   }
+
+ 
+
+  .Container {
+    display: flex;
+    justify-content: space-between; /* Ensures divs are spaced out evenly */
+    overflow: hidden; /* Hides any overflow content */
+  }
+  
+  .Grid {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    height: 400px; /* Adjust height as needed */
+    width: 48%; /* Set the width of each Grid */
+  }
+  
+  .Item {
+    margin-bottom: 15px; /* Space between items */
+  }
+  
+  .Image {
+    width: 100%; /* Ensures the image takes full width */
+    height: auto; /* Maintains aspect ratio */
+  }
+    

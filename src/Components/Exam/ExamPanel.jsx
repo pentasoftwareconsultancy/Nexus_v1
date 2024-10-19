@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import { useEffect, useState } from "react";
 import styles from "./ExamPanel.module.css";
 import questions from "./data"; // Import questions from data.js
@@ -89,6 +91,17 @@ const ExamPanel = () => {
   return (
     <div className={styles.examPanel} id="examPanel">
      
+     <Helmet>
+        <title>Nexus Corporate Training Center - Exam </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
 
       <div className={styles.header}>
         <div className={styles.title}>Entrance Exam</div>

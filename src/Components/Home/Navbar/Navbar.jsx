@@ -30,14 +30,15 @@ const Navbar = () => {
           <li>
             <a href="/batches">Upcoming Batches</a>
           </li>
-          <li>
-            <a href="/contactUs">Contact Us</a>
-          </li>
+         
           <li>
             <a href="/blogs">Success Stories</a>
           </li>
           <li>
             <a href="/gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="/contactUs">Contact Us</a>
           </li>
           <li>
             {/* <a href="/exam">Exam</a> */}

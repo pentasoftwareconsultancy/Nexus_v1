@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import styles from './Details.module.css'; // Importing the CSS module
@@ -19,6 +21,20 @@ function Details() {
 
   return (
     <div className={styles.container}>
+
+<Helmet>
+        <title>Nexus Corporate Training Center - Details Of Courses </title>
+        <meta
+          name="description"
+          content="Know more about Nexus "
+        />
+        <meta
+          name="keywords"
+          content="Nexus"
+        />
+      </Helmet>
+
+
       <h1 className={styles.title}>Course Details</h1>
       <div className={styles.courseDetails}>
         <h2>{course.name}</h2>
