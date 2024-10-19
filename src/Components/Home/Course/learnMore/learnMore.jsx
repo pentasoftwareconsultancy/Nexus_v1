@@ -4,7 +4,7 @@ import PDF from '../PDF/PDF';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Tearms from '../../../Terms/Terms';
-import styles from './LearnMore.module.css';
+import styles from './learnMore.module.css';
 
 function LearnMore() {
   const location = useLocation();
