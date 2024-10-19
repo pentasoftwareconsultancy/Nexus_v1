@@ -1,8 +1,9 @@
 import { Helmet } from "react-helmet";
 
-import Slider from "./Slider/Slider";
-import HeroSlider from "./HeroSlider/HeroSlider";
 import styles from "./Gallery.module.css";
+import HeroSlider from "./HeroSlider/HeroSlider";
+import Slider from "./Slider/Slider";
+import SmallSlider from "./SmallSlider/smallSlider";
 
 const images = [
   { src: "https://i.ibb.co/Bq4Q0M8/img4.jpg" },
@@ -63,6 +64,8 @@ function Gallery() {
           ))}
         </div>
       </div>
+          
+      <SmallSlider/>
     </div>
   );
 }

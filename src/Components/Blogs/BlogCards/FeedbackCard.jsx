@@ -89,7 +89,7 @@ const FeedbackCard = () => {
           <div className={styles.cardContent}>
             <h2 className={styles.studentName}>{student.name}</h2>
             <p className={styles.studentRole}>{student.role}</p>
-            <div className={styles.additionalInfo}>
+           <div className={styles.additionalInfo}>
               <p><strong>Placed At:</strong> {student.company}</p>
               <p><strong>Package:</strong> {student.package}</p>
             </div>

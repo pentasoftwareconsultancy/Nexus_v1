@@ -8,8 +8,6 @@ function Blog() {
   return (
     <div className={styles.BlogContainer}>
 
-      
-     
       <Hero/>
       <FeedbackCard/>
     </div>

@@ -135,10 +135,10 @@ const About = () => {
     <div className={styles.aboutPage}>
 
       <Helmet>
-        <title>Nexus Corporate Training Center - About </title>
+        <title>About Us :  Top Training Institute with 100 % job placement | nexus CTC</title>
         <meta
           name="description"
-          content="Know more about Nexus "
+          content="About Us : Top Training Institute with 100 % job placement | Nexus CTC"
         />
         <meta
           name="keywords"

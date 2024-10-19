@@ -1,5 +1,5 @@
-import Msg_Icon from "../../assets/msg-icon.png";
 import styles from "./ContactUs.module.css";
+import LeafletMap from './LeafletMap/LeafletMap'
 
 import { Helmet } from "react-helmet";
 
@@ -28,7 +28,7 @@ const ContactUs = () => {
       <div className={styles.contactSection}>
         <div className={styles.contactCol}>
           <h3>
-            Send Nexus A Msg <img src={Msg_Icon} alt="" />
+            Send NeXus A Msg 
           </h3>
           <span>
             We are a team of skilled and experienced web developers dedicated to
@@ -107,6 +107,9 @@ const ContactUs = () => {
             </form>
           </div>
         </div>
+
+
+          {/* <LeafletMap /> */}
       </div>
     </>
   );

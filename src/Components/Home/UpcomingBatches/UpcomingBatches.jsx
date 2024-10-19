@@ -111,15 +111,15 @@ function UpcomingBatches() {
   return (
     <div className={styles.container}>
 
-<Helmet>
-        <title>Nexus Corporate Training Center - Courses / Batches </title>
+      <Helmet>
+        <title>Nexus Corporate Training Center - Courses | Batches </title>
         <meta
           name="description"
-          content="Know more about Nexus "
+          content="Online IT Courses - Nexus Corporate Training Institute, one of the world's leading certification training providers, offers short-term online courses designed to help professionals in India enhance their skills."
         />
         <meta
           name="keywords"
-          content="Nexus"
+          content="Best Software training institute in pune with placement"
         />
       </Helmet>
 
