@@ -60,7 +60,8 @@
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   line-height: 2;
-  text-align: center;
+  /* text-align: center; */
+  padding-right: 20px;
 }
 
 .header {
@@ -135,16 +136,10 @@
   font-weight: bold;
 }
 
-.downloadButton {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
 
-.downloadButton:hover {
-  background-color: #0056b3;
+.Icon {
+size: 30px;
+color: blue;
+margin-right: 10px;
+
 }

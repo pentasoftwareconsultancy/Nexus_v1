@@ -28,7 +28,7 @@ const ContactUs = () => {
       <div className={styles.contactSection}>
         <div className={styles.contactCol}>
           <h3>
-            Send NeXus A Msg 
+          Send Message to the  Ne<p className={styles.logox}>X</p>us
           </h3>
           <span>
             We are a team of skilled and experienced web developers dedicated to
@@ -109,8 +109,9 @@ const ContactUs = () => {
         </div>
 
 
-          {/* <LeafletMap /> */}
       </div>
+      <LeafletMap />
+
     </>
   );
 };

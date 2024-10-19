@@ -67,14 +67,14 @@
 
 /* Skill title cover styling */
 .skillTitle {
-  font-size: 1rem; /* Font size for skill title */
+  font-size: 16px; /* Font size for skill title */
   color: #333; /* Dark color for skill title */
   margin: 10px 0; /* Space above and below skill title */
 }
 
 /* Course description styling */
 .courseDescription {
-  font-size: 0.9rem; /* Description font size */
+  font-size: 14px; /* Description font size */
   margin: 10px 0; /* Space above and below the description */
   color: #666; /* Color for description text */
 }
@@ -113,7 +113,7 @@
   font-weight: 600;
   border-radius: 5px;
   background-color: #2e6edf;
-  border-color: #2e6edf;
+  border: none;
   color: #ffffff;
   display: flex;
   justify-content: center;

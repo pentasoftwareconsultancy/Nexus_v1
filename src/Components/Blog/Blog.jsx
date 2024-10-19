@@ -1,7 +1,8 @@
 import { Helmet } from "react-helmet";
-import styles from "./Blog.module.css"
+
 import FeedbackCard from '../Blogs/BlogCards/FeedbackCard';
 import Hero from '../Home/Hero/Hero';
+import styles from "./Blog.module.css"
 // import FeedbackSlider from "../Blogs/FeedbackSlider/FeedbackSlider";
 
 function Blog() {
@@ -11,7 +12,7 @@ function Blog() {
       <Hero/>
       <FeedbackCard/>
       <h1>Student Feedback</h1>
-      {/* <FeedbackSlider feedbacks={feedbacks} /> */}
+      
     </div>
   )
 }

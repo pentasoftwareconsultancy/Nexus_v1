@@ -2,10 +2,10 @@ import { Helmet } from "react-helmet";
 import Course from '../../Components/Home/Course/Course';
 import Home from '../../Components/Home/Hero/Hero';
 import UpcomingBatches from '../../Components/Home/UpcomingBatches/UpcomingBatches';
-import UpcomingEvents from '../../Components/Home/UpcomingEvents/UpcomingEvents';
 import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
 import FadeInSection from '../../Hookes/useInView';
 import PartnerPage from '../Partner/PartnerPage';
+import Review from "../../Components/Review/Review";
 
 
 function HomePage() {
@@ -37,7 +37,9 @@ function HomePage() {
         <WhyJoin />
       </FadeInSection>
       <FadeInSection>
-        <UpcomingEvents />
+        {/* <UpcomingEvents /> */}
+
+        <Review />
       </FadeInSection>
     </div>
   );

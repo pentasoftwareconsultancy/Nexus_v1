@@ -9,7 +9,11 @@
     height: 100%;
     object-fit: cover;
 }
-
+.logox{
+  color: #FB7D28;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+}
 .heroTitle {
   position: absolute;
   top: 50%;

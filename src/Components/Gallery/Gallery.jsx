@@ -34,10 +34,13 @@ function Gallery() {
       </Helmet> 
 
       <HeroSlider />
+      
+      <Slider />
       <Slider />
 
+
       <div className={styles.galleryContainer}>
-        <h1 className={styles.title}>Seminar Photos </h1>
+        <h1 className={styles.title}>Galleries </h1>
         <div className={styles.galleryGrid}>
           {images.map((image, index) => (
             <div key={index} className={styles.galleryItem}>

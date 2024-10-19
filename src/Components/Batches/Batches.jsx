@@ -114,7 +114,7 @@ function Batches() {
         className={styles.heroImage}
         />
 
-        <span className={styles.heroTitle}>Upcoming Batches </span>
+        <span className={styles.heroTitle}> Our Courses </span>
 
       </section>
 
