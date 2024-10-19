@@ -2,7 +2,7 @@ import { useState, } from "react";
 import BookDemo from './BookDemo/BookDemo'
 
 import styles from "./Navbar.module.css"; // Importing the CSS module
-import logo from "./nexus-updated logo.webp"; // Ensure the path to the logo is correct
+// import logo from "./nexus-updated logo.webp"; // Ensure the path to the logo is correct
 // import logo from "./Nctclogo.png"; // Ensure the path to the logo is correct
 
 
@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className={styles.navContainer}>
         <div className={styles.logo}>
           <a href="/">
-            <img src={logo} alt="Logo" className={styles.logoImage} />{" "}
+            {/* <img src={logo} alt="Logo" className={styles.logoImage} /> */}
             {/* Add the img tag with proper attributes */}
           </a>
         </div>
