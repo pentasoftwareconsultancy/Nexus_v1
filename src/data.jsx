@@ -1,11 +1,264 @@
-import React from 'react'
+// src/data/courses.js
 
-function data() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+import Img from "./Components/Home/Course/Images/DataScience.jpeg"; // Adjust the path as necessary
 
-export default data
+const courses = [
+
+  {
+    title: "Power BI" ,
+    description: "Integration with Power Automate to trigger workflows based on data changes..",
+    duration: "3 Months",
+    date: "2024-10-01",
+    imageUrl: "https://codewave.com/insights/wp-content/uploads/2022/08/mern-stack-header-codewave.jpg", // Example image URL
+    trending: "Trending",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Data Modeling and Analysis, Data Visualization",
+    instructor: "Ajay Sit",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. ",
+    learningPoint2:"Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    learningPoint3:"Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    syllabus:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "AR Caller/RCM",
+    description: "This is a description for AI Developer.",
+    duration: "30 Days",
+    date: "2024-11-01",
+    imageUrl: "https://img.freepik.com/free-vector/virtual-reality-glasses-technology_18591-52125.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
+    trending: "Trending",
+    stars: "★★★★☆",
+    skillTitle: "Advanced Skills",
+    instructor: "Satish Sir",
+    contact: "9545450788",
+    fees: "15000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  
+  {
+    title: " Medical Coding/Billing ",
+    description: "This is a description for Course 3.",
+    duration: "3 Months",
+    date: "2024-12-01",
+    imageUrl: "https://nividous.com/wp-content/uploads/2022/07/artificial-intelligence-in-medical-billing-an-introduction-nividous.jpg", // Example image URL
+    trending: "Trending",
+    stars: "★★★★☆", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Manisha Mam",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+
+  {
+    title: "AWS Administrator",
+    description: "This is a description for Course 3.",
+    duration: "6 months",
+    date: "2024-12-01",
+    imageUrl: "https://www.spoclearn.com/blog/wp-content/uploads/2023/12/AI-and-Power-BI-A-Powerful-Combination-for-Data-Visualization.jpg", // Example image URL
+    trending: "Trending",
+    stars: "★★★★☆", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Lekharaj Sir",
+    contact: "9545450788",
+    fees: "35000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Soft Skills",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: "https://img.freepik.com/free-vector/soft-skills-concept-illustration_114360-8984.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
+    trending: "New",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Testing",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
+    trending: "New",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+   
+  },
+  {
+    title: "Sales Force Adm/Dev",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: "https://s3.us-east-1.amazonaws.com/asugv5-assets/archive/uploads/images/main/_featureLarge/artificial-intelligence.jpg", // Example image URL
+    trending: "New",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Data Science",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: Img, // Use the imported Img variable
+    trending: "New",
+    stars: "★★★★☆", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Machine Learning ",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: "https://miro.medium.com/v2/resize:fit:1400/1*cG6U1qstYDijh9bPL42e-Q.jpeg", // Use the imported Img variable
+    trending: "New",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Python",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
+    trending: "New",
+    stars: "★★★★☆", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Java And ASP.Net",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: Img, // Use the imported Img variable
+    trending: "New",
+    stars: "★★★★☆", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Business Analyst",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: Img, // Use the imported Img variable
+    trending: "New",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Agile Methodology",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: "https://www.shutterstock.com/image-photo/agile-development-methodology-concept-on-260nw-1341139619.jpg", // Example image URL
+    trending: "New",
+    stars: "★★★★☆", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+  {
+    title: "Dev-Ops",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl: "https://sourcebae.com/blog/wp-content/uploads/2023/08/top-ai-programming-languages.png", // Example image URL
+    trending: "New",
+    stars: "★★★★☆", // Example star rating
+    skillTitle: "Beginner Skills",
+    instructor: "Hello",
+    contact: "9545450788",
+    fees: "30000",
+    learningPoint1:"hello",
+    learningPoint2:"hello",
+    learningPoint3:"hello",
+    syllabus:"one two three",
+    keyfeatures:"keyFeatures",
+  },
+];
+
+export default courses;

@@ -109,8 +109,9 @@ const ContactUs = () => {
         </div>
 
 
-          {/* <LeafletMap /> */}
       </div>
+      <LeafletMap />
+
     </>
   );
 };

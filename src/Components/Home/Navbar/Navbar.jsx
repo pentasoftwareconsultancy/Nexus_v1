@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, } from "react";
+import BookDemo from './BookDemo/BookDemo'
+
 import styles from "./Navbar.module.css"; // Importing the CSS module
 // import logo from "./nexus-updated logo.webp"; // Ensure the path to the logo is correct
 import logo from "./Nctclogo.png"; // Ensure the path to the logo is correct
@@ -28,7 +30,7 @@ const Navbar = () => {
             <a href="/about">About Us</a>
           </li>
           <li>
-            <a href="/batches">Upcoming Batches</a>
+            <a href="/batches">Courses</a>
           </li>
          
           <li>
@@ -43,6 +45,11 @@ const Navbar = () => {
           <li>
             {/* <a href="/exam">Exam</a> */}
           </li>
+          <li>
+           <BookDemo />
+          </li>
+         
+
         </ul>
         <div className={styles.hamburger} onClick={toggleMenu}>
           <div className={styles.bar}></div>

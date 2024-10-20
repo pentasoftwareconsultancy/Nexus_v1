@@ -26,6 +26,8 @@ function Slider() {
     <div className={styles.sliderContainer}>
       <div className={styles.wrapper}>
         {/* First Row */}
+        <h1>Hello </h1>
+
         <div className={styles.marquee}>
           <div className={styles.marqueeGroup}>
             {row1.map((el, index) => (
@@ -34,6 +36,7 @@ function Slider() {
               </div>
             ))}
           </div>
+
           <div className={styles.marqueeGroup}>
             {row1.map((el, index) => (
               <div key={index} className={styles.imageGroup}>
@@ -44,6 +47,8 @@ function Slider() {
         </div>
 
         {/* Second Row */}
+        <h1>Hello </h1>
+
         <div className={`${styles.marquee} ${styles.reverse}`}>
           <div className={styles.marqueeGroup}>
             {row2.map((el, index) => (
