@@ -11,7 +11,7 @@ const courses = [
     stars: "★★★★★", // Example star rating
     skillTitle: "Data Modeling and Analysis, Data Visualization",
     instructor: "Ajay Sit",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. ",
     learningPoint2:"Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
@@ -30,7 +30,7 @@ const courses = [
     stars: "★★★★☆",
     skillTitle: "Advanced Skills",
     instructor: "John Doe",
-    contact: "1234567890",
+    contact: "9545450788 / 9545450677",
     fees: "15,000",
     learningPoint1: "hello",
     learningPoint2: "hello",
@@ -48,7 +48,7 @@ const courses = [
     stars: "★★★★☆",
     skillTitle: "Advanced Skills",
     instructor: "Satish Sir",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "15000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -67,7 +67,7 @@ const courses = [
     stars: "★★★★☆", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Manisha Mam",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -86,7 +86,7 @@ const courses = [
     stars: "★★★★☆", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Lekharaj Sir",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -104,7 +104,7 @@ const courses = [
     stars: "★★★★★", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -122,7 +122,7 @@ const courses = [
     stars: "★★★★★", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -141,7 +141,7 @@ const courses = [
     stars: "★★★★★", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -159,7 +159,7 @@ const courses = [
     stars: "★★★★☆", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -177,7 +177,7 @@ const courses = [
     stars: "★★★★★", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -195,7 +195,7 @@ const courses = [
     stars: "★★★★☆", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -208,12 +208,13 @@ const courses = [
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    
+    imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
+
     trending: "New",
     stars: "★★★★☆", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -226,12 +227,12 @@ const courses = [
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-   
+    imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
     trending: "New",
     stars: "★★★★★", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -249,7 +250,7 @@ const courses = [
     stars: "★★★★☆", // Example star rating
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "9545450788",
+    contact: "9545450788 / 9545450677 " ,
     fees: "30000",
     learningPoint1:"hello",
     learningPoint2:"hello",
@@ -269,8 +270,8 @@ const courses = [
     stars: "★★★☆☆",
     skillTitle: "Beginner Skills",
     instructor: "Hello",
-    contact: "8988765679",
-    fees: "8988765679",
+    contact: "9545450788 / 9545450677",
+    fees: "30000",
     learningPoint1: "hello",
     learningPoint2: "hello",
     learningPoint3: "hello",

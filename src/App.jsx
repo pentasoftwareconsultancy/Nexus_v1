@@ -10,6 +10,7 @@ import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage";
 import LearnMore from "./Components/Home/Course/learnMore/learnMore";
 import GalleryPages from "./Pages/GalleryPages/GalleryPages";
 import HomePage from "./Pages/HomePage/HomePage";
+import BlogDetaills from "./Components/Blogs/BlogDetails/BlogDetails";
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         <Route path="/learnMore" element={<LearnMore />} /> 
         <Route path="/gallery" element={<GalleryPages />} />
         <Route path="/blogs" element={<BlogPage />} />
+        <Route path="/BlogDetaills/:id" element={<BlogDetaills />} />
+
           {/* <Route path="/exam" element={<ExamPanel />} />
         <Route path="/examDetails" element={<ExamPages />} /> */}
 

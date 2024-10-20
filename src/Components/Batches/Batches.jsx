@@ -143,8 +143,7 @@ function Batches() {
             <div className={styles.skillTitle}>{course.skillTitle}</div>
             <p className={styles.courseDescription}>{course.description}</p>
             <div className={styles.buttonContainer}>
-              <div className={styles.btnLearn}>Learn More</div>
-              <div className={styles.btn}>Book Demo</div>
+          
             </div>
           </div>
         ))}

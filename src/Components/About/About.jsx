@@ -153,7 +153,7 @@ const About = () => {
           alt="Hero"
           className={styles.heroImage}
         />
-        <span className={styles.heroTitle}>About Nexus</span>
+        <span className={styles.heroTitle}>About  Ne<span className={styles.logox}>X</span>us</span>
       </section>
 
       {/* About Us Section */}
@@ -289,8 +289,7 @@ const About = () => {
               <div className={styles.skillTitle}>{course.skillTitle}</div>
               <p className={styles.courseDescription}>{course.description}</p>
               <div className={styles.buttonContainer}>
-                <div className={styles.btnLearn}>Learn More</div>
-                <div className={styles.btn}>Book Demo</div>
+             
               </div>
             </div>
           ))}
