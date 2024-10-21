@@ -145,6 +145,7 @@ const About = () => {
           content="Nexus"
         />
       </Helmet>
+      
 
       {/* Hero Section */}
       <section className={styles.heroSection}>

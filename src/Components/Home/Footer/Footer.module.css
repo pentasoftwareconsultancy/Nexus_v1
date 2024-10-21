@@ -25,7 +25,6 @@
   margin-left: 10px; /* Adds spacing between the logo and text */
 }
 
-
 .overlayText {
   position: absolute;
   top: 50%;
@@ -43,20 +42,14 @@
 }
 
 p {
-  font-size: 16px; /* Responsive font size */
+  font-size: 1rem; /* Responsive font size */
 }
 
 .footer {
   background-color: #0f0f0f;
-  /* background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);  */
-  /* background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);  */
-  /* background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(184,0,255,1) 100%); */
   color: #ffffff; /* Text color for the footer */
   padding: 20px 0; /* Padding for the footer */
-  height: 50vh;
 }
-
 
 .footerContainer {
   display: flex;
@@ -69,7 +62,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(
   flex: 1;
   margin: 10px;
   min-width: 200px; /* Ensures sections don't get too narrow */
+  text-align: center; /* Center text in the section */
 }
+
+.hr {
+  border: none; /* Removes default border */
+  border-top: 2px solid gray; /* Customize the thickness and color */
+  width: 50%; /* Adjust width to center it */
+  margin: 10px auto; /* Center horizontally */
+}
+
 
 .footerSection h2,
 .footerSection h3 {
@@ -101,22 +103,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 53%, rgba(
   padding: 0 20px;
 }
 
-.location,
-.contactInfo {
-  color: #2b2b2b;
-  text-align: center; /* Centers text on smaller screens */
-}
-
 .footerCredit {
   display: flex;
-  /* text-align: center; */
+  justify-content: space-between;
   padding: 10px 20px;
   background: #222;
   color: #fff;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
-.right {
-margin-left: 650px;}
 
+.right {
+  margin-left: auto; /* Pushes "Made By Nexus" to the right */
+}
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
@@ -133,25 +131,30 @@ margin-left: 650px;}
   .footerBottom {
     flex-direction: column;
   }
+
+  .right {
+    margin-left: 0; /* Resets margin on smaller screens */
+    text-align: center; /* Centers text */
+  }
 }
 
 @media (max-width: 480px) {
   .overlayText {
     width: 90%;
-    font-size: 0.9rem;
+    font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+
+  .footerSection h2,
+  .footerSection h3 {
+    font-size: 1.2rem; /* Adjust font size for headers */
+  }
+
+  .footerSection ul li {
+    margin-bottom: 5px; /* Adjust margin for smaller screens */
   }
 }
 
-.hr {
-  border: none; /* Removes default border */
-  border-top: 2px solid gray; /* Customize the thickness and color */
-  width: 150px;
-  margin-bottom: 10px;
-}
 
-/* h3 {
-  text-align: center;
-} */
 
 .para {
   margin-bottom: 20px;

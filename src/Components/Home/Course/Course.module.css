@@ -10,11 +10,10 @@
   justify-content: center; /* Center align all child elements vertically */
 }
 
-
 /* Course list styling */
 .courseList {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
   gap: 50px; /* Increased space between cards */
   justify-content: center; /* Center align cards */
 }
@@ -25,7 +24,7 @@
   border-radius: 8px; /* Rounded corners for cards */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
   overflow: hidden; /* Hide overflow to keep rounded corners */
-  width: 350px; /* Fixed width for each card */
+  width: 350px; /* Fixed width for larger screens */
   text-align: center; /* Center align text */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
   position: relative; /* To position elements absolutely within the card */
@@ -44,13 +43,12 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: rgb(255, 157, 0); /* Semi-transparent background */
+  background: rgba(255, 157, 0, 0.8); /* Semi-transparent background */
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
   font-weight: bold;
 }
-
 
 /* Course title styling */
 .courseTitle {
@@ -87,23 +85,6 @@
 }
 
 /* Button styling */
-.btn {
-  flex: 1;
-  margin: 0 5px; /* Space between buttons */
-  height: 40px; /* Adjust button height */
-  border-radius: 5px;
-  font-size: 16px; /* Adjust font size */
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  background-color: orange;
-  border-color: orange;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-}
 .btnLearn {
   flex: 1;
   margin: 0 5px; /* Space between buttons */
@@ -137,15 +118,14 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-
-.btn:hover {
-  background-color: #e68a00; /* Darker orange for hover effect */
-}
-
 /* Responsive design for different screen sizes */
 @media (max-width: 1200px) {
   .courseList {
     gap: 20px; /* Space between cards */
+  }
+
+  .courseCard {
+    width: 45%; /* Adjust card width for medium screens */
   }
 }
 
@@ -153,8 +133,9 @@
   .courseCard {
     width: 100%; /* Full width for smaller screens */
   }
+  
   .courseList {
-    flex-direction: column;
+    flex-direction: column; /* Stack cards vertically */
     gap: 20px; /* Space between cards */
   }
 }
@@ -163,7 +144,20 @@
   .courseCard {
     width: 100%; /* Full width for smaller screens */
   }
+
   .courseList {
     gap: 10px; /* Less space between cards */
+  }
+
+  .courseTitle {
+    font-size: 1rem; /* Smaller title font for mobile */
+  }
+
+  .stars {
+    font-size: 0.9rem; /* Smaller stars font for mobile */
+  }
+
+  .skillTitle, .courseDescription {
+    font-size: 0.8rem; /* Smaller skill and description fonts for mobile */
   }
 }

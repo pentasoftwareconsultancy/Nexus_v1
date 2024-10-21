@@ -1,26 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 .navbar {
-  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   background-color: #0f0f0f;
-  /* background-color: orange; */
   color: #ffff;
   padding: 10px 0;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  /* text-transform: uppercase; */
   z-index: 1000;
 }
-
-.logo img {
-  max-width: 100px; /* Adjust the size of the logo */
-  height: auto;
-  display: block; /* Ensure it respects block-level formatting */
-}
-
 
 .navContainer {
   display: flex;
@@ -31,38 +18,28 @@
   padding: 0 20px;
 }
 
-
-.logo a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 .navLinks {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
   gap: 40px;
-  justify-content: center; /* Center the links */
+  justify-content: center;
   align-items: center;
-  flex: 1; /* Allow navLinks to take up available space */
+  flex: 1;
 }
 
 .navLinks a {
   color: #ffff;
   text-decoration: none;
   font-weight: 600;
-  line-height: 50px;
-  padding: 5px 10px; /* Add padding for hover effect */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .navLinks a:hover {
-  /* background-color: rgb(0, 0, 0);  */
-  color: orange; /* Text color on hover */
-  border-radius: 5px; /* Optional: add border-radius for rounded corners */
+  color: orange;
+  border-radius: 5px;
 }
 
 .hamburger {
@@ -70,6 +47,7 @@
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
+  z-index: 2000; /* Ensure hamburger is on top */
 }
 
 .bar {
@@ -79,13 +57,7 @@
 }
 
 .active {
-  display: block;
-  position: absolute;
-  top: 50px;
-  right: 20px;
-  background-color: #333;
-  padding: 10px;
-  width: 200px;
+  display: flex; /* Show the nav links when active */
 }
 
 @media (max-width: 768px) {
@@ -93,91 +65,19 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 50px;
+    top: 60px;
     right: 20px;
     background-color: #333;
     padding: 10px;
     width: 200px;
+    z-index: 1000;
+  }
+
+  .navLinks.active {
+    display: flex; /* Show on mobile */
   }
 
   .hamburger {
-    display: flex;
+    display: flex; /* Only show hamburger on mobile */
   }
-}
-
-
-/* Model */
-.modalOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.modal {
-  background: white;
-  padding: 20px ;
-  border-radius: 10px;
-  max-width: 400px;
-  width: 100%;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-  position: relative;
-}
-
-.closeModal {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.demoForm {
-  display: flex;
-  flex-direction: column;
-}
-
-.formGroup {
-  margin-bottom: 15px;
-}
-
-.formGroup label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.formGroup input,
-.formGroup select {
-  width: 100%;
-  padding: 10px 0px 0px 0px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.submitBtn {
-  padding: 10px 15px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.submitBtn:hover {
-  background-color: #0056b3;
-}
-
-.btn {
-  background-color: orangered;
-  border: none;
-  border-radius: 10px;
-  padding: 10px;
-  color: white;
-  font-size: 15px;
 }
