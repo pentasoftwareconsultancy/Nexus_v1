@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import styles from "./Gallery.module.css";
 import HeroSlider from "./HeroSlider/HeroSlider";
 import Slider from "./Slider/Slider";
-import SmallSlider from "./SmallSlider/smallSlider";
+import SmallSlider from "./SmallSlider/SmallSlider";
 
 const images = [
   { src: "https://i.ibb.co/Bq4Q0M8/img4.jpg" },
