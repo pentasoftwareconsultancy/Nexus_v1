@@ -1,6 +1,8 @@
 import { useState } from "react";
 import BookDemo from './BookDemo/BookDemo';
+import logo from "./IMG/NctcLogo.png";
 import styles from "./Navbar.module.css";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +14,11 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navContainer}>
-        <div className={styles.logo}>
-          <a href="/"> {/* Logo code here if necessary */} </a>
+      <div className={styles.logo}>
+          <a href="/">
+            <img src={logo} alt="Logo" className={styles.logoImage} />
+            {/* Add the img tag with proper attributes */}
+          </a>
         </div>
 
         <ul className={`${styles.navLinks} ${isOpen ? styles.active : ""}`}>
