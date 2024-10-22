@@ -189,7 +189,7 @@ const About = () => {
           </div>
           <div className={styles.image}>
             <img
-              src="https://www.techopedia.com/wp-content/uploads/2023/02/istock-958259766-1.jpeg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdRoJqhFqp0EV-o_-FiS04NjDg9X8Kcc3_cw&s"
               alt="Vision"
             />
           </div>
@@ -198,7 +198,7 @@ const About = () => {
         <div className={styles.mission}>
           <div className={styles.image}>
             <img
-              src="https://i0.wp.com/www.policycircle.org/wp-content/uploads/2023/05/ai10.jpg"
+              src="https://img.freepik.com/premium-photo/concept-mission-with-network-business-symbols_220873-12797.jpg"
               alt="Mission"
             />
           </div>
@@ -226,7 +226,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.image}>
-          <img src="https://imageio.forbes.com/specials-images/imageserve/62468a610c6dc8f419eac76b/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds" alt="Values" />
+          <img src="https://st2.depositphotos.com/3246463/7385/i/450/depositphotos_73852933-stock-photo-hand-holding-words-core-values.jpg" alt="Values" />
         </div>
       </div>
     </section>

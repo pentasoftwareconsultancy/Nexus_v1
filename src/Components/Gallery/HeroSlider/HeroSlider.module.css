@@ -108,7 +108,7 @@
 .content .title {
     font-size: 100px;
     text-transform: uppercase;
-    color: #14ff72cb;
+    color: orangered;
     font-weight: bold;
     line-height: 1;
     opacity: 0;
@@ -193,7 +193,7 @@
 
 .arrows button {
     border: none;
-    background: #14ff72cb;
+    background: orangered;
     color: #fff;
     width: 40px;
     height: 40px;
