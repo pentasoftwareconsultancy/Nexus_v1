@@ -63,7 +63,7 @@ const Footer = () => {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/about">About Us</a></li>
-              <li><a href="/batches">Courses</a></li>
+              <li><a href="/courses">courses</a></li>
               <li><a href="/contactUs">Contact Us</a></li>
               <li><a href="/gallery">Gallery</a></li>
               <li><a href="/contactUs">Contact Us</a></li>
@@ -82,25 +82,25 @@ const Footer = () => {
             <hr className={styles.hr} />
             <ul>
               <li>
-                <a href="/batches">Software Testing </a>
+                <a href="/courses">Software Testing </a>
               </li>
               <li>
-                <a href="/batches">AWS</a>
+                <a href="/courses">AWS</a>
               </li>
               <li>
-                <a href="/batches">Power BI </a>
+                <a href="/courses">Power BI </a>
               </li>
               <li>
-                <a href="/batches">Sales Force Adm/Dev </a>
+                <a href="/courses">Sales Force Adm/Dev </a>
               </li>
               <li>
-                <a href="/batches">Data Science</a>
+                <a href="/courses">Data Science</a>
               </li>
               <li>
-                <a href="/batches">Machine Learnig </a>
+                <a href="/courses">Machine Learnig </a>
               </li>
               <li>
-                <a href="/batches">Medical Coding and builling  </a>
+                <a href="/courses">Medical Coding and builling  </a>
               </li>
             </ul>
           </div>
@@ -109,22 +109,22 @@ const Footer = () => {
             <hr className={styles.hr} />
             <ul>
               <li>
-                <a href="/batches">Python</a>
+                <a href="/courses">Python</a>
               </li>
               <li>
-                <a href="/batches">Java & ASP Dot Net </a>
+                <a href="/courses">Java & ASP Dot Net </a>
               </li>
               <li>
-                <a href="/batches">Business Analyst</a>
+                <a href="/courses">Business Analyst</a>
               </li>
               <li>
-                <a href="/batches">Agile Methodology </a>
+                <a href="/courses">Agile Methodology </a>
               </li>
               <li>
-                <a href="/batches">Devops </a>
+                <a href="/courses">Devops </a>
               </li>
               <li>
-                <a href="/batches">AR caller/ RCM  </a>
+                <a href="/courses">AR caller/ RCM  </a>
               </li>
             </ul>
           </div>

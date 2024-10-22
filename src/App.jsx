@@ -7,10 +7,10 @@ import BatchesPage from "./Pages/BatchesPage/BatchesPage";
 import BlogPage from "./Pages/BlogPage/BlogPage";
 import ContactUsPage from "./Pages/ContactUsPages/ContactUsPage";
 // import ExamPages from "./Pages/ExamPages/ExamPages";
+import BlogDetaills from "./Components/Blogs/BlogDetails/BlogDetails";
 import LearnMore from "./Components/Home/Course/learnMore/learnMore";
 import GalleryPages from "./Pages/GalleryPages/GalleryPages";
 import HomePage from "./Pages/HomePage/HomePage";
-import BlogDetaills from "./Components/Blogs/BlogDetails/BlogDetails";
 
 
 function App() {
@@ -21,11 +21,11 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/contactUs" element={<ContactUsPage />} />
-        <Route path="/batches" element={<BatchesPage />} />
+        <Route path="/courses" element={<BatchesPage />} />
       
         <Route path="/learnMore" element={<LearnMore />} /> 
         <Route path="/gallery" element={<GalleryPages />} />
-        <Route path="/blogs" element={<BlogPage />} />
+        <Route path="/successs-stories" element={<BlogPage />} />
         <Route path="/BlogDetaills/:id" element={<BlogDetaills />} />
 
           {/* <Route path="/exam" element={<ExamPanel />} />
