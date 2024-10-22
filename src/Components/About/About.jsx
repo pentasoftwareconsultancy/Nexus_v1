@@ -258,7 +258,7 @@ const About = () => {
                       {story.role}
                       <br />
                       {story.experience}
-                      <br />"{story.message}"
+                      <br />{story.message}
                     </strong>
                   </p>
                 </div>
