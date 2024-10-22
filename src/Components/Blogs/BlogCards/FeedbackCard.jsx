@@ -98,7 +98,6 @@ const FeedbackCard = () => {
           <img src={student.image} alt={student.name} className={styles.studentImage} />
           <div className={styles.cardContent}>
             <h2 className={styles.studentName}>{student.name}</h2>
-            <img src={student.image} alt={student.name} className={styles.image} />
 
             <p className={styles.studentRole}>{student.role}</p>
             <div className={styles.additionalInfo}>

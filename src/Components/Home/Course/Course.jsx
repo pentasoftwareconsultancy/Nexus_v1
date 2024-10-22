@@ -43,7 +43,7 @@ function Course() {
             </div>
             <h2 className={styles.courseTitle}>{course.title}</h2>
             <div className={styles.stars}>{course.stars}</div>
-            <div className={styles.skillTitle}>{course.skillTitle}</div>
+            <div className={styles.skillTitle}>{course.skillTitle1} {/* {course.skillTitle2} {course.skillTitle3}*/} </div> 
             <p className={styles.courseDescription}>{course.description}</p>
 
             <div className={styles.buttonContainer}>

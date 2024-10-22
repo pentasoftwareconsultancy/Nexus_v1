@@ -16,6 +16,7 @@
   flex-wrap: wrap; /* Allow wrapping to the next line */
   gap: 50px; /* Increased space between cards */
   justify-content: center; /* Center align cards */
+  text-align: left;
 }
 
 /* Course card styling */
@@ -75,6 +76,14 @@
   font-size: 14px; /* Description font size */
   margin: 10px 0; /* Space above and below the description */
   color: #666; /* Color for description text */
+    display: -webkit-box; /* for Safari */
+    -webkit-box-orient: vertical; /* for Safari */
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* limit to 2 lines */
+    max-height: 3.2em; /* adjust based on line height */
+    line-height: 1.6em; /* set line height for proper calculation */
+  
+  
 }
 
 /* Button container styling */

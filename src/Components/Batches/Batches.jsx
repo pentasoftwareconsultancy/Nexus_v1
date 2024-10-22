@@ -1,3 +1,5 @@
+// Team Page 
+
 import { Helmet } from "react-helmet";
 import UpcomingBatches from "../Home/UpcomingBatches/UpcomingBatches";
 import WhyJoin from "../Home/WhyJoin/WhyJoin";
@@ -39,7 +41,7 @@ const courses = [
     skillTitle: "Beginner Skills",
   },
   {
-    title: "Course 4",
+    title: "Soft Skills ",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
@@ -49,7 +51,7 @@ const courses = [
     skillTitle: "Beginner Skills",
   },
   {
-    title: "Course 5",
+    title: "Medical Coding and Billing ",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
