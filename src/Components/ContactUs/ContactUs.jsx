@@ -1,5 +1,5 @@
 import styles from "./ContactUs.module.css";
-import LeafletMap from './LeafletMap/LeafletMap'
+import LeafletMap from './LeafletMap/LeafletMap';
 
 import { Helmet } from "react-helmet";
 
@@ -41,7 +41,7 @@ const ContactUs = () => {
               <span>
               {/* <MdEmail /> */}
               </span>
-              hr@devconsoftware.com
+              contact@Nexus-CTC-LLP
             </li>
             <li>
               <span>
