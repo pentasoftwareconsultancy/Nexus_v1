@@ -34,21 +34,24 @@ function UpcomingBatches() {
           <thead>
             <tr>
               <th>Course Name</th>
-              {/* <th>Date</th> */}
               <th>Duration</th>
+              <th>Date</th>
               <th>Fees</th>
               <th>Contact</th>
+              {/* <th>Instructor</th> */}
+              <th>Know More </th>
             </tr>
           </thead>
           <tbody>
             {courses.map((course, index) => (
               <tr key={index} onClick={() => handleRowClick(course)} >
                 <td>{course.title}</td>
-                {/* <td>{course.date}</td> */}
                 <td>{course.duration}</td>
+                <td>{course.date}</td>
                 <td>{course.fees}</td>
                 <td>{course.contact}</td>
-
+                <td><button>See More</button></td>
+                {/* <td>{course.instructor}</td> */}
               </tr>
             ))}
           </tbody>

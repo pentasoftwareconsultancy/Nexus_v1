@@ -9,8 +9,9 @@ function Blog() {
     <div className={styles.BlogContainer}>
 
       <BlogHero/>
-      <FeedbackCard/>
       <h1>Student Feedback</h1>
+
+      <FeedbackCard/>
       
     </div>
   )

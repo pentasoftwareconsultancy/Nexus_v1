@@ -334,7 +334,7 @@ const courses = [
     description: "This course provides a comprehensive overview of digital marketing strategies, tools, and techniques to effectively promote products and services online, driving engagement and conversions.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://www.shutterstock.com/image-photo/agile-development-methodology-concept-on-260nw-1341139619.jpg", // Example image URL
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VpF4XXNnpvJSB_KPV6dOVQx2Mmd_kPY3Kg&s", // Example image URL
     trending: "New",
     stars: "★★★★☆", // Example star rating
     skillTitle1: " Search Engine Optimization (SEO)",
@@ -363,7 +363,7 @@ const courses = [
     imageUrl: "https://sourcebae.com/blog/wp-content/uploads/2023/08/top-ai-programming-languages.png",
     trending: "Trending",
     stars: "★★★☆☆",
-     skillTitle1: "Continuous Integration/Continuous Deployment (CI/CD)",
+    skillTitle1: "Continuous Integration/Continuous Deployment (CI/CD)",
     skillTitle2: " Infrastructure as Code (IaC)",
     skillTitle3: " Monitoring and Logging", 
     instructor: "Hello",

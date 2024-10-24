@@ -69,6 +69,12 @@
   font-size: 16px; /* Font size for skill title */
   color: #333; /* Dark color for skill title */
   margin: 10px 0; /* Space above and below skill title */
+  display: -webkit-box; /* for Safari */
+  -webkit-box-orient: vertical; /* for Safari */
+  overflow: hidden;
+  -webkit-line-clamp: 1; /* limit to 2 lines */
+  max-height: 3.2em; /* adjust based on line height */
+  line-height: 1.6em; /* set line height for proper calculation */
 }
 
 /* Course description styling */

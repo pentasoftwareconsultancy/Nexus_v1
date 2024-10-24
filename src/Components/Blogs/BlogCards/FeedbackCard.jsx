@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import students from '../stydentsData';
+import students from '../studentsData';
 import styles from './FeedbackCard.module.css';
 
 

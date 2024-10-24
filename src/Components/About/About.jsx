@@ -1,22 +1,22 @@
 import { Helmet } from "react-helmet";
-import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
 import styles from "./About.module.css"; // Importing the CSS module
+import Review from "../Review/Review";
 
 
 const About = () => {
   const courses = [
     {
-      title: "AI Develpoer",
-      description: "This is a description for Course 2.",
+      title: "Ajay Sir ",
+      description: "This is a description ",
       duration: "8 weeks",
       date: "2024-11-01",
       imageUrl:
         "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
       // trending: "Trending",
       stars: "★★★★☆", // Example star rating
-      skillTitle: "Advanced Skills",
+      skillTitle: "Power BI ",
     },
     {
       title: "Java Developer",
@@ -27,11 +27,11 @@ const About = () => {
         "https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg", // Example image URL
       // trending: "Trending",
       stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
+      skillTitle: "AR Caller/RCM",
     },
 
     {
-      title: "Advance Power BI",
+      title: "Manisha Mam",
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
@@ -39,7 +39,7 @@ const About = () => {
         "https://imgcdn.stablediffusionweb.com/2024/2/28/64f23186-ec94-4291-885b-3c0f433877df.jpg", // Example image URL
       // trending: "Trending",
       stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
+      skillTitle: "Medical Coding/Billing",
     },
     {
       title: "Course 3",
@@ -50,7 +50,7 @@ const About = () => {
         "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
       // trending: "Trending",
       stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
+      skillTitle: "AWS Administrator",
     },
     {
       title: "Course 3",
@@ -61,7 +61,7 @@ const About = () => {
         "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
       // trending: "Trending",
       stars: "★★★☆☆", // Example star rating
-      skillTitle: "Beginner Skills",
+      skillTitle: "Soft Skills",
     },
     {
       title: "Course 3",
@@ -96,39 +96,6 @@ const About = () => {
       stars: "★★★☆☆", // Example star rating
       skillTitle: "Beginner Skills",
     },
-  ];
-
-  // src/constants/successStories.js
-
-  const successStories = [
-    {
-      name: "Milind Patil",
-      role: "Software Quality Analyst",
-      experience: "4 years of Experience",
-      message:
-        "Great teachers make Nexus Corporate Training Center Great. Thank You Nexus for my job and the knowledge.",
-      imageUrl:
-        "https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg",
-    },
-    {
-      name: "Sushil Shelar",
-      role: "Software Testing Engineer",
-      experience: "3 years of Experience with MNC",
-      message:
-        "All application falls less for the quality learning found here. Thank You Nexus Corporate Training Center for teaching me better than any college.",
-      imageUrl:
-        "https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg",
-    },
-    {
-      name: "Miss Arti Patel",
-      role: "Software Testing Engineer",
-      experience: "5 years of Experience with MNC",
-      message:
-        "Learning with Nexus Corporate Training Center Pune was one of the best decisions for my career.",
-      imageUrl:
-        "https://justenergy.com/wp-content/uploads/2023/12/artificial-intelligence-in-energy-illustration.jpeg",
-    },
-    // Add more success stories as needed
   ];
 
   return (
@@ -232,42 +199,7 @@ const About = () => {
     </section>
 
       {/* Success Stories Section */}
-      <section className={styles.successStories}>
-        <h1>Success Stories</h1>
-        <Carousel
-          showThumbs={false}
-          infiniteLoop={true}
-          autoPlay={true}
-          interval={3000}
-          showStatus={false}
-          className={styles.carousel}
-        >
-          {successStories.map((story, index) => (
-            <div key={index} className={styles.slide}>
-              <div className={styles.slideContent}>
-                <div className={styles.imageContainer}>
-                  <img
-                    src={story.imageUrl}
-                    alt={`Success Story ${index + 1}`}
-                  />
-                </div>
-                <div className={styles.textContainer}>
-                  <h3>{story.name}</h3>
-                  <p>
-                    <strong>
-                      {story.role}
-                      <br />
-                      {story.experience}
-                      <br />{story.message}
-                    </strong>
-                  </p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </Carousel>
-      </section>
-
+        <Review />
       {/* Why Choose Us Section */}
       <WhyJoin />
 
@@ -287,7 +219,7 @@ const About = () => {
               </div>
               <h1 className={styles.courseTitle}>{course.title}</h1>
               <div className={styles.stars}>{course.stars}</div>
-              <div className={styles.skillTitle}>{course.skillTitle}</div>
+              <div className={styles.skillTitle}> Course Name : {course.skillTitle}</div>
               <p className={styles.courseDescription}>{course.description}</p>
               <div className={styles.buttonContainer}>
              

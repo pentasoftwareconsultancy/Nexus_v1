@@ -64,9 +64,10 @@ const Footer = () => {
               <li><a href="/">Home</a></li>
               <li><a href="/about">About Us</a></li>
               <li><a href="/courses">courses</a></li>
-              <li><a href="/contactUs">Contact Us</a></li>
               <li><a href="/gallery">Gallery</a></li>
+              <li><a href="/successs-stories">Success Stories</a></li>
               <li><a href="/contactUs">Contact Us</a></li>
+              
               <li>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQWhOWPEKtydDpPq2tY6VCoghQOgU-kXzH6zZthggqek-sww/viewform" target="_blank" rel="noopener noreferrer">
                   Book Appointment

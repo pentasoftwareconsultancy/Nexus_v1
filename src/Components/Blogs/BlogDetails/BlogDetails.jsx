@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import students from '../stydentsData';
 import styles from '../BlogDetails/BlogDetails.module.css';
+import students from '../studentsData';
 
 const BlogDetaills = () => {
   const { id } = useParams(); // Get student ID from URL
