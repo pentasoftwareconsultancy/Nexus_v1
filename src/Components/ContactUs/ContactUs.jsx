@@ -33,14 +33,27 @@ const ContactUs = () => {
           </span>
           <ul>
             <li>
-              <span>Mail At:</span> contact@Nexus-CTC-LLP
+              <span>Mail ID:</span><a href="mailto:contact@Nexus-CTC-LLP">contact@Nexus-CTC-LLP</a>
             </li>
             <li>
-              <span>Contact At:</span> +91 9112100663
+              <span>Contact Us:</span> +91 9112100663
             </li>
             <li>
-              <span>Address:</span> Our Address Office No. 4-B, Second Floor, Ganesham
-              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027
+              <span>Address:</span>
+               <p><i>A] Pune Address: </i>  Our Address Office No. 4-B, Second Floor, Ganesham
+              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
+
+
+             <p><i>B] Nashik Address :</i> Amideep Apartment
+             Amideep Apartment, Parab Nagar, Nashik, Maharashtra 422006</p>
+              
+             <p><i>C] Amravati Address :</i>  Our Address Office No. 4-B, Second Floor, Ganesham
+              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
+
+             <p><i>D] Nagpur Address :</i> Our Address Office No. 4-B, Second Floor, Ganesham
+              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
+             <p><i>E] Akola Address :</i> Our Address Office No. 4-B, Second Floor, Ganesham
+              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
             </li>
           </ul>
         </div>

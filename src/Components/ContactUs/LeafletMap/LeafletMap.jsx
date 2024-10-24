@@ -26,12 +26,20 @@ const LeafletMap = () => {
       popupText: "Nexus Corporate Training Center, Pimple Saudagar"
     },
     {
-      position: [18.5204, 73.8567],
-      popupText: "Pune City Center"
+      position: [18.596608, 73.804795],
+      popupText: "Akola"
     },
     {
-      position: [19.0760, 72.8777],
-      popupText: "Mumbai Corporate Office"
+      position: [18.596608, 73.804795],
+      popupText: "Nagpur"
+    },
+    {
+      position: [18.5204, 73.8567],
+      popupText: "Amravati"
+    },
+    {
+      position: [19.973966519918175, 73.78741632269774],
+      popupText: "Nashik Nexus Corporate Traning Center"
     },
     // Add more locations as needed
   ];
