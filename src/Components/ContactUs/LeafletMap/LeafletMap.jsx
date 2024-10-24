@@ -17,19 +17,38 @@ L.Icon.Default.mergeOptions({
 });
 
 const LeafletMap = () => {
-  const position = [18.596608, 73.804795]; // Latitude and longitude for the map center
+  const centerPosition = [18.596608, 73.804795]; // Latitude and longitude for the map center
+
+  // Array of multiple locations
+  const locations = [
+    {
+      position: [18.596608, 73.804795],
+      popupText: "Nexus Corporate Training Center, Pimple Saudagar"
+    },
+    {
+      position: [18.5204, 73.8567],
+      popupText: "Pune City Center"
+    },
+    {
+      position: [19.0760, 72.8777],
+      popupText: "Mumbai Corporate Office"
+    },
+    // Add more locations as needed
+  ];
 
   return (
-    <MapContainer center={position} zoom={13} style={{ height: "400px", width: "100%" }}>
+    <MapContainer center={centerPosition} zoom={10} style={{ height: "400px", width: "100%" }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={position}>
-        <Popup>
-        Nexus Corporate Training Center.
-        </Popup>
-      </Marker>
+      {locations.map((location, index) => (
+        <Marker key={index} position={location.position}>
+          <Popup>
+            {location.popupText}
+          </Popup>
+        </Marker>
+      ))}
     </MapContainer>
   );
 };

@@ -6,21 +6,23 @@
 
 .heroImage {
   width: 100%;
-    height: 100%;
-    object-fit: cover;
+  height: 100%;
+  object-fit: cover;
 }
-.logox{
+
+.logox {
   color: #FB7D28;
   font-size: 32px;
   font-family: 'Times New Roman', Times, serif;
 }
+
 .heroTitle {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-font-size: 5rem;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -31,7 +33,6 @@ font-size: 5rem;
   background: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  line-height: 2;
 }
 
 .contactCol {
@@ -46,20 +47,7 @@ font-size: 5rem;
 .contactCol h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  display: flex;
-  align-items: center;
   color: #333;
-}
-
-.contactCol h3 span {
-  height: 20px;
-  margin-left: 10px;
-}
-
-.contactCol span {
-  display: block;
-  margin-bottom: 20px;
-  color: #666;
 }
 
 .contactCol ul {
@@ -68,16 +56,15 @@ font-size: 5rem;
 }
 
 .contactCol ul li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  color: #555;
+  margin-top: 10px;
+  color: black;
 }
 
-.contactCol ul li img {
-  margin-right: 10px;
+.contactCol li span{
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
 }
-
 .formContainer {
   background: #fefefe;
   border-radius: 8px;
@@ -88,6 +75,7 @@ font-size: 5rem;
 .formContainer label {
   font-weight: bold;
   margin-bottom: 5px;
+  display: block;
 }
 
 .formContainer input,
@@ -105,13 +93,7 @@ font-size: 5rem;
   border: none;
   padding: 10px;
   border-radius: 5px;
-  display: flex;
-  align-items: center;
   cursor: pointer;
-}
-
-.formContainer button img {
-  margin-left: 10px;
 }
 
 .formContainer button:hover {
