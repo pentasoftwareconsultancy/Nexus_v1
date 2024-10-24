@@ -1,6 +1,6 @@
 // Team Page 
-
 import { Helmet } from "react-helmet";
+import Course from "../Home/Course/Course";
 import UpcomingBatches from "../Home/UpcomingBatches/UpcomingBatches";
 import WhyJoin from "../Home/WhyJoin/WhyJoin";
 import Terms from "../Terms/Terms";
@@ -119,11 +119,13 @@ function Batches() {
         <span className={styles.heroTitle}> Our Courses </span>
 
       </section>
+        <Course />
 
-      
         <UpcomingBatches />
+
         <Terms/>
-      <WhyJoin />
+
+        <WhyJoin />
       
       
       {/* Our Team Section */}

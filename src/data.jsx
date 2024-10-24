@@ -31,7 +31,7 @@ const courses = [
     description: "managing healthcare claims, billing processes, and handling accounts.",
     duration: "8 weeks",
     date: "2024-11-01",
-    imageUrl: "https://codewave.com/insights/wp-content/uploads/2022/08/mern-stack-header-codewave.jpg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIWhDDeO5Z2WjH5pz7t4iYjqQjznG-CW_-w&s",
     trending: "Trending",
     stars: "★★★★☆",
     skillTitle1: "Medical Billing and Coding ",
@@ -209,7 +209,7 @@ const courses = [
     description: "This course provides a comprehensive introduction to data science, covering essential tools and techniques for data analysis, visualization, and machine learning..",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtn5OeXYY8PsnhU537FI_pEC4BVbI3McDdPg&s",
     trending: "New",
     stars: "★★★★☆", // Example star rating
     skillTitle1: "Statistical Analysis",

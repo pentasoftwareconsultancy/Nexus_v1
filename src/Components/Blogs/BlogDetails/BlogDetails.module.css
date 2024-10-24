@@ -1,33 +1,99 @@
 /* BlogDetaills.module.css */
 .container {
-    padding: 60px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 60px;
+  border-radius: 12px;
+  margin-left: 40px;
+  width: 70%;
+  transition: all 0.3s ease;
+}
+
+.heading {
+  font-size: 2.8rem;
+  color: rgb(23, 23, 143);
+  margin-bottom: 30px;
+  /* text-align: center; */
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.detail {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #444;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.detail strong {
+  color: #ff6347;
+}
+
+.feedback {
+  font-style: italic;
+  color: #666;
+  margin-top: 20px;
+}
+
+.image {
+  display: block;
+  /* margin: 0 auto; */
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #ff6347;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.question p {
+  color: #ff6347;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.question span {
+  display: block;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.question p i {
+  font-style: normal;
+  color: rgb(13, 13, 126);
+  font-size: 1.2rem;
+}
+
+.question span:hover {
+  /* color: skyblue; */
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin-left: 20px;
+    padding: 40px;
   }
-  
+
   .heading {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
+    font-size: 2.2rem;
   }
-  
-  .detail {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+
+  .detail, .question p {
+    font-size: 1.1rem;
   }
-  
-  .detail strong {
-    color: #007BFF;
-  }
-  
-  .feedback {
-    font-style: italic;
-    color: #555;
-    margin-top: 20px;
-  }
-  
+
   .image {
-    height: 50%;
-    width: 50%;
+    height: 250px;
+    width: 250px;
   }
+}
