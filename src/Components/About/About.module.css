@@ -34,16 +34,14 @@
   
 .headline {
     text-align: center;
-    /* margin: 5rem; */
   }
  
   /* About Us Section */
   .aboutUs {
-    height: 70vh;
+    height: 50vh;
     background-color: #dceafa;
-    text-align: center;
-    margin: -10px;
-
+    text-align: left;
+    margin-top: -10px;
   }
   
   .aboutUs h2 {
@@ -51,8 +49,8 @@
   }
   
   .aboutUs p {
-    max-width: 600px;
-    margin: 50px auto;
+    /* max-width: 600px; */
+    margin: 15px;
     font-size: 20px;
     line-height: 1.5;
   }

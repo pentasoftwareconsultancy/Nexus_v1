@@ -16,7 +16,9 @@
   justify-content: center;
   flex-direction: column;
 }
-
+.wrapper h1 {
+margin-top: 200px;
+}
 .marquee {
   display: flex;
   width: 100%; /* Adjust width to fit screen */

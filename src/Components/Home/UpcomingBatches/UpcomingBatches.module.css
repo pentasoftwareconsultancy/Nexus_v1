@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center; /* Center align all child elements horizontally */
   justify-content: center;
+  margin-top: 150px;
 }
 
 .tableContainer {

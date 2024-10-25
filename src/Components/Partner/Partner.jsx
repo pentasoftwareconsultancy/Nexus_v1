@@ -49,6 +49,8 @@ function Partner() {
     <div className={styles.appContainer}>
       <div className={styles.wrapper}>
         {/* First Row */}
+
+        <h1> Our Partner </h1>
         <div className={styles.marquee}>
           <div className={styles.marqueeGroup}>
             {row1.map((el, index) => (

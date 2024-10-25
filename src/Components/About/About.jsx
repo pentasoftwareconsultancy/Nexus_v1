@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
-import styles from "./About.module.css"; // Importing the CSS module
 import Review from "../Review/Review";
+import styles from "./About.module.css"; // Importing the CSS module
 
 
 const About = () => {
@@ -130,11 +130,12 @@ const About = () => {
         <h1 className= {styles.headline} >About Us</h1>
         </div>
         <p>
-         Welcome to Nexus Corporate Training Center LLP, a premier IT training institute in Pune, 
-         committed to empowering individuals with cutting-edge skills and industry-relevant knowledge to excel in the dynamic
-         tech world. At Nexus, we offer a wide range of specialized courses designed to meet the growing demand for IT 
-         professionals across various sectors. Our experienced instructors provide hands-on training in the latest technologies,
-         ensuring that learners gain practical experience in real-world applications.
+         Nexus Corporate Training Center LLP is Pune’s most innovative IT training institute, offering a wide range of specialized
+         courses like Medical Coding, Power BI, AWS, and other software courses with placement assistance. Our mission is to 
+         provide learners with industry-relevant skills through hands-on training, led by experienced instructors. 
+         We focus on delivering the best software courses in Pune with placement, ensuring our students are job-ready upon course
+          completion. With a strong emphasis on practical knowledge, Nexus equips learners to excel in the competitive IT 
+          landscape and secure promising careers in top companies.
         </p>
       </section>
 
@@ -144,14 +145,12 @@ const About = () => {
           <div className={styles.text}>
             <h1>Our Vision</h1>
             <p>
-                As a top IT training institute in Pune with placement, we are
-                dedicated to delivering high-quality, accessible education. With
-                our flexible course structures and learning formats, individuals
-                from all backgrounds can access top-tier training that suits
-                their schedule and learning style. We foster inclusivity and
-                collaboration, creating a global learning community where
-                students can engage with peers and mentors from around the
-                world.
+            As a top IT training institute in Pune with placement assistance, Nexus Corporate Training Center LLP is dedicated
+             to delivering high-quality, accessible education for all learners. Our vision is to provide flexible course 
+             structures and diverse learning formats, empowering individuals to achieve their goals in Medical Coding, Power BI,
+             AWS, AR Caller and other software courses. By fostering inclusivity and collaboration, we aim to create a global learning community where students can connect with peers and mentors, preparing them to excel in the dynamic IT industry.
+
+
             </p>
           </div>
           <div className={styles.image}>
@@ -172,11 +171,12 @@ const About = () => {
           <div className={styles.text}>
             <h1>Our Mission</h1>
             <p>
-                Our mission is to offer a transformative learning experience
-                through a comprehensive range of job-focused software courses.
-                Whether you're a beginner starting your coding journey or an
-                experienced professional looking to enhance your skills, we have
-                the ideal program for you.
+            Here’s a refined and SEO-friendly version of your mission and values statements for Nexus Corporate Training Center 
+            LLP: Mission Our mission at Nexus Corporate Training Center LLP is to deliver a transformative learning experience 
+            through a comprehensive range of job-focused software courses. Whether you're a beginner embarking on your coding 
+            journey or an experienced professional seeking to enhance your skills, we provide tailored programs designed to meet
+             your needs. Our commitment is to equip every learner with the knowledge and practical experience necessary to excel 
+             in the fast-paced IT industry, ensuring they are career-ready upon graduation.
             </p>
           </div>
         </div>
@@ -185,11 +185,15 @@ const About = () => {
         <div className={styles.text}>
           <h1>Our Values</h1>
           <p>
-          
-            What sets Nexus CTC apart is our unwavering commitment to student success. With 100% placement assistance,
-             we go beyond the classroom to ensure our students are well-prepared for the workforce. 
-            Our career services team offers personalized support and resources to help students secure fulfilling roles in their chosen fields.         
-              
+          At Nexus Corporate Training Center LLP, we are committed to:
+          <ul>
+        <li>Learner-Focused Approach:</li> Customizing courses and support to align with individual goals and preferences.
+        <li>Career Success:</li> Offering 100% placement assistance and personalized guidance.
+        <li>Continuous Enhancement:</li>  Improving programs based on student and industry feedback.
+        <li>Inclusive Community:</li>  Fostering collaboration among students and professionals.
+        </ul>
+        We empower every learner to achieve success in their IT careers.
+            
           </p>
         </div>
         <div className={styles.image}>
