@@ -26,7 +26,7 @@ function Slider() {
     <div className={styles.sliderContainer}>
       <div className={styles.wrapper}>
         {/* First Row */}
-        <h1>Hello </h1>
+        <h1>College Name </h1>
 
         <div className={styles.marquee}>
           <div className={styles.marqueeGroup}>
@@ -47,7 +47,7 @@ function Slider() {
         </div>
 
         {/* Second Row */}
-        <h1>Hello </h1>
+        <h1>College Name  </h1>
 
         <div className={`${styles.marquee} ${styles.reverse}`}>
           <div className={styles.marqueeGroup}>

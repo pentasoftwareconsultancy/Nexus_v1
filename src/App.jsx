@@ -28,6 +28,7 @@ function App() {
         <Route path="/successs-stories" element={<BlogPage />} />
         <Route path="/BlogDetaills/:id" element={<BlogDetaills />} />
 
+
           {/* <Route path="/exam" element={<ExamPanel />} />
         <Route path="/examDetails" element={<ExamPages />} /> */}
 

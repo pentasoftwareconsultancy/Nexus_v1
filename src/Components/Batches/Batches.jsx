@@ -8,90 +8,107 @@ import styles from "./Batches.module.css";
 
 
 const courses = [
-   
   {
-    title: "AI Develpoer",
-    description: "This is a description for Course 2.",
+    title: "Rajiv Khade",
+    description: "This is a description ",
     duration: "8 weeks",
     date: "2024-11-01",
-    imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+    imageUrl:
+      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
     // trending: "Trending",
-    stars: "★★★★☆", // Example star rating
-    skillTitle: "Advanced Skills",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "",
   },
   {
-    title: "Java Developer",
+    title: "Aditi Khade",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg", // Example image URL
+    imageUrl:
+      "https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg", // Example image URL
     // trending: "Trending",
-    stars: "★★★☆☆", // Example star rating
-    skillTitle: "Beginner Skills",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "",
   },
 
   {
-    title: "Advance Power BI",
+    title: "Sagar Solanke ",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://imgcdn.stablediffusionweb.com/2024/2/28/64f23186-ec94-4291-885b-3c0f433877df.jpg", // Example image URL
+    imageUrl:
+      "https://imgcdn.stablediffusionweb.com/2024/2/28/64f23186-ec94-4291-885b-3c0f433877df.jpg", // Example image URL
     // trending: "Trending",
-    stars: "★★★☆☆", // Example star rating
-    skillTitle: "Beginner Skills",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Digital Marketing ",
   },
   {
-    title: "Soft Skills ",
+    title: "Bhagyshree Patil ",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    imageUrl:
+      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
     // trending: "Trending",
-    stars: "★★★☆☆", // Example star rating
-    skillTitle: "Beginner Skills",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Medical Coding / Billing",
   },
   {
-    title: "Medical Coding and Billing ",
+    title: "Rajiv Kumar ",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    imageUrl:
+      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
     // trending: "Trending",
-    stars: "★★★☆☆", // Example star rating
-    skillTitle: "Beginner Skills",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "AR Caller",
   },
   {
-    title: "Course 6",
+    title: "Lekhraj Patil ",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    imageUrl:
+      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
     // trending: "Trending",
-    stars: "★★★☆☆", // Example star rating
-    skillTitle: "Beginner Skills",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "AWS ",
   },
   {
-    title: "Course 7",
+    title: "Vikas Gadge",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    imageUrl:
+      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
     // trending: "Trending",
-    stars: "★★★☆☆", // Example star rating
-    skillTitle: "Beginner Skills",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Power BI ",
   },
   {
-    title: "Course 8",
+    title: "Abhijit Sir",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+    imageUrl:
+      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
     // trending: "Trending",
-    stars: "★★★☆☆", // Example star rating
-    skillTitle: "Beginner Skills",
-  }
+    stars: "★★★★★", // Example star rating
+    skillTitle: "Testing",
+  },
+  {
+    title: "Vaibhav Jadhav",
+    description: "This is a description for Course 3.",
+    duration: "12 weeks",
+    date: "2024-12-01",
+    imageUrl:
+      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+    // trending: "Trending",
+    stars: "★★★★★", // Example star rating
+    skillTitle: "AR Caller RCM",
+  },
 ];
-
 
 function Batches() {
   return (
