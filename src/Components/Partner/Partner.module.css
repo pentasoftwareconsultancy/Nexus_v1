@@ -1,11 +1,12 @@
 .appContainer {
   width: 100vw;
-  height: 40vh; /* Adjust height based on device */
+  height: auto; /* Change to auto to allow height to adjust based on content */
   color: #000000;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px 0; /* Add padding for spacing around the container */
 }
 
 .wrapper {
@@ -16,9 +17,11 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .wrapper h1 {
-margin-top: 200px;
+  margin: 20px 0; /* Reduce the margin above and below the heading */
 }
+
 .marquee {
   display: flex;
   width: 100%; /* Adjust width to fit screen */
@@ -96,7 +99,12 @@ margin-top: 200px;
 
 @media (max-width: 768px) {
   .appContainer {
-    height: 60vh; /* Adjust height for smaller devices */
+    height: auto; /* Allow height to be flexible */
+    padding: 10px 0; /* Reduce padding for smaller devices */
+  }
+
+  .wrapper h1 {
+    margin: 15px 0; /* Reduce margin for heading */
   }
 
   .imageGroup {
@@ -107,7 +115,12 @@ margin-top: 200px;
 
 @media (max-width: 480px) {
   .appContainer {
-    height: 80vh; /* Increased height for mobile devices */
+    height: auto; /* Keep it flexible for mobile devices */
+    padding: 5px 0; /* Further reduce padding for mobile */
+  }
+
+  .wrapper h1 {
+    margin: 10px 0; /* Even smaller margin for mobile */
   }
 
   .imageGroup {

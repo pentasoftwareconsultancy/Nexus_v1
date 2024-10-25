@@ -1,96 +1,89 @@
 .aboutPage {
-    width: 100%;
-    /* padding: 20px; */
-  }
-  
-  /* Hero Section */
-  .heroSection {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-  }
-  
-  .heroImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .heroTitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 5rem;
-    text-align: center;
-    
-  }
+  width: 100%;
+}
 
-  .logox{
-    color: #FB7D28;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  
+/* Hero Section */
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.logox {
+  color: #FB7D28;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .headline {
-    text-align: center;
-  }
- 
-  /* About Us Section */
-  .aboutUs {
-    height: 50vh;
-    background-color: #dceafa;
-    text-align: left;
-    margin-top: -10px;
-  }
-  
-  .aboutUs h2 {
-    font-size: 3rem;
-  }
-  
-  .aboutUs p {
-    /* max-width: 600px; */
-    margin: 15px;
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  
-  /* Vision, Mission, Values Section */
-  .visionMissionValues {
-    margin: 40px 0;
-    font-size: 20px;
-  }
-  
-  .vision, .mission, .values {
-    /* background-color: #dceafa; */
-    display: flex;
-    align-items: center;
-    /* margin-bottom: 20px; */
-  }
-  
-  .text {
-    flex: 1;
-    padding: 20px;
-    
-  }
-  .text p{
-    font-size: 20px;
-  }
-  
-  .image {
-    flex: 1;
-  }
-  
-  .image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 15px;
-  }
-  
+  text-align: center;
+}
 
-/* successStories */
+/* About Us Section */
+.aboutUs {
+  height: 50vh;
+  background-color: #dceafa;
+  text-align: left;
+  margin-top: -10px;
+}
 
+.aboutUs h2 {
+  font-size: 3rem;
+}
+
+.aboutUs p {
+  margin: 15px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* Vision, Mission, Values Section */
+.visionMissionValues {
+  margin: 40px 0;
+  font-size: 20px;
+}
+
+.vision, .mission, .values {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.text p {
+  font-size: 20px;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Success Stories */
 .successStories {
   padding: 2rem 0;
   text-align: center;
@@ -104,14 +97,14 @@
 }
 
 .slideContent {
-  display: flex; /* Flexbox to position image and text side by side */
+  display: flex;
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
 }
 
 .imageContainer {
-  flex: 1; /* Takes up half the width */
+  flex: 1;
 }
 
 .imageContainer img {
@@ -119,13 +112,13 @@
   height: 50%;
   max-width: 100%;
   object-fit: cover;
-  border-radius: 8px; /* Rounded corners for the image */
+  border-radius: 8px;
 }
 
 .textContainer {
-  flex: 1; /* Takes up half the width */
+  flex: 1;
   padding: 0 20px;
-  text-align: left; /* Align text to the left */
+  text-align: left;
 }
 
 .textContainer h3 {
@@ -165,16 +158,18 @@
 }
 
 /* Our Team Section */
-/* Container styling */
+/* Team card styles remain unchanged as per your request */
+
+/* Container styling for courses */
 .container {
-  background-color: #dceafa; /* Background color for the entire component */
-  padding: 20px; /* Padding around the container */
-  min-height: 80vh; /* Full height to cover the viewport */
+  background-color: #dceafa;
+  padding: 20px;
+  min-height: 80vh;
   gap: 3rem;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align all child elements horizontally */
-  justify-content: center; /* Center align all child elements vertically */
+  align-items: center;
+  justify-content: center;
 }
 
 /* Course list styling */
@@ -187,22 +182,22 @@
 
 /* Course card styling */
 .courseCard {
-  background-color: #ffffff; /* Background color for each card */
-  border-radius: 8px; /* Rounded corners for cards */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for cards */
-  overflow: hidden; /* Hide overflow to keep rounded corners */
-  width: 350px; /* Fixed width for each card */
-  text-align: center; /* Center align text */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
-  position: relative; /* To position elements absolutely within the card */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
 /* Image styling */
 .cardImage {
   width: 100%;
-  height: 200px; /* Adjust height as needed */
-  object-fit: cover; /* Ensure the image covers the container */
-  position: relative; /* To position text absolutely over the image */
+  height: 200px;
+  object-fit: cover;
+  position: relative;
 }
 
 /* Trending text on the image */
@@ -210,7 +205,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: rgb(255, 157, 0); /* Semi-transparent background */
+  background: rgb(255, 157, 0);
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -219,29 +214,29 @@
 
 /* Course title styling */
 .courseTitle {
-  font-size: 1.2rem; /* Title font size */
-  margin: 10px 0; /* Space above and below the title */
+  font-size: 1.2rem;
+  margin: 10px 0;
   font-weight: bold;
 }
 
 /* Stars rating */
 .stars {
-  color: #f5c518; /* Gold color for stars */
-  font-size: 1rem; /* Font size for stars */
+  color: #f5c518;
+  font-size: 1rem;
 }
 
 /* Skill title cover styling */
 .skillTitle {
-  font-size: 1rem; /* Font size for skill title */
-  color: #333; /* Dark color for skill title */
-  margin: 10px 0; /* Space above and below skill title */
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
 }
 
 /* Course description styling */
 .courseDescription {
-  font-size: 0.9rem; /* Description font size */
-  margin: 10px 0; /* Space above and below the description */
-  color: #666; /* Color for description text */
+  font-size: 0.9rem;
+  margin: 10px 0;
+  color: #666;
 }
 
 /* Button container styling */
@@ -254,30 +249,31 @@
 /* Button styling */
 .btn {
   flex: 1;
-  margin: 0 5px; /* Space between buttons */
-  height: 40px; /* Adjust button height */
-  font-size: 0.9rem; /* Adjust font size */
+  margin: 0 5px;
+  height: 40px;
+  font-size: 0.9rem;
   border-radius: 5px;
   background-color: orange;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
 .btnLearn {
   flex: 1;
-  margin: 0 5px; /* Space between buttons */
-  height: 40px; /* Adjust button height */
-  font-size: 0.9rem; /* Adjust font size */
+  margin: 0 5px;
+  height: 40px;
+  font-size: 0.9rem;
   border-radius: 5px;
   background-color: #144c8c;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer; /* Pointer cursor on hover */
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
@@ -310,4 +306,3 @@
     gap: 10px; /* Less space between cards */
   }
 }
-

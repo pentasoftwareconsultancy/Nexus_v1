@@ -176,4 +176,4 @@ function Batches() {
   )
 }
 
-export default Batches
+export default Batches;

@@ -1,11 +1,14 @@
-/* .learnMoreContainer {
+/* Global Styles */
+.learnMoreContainer {
   padding: 20px;
-} */
+}
 
-heroSection {
+/* Hero Section */
+.heroSection {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
+  overflow: hidden;
 }
 
 .heroImage {
@@ -15,7 +18,6 @@ heroSection {
   filter: brightness(70%);
   transition: transform 0.3s ease;
 }
-
 
 .heroImage:hover {
   transform: scale(1.02);
@@ -27,29 +29,31 @@ heroSection {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 5rem;
+  font-size: 2.5rem;
   text-align: center;
+  padding: 0 10px;
 }
+
+/* Main Content */
 .content {
   display: flex;
-  padding: 20px;
+  flex-direction: row;
   justify-content: space-between;
   gap: 40px;
   margin-top: 40px;
-} 
-
+}
 
 .detailsColumn {
   flex: 2;
   padding: 20px;
-  /* background-color: #fff; */
-  border-radius: 10px;
-  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
 }
 
-.courseInfo {
-  font-size: 1.2rem;
-  line-height: 2;
+.courseInfo,
+.syllabus,
+.instructor,
+.additionalInfoSection {
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .skillsList {
@@ -62,48 +66,31 @@ heroSection {
   color: #0c64c2;
 }
 
+/* Syllabus Section */
 .syllabus {
-  font-size: 1.2rem;
-  line-height: 2;
+  margin-top: 20px;
 }
 
-
 .imageContainer {
-  /* text-align: center; */
   margin-top: 20px;
+  text-align: center;
 }
 
 .image {
-  width: 80%;
+  width: 100%;
+  max-width: 500px;
   border-radius: 10px;
-}
-.instructor {
-  font-size: 1.2rem;
-  margin-top: 20px;
-  line-height: 2;
 }
 
 .additionalInfoSection {
   margin-top: 30px;
   padding: 20px;
-  /* background-color: #f8f9fa; */
   border-radius: 8px;
 }
 
-.additionalInfoTitle {
-  font-size: 1.8rem;
-  color: #000;
-  margin-bottom: 20px;
-}
-
-.learningPoints {
-  list-style-type: disc;
-  margin-left: 20px;
-}
-
+/* Fee Column */
 .feeColumn {
   flex: 1;
-  line-height: 2;
 }
 
 .sticky {
@@ -114,3 +101,76 @@ heroSection {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1024px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .detailsColumn {
+    padding: 10px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .feeColumn {
+    flex: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroTitle {
+    font-size: 1.8rem;
+  }
+
+  .content {
+    gap: 10px;
+  }
+
+  .detailsColumn {
+    padding: 10px;
+  }
+
+  .additionalInfoSection {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heroSection {
+    height: 50vh;
+  }
+
+  .heroTitle {
+    font-size: 1.5rem;
+  }
+
+  .content {
+    gap: 5px;
+  }
+
+  .detailsColumn {
+    padding: 5px;
+  }
+
+  .sticky {
+    padding: 10px;
+  }
+
+  .additionalInfoSection {
+    padding: 10px;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
+  

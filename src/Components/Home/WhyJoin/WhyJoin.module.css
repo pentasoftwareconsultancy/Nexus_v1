@@ -1,29 +1,21 @@
 /* Container styling */
 .container {
   background-color: #0f0f0f;
-  padding: 20px;
+  padding: 20px; /* General padding */
   min-height: 100vh;
   gap: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-.text{
-  color: #fff;
+  justify-content: flex-start; /* Align items at the top */
 }
 
 /* Course list styling */
 .courseList {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 3rem; /* Space between cards */
   justify-content: center;
-}
-
-/* 3D effect container */
-.courseListContainer {
-  perspective: 1000px; /* Provides perspective for 3D effect */
 }
 
 /* Course card styling */
@@ -32,17 +24,12 @@
   border-radius: 8px;
   box-shadow: 0 6px 6px 6px rgba(255, 255, 255, 0.8); /* Increased shadow for 3D effect */
   overflow: hidden;
-  width: 380px;
+  width: 350px; /* Width of each card */
   text-align: center;
   transition: transform 0.5s, box-shadow 0.5s;
   position: relative;
   transform-style: preserve-3d; /* Preserve 3D transformation */
-}
-
-/* Hover effect for 3D transformation */
-.courseCard:hover {
-  transform: rotateY(10deg) rotateX(10deg);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  margin: 1rem 0; /* Add space above and below each card */
 }
 
 /* Image styling */
@@ -53,106 +40,28 @@
   position: relative;
 }
 
-/* Trending text on the image */
-.trendingText {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: rgb(255, 157, 0);
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-/* Course title styling */
-.courseTitle {
-  font-size: 1.2rem;
-  margin: 10px 0;
-  font-weight: bold;
-}
-
-/* Stars rating */
-.stars {
-  color: #f5c518;
-  font-size: 1rem;
-}
-
-/* Skill title cover styling */
-.skillTitle {
-  font-size: 1rem;
-  color: #333;
-  margin: 10px 0;
-}
-
-/* Course description styling */
-.courseDescription {
-  font-size: 1.2rem;
-  margin: 10px 0;
-  color: #666;
-}
-
-/* Button container styling */
-.buttonContainer {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-/* Button styling */
-.btn, .btnLearn {
-  flex: 1;
-  margin: 0 5px;
-  height: 40px;
-  font-size: 0.9rem;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.btn {
-  background-color: orange;
-  color: #ffffff;
-}
-
-.btn:hover {
-  background-color: #e68a00;
-}
-
-.btnLearn {
-  background-color: #144c8c;
-  color: #ffffff;
-}
-
-.btnLearn:hover {
-  background-color: #103d70; /* Darker blue for hover effect */
-}
-
 /* Responsive design for different screen sizes */
 @media (max-width: 1200px) {
   .courseList {
-    gap: 20px;
+    gap: 30px; /* More space on larger screens */
   }
 }
 
 @media (max-width: 900px) {
   .courseCard {
-    width: 100%;
+    width: 100%; /* Full width on smaller screens */
   }
   .courseList {
     flex-direction: column;
-    gap: 20px;
+    gap: 20px; /* Reduced gap for smaller screens */
   }
 }
 
 @media (max-width: 600px) {
   .courseCard {
-    width: 100%;
+    width: 100%; /* Full width on smaller screens */
   }
   .courseList {
-    gap: 10px;
+    gap: 15px; /* Reduced gap for the smallest screens */
   }
 }
