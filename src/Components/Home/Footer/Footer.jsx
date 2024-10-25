@@ -3,7 +3,9 @@ import styles from "./Footer.module.css";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa'; // Example FontAwesome icons
 
 import logo from "./Images/NctcLogo.png"; // Import your logo
-import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
+// import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
+
+import footerImg from "./Images/contact-us.jpg"
 
 const Footer = () => {
   return (
@@ -21,10 +23,27 @@ const Footer = () => {
           <p> +91 9545450788 / +91 9545450677</p>
           <p> contact@Nexus-CTC-LLP</p>
           <p>
-            Nexus - Corporate Training Center is leading IT Training service
-            provider mainly provide training of latest technology with real time
-            experience. Get connect with us for more details.
+          Office No. 4-B, Second Floor, Ganesham
+          Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027
           </p>
+
+          <div className={styles.socialLinks}>
+          <div className={styles.logo}>
+              <a href="https://www.instagram.com/nexus_ctc/?next=%2Flivein.now%2Ftagged%2F" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className={styles.socialIcon} />
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100092539515709" target="_blank" rel="noopener noreferrer">
+                <FaFacebookF className={styles.socialIcon} />
+              </a>
+              <a href="www.youtube.com/@NexusCorporateTrainingCentre" target="_blank" rel="noopener noreferrer">
+                <FaYoutube className={styles.socialIcon} />
+              </a>
+              <a href="https://www.linkedin.com/in/nexus-corporate-traninig-center-llp-03b14b277/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedinIn className={styles.socialIcon} />
+              </a>
+              </div>
+            </div>
+            
         </div>
       </div>
       <footer className={styles.footer}>
@@ -39,21 +58,12 @@ const Footer = () => {
               provider mainly provide training of latest technology with real
               time experience. Get connect with us for more details.
             </p>
+            <p><span>Address: </span>
+            Office No. 4-B, Second Floor, Ganesham
+            Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027
+            </p>
 
-            <div className={styles.socialLinks}>
-              <a href="https://www.instagram.com/nexus_ctc/?next=%2Flivein.now%2Ftagged%2F" target="_blank" rel="noopener noreferrer">
-                <FaInstagram className={styles.socialIcon} />
-              </a>
-              <a href="https://www.facebook.com/profile.php?id=100092539515709" target="_blank" rel="noopener noreferrer">
-                <FaFacebookF className={styles.socialIcon} />
-              </a>
-              <a href="www.youtube.com/@NexusCorporateTrainingCentre" target="_blank" rel="noopener noreferrer">
-                <FaYoutube className={styles.socialIcon} />
-              </a>
-              <a href="https://www.linkedin.com/in/nexus-corporate-traninig-center-llp-03b14b277/" target="_blank" rel="noopener noreferrer">
-                <FaLinkedinIn className={styles.socialIcon} />
-              </a>
-            </div>
+           
           </div>
           <div className={styles.footerSection}>
 
@@ -136,6 +146,7 @@ const Footer = () => {
         <div>
           © {new Date().getFullYear()} Nexus Corporate Training Center - All Rights Reserved
         </div>
+
       
         <div className={styles.right}>Made By Nexus</div>
       </div>

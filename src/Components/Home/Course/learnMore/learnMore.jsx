@@ -1,7 +1,6 @@
-import { Helmet } from "react-helmet";
-import { FaStar, FaClock, FaUser, FaBook, FaRupeeSign, FaPhoneSquareAlt, FaRegCalendarTimes } from 'react-icons/fa';
-import PDF from '../PDF/PDF';
 import { useEffect } from 'react';
+import { Helmet } from "react-helmet";
+import { FaBook, FaClock, FaPhoneSquareAlt, FaRegCalendarTimes, FaRupeeSign, FaUser } from 'react-icons/fa';
 import { useLocation } from 'react-router-dom';
 import Tearms from '../../../Terms/Terms';
 import styles from './learnMore.module.css';
@@ -65,7 +64,7 @@ function LearnMore() {
             </ol>
           </div>
 
-          <PDF />
+          {/* <PDF /> */}
 
           <div className={styles.instructor}>
             <FaUser className={styles.icon} /> <strong>Instructor:</strong> {course.instructor}

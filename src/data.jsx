@@ -4,7 +4,7 @@ const courses = [
   {
     title: "Software Testing",
     description: "software testing methodologies, tools, and best practices to ensure the delivery of high-quality software products.",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
     trending: "New",
@@ -14,7 +14,7 @@ const courses = [
     skillTitle3: "Defect Tracking & Management", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Key concepts and types of software testing (manual and automated)",
     learningPoint2:"Effective test planning, design, and execution",
     learningPoint3:"Use of testing tools for automation and defect tracking",
@@ -31,7 +31,7 @@ const courses = [
   {
     title: "AWS Administrator",
     description: "managing and operating AWS cloud infrastructure, focusing on deploying, managing, and troubleshooting AWS services.",
-    duration: "6 months",
+    duration: "3 months",
     date: "2024-12-01",
     imageUrl: "https://www.spoclearn.com/blog/wp-content/uploads/2023/12/AI-and-Power-BI-A-Powerful-Combination-for-Data-Visualization.jpg", // Example image URL
     trending: "Trending",
@@ -57,7 +57,7 @@ const courses = [
   {
     title: "Dev-Ops",
     description: "focusing on collaboration between development and operations teams to improve efficiency, reduce time to market, and ensure high-quality software delivery.",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://sourcebae.com/blog/wp-content/uploads/2023/08/top-ai-programming-languages.png",
     trending: "Trending",
@@ -93,7 +93,7 @@ const courses = [
     skillTitle3: "DAX (Data Analysis Expressions) for advanced calculations ",
     instructor: "Ajay Sir",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Build and optimize data models for reporting.",
     learningPoint2:"Create compelling visuals and dashboards with Power BI.",
     learningPoint3:"Use DAX to perform complex data calculations.",
@@ -109,7 +109,7 @@ const courses = [
   {
     title: "Data Science",
     description: "This course provides a comprehensive introduction to data science, covering essential tools and techniques for data analysis, visualization, and machine learning..",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtn5OeXYY8PsnhU537FI_pEC4BVbI3McDdPg&s",
     trending: "New",
@@ -119,7 +119,7 @@ const courses = [
     skillTitle3: "Machine Learning Algorithms", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Data manipulation and analysis using Python and R.",
     learningPoint2:"Techniques for visualizing data to derive insights.",
     learningPoint3:"Implementation of machine learning algorithms for predictive modeling.",
@@ -135,7 +135,7 @@ const courses = [
   {
     title: "Full Stack Devloper ",
     description: "improve  interpersonal and communication skills, enhancing teamwork, leadership, and problem-solving capabilities",
-    duration: "12 weeks",
+    duration: "6 Months",
     date: "2024-12-01",
     imageUrl: "https://img.freepik.com/free-vector/soft-skills-concept-illustration_114360-8984.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
     trending: "New",
@@ -145,7 +145,7 @@ const courses = [
     skillTitle3: "Problem-solving & Critical Thinking", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Effective communication techniques in professional settings",
     learningPoint2:"Building strong teamwork and leadership skills",
     learningPoint3:"Enhancing emotional intelligence and adaptability",
@@ -161,7 +161,7 @@ const courses = [
   {
     title: "Big Data",
     description: "improve  interpersonal and communication skills, enhancing teamwork, leadership, and problem-solving capabilities",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://img.freepik.com/free-vector/soft-skills-concept-illustration_114360-8984.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
     trending: "New",
@@ -171,7 +171,7 @@ const courses = [
     skillTitle3: "Problem-solving & Critical Thinking", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Effective communication techniques in professional settings",
     learningPoint2:"Building strong teamwork and leadership skills",
     learningPoint3:"Enhancing emotional intelligence and adaptability",
@@ -213,7 +213,7 @@ const courses = [
   {
     title: "AR Caller/RCM",
     description: "managing healthcare claims, billing processes, and handling accounts.",
-    duration: "8 weeks",
+    duration: "3 weeks",
     date: "2024-11-01",
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIWhDDeO5Z2WjH5pz7t4iYjqQjznG-CW_-w&s",
     trending: "Trending",
@@ -240,7 +240,7 @@ const courses = [
   {
     title: "Java",
     description: "This course offers a thorough introduction to Java programming, focusing on object-oriented concepts and application development for building robust software solutions.",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
     trending: "New",
@@ -250,7 +250,7 @@ const courses = [
     skillTitle3: " Exception Handling and Multithreading", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Core Java concepts, including classes, objects, inheritance, and polymorphism.",
     learningPoint2:"Utilizing the Java Collections Framework for efficient data management.",
     learningPoint3:"Implementing error handling and multithreading for concurrent applications.",
@@ -265,7 +265,7 @@ const courses = [
   {
     title: "Dot Net ",
     description: "This course offers a thorough introduction to Java programming, focusing on object-oriented concepts and application development for building robust software solutions.",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
     trending: "New",
@@ -275,7 +275,7 @@ const courses = [
     skillTitle3: " Exception Handling and Multithreading", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Core Java concepts, including classes, objects, inheritance, and polymorphism.",
     learningPoint2:"Utilizing the Java Collections Framework for efficient data management.",
     learningPoint3:"Implementing error handling and multithreading for concurrent applications.",
@@ -290,7 +290,7 @@ const courses = [
   {
     title: "Business Analyst",
     description: "This course equips learners with essential skills to analyze business needs, facilitate communication between stakeholders, and drive successful project outcomes through effective data analysis.",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
     trending: "New",
@@ -300,7 +300,7 @@ const courses = [
     skillTitle3: " Stakeholder Communication and Management", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "40000",
     learningPoint1:"Techniques for eliciting and documenting business requirements from stakeholders.",
     learningPoint2:"Utilizing data analysis tools to interpret and visualize data for informed decision-making.",
     learningPoint3:"Strategies for effective communication and collaboration with project teams and stakeholders.",
@@ -317,7 +317,7 @@ const courses = [
   {
     title: "Sales Force Adm/Dev",
     description: " manage and customize Salesforce applications, focusing on both administrative tasks and development capabilities.",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://s3.us-east-1.amazonaws.com/asugv5-assets/archive/uploads/images/main/_featureLarge/artificial-intelligence.jpg", // Example image URL
     trending: "New",
@@ -327,7 +327,7 @@ const courses = [
     skillTitle3:"Data Management & Security", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Configuration and customization of Salesforce platforms to meet business needs",
     learningPoint2:"Development of applications using Apex and Visualforce",
     learningPoint3:"Best practices for data management and security within Salesforce",
@@ -353,7 +353,7 @@ const courses = [
     skillTitle3: "Problem-solving & Critical Thinking", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Effective communication techniques in professional settings",
     learningPoint2:"Building strong teamwork and leadership skills",
     learningPoint3:"Enhancing emotional intelligence and adaptability",
@@ -369,7 +369,7 @@ const courses = [
   {
     title: "Scream Master ",
     description: "improve  interpersonal and communication skills, enhancing teamwork, leadership, and problem-solving capabilities",
-    duration: "12 weeks",
+    duration: "3 Months",
     date: "2024-12-01",
     imageUrl: "https://img.freepik.com/free-vector/soft-skills-concept-illustration_114360-8984.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
     trending: "New",
@@ -379,7 +379,7 @@ const courses = [
     skillTitle3: "Problem-solving & Critical Thinking", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677",
-    fees: "30000",
+    fees: "35000",
     learningPoint1:"Effective communication techniques in professional settings",
     learningPoint2:"Building strong teamwork and leadership skills",
     learningPoint3:"Enhancing emotional intelligence and adaptability",
@@ -395,7 +395,7 @@ const courses = [
   {
     title: "Digital Marketing",
     description: "This course provides a comprehensive overview of digital marketing strategies, tools, and techniques to effectively promote products and services online, driving engagement and conversions.",
-    duration: "12 weeks",
+    duration: "1 Month",
     date: "2024-12-01",
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VpF4XXNnpvJSB_KPV6dOVQx2Mmd_kPY3Kg&s", // Example image URL
     trending: "New",
@@ -405,7 +405,7 @@ const courses = [
     skillTitle3: " Content Marketing and Email Campaigns", 
     instructor: "Hello",
     contact: "9545450788 / 9545450677 " ,
-    fees: "30000",
+    fees: "15000",
     learningPoint1:"Strategies for optimizing websites to rank higher in search engine results.",
     learningPoint2:"Techniques for creating and managing effective social media marketing campaigns.",
     learningPoint3:"Best practices for developing content that attracts and retains customers.",
@@ -422,7 +422,7 @@ const courses = [
   {
     title: "Soft Skills",
     description: "improve  interpersonal and communication skills, enhancing teamwork, leadership, and problem-solving capabilities",
-    duration: "12 weeks",
+    duration: "1 Months",
     date: "2024-12-01",
     imageUrl: "https://img.freepik.com/free-vector/soft-skills-concept-illustration_114360-8984.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
     trending: "New",

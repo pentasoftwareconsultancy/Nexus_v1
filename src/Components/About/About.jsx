@@ -86,7 +86,7 @@ const About = () => {
       skillTitle: "Power BI ",
     },
     {
-      title: "Abhijit Sir",
+      title: "Abhijit Talegaonkar",
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",

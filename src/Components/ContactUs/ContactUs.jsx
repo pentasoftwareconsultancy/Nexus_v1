@@ -40,7 +40,7 @@ const ContactUs = () => {
             </li>
             <li>
               <span>Address:</span>
-               <p><i>A] Pune Address: </i>  Our Address Office No. 4-B, Second Floor, Ganesham
+               <p><i>A] Pune Address: </i> Office No. 4-B, Second Floor, Ganesham
               Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
 
 

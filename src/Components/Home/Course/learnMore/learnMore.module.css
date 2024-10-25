@@ -1,6 +1,6 @@
 /* Global Styles */
 .learnMoreContainer {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 /* Hero Section */
@@ -73,7 +73,7 @@
 
 .imageContainer {
   margin-top: 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .image {

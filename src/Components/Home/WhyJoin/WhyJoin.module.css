@@ -22,14 +22,20 @@
 .courseCard {
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 6px 6px 6px rgba(255, 255, 255, 0.8); /* Increased shadow for 3D effect */
+  box-shadow: 0 6px 6px 6px rgba(255, 255, 255, 0.8); /* Initial shadow */
   overflow: hidden;
   width: 350px; /* Width of each card */
   text-align: center;
-  transition: transform 0.5s, box-shadow 0.5s;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
   position: relative;
   transform-style: preserve-3d; /* Preserve 3D transformation */
   margin: 1rem 0; /* Add space above and below each card */
+}
+
+/* Animation effect on hover */
+.courseCard:hover {
+  transform: scale(1.05); /* Slightly increase size */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth */
 }
 
 /* Image styling */
