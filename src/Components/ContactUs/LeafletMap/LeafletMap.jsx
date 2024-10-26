@@ -23,23 +23,23 @@ const LeafletMap = () => {
   const locations = [
     {
       position: [18.596608, 73.804795],
-      popupText: "Nexus Corporate Training Center, Pimple Saudagar"
+      popupText: "Pune Address: Office No. 4-B, Second Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027"
     },
-    {
-      position: [18.596608, 73.804795],
-      popupText: "Akola"
-    },
-    {
-      position: [18.596608, 73.804795],
-      popupText: "Nagpur"
-    },
-    {
-      position: [18.5204, 73.8567],
-      popupText: "Amravati"
-    },
+    // {
+    //   position: [18.596608, 73.804795],
+    //   popupText: "Akola"
+    // },
+    // {
+    //   position: [18.596608, 73.804795],
+    //   popupText: "Pune Address: Office No. 4-B, Second Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027"
+    // },
+    // {
+    //   position: [18.5204, 73.8567],
+    //   popupText: "Amravati"
+    // },
     {
       position: [19.973966519918175, 73.78741632269774],
-      popupText: "Nashik Nexus Corporate Traning Center"
+      popupText: " Nashik Address : Amideep Apartment Amideep Apartment, Parab Nagar, Nashik, Maharashtra 422006"
     },
     // Add more locations as needed
   ];

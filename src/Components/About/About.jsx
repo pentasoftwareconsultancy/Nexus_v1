@@ -1,10 +1,13 @@
 import { Helmet } from "react-helmet";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
+import Img2 from "../Gallery/Images/Web_Photos/Team/Aditi Mam.jpeg";
+import Img1 from "../Gallery/Images/Web_Photos/Team/Sagar Sir.jpeg";
 import Review from "../Review/Review";
 import styles from "./About.module.css"; // Importing the CSS module
-import Img1 from "../Gallery/Images/Web_Photos/Team/Sagar Sir.jpeg"
-import Img2 from "../Gallery/Images/Web_Photos/Team/Aditi Mam.jpeg"
+import Img3 from "../Gallery/Images/Web_Photos/Team/Vaibhav Jadav.jpeg"
+import Img4 from "../Gallery/Images/Web_Photos/Team/Bhagyshree Mam.jpeg"
+
 
 
 
@@ -48,7 +51,7 @@ const About = () => {
       duration: "12 weeks",
       date: "2024-12-01",
       imageUrl:
-        "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+        Img4,
       // trending: "Trending",
       stars: "★★★★★", // Example star rating
       skillTitle: "Medical Coding / Billing",
@@ -98,12 +101,11 @@ const About = () => {
       skillTitle: "Testing",
     },
     {
-      title: "Vaibhav Jadhav",
+      title: "vaibhav jadhav",
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
-      imageUrl:
-        "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+      imageUrl:Img3, // Example image URL
       // trending: "Trending",
       stars: "★★★★★", // Example star rating
       skillTitle: "AR Caller RCM",
