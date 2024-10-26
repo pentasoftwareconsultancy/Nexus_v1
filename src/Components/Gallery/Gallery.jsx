@@ -2,19 +2,34 @@ import { Helmet } from "react-helmet";
 
 import styles from "./Gallery.module.css";
 import HeroSlider from "./HeroSlider/HeroSlider";
+import Img9 from "./Images/Web_Photos/9.jpeg"
+import Img17 from './Images/Web_Photos/Akola Khandelwal/17.jpeg';
+import Img18 from './Images/Web_Photos/Akola Khandelwal/18.jpeg';
+import Img20 from './Images/Web_Photos/Akola Khandelwal/20.jpeg';
+import Img21 from './Images/Web_Photos/Akola Khandelwal/21.jpeg';
+import Img22 from './Images/Web_Photos/Akola Khandelwal/22.jpeg';
+import Img23 from './Images/Web_Photos/Akola Khandelwal/23.jpeg';
+import Img24 from './Images/Web_Photos/Akola Khandelwal/24.jpeg';
+import Img8 from './Images/Web_Photos/Akola Khandelwal/8.jpeg';
+import Img13 from './Images/Web_Photos/Akola Manav/13.jpeg';
+import Img19 from './Images/Web_Photos/Akola Manav/19.jpeg';
+import Img1 from "./Images/Web_Photos/DY Patil/1.jpeg";
 import Slider from "./Slider/Slider";
 import SmallSlider from "./SmallSlider/SmallSlider";
-
 const images = [
-  { src: "https://i.ibb.co/Bq4Q0M8/img4.jpg" },
-  { src: "https://i.ibb.co/jTQfmTq/img5.jpg" },
-  { src: "https://i.ibb.co/RNkk6L0/img6.jpg" },
+  { src: Img8, title: 'Switzerland' },
+  { src: Img17, title: 'Finland' },
+  { src: Img21, title: 'Australia' },
+
+ 
 ];
 
 const images1 = [
-  { src: "https://i.ibb.co/qCkd9jS/img1.jpg" },
-  { src: "https://i.ibb.co/jrRb11q/img2.jpg" },
-  { src: "https://i.ibb.co/NSwVv8D/img3.jpg" },
+
+ 
+  { src: Img13, title: 'Ireland' },
+  { src: Img19, title: 'Ireland' },
+  { src: Img1, title: 'Ireland' },
 ];
 
 function Gallery() {
@@ -26,7 +41,7 @@ function Gallery() {
         <meta
           name="description"
           content="Know more about Nexus "
-        />
+        />  
         <meta
           name="keywords"
           content="Nexus"
@@ -36,11 +51,10 @@ function Gallery() {
       <HeroSlider />
       
       <Slider />
-      <Slider />
 
 
       <div className={styles.galleryContainer}>
-        <h1 className={styles.title}>Galleries </h1>
+        <h1 className={styles.title}>Galleries</h1>
         <div className={styles.galleryGrid}>
           {images.map((image, index) => (
             <div key={index} className={styles.galleryItem}>

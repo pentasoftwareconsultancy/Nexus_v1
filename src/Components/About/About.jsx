@@ -3,6 +3,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from '../../Components/Home/WhyJoin/WhyJoin';
 import Review from "../Review/Review";
 import styles from "./About.module.css"; // Importing the CSS module
+import Img1 from "../Gallery/Images/Web_Photos/Team/Sagar Sir.jpeg"
+import Img2 from "../Gallery/Images/Web_Photos/Team/Aditi Mam.jpeg"
+
 
 
 const About = () => {
@@ -23,8 +26,7 @@ const About = () => {
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
-      imageUrl:
-        "https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg", // Example image URL
+      imageUrl:Img2, // Example image URL
       // trending: "Trending",
       stars: "★★★★★", // Example star rating
       skillTitle: "",
@@ -35,8 +37,7 @@ const About = () => {
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
-      imageUrl:
-        "https://imgcdn.stablediffusionweb.com/2024/2/28/64f23186-ec94-4291-885b-3c0f433877df.jpg", // Example image URL
+      imageUrl:Img1, // Example image URL
       // trending: "Trending",
       stars: "★★★★★", // Example star rating
       skillTitle: "Digital Marketing ",
