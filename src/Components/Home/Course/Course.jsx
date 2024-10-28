@@ -36,12 +36,14 @@ function Course() {
                 alt={course.title}
                 className={styles.cardImage}
               />
-              {course.trending && <div className={styles.trendingText}>{course.trending}</div>}
+              {course.trending && (
+                <div className={styles.trendingText}>{course.trending}</div>
+              )}
             </div>
             <h2 className={styles.courseTitle}>{course.title}</h2>
             <div className={styles.stars}>{course.stars}</div>
             <div className={styles.skillTitle}>
-              {course.skillTitle1} 
+              {course.skillTitle1}
               {/* Add other skill titles if they exist */}
               {/* {course.skillTitle2} {course.skillTitle3} */}
             </div>

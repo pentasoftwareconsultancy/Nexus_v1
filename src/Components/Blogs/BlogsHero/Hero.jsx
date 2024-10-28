@@ -1,15 +1,18 @@
 import { useState, useEffect } from "react";
 import styles from './Hero.module.css';
+import placement from "./Images/placement1.jpeg"
+import placement1 from "./Images/placement2.jpeg"
+import placement2 from "./Images/placement3.jpeg"
 
 const Hero = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   
   const slides = [
-    "https://img.freepik.com/free-photo/kids-having-their-hands-dirty-after-planting_23-2149002815.jpg",
-    "https://img.freepik.com/premium-photo/group-diverse-cheerful-fun-happy-multiethnic-children-outdoors_146482-14096.jpg",
-    "https://img.freepik.com/premium-photo/children-play-laugh-sunny-day_232104-8036.jpg",
-    "https://equityforchildren.org/wp-content/uploads/2024/05/children-laughing-in-woods-compressed-1.jpg",
-    "https://udaipurblog.com/wp-content/uploads/2018/02/About-Us-Bal-Utsav-Bangalore-India.jpg",
+    placement,
+    placement1,
+    placement2,
+    placement1,
+    
   ];
 
   useEffect(() => {

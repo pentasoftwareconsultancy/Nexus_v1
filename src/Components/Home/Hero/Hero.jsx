@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import styles from "./Hero.module.css";
 // import img3 from "./Images/pexels-kevin-ku-92347-577585.jpg";
@@ -20,21 +19,21 @@ const Hero = () => {
     {
       image:
         "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/8af2e3b1-8715-4be9-b51b-1fdf8534786a/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_3.jpg",
-      slogan: "Innovate Beyond Imagination",
+      slogan: "Best Software training institute in Pune",
       description:
         "Discover cutting-edge technology that propels your ideas into the future.",
     },
     {
       image:
         "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/b8fcc053-ee65-4817-accc-de443e99586d/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_3.jpg",
-      slogan: "Empowering Your Vision",
+      slogan: "Best IT courses for beginners",
       description:
         "Unleash your creativity with tools designed to transform your vision into reality.",
     },
     {
       image:
         "https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/b8fcc053-ee65-4817-accc-de443e99586d/Cinematic_Kino_dark_black_ai_images_for_technology_abstract_ba_0.jpg",
-      slogan: "Technology Meets Excellence",
+      slogan: "Software course in Pune with Placement",
       description:
         "Elevate your business with technology that drives excellence and growth.",
     },
