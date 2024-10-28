@@ -84,8 +84,9 @@
 }
 
 .image img {
-  width: 100%;
-  height: 70vh;
+  width: 80%;
+  height: 60vh;
+  margin: 50px;
   /* object-fit: cover; */
   border-radius: 15px;
 }

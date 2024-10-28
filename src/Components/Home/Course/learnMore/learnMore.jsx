@@ -21,7 +21,7 @@ function LearnMore() {
         <meta name="description" content="Know more about Nexus" />
         <meta name="keywords" content="Nexus" />
       </Helmet>
-      
+
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <div className={styles.heroOverlay}></div>
@@ -35,20 +35,23 @@ function LearnMore() {
         <div className={styles.detailsColumn}>
           <div className={styles.header}>
             <h1 className={styles.title}>About {course.title}</h1>
+            {/* <h1 className={styles.title}>About { course.topics}</h1> */}
+
+            
           </div>
 
           <div className={styles.courseInfo}>
-            <div><strong>Course Name: {course.title} </strong></div>
+            <div><strong>Course Name: {course.title}</strong></div>
             <div><FaBook className={styles.icon} /> <strong>Description:</strong> {course.description}</div>
             <div><FaClock className={styles.icon} /> <strong>Duration:</strong> {course.duration}</div>
             <div><FaRegCalendarTimes className={styles.icon} /> <strong>Start Date:</strong> {course.date}</div>
-            
-           <div> <FaUser className={styles.icon} /> <strong>Skill Level:</strong>
-            <ol className={styles.skillsList}> 
-              <li> {course.skillTitle1}</li>
-              <li>{course.skillTitle2}</li>
-              <li>{course.skillTitle3}</li>
-            </ol>
+            <div>
+              <FaUser className={styles.icon} /> <strong>Skill Level:</strong>
+              <ol className={styles.skillsList}> 
+                <li>{course.skillTitle1}</li>
+                <li>{course.skillTitle2}</li>
+                <li>{course.skillTitle3}</li>
+              </ol>
             </div> 
           </div>
 
@@ -56,15 +59,23 @@ function LearnMore() {
             <img src={course.imageUrl} alt={course.title} className={styles.image} />
           </div>
 
-          <div className={styles.syllabus}> <FaUser className={styles.icon} /> <strong > Syllabus</strong>
-            <ol className={styles.skillsList}> 
-              <li>{course.syllabus1}</li>
-              <li>{course.syllabus2}</li>
-              <li>{course.syllabus3}</li>
-            </ol>
-          </div>
-
-          {/* <PDF /> */}
+                <div className={styles.syllabus}> 
+        <FaUser className={styles.icon} /> <strong>Syllabus</strong>
+              <ol className={styles.skillsList}> 
+                {course.syllabus && course.syllabus.map((item, index) => (
+                  <li key={index}>
+                    {item.title}: {item.description}
+                    {item.topics && (
+                      <ul>
+                        {item.topics.map((topic, i) => (
+                          <li key={i}>{topic}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+              </ol>
+         </div>
 
           <div className={styles.instructor}>
             <FaUser className={styles.icon} /> <strong>Instructor:</strong> {course.instructor}
@@ -73,9 +84,6 @@ function LearnMore() {
           <section className={styles.additionalInfoSection}>
             <h2 className={styles.additionalInfoTitle}>What You'll Learn</h2>
             <ul className={styles.learningPoints}>
-              <li>{course.skillTitle1}</li>
-              <li>{course.skillTitle2}</li>
-              <li>{course.skillTitle3}</li>
               <li>{course.learningPoint1}</li>
               <li>{course.learningPoint2}</li>
               <li>{course.learningPoint3}</li>
@@ -85,9 +93,6 @@ function LearnMore() {
           <section className={styles.additionalInfoSection}>
             <h2 className={styles.additionalInfoTitle}>Key Features</h2>
             <ul className={styles.learningPoints}>
-              <li>{course.skillTitle1}</li>
-              <li>{course.skillTitle2}</li>
-              <li>{course.skillTitle3}</li>
               <li>{course.keyfeatures1}</li>
               <li>{course.keyfeatures2}</li>
               <li>{course.keyfeatures3}</li>
