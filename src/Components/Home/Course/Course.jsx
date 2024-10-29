@@ -26,7 +26,7 @@ function Course() {
       </Helmet>
 
       <h1>We Offer the Following Courses</h1>
-
+      <p>Best Software training institute in pune and certification provider offers professional training across India. Advance your career today!</p>
       <div className={styles.courseList}>
         {courses.map((course, index) => (
           <div key={index} className={styles.courseCard}>
@@ -36,12 +36,14 @@ function Course() {
                 alt={course.title}
                 className={styles.cardImage}
               />
-              {course.trending && <div className={styles.trendingText}>{course.trending}</div>}
+              {course.trending && (
+                <div className={styles.trendingText}>{course.trending}</div>
+              )}
             </div>
             <h2 className={styles.courseTitle}>{course.title}</h2>
             <div className={styles.stars}>{course.stars}</div>
             <div className={styles.skillTitle}>
-              {course.skillTitle1} 
+              {course.skillTitle1}
               {/* Add other skill titles if they exist */}
               {/* {course.skillTitle2} {course.skillTitle3} */}
             </div>
