@@ -35,7 +35,7 @@ function UpcomingBatches() {
             <tr>
               <th>Course Name</th>
               <th>Duration</th>
-              <th>Date</th>
+              {/* <th>Date</th> */}
               <th>Fees</th>
               <th>Contact</th>
               {/* <th>Instructor</th> */}
@@ -47,7 +47,7 @@ function UpcomingBatches() {
               <tr key={index} onClick={() => handleRowClick(course)} >
                 <td>{course.title}</td>
                 <td>{course.duration}</td>
-                <td>{course.date}</td>
+                {/* <td>{course.date}</td> */}
                 <td>{course.fees}</td>
                 <td>{course.contact}</td>
                 <td><button>See More</button></td>

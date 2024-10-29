@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Helmet } from "react-helmet";
-import { FaBook, FaClock, FaPhoneSquareAlt, FaRegCalendarTimes, FaRupeeSign, FaUser } from 'react-icons/fa';
+import { FaBook, FaClock, FaPhoneSquareAlt, FaRupeeSign, FaUser } from 'react-icons/fa';
 import { useLocation } from 'react-router-dom';
 import Tearms from '../../../Terms/Terms';
 import styles from './learnMore.module.css';
@@ -44,7 +44,10 @@ function LearnMore() {
             <div><strong>Course Name: {course.title}</strong></div>
             <div><FaBook className={styles.icon} /> <strong>Description:</strong> {course.description}</div>
             <div><FaClock className={styles.icon} /> <strong>Duration:</strong> {course.duration}</div>
-            <div><FaRegCalendarTimes className={styles.icon} /> <strong>Start Date:</strong> {course.date}</div>
+            {/* <div><FaRegCalendarTimes className={styles.icon} /> <strong>Start Date:</strong> {course.date}</div> */}
+            <div className={styles.instructor}>
+            <FaUser className={styles.icon} /> <strong>Instructor:</strong> {course.instructor}
+          </div>
             <div>
               <FaUser className={styles.icon} /> <strong>Skill Level:</strong>
               <ol className={styles.skillsList}> 
@@ -59,8 +62,8 @@ function LearnMore() {
             <img src={course.imageUrl} alt={course.title} className={styles.image} />
           </div>
 
-                <div className={styles.syllabus}> 
-        <FaUser className={styles.icon} /> <strong>Syllabus</strong>
+        <div className={styles.syllabus}> 
+        <FaUser className={styles.icon} /> <strong> Syllabus</strong>
               <ol className={styles.skillsList}> 
                 {course.syllabus && course.syllabus.map((item, index) => (
                   <li key={index}>
@@ -77,9 +80,7 @@ function LearnMore() {
               </ol>
          </div>
 
-          <div className={styles.instructor}>
-            <FaUser className={styles.icon} /> <strong>Instructor:</strong> {course.instructor}
-          </div>
+          
 
           <section className={styles.additionalInfoSection}>
             <h2 className={styles.additionalInfoTitle}>What You'll Learn</h2>

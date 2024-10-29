@@ -423,7 +423,7 @@ const courses = [
     description: "Master .NET development to build dynamic web, desktop, and mobile applications, leveraging the powerful features of the .NET framework.",
     duration: "3 Months",
     date: "2024-12-01",
-    imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4zXpMOlTwWUGsrIWsl5kjZX-VN_AR5p7F2A&s", // Use the imported Img variable
     trending: "New",
     stars: "★★★★☆", // Example star rating
     skillTitle1: " ASP.NET Web Development",
@@ -466,7 +466,7 @@ const courses = [
     description: "This course equips learners with essential skills to analyze business needs, facilitate communication between stakeholders, and drive successful project outcomes through effective data analysis.",
     duration: "3 Months",
     date: "2024-12-01",
-    imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRvggEpXC8Fyh4c1UCff6dRdFWCO9q2YgNmA&s", // Use the imported Img variable
     trending: "New",
     stars: "★★★★★", // Example star rating
     skillTitle1: " Requirements Gathering and Documentation",
