@@ -1,0 +1,21 @@
+/* About Us Section */
+.aboutUs {
+  height: 50vh;
+  background-color: #dceafa;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.aboutUs h2 {
+  font-size: 3rem;
+}
+
+.aboutUs p {
+  margin: 2rem;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.headline {
+  text-align: center;
+}
