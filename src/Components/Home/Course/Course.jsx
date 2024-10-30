@@ -14,7 +14,7 @@ function Course() {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>Nexus Corporate Training Center - Home | Courses</title>
+        <title>Nexus Corporate Training Center - Home | Courses </title>
         <meta
           name="description"
           content="Nexus Corporate Training Institute, a leading online IT course and certification provider, offers professional training across India. Advance your career today!"

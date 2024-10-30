@@ -15,8 +15,6 @@ import Img7 from "../Gallery/Images/Web_Photos/Team/Rajeev Khade.webp";
 
 
 
-
-
 const About = () => {
   const courses = [
     {
@@ -122,14 +120,16 @@ const About = () => {
     <div className={styles.aboutPage}>
 
       <Helmet>
-        <title>About Us :  Top Training Institute with 100 % job placement | nexus CTC</title>
+        <title>About Us :  Top Training Institute with 100 % job placement | nexus CTC </title>
         <meta
           name="description"
-          content="About Us : Top Training Institute with 100 % job placement | Nexus CTC"
+          content="About Us : Top Training Institute with 100 % job placement | Nexus CTC , Nexus Corporate Training Institute is the most innovative Training center and providing best Software course in Pune with placement"
         />
         <meta
           name="keywords"
-          content="IT training institute in Pune , specialized courses, hands-on training, career support"
+          content="IT training institute in Pune , specialized courses, hands-on training, career support,
+          Medical Coding-Software course in Pune with placement,
+          Software course in Pune with placement "
         />
       </Helmet>
 

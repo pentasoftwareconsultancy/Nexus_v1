@@ -19,11 +19,15 @@ function UpcomingBatches() {
         <title>Nexus Corporate Training Center - Courses | Batches </title>
         <meta
           name="description"
-          content="Online IT Courses - Nexus Corporate Training Institute, one of the world's leading certification training providers, offers short-term online courses designed to help professionals in India enhance their skills."
+          content="Online IT Courses - Nexus Corporate Training Institute, one of the world's leading certification training 
+          providers, offers short-term online courses designed to help professionals in India enhance their skills. , 
+          best IT courses for beginners providers offer short-term online courses designed to help professionals in India enhance their skills."
+              
         />
         <meta
           name="keywords"
-          content="Best Software training institute in pune with placement"
+          content="Best Software training institute in pune with placement , best IT courses for beginners,
+          best IT courses for beginners-Data science, AWS, Power BI"
         />
       </Helmet>
 
