@@ -9,6 +9,10 @@ import Img5 from "../Gallery/Images/Web_Photos/Team/Sumit Sir.jpeg";
 import Review from "../Review/Review";
 import styles from "./About.module.css"; // Importing the CSS module
 import Img from "./Image/Mission.jpeg";
+import Img6 from "../Gallery/Images/Web_Photos/Team/Abhijit Kumar.webp";
+import Img7 from "../Gallery/Images/Web_Photos/Team/Rajeev Khade.webp";
+
+
 
 
 
@@ -21,7 +25,7 @@ const About = () => {
       duration: "8 weeks",
       date: "2024-11-01",
       imageUrl:
-        "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+        Img7, // Example image URL
       // trending: "Trending",
       stars: "★★★★★", // Example star rating
       skillTitle: "",
@@ -92,12 +96,12 @@ const About = () => {
       skillTitle: "Power BI ",
     },
     {
-      title: "Abhijit Talegaonkar",
+      title: "Abhijeet Kumar",
       description: "This is a description for Course 3.",
       duration: "12 weeks",
       date: "2024-12-01",
       imageUrl:
-        "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+      Img6, // Example image URL
       // trending: "Trending",
       stars: "★★★★★", // Example star rating
       skillTitle: "Testing",

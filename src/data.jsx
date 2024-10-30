@@ -93,7 +93,7 @@ const courses = [
     description: "focusing on collaboration between development and operations teams to improve efficiency, reduce time to market, and ensure high-quality software delivery.",
     duration: "3 Months",
     date: "2024-12-01",
-    imageUrl: "https://sourcebae.com/blog/wp-content/uploads/2023/08/top-ai-programming-languages.png",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbOZBQ9TMmNtStopajgEXbRwNJB4iP1o4u4Q&s",
     trending: "Trending",
     stars: "★★★☆☆",
     skillTitle1: "Continuous Integration/Continuous Deployment (CI/CD)",
@@ -550,7 +550,7 @@ const courses = [
     description: "improve  interpersonal and communication skills, enhancing teamwork, leadership, and problem-solving capabilities",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl: "https://img.freepik.com/free-vector/soft-skills-concept-illustration_114360-8984.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg7ze7yLK8IPfoZyyDPZy9qVQlhloiXYoXKQ&s", // Example image URL
     trending: "New",
     stars: "★★★★★", // Example star rating
     skillTitle1: "Communication & Presentation",
@@ -585,11 +585,11 @@ const courses = [
   },
 
   {
-    title: "Scream Master ",
+    title: "Scrum Master ",
     description: "improve  interpersonal and communication skills, enhancing teamwork, leadership, and problem-solving capabilities",
     duration: "3 Months",
     date: "2024-12-01",
-    imageUrl: "https://img.freepik.com/free-vector/soft-skills-concept-illustration_114360-8984.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNLssHqaiMmp-fd9YanqpludL2r-lQk7QxnQ&s", // Example image URL
     trending: "New",
     stars: "★★★★★", // Example star rating
     skillTitle1: "Communication & Presentation",
@@ -604,7 +604,7 @@ const courses = [
     syllabus: [
      
       {
-          title: "Scream Master Syllabus",
+          title: "Scrum Master Syllabus",
           topics: [
               // "Introduction to Power BI",
               // "Data Transformation with Power Query",

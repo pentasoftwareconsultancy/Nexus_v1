@@ -89,7 +89,7 @@ const Hero = () => {
             />
             {activeIndex === index && (
               <div className={styles.slideContent}>
-                <span className={styles.slideText}>{slide.slogan}</span>
+                <h1 className={styles.slideText}>{slide.slogan}</h1>
                 {/* <p className={styles.slideDescription}>{slide.description}</p> */}
               </div>
             )}

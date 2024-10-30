@@ -1,15 +1,16 @@
 * {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   font-family: "Poppins", sans-serif;
 }
+
 h1 {
   font-size: 3.2rem; /* Title font size */
   margin: 10px 0; /* Space above and below the title */
   font-weight: bold;
   background: linear-gradient(to right, #ff7043, #ffcc00); /* Gradient colors */
   -webkit-background-clip: text; /* Apply gradient to text for WebKit browsers */
-  -webkit-text-fill-color: transparent; /* Make text color transparent */
+  /* -webkit-text-fill-color: transparent; Make text color transparent */
   background-clip: text; /* Apply gradient to text for other browsers */
   color: transparent; /* Ensure text is transparent to show gradient */
 }
