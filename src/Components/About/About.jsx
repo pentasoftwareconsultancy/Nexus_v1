@@ -82,17 +82,17 @@ const About = () => {
       stars: "★★★★★", // Example star rating
       skillTitle: "AWS ",
     },
-    {
-      title: "Vikas Gadge",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl:
-        "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "Power BI ",
-    },
+    // {
+    //   title: "Vikas Gadge",
+    //   description: "This is a description for Course 3.",
+    //   duration: "12 weeks",
+    //   date: "2024-12-01",
+    //   imageUrl:
+    //     "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    //   // trending: "Trending",
+    //   stars: "★★★★★", // Example star rating
+    //   skillTitle: "Power BI ",
+    // },
     {
       title: "Abhijeet Kumar",
       description: "This is a description for Course 3.",
@@ -102,7 +102,7 @@ const About = () => {
       Img6, // Example image URL
       // trending: "Trending",
       stars: "★★★★★", // Example star rating
-      skillTitle: "Testing",
+      skillTitle: "Software Testing",
     },
     {
       title: "vaibhav jadhav",
@@ -227,9 +227,9 @@ const About = () => {
                 />
               </div>
               <h1 className={styles.courseTitle}>{course.title}</h1>
-              <div className={styles.stars}>{course.stars}</div>
+              {/* <div className={styles.stars}>{course.stars}</div> */}
               <div className={styles.skillTitle}> Course Name : {course.skillTitle}</div>
-              <p className={styles.courseDescription}>{course.description}</p>
+              {/* <p className={styles.courseDescription}>{course.description}</p> */}
               <div className={styles.buttonContainer}>
 
               </div>
