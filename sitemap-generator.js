@@ -1,20 +1,32 @@
-const { createSitemap } = require('sitemap');
 const fs = require('fs');
+const path = require('path');
 
-// Define your routes
-const routes = [
-  { url: '/', changefreq: 'daily', priority: 1.0 },
-  { url: '/about', changefreq: 'monthly', priority: 0.7 },
-  // Add more routes as needed
-];
+const BASE_URL = 'https://nexusctc.com'; // Your website's base URL
+const routes = ['/', '/about', '/contact', '/courses']; // List all important routes here
 
-// Create sitemap
-const sitemap = createSitemap({
-  hostname: 'https://nexusctc.com', // Your website URL
-  cacheTime: 600000, // 600 sec - cache purge period
-  urls: routes,
-});
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  ${routes
+    .map((route) => {
+      return `
+  <url>
+    <loc>${BASE_URL}${route}</loc>
+  </url>`;
+    })
+    .join('')}
+</urlset>`;
 
-// Write sitemap to file
-fs.writeFileSync('./public/sitemap.xml', sitemap.toString());
-console.log('Sitemap generated!');
+const publicDir = path.join(__dirname, 'public');
+
+try {
+  // Ensure the 'public' directory exists
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true });
+  }
+
+  // Write the sitemap file
+  fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemap, 'utf8');
+  console.log('Sitemap successfully created!');
+} catch (error) {
+  console.error('Error creating sitemap:', error);
+}
