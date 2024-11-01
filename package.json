@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postbuild": "node sitemap-generator.js"
+    "postbuild": "node sitemap-generator.js",
+      "postinstall": "node sitemap-generator.js"
+
 
   },
   "dependencies": {

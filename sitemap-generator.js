@@ -1,19 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-// Define your website's base URL
-const BASE_URL = 'https://nexusctc.com'; // Replace with your actual domain
+const BASE_URL = 'https://nexusctc.com'; // Your website's base URL
+const routes = ['/', '/about', '/contact', '/courses']; // List all important routes here
 
-// Define all your important routes here
-const routes = [
-  '/',
-  '/about',
-  '/contact',
-  '/courses',
-  // Add other routes here as needed
-];
-
-// Generate the XML structure for the sitemap
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   ${routes
@@ -26,5 +16,9 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     .join('')}
 </urlset>`;
 
-// Write the sitemap.xml file to the public directory
-fs.writeFileSync(path.join(__dirname, 'public', 'sitemap.xml'), sitemap, 'utf8');
+const publicDir = path.join(__dirname, 'public');
+if (!fs.existsSync(publicDir)) {
+  fs.mkdirSync(publicDir); // Create 'public' folder if it doesn't exist
+}
+
+fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemap, 'utf8');

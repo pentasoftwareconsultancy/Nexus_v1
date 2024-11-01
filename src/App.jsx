@@ -27,6 +27,7 @@ function App() {
         <Route path="/gallery" element={<GalleryPages />} />
         <Route path="/successs-stories" element={<BlogPage />} />
         <Route path="/BlogDetaills/:id" element={<BlogDetaills />} />
+        
 
 
           {/* <Route path="/exam" element={<ExamPanel />} />
