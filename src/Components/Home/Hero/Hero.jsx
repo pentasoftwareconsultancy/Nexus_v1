@@ -56,7 +56,7 @@ const Hero = () => {
 
   return (
     <div>
-      <header className={styles.header}>
+      {/* <header className={styles.header}>
         <div
           className={`${styles.menuBtn} ${menuActive ? styles.active : ""}`}
           onClick={handleMenuClick}
@@ -65,11 +65,9 @@ const Hero = () => {
             className={`${styles.navigation} ${
               menuActive ? styles.active : ""
             }`}
-          >
-            {/* Navigation Items */}
-          </div>
+          ></div>
         </div>
-      </header>
+      </header> */}
 
       <section className={styles.home}>
         {slides.map((slide, index) => (

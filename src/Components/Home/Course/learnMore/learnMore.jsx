@@ -1,9 +1,15 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import { FaBook, FaClock, FaPhoneSquareAlt, FaRupeeSign, FaUser } from 'react-icons/fa';
-import { useLocation } from 'react-router-dom';
-import Tearms from '../../../Terms/Terms';
-import styles from './learnMore.module.css';
+import {
+  FaBook,
+  FaClock,
+  FaPhoneSquareAlt,
+  FaRupeeSign,
+  FaUser,
+} from "react-icons/fa";
+import { useLocation } from "react-router-dom";
+import Tearms from "../../../Terms/Terms";
+import styles from "./learnMore.module.css";
 
 function LearnMore() {
   const location = useLocation();
@@ -25,7 +31,11 @@ function LearnMore() {
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <div className={styles.heroOverlay}></div>
-        <img src={course.imageUrl} alt={course.title} className={styles.heroImage} />
+        <img
+          src={course.imageUrl}
+          alt={course.title}
+          className={styles.heroImage}
+        />
         <h1 className={styles.heroTitle}>{course.title}</h1>
       </section>
 
@@ -36,36 +46,48 @@ function LearnMore() {
           <div className={styles.header}>
             <h1 className={styles.title}>About {course.title}</h1>
             {/* <h1 className={styles.title}>About { course.topics}</h1> */}
-
-            
           </div>
 
           <div className={styles.courseInfo}>
-            <div><strong>Course Name: {course.title}</strong></div>
-            <div><FaBook className={styles.icon} /> <strong>Description:</strong> {course.description}</div>
-            <div><FaClock className={styles.icon} /> <strong>Duration:</strong> {course.duration}</div>
+            <div>
+              <strong>Course Name: {course.title}</strong>
+            </div>
+            <div>
+              <FaBook className={styles.icon} /> <strong>Description:</strong>{" "}
+              {course.description}
+            </div>
+            <div>
+              <FaClock className={styles.icon} /> <strong>Duration:</strong>{" "}
+              {course.duration}
+            </div>
             {/* <div><FaRegCalendarTimes className={styles.icon} /> <strong>Start Date:</strong> {course.date}</div> */}
             <div className={styles.instructor}>
-            <FaUser className={styles.icon} /> <strong>Instructor:</strong> {course.instructor}
-          </div>
+              <FaUser className={styles.icon} /> <strong>Instructor:</strong>{" "}
+              {course.instructor}
+            </div>
             <div>
               <FaUser className={styles.icon} /> <strong>Skill Level:</strong>
-              <ol className={styles.skillsList}> 
+              <ol className={styles.skillsList}>
                 <li>{course.skillTitle1}</li>
                 <li>{course.skillTitle2}</li>
                 <li>{course.skillTitle3}</li>
               </ol>
-            </div> 
+            </div>
           </div>
 
           <div className={styles.imageContainer}>
-            <img src={course.imageUrl} alt={course.title} className={styles.image} />
+            <img
+              src={course.imageUrl}
+              alt={course.title}
+              className={styles.image}
+            />
           </div>
 
-        <div className={styles.syllabus}> 
-        <FaUser className={styles.icon} /> <strong> Syllabus</strong>
-              <ol className={styles.skillsList}> 
-                {course.syllabus && course.syllabus.map((item, index) => (
+          <div className={styles.syllabus}>
+            <FaUser className={styles.icon} /> <strong> Syllabus</strong>
+            <ol className={styles.skillsList}>
+              {course.syllabus &&
+                course.syllabus.map((item, index) => (
                   <li key={index}>
                     {item.title}: {item.description}
                     {item.topics && (
@@ -77,10 +99,8 @@ function LearnMore() {
                     )}
                   </li>
                 ))}
-              </ol>
-         </div>
-
-          
+            </ol>
+          </div>
 
           <section className={styles.additionalInfoSection}>
             <h2 className={styles.additionalInfoTitle}>What You'll Learn</h2>
@@ -105,9 +125,18 @@ function LearnMore() {
         <div className={styles.feeColumn}>
           <div className={styles.sticky}>
             <h2>Course Details</h2>
-            <p><FaUser className={styles.icon} /> <strong>Instructor:</strong> {course.instructor}</p>
-            <p><FaRupeeSign className={styles.icon} /> <strong>Fees:</strong> {course.fees}</p>
-            <p><FaPhoneSquareAlt className={styles.icon} /> <strong>Contact:</strong> {course.contact}</p>
+            <p>
+              <FaUser className={styles.icon} /> <strong>Instructor:</strong>{" "}
+              {course.instructor}
+            </p>
+            <p>
+              <FaRupeeSign className={styles.icon} /> <strong>Fees:</strong>{" "}
+              {course.fees}
+            </p>
+            <p>
+              <FaPhoneSquareAlt className={styles.icon} />{" "}
+              <strong>Contact:</strong> {course.contact}
+            </p>
           </div>
         </div>
       </div>
