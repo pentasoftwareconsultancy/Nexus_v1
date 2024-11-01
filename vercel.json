@@ -3,10 +3,3 @@
       { "source": "/(.*)", "destination": "/" }
     ]
   }
-
-  {
-    "routes": [
-      { "src": "/sitemap.xml", "dest": "/public/sitemap.xml" }
-    ]
-  }
-  
