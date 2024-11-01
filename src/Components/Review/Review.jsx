@@ -33,7 +33,7 @@ function Review() {
                       <br />
                       {story.company}
                       <br />
-                      {story.package}
+                      {/* {story.package} */}
                       {/* <br />{story.feedback1} */}
                     </strong>
                   </p>

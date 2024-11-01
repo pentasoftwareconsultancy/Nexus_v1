@@ -5,7 +5,7 @@ const students = [
   {
     id: 1,
     image: Rushikeshtupekar,
-    name: "Rushikesh tupekar",
+    name: "Rushikesh Tupekar",
     role: "AR Associates",
     course: "AR Caller/RCM",
     company: "AGS healthcare pvt Ltd",
@@ -189,11 +189,11 @@ const students = [
     id: 7,
     name: "Sushil Shelar",
     image:
-      "https://news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg",
-    role: "Data Analyst",
+      "https://nexusctc.com/assets/images/Testmonials/img-02.png",
+    role: "Software Testing Engineer",
     company: "Data Insights",
     package: "10 LPA",
-    achievements: "Best Analyst Award",
+    achievements: "Software Testing Engineer 3 Years of Experience with MNC",
     skills: "Python, SQL",
     course: "Data Science & Analytics",
     feedback:
