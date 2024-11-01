@@ -25,7 +25,7 @@ function Course() {
         />
       </Helmet>
 
-      <h1>We Offer the Following Courses</h1>
+      <h2>We Offer the Following Courses</h2>
       <p>Best Software training institute in pune and certification provider offers professional training across India. Advance your career today!</p>
       <div className={styles.courseList}>
         {courses.map((course, index) => (

@@ -32,7 +32,7 @@ function UpcomingBatches() {
       </Helmet>
 
 
-      <h1>Upcoming Batches</h1>
+      <h2>Upcoming Batches</h2>
       <div className={styles.tableContainer}>
         <table className={styles.upcomingBatchesTable}>
           <thead>

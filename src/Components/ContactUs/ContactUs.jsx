@@ -1,5 +1,5 @@
 import styles from "./ContactUs.module.css";
-import LeafletMap from './LeafletMap/LeafletMap';
+import LeafletMap from "./LeafletMap/LeafletMap";
 import { Helmet } from "react-helmet";
 
 const ContactUs = () => {
@@ -17,55 +17,61 @@ const ContactUs = () => {
           alt="Hero"
           className={styles.heroImage}
         />
-        <span className={styles.heroTitle}>Contact Us</span>
+        <h1 className={styles.heroTitle}>Contact Us</h1>
       </section>
 
       <div className={styles.contactSection}>
         <div className={styles.contactCol}>
-        <h3>
-           Know More About Ne<span className={styles.logox}>X</span>us
+          <h3>
+            Know More About Ne<span className={styles.logox}>X</span>us
           </h3>
           <span>
-            We are a team of skilled and experienced web developers dedicated to creating
-            high-quality, responsive, and user-friendly websites for our clients. From
-            responsive designs to robust backend systems, we leverage a diverse skill set
-            to deliver tailored web solutions.
+            Nexus Corporate Training Institute is the most innovative Training
+            center and providing best Software course in Pune with placement
           </span>
           <ul>
             <li>
-              <span>Mail ID:</span><a href="mailto:contact@Nexus-CTC-LLP">contact@Nexus-CTC-LLP</a>
+              <span>Mail ID:</span>
+              <a href="mailto:contact@Nexus-CTC-LLP">contact@Nexus-CTC-LLP</a>
             </li>
             <li>
               <span>Contact Us:</span> +91 9112100663
             </li>
             <li>
               <span>Address:</span>
-               <p><i>A] Pune Address: </i> Office No. 4-B, Second Floor, Ganesham
-              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
+              <p>
+                <i>A] Pune Address: </i> Office No. 4-B, Second Floor, Ganesham
+                Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple
+                Saudagar, Pune- 411027
+              </p>
 
+              <p>
+                <i>B] Nashik Address :</i> Amideep Apartment Amideep Apartment,
+                Parab Nagar, Nashik, Maharashtra 422006
+              </p>
 
-             <p><i>B] Nashik Address :</i> Amideep Apartment
-             Amideep Apartment, Parab Nagar, Nashik, Maharashtra 422006</p>
-              
-             <p><i>C] Amravati Address :</i>  Our Address Office No. 4-B, Second Floor, Ganesham
-              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
-
-             <p><i>D] Nagpur Address :</i> Our Address Office No. 4-B, Second Floor, Ganesham
-              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
-             <p><i>E] Akola Address :</i> Our Address Office No. 4-B, Second Floor, Ganesham
-              Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027</p>
+              <p>
+                <i>C] Akola Address :</i> Our Address Office No. 4-B, Second
+                Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS
+                Road, Pimple Saudagar, Pune- 411027
+              </p>
             </li>
           </ul>
         </div>
 
         <div className={styles.contactCol}>
           <div className={styles.formContainer}>
-          <h3>
-            Send Message to the Ne<span className={styles.logox}>X</span>us
-          </h3>
+            <h3>
+              Send Message to the Ne<span className={styles.logox}>X</span>us
+            </h3>
             <form>
               <label>Your Name:</label>
-              <input type="text" name="name" placeholder="Enter Your Name" required />
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter Your Name"
+                required
+              />
 
               <label>Your Mobile Number:</label>
               <input
@@ -76,10 +82,20 @@ const ContactUs = () => {
               />
 
               <label>Your Email:</label>
-              <input type="email" name="email" placeholder="Enter Email ID" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Email ID"
+                required
+              />
 
               <label>Your Course:</label>
-              <input type="text" name="course" placeholder="Enter Your Course" required />
+              <input
+                type="text"
+                name="course"
+                placeholder="Enter Your Course"
+                required
+              />
 
               <label>Write Your Message Here:</label>
               <textarea

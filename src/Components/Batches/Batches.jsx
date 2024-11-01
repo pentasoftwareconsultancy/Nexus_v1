@@ -1,11 +1,17 @@
-// Team Page 
+// Team Page
 import { Helmet } from "react-helmet";
 import Course from "../Home/Course/Course";
 import UpcomingBatches from "../Home/UpcomingBatches/UpcomingBatches";
+import Img2 from "../Gallery/Images/Web_Photos/Team/Aditi Mam.jpeg";
+import Img4 from "../Gallery/Images/Web_Photos/Team/Bhagyshree Mam.jpeg";
+import Img1 from "../Gallery/Images/Web_Photos/Team/Sagar Sir.jpeg";
+import Img3 from "../Gallery/Images/Web_Photos/Team/Vaibhav Jadav.jpeg";
+import Img5 from "../Gallery/Images/Web_Photos/Team/Sumit Sir.jpeg";
+import Img6 from "../Gallery/Images/Web_Photos/Team/Abhijit Kumar.webp";
+import Img7 from "../Gallery/Images/Web_Photos/Team/Rajeev Khade.webp";
 import WhyJoin from "../Home/WhyJoin/WhyJoin";
 import Terms from "../Terms/Terms";
 import styles from "./Batches.module.css";
-
 
 const courses = [
   {
@@ -13,8 +19,7 @@ const courses = [
     description: "This is a description ",
     duration: "8 weeks",
     date: "2024-11-01",
-    imageUrl:
-      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+    imageUrl: Img7, // Example image URL
     // trending: "Trending",
     stars: "★★★★★", // Example star rating
     skillTitle: "",
@@ -24,8 +29,7 @@ const courses = [
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl:
-      "https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg", // Example image URL
+    imageUrl: Img2, // Example image URL
     // trending: "Trending",
     stars: "★★★★★", // Example star rating
     skillTitle: "",
@@ -36,8 +40,7 @@ const courses = [
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl:
-      "https://imgcdn.stablediffusionweb.com/2024/2/28/64f23186-ec94-4291-885b-3c0f433877df.jpg", // Example image URL
+    imageUrl: Img1, // Example image URL
     // trending: "Trending",
     stars: "★★★★★", // Example star rating
     skillTitle: "Digital Marketing ",
@@ -47,8 +50,7 @@ const courses = [
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl:
-      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    imageUrl: Img4,
     // trending: "Trending",
     stars: "★★★★★", // Example star rating
     skillTitle: "Medical Coding / Billing",
@@ -69,41 +71,27 @@ const courses = [
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl:
-      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    imageUrl: Img5,
     // trending: "Trending",
     stars: "★★★★★", // Example star rating
     skillTitle: "AWS ",
   },
   {
-    title: "Vikas Gadge",
+    title: "Abhijeet Kumar",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl:
-      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    imageUrl: Img6, // Example image URL
     // trending: "Trending",
     stars: "★★★★★", // Example star rating
-    skillTitle: "Power BI ",
+    skillTitle: "Software Testing",
   },
   {
-    title: "Abhijit Sir",
+    title: "vaibhav jadhav",
     description: "This is a description for Course 3.",
     duration: "12 weeks",
     date: "2024-12-01",
-    imageUrl:
-      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
-    // trending: "Trending",
-    stars: "★★★★★", // Example star rating
-    skillTitle: "Testing",
-  },
-  {
-    title: "Vaibhav Jadhav",
-    description: "This is a description for Course 3.",
-    duration: "12 weeks",
-    date: "2024-12-01",
-    imageUrl:
-      "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg", // Example image URL
+    imageUrl: Img3, // Example image URL
     // trending: "Trending",
     stars: "★★★★★", // Example star rating
     skillTitle: "AR Caller RCM",
@@ -113,67 +101,51 @@ const courses = [
 function Batches() {
   return (
     <div>
-
       <Helmet>
         <title>Nexus Corporate Training Center - Batches </title>
-        <meta
-          name="description"
-          content="Know more about Nexus "
-        />
-        <meta
-          name="keywords"
-          content="Nexus"
-        />
+        <meta name="description" content="Know more about Nexus " />
+        <meta name="keywords" content="Nexus" />
       </Helmet>
 
-      <section className= {styles.heroSection}>
+      <section className={styles.heroSection}>
         <img
-        src="https://www.newjobs.ai/assets/front/img/Data_Science.jpg"
-        alt="Hero"
-        className={styles.heroImage}
+          src="https://www.newjobs.ai/assets/front/img/Data_Science.jpg"
+          alt="Hero"
+          className={styles.heroImage}
         />
 
-        <span className={styles.heroTitle}> Our Courses </span>
-
+        <h1 className={styles.heroTitle}> Our Courses </h1>
       </section>
-        <Course />
+      <Course />
 
-        <UpcomingBatches />
+      <UpcomingBatches />
 
-        <Terms/>
+      <Terms />
 
-        <WhyJoin />
-      
-      
+      <WhyJoin />
+
       {/* Our Team Section */}
       <div className={styles.container}>
-      <h1>Our Team</h1>
-      <div className={styles.courseList}>
-        {courses.map((course, index) => (
-          <div key={index} className={styles.courseCard}>
-            <div className={styles.cardImage}>
-              <img
-                src={course.imageUrl}
-                alt={course.title}
-                className={styles.cardImage}
-              />
-              {/* <div className={styles.trendingText}>{course.trending}</div> */}
+        <h2>Our Team</h2>
+        <div className={styles.courseList}>
+          {courses.map((course, index) => (
+            <div key={index} className={styles.courseCard}>
+              <div className={styles.cardImage}>
+                <img
+                  src={course.imageUrl}
+                  alt={course.title}
+                  className={styles.cardImage}
+                />
+                {/* <div className={styles.trendingText}>{course.trending}</div> */}
+              </div>
+              <h2 className={styles.courseTitle}>{course.title}</h2>
+              <div className={styles.skillTitle}>{course.skillTitle}</div>
             </div>
-            <h1 className={styles.courseTitle}>{course.title}</h1>
-            <div className={styles.stars}>{course.stars}</div>
-            <div className={styles.skillTitle}>{course.skillTitle}</div>
-            <p className={styles.courseDescription}>{course.description}</p>
-            <div className={styles.buttonContainer}>
-          
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
-
-
-    </div>
-  )
+  );
 }
 
 export default Batches;
