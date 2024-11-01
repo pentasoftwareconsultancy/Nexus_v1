@@ -123,7 +123,8 @@ const About = () => {
         <title>About Us :  Top Training Institute with 100 % job placement | nexus CTC </title>
         <meta
           name="description"
-          content="About Us : Top Training Institute with 100 % job placement | Nexus CTC , Nexus Corporate Training Institute is the most innovative Training center and providing best Software course in Pune with placement"
+          content="About Us : Top Training Institute with 100 % job placement | Nexus CTC , 
+          Nexus Corporate Training Institute is the most innovative Training center and providing best Software course in Pune with placement"
         />
         <meta
           name="keywords"
