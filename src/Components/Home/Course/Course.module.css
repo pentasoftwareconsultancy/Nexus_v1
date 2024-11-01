@@ -9,6 +9,13 @@
   justify-content: center; /* Center align all child elements vertically */
 }
 
+p{
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+  text-align: justify;
+}
+
 /* Course list styling */
 .courseList {
   display: flex;

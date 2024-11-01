@@ -26,7 +26,7 @@ function Course() {
       </Helmet>
 
       <h1>We Offer the Following Courses</h1>
-      <p>Best Software training institute in pune and certification provider offers professional training across India. Advance your career today!</p>
+      <p>Explore our industry-leading IT training courses at Nexus Corporate Training Institute. From beginners to professionals, our comprehensive, short-term courses in software development, data science, AI, and more empower learners across India to advance their skills and secure high-demand roles. Join Nexus, a trusted training provider with a strong track record in placement success.</p>
       <div className={styles.courseList}>
         {courses.map((course, index) => (
           <div key={index} className={styles.courseCard}>
