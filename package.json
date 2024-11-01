@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "postbuild": "node sitemap-generator.js",
     "postinstall": "node sitemap-generator.js",
-    "generate-sitemap": "node generate-sitemap.js",
+    "generate-sitemap": "node generate-sitemap.js"
   },
   "dependencies": {
     "aos": "^2.3.4",
