@@ -157,11 +157,10 @@ const students = [
   {
     id: 6,
     name: "Miss Arti Patel",
-    image:
-      "https://news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg",
-    role: "Software Engineer",
+    image: "https://nexusctc.com/assets/images/Testmonials/img-00.png",
+    role: "Software Testing",
     company: "TechCorp",
-    package: "12 LPA",
+    package: "6 LPA",
     achievements: "Best Analyst Award",
     skills: "Python, SQL",
     course: "Full Stack Web Development",
@@ -188,11 +187,10 @@ const students = [
   {
     id: 7,
     name: "Sushil Shelar",
-    image:
-      "https://nexusctc.com/assets/images/Testmonials/img-02.png",
+    image: "https://nexusctc.com/assets/images/Testmonials/img-02.png",
     role: "Software Testing Engineer",
     company: "Data Insights",
-    package: "10 LPA",
+    package: "5 LPA",
     achievements: "Software Testing Engineer 3 Years of Experience with MNC",
     skills: "Python, SQL",
     course: "Data Science & Analytics",
@@ -219,14 +217,13 @@ const students = [
   {
     id: 8,
     name: "Milind Patil",
-    image:
-      "https://news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg",
-    role: "AI Developer",
+    image: "https://nexusctc.com/assets/images/Testmonials/img-01.png",
+    role: "Software Quality Analyst",
     company: "FutureTech",
-    package: "15 LPA",
+    package: "4.5 LPA",
     achievements: "Best Analyst Award",
     skills: "Python, SQL",
-    course: "Artificial Intelligence & Machine Learning",
+    course: "Software Testing",
     feedback:
       "The AI & ML course was a game-changer. It gave me the skills to work on cutting-edge technologies and prepared me to contribute meaningfully to my projects at FutureTech.",
     Q1: "How did the course help you in your career?",
