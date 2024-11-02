@@ -46,7 +46,7 @@ function WhyJoin() {
 
   return (
     <div className={styles.container}>
-      <h1>Why Choose Us?</h1>
+      <h2>Why Choose Us?</h2>
       {/* <h3 className={styles.text}>Best software training institute in Pune with placement </h3> */}
       <div className={styles.courseList}>
         {courses.map((course, index) => (
@@ -59,7 +59,7 @@ function WhyJoin() {
               />
               {/* <div className={styles.trendingText}>{course.trending}</div> */}
             </div>
-            <h2 className={styles.courseTitle}>{course.title}</h2>
+            <h3 className={styles.courseTitle}>{course.title}</h3>
             <div className={styles.stars}>{course.stars}</div>
             <div className={styles.skillTitle}>{course.skillTitle}</div>
             <p className={styles.courseDescription}>{course.description}</p>

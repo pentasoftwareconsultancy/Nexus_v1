@@ -1,32 +1,27 @@
-import React from 'react';
+import React from "react";
 import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import students from "../Blogs/studentsData";
-import styles from './Review.module.css';
+import styles from "./Review.module.css";
 
 function Review() {
-
   return (
-    <div>  
-
-        {/* Success Stories Section */}
-        <section className={styles.successStories}>
-            <h1>Success Stories</h1>
-            <Carousel
-              showThumbs={false}
-              infiniteLoop={true}
-              autoPlay={true}
-              interval={3000}
-              showStatus={false}
-              className={styles.carousel}
-            >
+    <div>
+      {/* Success Stories Section */}
+      <section className={styles.successStories}>
+        <h2>Success Stories</h2>
+        <Carousel
+          showThumbs={false}
+          infiniteLoop={true}
+          autoPlay={true}
+          interval={3000}
+          showStatus={false}
+          className={styles.carousel}
+        >
           {students.map((story, index) => (
             <div key={index} className={styles.slide}>
               <div className={styles.slideContent}>
                 <div className={styles.imageContainer}>
-                  <img
-                    src={story.image}
-                    alt={`Student ${index + 1}`}
-                  />
+                  <img src={story.image} alt={`Student ${index + 1}`} />
                 </div>
                 <div className={styles.textContainer}>
                   <h3>{story.name}</h3>
@@ -38,7 +33,7 @@ function Review() {
                       <br />
                       {story.company}
                       <br />
-                      {story.package}
+                      {/* {story.package} */}
                       {/* <br />{story.feedback1} */}
                     </strong>
                   </p>
@@ -48,9 +43,8 @@ function Review() {
           ))}
         </Carousel>
       </section>
-
     </div>
-  )
+  );
 }
 
-export default Review
+export default Review;

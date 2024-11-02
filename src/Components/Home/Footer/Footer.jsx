@@ -148,7 +148,7 @@ const Footer = () => {
         </div>
 
       
-        <div className={styles.right}>Made By Nexus</div>
+        <div className={styles.right}>Made By Nexus.com</div>
       </div>
 
     </>

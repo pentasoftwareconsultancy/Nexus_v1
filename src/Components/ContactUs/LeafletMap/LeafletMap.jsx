@@ -1,12 +1,11 @@
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
-import React from 'react';
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 
 // Import marker icon images
-import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
-import markerIcon from 'leaflet/dist/images/marker-icon.png';
-import markerShadow from 'leaflet/dist/images/marker-shadow.png';
+import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
+import markerIcon from "leaflet/dist/images/marker-icon.png";
+import markerShadow from "leaflet/dist/images/marker-shadow.png";
 
 // Fix the default marker icon issue
 delete L.Icon.Default.prototype._getIconUrl;
@@ -23,38 +22,33 @@ const LeafletMap = () => {
   const locations = [
     {
       position: [18.596608, 73.804795],
-      popupText: "Pune Address: Office No. 4-B, Second Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027"
+      popupText:
+        "Pune Address: Office No. 4-B, Second Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027",
     },
-    // {
-    //   position: [18.596608, 73.804795],
-    //   popupText: "Akola"
-    // },
-    // {
-    //   position: [18.596608, 73.804795],
-    //   popupText: "Pune Address: Office No. 4-B, Second Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027"
-    // },
-    // {
-    //   position: [18.5204, 73.8567],
-    //   popupText: "Amravati"
-    // },
+    {
+      position: [20.707228, 77.00296],
+      popupText: "Akola",
+    },
     {
       position: [19.973966519918175, 73.78741632269774],
-      popupText: " Nashik Address : Amideep Apartment Amideep Apartment, Parab Nagar, Nashik, Maharashtra 422006"
+      popupText:
+        " Nashik Address : Amideep Apartment Amideep Apartment, Parab Nagar, Nashik, Maharashtra 422006",
     },
     // Add more locations as needed
   ];
 
   return (
-    <MapContainer center={centerPosition} zoom={10} style={{ height: "400px", width: "100%" }}>
+    <MapContainer
+      center={centerPosition}
+      zoom={7}
+      style={{ height: "500px", width: "100%" }}
+    >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       {locations.map((location, index) => (
         <Marker key={index} position={location.position}>
-          <Popup>
-            {location.popupText}
-          </Popup>
+          <Popup>{location.popupText}</Popup>
         </Marker>
       ))}
     </MapContainer>

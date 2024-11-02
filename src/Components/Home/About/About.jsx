@@ -5,7 +5,7 @@ function About() {
     <div>
       <section className={styles.aboutUs}>
         <div>
-          <h1 className={styles.headline}>About Us</h1>
+          <h2 className={styles.headline}>About Us</h2>
         </div>
         <p>
           Nexus Corporate Training Center LLP is Pune’s most innovative IT
