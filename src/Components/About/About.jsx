@@ -23,7 +23,7 @@ const About = () => {
           name="keywords"
           content="IT training institute in Pune , specialized courses, hands-on training, career support,
           Medical Coding-Software course in Pune with placement,
-          Software course in Pune with placement "
+          Software course in Pune with placement | Best Software training institute in pune "
         />
       </Helmet>
 
