@@ -7,6 +7,9 @@
   align-items: center; /* Center align all child elements horizontally */
   justify-content: flex-start; /* Align items at the start */
   margin-top: 50px; /* Reduced margin on top */
+  margin-left: 30px;
+  margin-right: 30px;
+
 }
 
 .tableContainer {

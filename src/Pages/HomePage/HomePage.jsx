@@ -13,8 +13,9 @@ function HomePage() {
     <div>
       <Helmet>
         <title>Nexus Corporate Training Center - Home </title>
-        <meta name="description" content="Know more about Nexus " />
-        <meta name="keywords" content="Nexus" />
+        <meta name="description" 
+        content="Best Software training institute in pune and certification provider offers professional training across India. Advance your career today!| Best Software training institute in Pune | Power BI, Python, SAP" />
+        <meta name="keywords" content="Best Software training institute in pune |Best Software training institute in Pune | Power BI, Python, SAP" />
       </Helmet>
 
       <FadeInSection>

@@ -2,112 +2,11 @@ import { Helmet } from "react-helmet";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from "../../Components/Home/WhyJoin/WhyJoin";
 import Review from "../Review/Review";
-import Img2 from "../Gallery/Images/Web_Photos/Team/Aditi Mam.jpeg";
-import Img4 from "../Gallery/Images/Web_Photos/Team/Bhagyshree Mam.jpeg";
-import Img1 from "../Gallery/Images/Web_Photos/Team/Sagar Sir.jpeg";
-import Img3 from "../Gallery/Images/Web_Photos/Team/Vaibhav Jadav.jpeg";
-import Img5 from "../Gallery/Images/Web_Photos/Team/Sumit Sir.jpeg";
-import Img from "./Image/Mission.jpeg";
-import Img6 from "../Gallery/Images/Web_Photos/Team/Abhijit Kumar.webp";
-import Img7 from "../Gallery/Images/Web_Photos/Team/Rajeev Khade.webp";
 import styles from "./About.module.css"; // Importing the CSS module
-
+import Img from "./Image/Mission.jpeg";
+import teamData from "./teamdata"
 const About = () => {
-  const courses = [
-    {
-      title: "Rajiv Khade",
-      description: "This is a description ",
-      duration: "8 weeks",
-      date: "2024-11-01",
-      imageUrl: Img7, // Example image URL
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "",
-    },
-    {
-      title: "Aditi Khade",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: Img2, // Example image URL
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "",
-    },
 
-    {
-      title: "Sagar Solanke ",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: Img1, // Example image URL
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "Digital Marketing ",
-    },
-    {
-      title: "Bhagyshree Patil ",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: Img4,
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "Medical Coding / Billing",
-    },
-    {
-      title: "Rajiv Kumar ",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl:
-        "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "AR Caller",
-    },
-    {
-      title: "Lekhraj Patil ",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: Img5,
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "AWS ",
-    },
-    // {
-    //   title: "Vikas Gadge",
-    //   description: "This is a description for Course 3.",
-    //   duration: "12 weeks",
-    //   date: "2024-12-01",
-    //   imageUrl:
-    //     "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
-    //   // trending: "Trending",
-    //   stars: "★★★★★", // Example star rating
-    //   skillTitle: "Power BI ",
-    // },
-    {
-      title: "Abhijeet Kumar",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: Img6, // Example image URL
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "Software Testing",
-    },
-    {
-      title: "vaibhav jadhav",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl: Img3, // Example image URL
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "AR Caller RCM",
-    },
-  ];
 
   return (
     <div className={styles.aboutPage}>
@@ -117,13 +16,14 @@ const About = () => {
         </title>
         <meta
           name="description"
-          content="About Us : Top Training Institute with 100 % job placement | Nexus CTC , Nexus Corporate Training Institute is the most innovative Training center and providing best Software course in Pune with placement"
+          content="About Us : Top Training Institute with 100 % job placement | Nexus CTC , 
+          Nexus Corporate Training Institute is the most innovative Training center and providing best Software course in Pune with placement"
         />
         <meta
           name="keywords"
           content="IT training institute in Pune , specialized courses, hands-on training, career support,
           Medical Coding-Software course in Pune with placement,
-          Software course in Pune with placement "
+          Software course in Pune with placement | Best Software training institute in pune "
         />
       </Helmet>
 
@@ -224,29 +124,23 @@ const About = () => {
       <WhyJoin />
 
       {/* Our Team Section */}
+     
       <div className={styles.container}>
-        <h2>Our Team</h2>
-        <div className={styles.courseList}>
-          {courses.map((course, index) => (
-            <div key={index} className={styles.courseCard}>
-              <div className={styles.cardImage}>
-                <img
-                  src={course.imageUrl}
-                  alt={course.title}
-                  className={styles.cardImage}
-                />
-              </div>
-              <h2 className={styles.courseTitle}>{course.title}</h2>
-              {/* <div className={styles.stars}>{course.stars}</div> */}
-              <div className={styles.skillTitle}>
-                {" "}
-                Course Name : {course.skillTitle}
-              </div>
-              
-            </div>
-          ))}
+  <h2>Our Team</h2>
+  <div className={styles.courseList}>
+    {teamData.map((course, index) => (
+      <div key={index} className={styles.courseCard}>
+        <div className={styles.cardImage}>
+          <img src={course.imageUrl} alt={course.title} className={styles.cardImage} />
         </div>
+        <h2 className={styles.courseTitle}>{course.title}</h2>
+        <div className={styles.skillTitle}>Course Name: {course.skillTitle}</div>
       </div>
+    ))}
+  </div>
+</div>
+
+
     </div>
   );
 };
