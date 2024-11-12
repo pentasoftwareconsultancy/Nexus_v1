@@ -8,29 +8,39 @@ import {
   FaRupeeSign,
   FaUser,
 } from "react-icons/fa";
+import courses from "../../../../data"; // Import the courses data directly
 import Tearms from "../../../Terms/Terms";
 import styles from "./learnMore.module.css";
 
 function LearnMore() {
-  const { courseName } = useParams(); // Fetch course name from URL
+  const { courseName } = useParams(); // Get course name from URL
   const location = useLocation();
-  const { course } = location.state || {};
+
+  // Try to get the course from location.state if navigated from within the app
+  let { course } = location.state || {};
+
+  // If course data isn't in location.state, find it in the courses array
+  if (!course) {
+    course = courses.find(
+      (c) => c.title.replace(/\s+/g, "-").toLowerCase() === courseName
+    );
+    if (!course) {
+      // Show an error if course not found
+      return <p>Course not found.</p>;
+    }
+  }
 
   // Scroll to top when the component is mounted
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  if (!course) {
-    return <p>No course information available.</p>;
-  }
-
   return (
     <div className={styles.learnMoreContainer}>
       <Helmet>
         <title>{`Nexus Corporate Training Center - ${course.title}`}</title>
-        <meta name="description" content={`${course.meta}`} />
-        <meta name="keywords" content={`${course.keywords}`} />
+        <meta name="description" content={`Learn more about ${course.title}`} />
+        <meta name="keywords" content="Nexus" />
       </Helmet>
 
       {/* Hero Section */}
