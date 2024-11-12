@@ -24,7 +24,7 @@ function Review() {
                 </div>
                 <div className={styles.textContainer}>
                   <h3>{story.name}</h3>
-                  <p>
+                  <p className={styles.info}>
                     <strong>
                       {story.role}
                       <br />

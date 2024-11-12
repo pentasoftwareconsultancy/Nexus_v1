@@ -2,17 +2,16 @@ import { Helmet } from "react-helmet";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from "../../Components/Home/WhyJoin/WhyJoin";
 import Review from "../Review/Review";
-import styles from "./About.module.css"; // Importing the CSS module
+import styles from "./About.module.css"; 
 import Img from "./Image/Mission.jpeg";
-import teamData from "./teamdata"
+import teamData from "./teamdata";
+import heroimg from "./Image/aboutus.jpg";
 const About = () => {
-
-
   return (
     <div className={styles.aboutPage}>
       <Helmet>
         <title>
-          About Us : Top Training Institute with 100 % job placement | nexus CTC{" "}
+          About Us : Top Training Institute with 100 % job placement | nexus CTC
         </title>
         <meta
           name="description"
@@ -30,8 +29,8 @@ const About = () => {
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <img
-          src="https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/3c75b5e7-3268-4c80-bef1-7422a2e54976/Cinematic_Kino_dark_black_ai_images_for_technology_in_website_1.jpg"
-          alt="Hero"
+          src={heroimg}
+          alt="AboutUsPage Hero image"
           className={styles.heroImage}
         />
         <h1 className={styles.heroTitle}>
@@ -45,16 +44,17 @@ const About = () => {
           <h2 className={styles.headline}>About Us</h2>
         </div>
         <p>
-          Nexus Corporate Training Center LLP is Pune’s most innovative IT
+          Nexus Corporate Training Center LLP is Pune’s most innovative IT no.1
           training institute, offering a wide range of specialized courses like
-          Medical Coding, Power BI, AWS, and other software courses with
-          placement assistance. Our mission is to provide learners with
-          industry-relevant skills through hands-on training, led by experienced
-          instructors. We focus on delivering the best software courses in Pune
-          with placement, ensuring our students are job-ready upon course
-          completion. With a strong emphasis on practical knowledge, Nexus
-          equips learners to excel in the competitive IT landscape and secure
-          promising careers in top companies.
+          Medical Coding, Power BI, AWS, and adding all courese other software
+          courses with placement assistance with live sessions. Our mission is
+          to provide learners with industry-relevant skills through hands-on
+          training, led by experienced IT instructors. We focus on delivering
+          the best software courses in Pune (online and offline) with placement,
+          ensuring our students are job-ready upon course completion. With a
+          strong emphasis on practical knowledge, Nexus equips learners to excel
+          in the competitive IT landscape and secure promising careers in top
+          companies.
         </p>
       </section>
 
@@ -124,23 +124,27 @@ const About = () => {
       <WhyJoin />
 
       {/* Our Team Section */}
-     
+
       <div className={styles.container}>
-  <h2>Our Team</h2>
-  <div className={styles.courseList}>
-    {teamData.map((course, index) => (
-      <div key={index} className={styles.courseCard}>
-        <div className={styles.cardImage}>
-          <img src={course.imageUrl} alt={course.title} className={styles.cardImage} />
+        <h2>Our Team</h2>
+        <div className={styles.courseList}>
+          {teamData.map((course, index) => (
+            <div key={index} className={styles.courseCard}>
+              <div className={styles.cardImage}>
+                <img
+                  src={course.imageUrl}
+                  alt={course.title}
+                  className={styles.cardImage}
+                />
+              </div>
+              <h2 className={styles.courseTitle}>{course.title}</h2>
+              <div className={styles.skillTitle}>
+                {/* Course Name: {course.skillTitle} */}
+              </div>
+            </div>
+          ))}
         </div>
-        <h2 className={styles.courseTitle}>{course.title}</h2>
-        <div className={styles.skillTitle}>Course Name: {course.skillTitle}</div>
       </div>
-    ))}
-  </div>
-</div>
-
-
     </div>
   );
 };

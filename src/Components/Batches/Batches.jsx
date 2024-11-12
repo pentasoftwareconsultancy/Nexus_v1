@@ -7,14 +7,18 @@ import WhyJoin from "../Home/WhyJoin/WhyJoin";
 import Terms from "../Terms/Terms";
 import styles from "./Batches.module.css";
 
-
 function Batches() {
   return (
     <div>
       <Helmet>
-        <title>Nexus Corporate Training Center - Batches </title>
-        <meta name="description" content="Know more about Nexus " />
-        <meta name="keywords" content="Nexus" />
+        <title>
+          best IT courses for beginners-Data science, AWS, Power BI
+        </title>
+        <meta
+          name="description"
+          content="best IT courses for beginners providers offer short-term online courses designed to help professionals in India enhance their skills. "
+        />
+        <meta name="keywords" content="best IT courses for beginners" />
       </Helmet>
 
       <section className={styles.heroSection}>
