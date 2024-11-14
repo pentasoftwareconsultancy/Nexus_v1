@@ -45,9 +45,12 @@
   color: #333;
 }
 
-.textContainer p {
-  font-size: 20px;
-  color: #666;
+/* .textContainer p {
+  
+} */
+.info{
+  font-size: 16px;
+  color: #272727;
   line-height: 1.5;
 }
 

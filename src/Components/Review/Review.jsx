@@ -1,4 +1,3 @@
-import React from "react";
 import { Carousel } from "react-responsive-carousel"; // Import Carousel from the library
 import students from "../Blogs/studentsData";
 import styles from "./Review.module.css";
@@ -25,7 +24,7 @@ function Review() {
                 </div>
                 <div className={styles.textContainer}>
                   <h3>{story.name}</h3>
-                  <p>
+                  <p className={styles.info}>
                     <strong>
                       {story.role}
                       <br />

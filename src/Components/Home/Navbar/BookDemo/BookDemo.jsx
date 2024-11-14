@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from "./BookDemo.module.css";
 
 // Define the courses in a constant array

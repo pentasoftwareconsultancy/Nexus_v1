@@ -8,7 +8,8 @@ function Course() {
 
   // Function to handle button click
   const handleLearnMoreClick = (course) => {
-    navigate("/learnMore", { state: { course } });
+    const courseName = course.title.replace(/\s+/g, "-").toLowerCase(); // Convert course title to URL-friendly format
+    navigate(`/learnMore/${courseName}`, { state: { course } });
   };
 
   return (
@@ -17,16 +18,16 @@ function Course() {
         <title>Nexus Corporate Training Center - Home | Courses </title>
         <meta
           name="description"
-          content="Nexus Corporate Training Institute, a leading online IT course and certification provider, offers professional training across India. Advance your career today!"
+          content="best IT courses for beginners providers offer short-term online courses designed to help professionals in India enhance their skills."
         />
         <meta
           name="keywords"
-          content="Best Software training institute in Pune with placement"
+          content="best IT courses for beginners"
         />
       </Helmet>
 
       <h2>We Offer the Following Courses</h2>
-      <p>Best Software training institute in pune and certification provider offers professional training across India. Advance your career today!</p>
+      <p>Best Software training institute in Pune and certification provider offers professional training across India. Advance your career today!</p>
       <div className={styles.courseList}>
         {courses.map((course, index) => (
           <div key={index} className={styles.courseCard}>

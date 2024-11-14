@@ -14,6 +14,7 @@ p{
   margin-right: 60px;
   text-align: center;
   text-align: justify;
+  
 }
 
 /* Course list styling */
@@ -87,7 +88,7 @@ p{
 /* Course description styling */
 .courseDescription {
   font-size: 14px; /* Description font size */
-  margin: 10px 0; /* Space above and below the description */
+  margin: 10px 16px; /* Space above and below the description */
   color: #666; /* Color for description text */
   display: -webkit-box; /* for Safari */
   -webkit-box-orient: vertical; /* for Safari */

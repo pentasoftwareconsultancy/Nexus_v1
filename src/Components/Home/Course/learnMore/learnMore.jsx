@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { useParams, useLocation } from "react-router-dom";
 import {
   FaBook,
   FaClock,
@@ -7,13 +8,27 @@ import {
   FaRupeeSign,
   FaUser,
 } from "react-icons/fa";
-import { useLocation } from "react-router-dom";
+import courses from "../../../../data"; // Import the courses data directly
 import Tearms from "../../../Terms/Terms";
 import styles from "./learnMore.module.css";
 
 function LearnMore() {
+  const { courseName } = useParams(); // Get course name from URL
   const location = useLocation();
-  const { course } = location.state;
+
+  // Try to get the course from location.state if navigated from within the app
+  let { course } = location.state || {};
+
+  // If course data isn't in location.state, find it in the courses array
+  if (!course) {
+    course = courses.find(
+      (c) => c.title.replace(/\s+/g, "-").toLowerCase() === courseName
+    );
+    if (!course) {
+      // Show an error if course not found
+      return <p>Course not found.</p>;
+    }
+  }
 
   // Scroll to top when the component is mounted
   useEffect(() => {
@@ -23,9 +38,9 @@ function LearnMore() {
   return (
     <div className={styles.learnMoreContainer}>
       <Helmet>
-        <title>Nexus Corporate Training Center - About Courses</title>
-        <meta name="description" content="Know more about Nexus" />
-        <meta name="keywords" content="Nexus" />
+        <title>{`Nexus Corporate Training Center - ${course.title}`}</title>
+        <meta name="description" content={`Learn more about ${course.meta}`} />
+        <meta name="keywords" content={` ${course.keywords}`} />
       </Helmet>
 
       {/* Hero Section */}
@@ -39,19 +54,13 @@ function LearnMore() {
         <h1 className={styles.heroTitle}>{course.title}</h1>
       </section>
 
-      {/* Main Content - Split into Two Columns */}
+      {/* Main Content - Course Details */}
       <div className={styles.content}>
-        {/* Left Column - Course Details */}
         <div className={styles.detailsColumn}>
-          <div className={styles.header}>
-            <h1 className={styles.title}>About {course.title}</h1>
-            {/* <h1 className={styles.title}>About { course.topics}</h1> */}
-          </div>
+          <h1>About {course.title}</h1>
+          <p>{course.description}</p>
 
           <div className={styles.courseInfo}>
-            <div>
-              <strong>Course Name: {course.title}</strong>
-            </div>
             <div>
               <FaBook className={styles.icon} /> <strong>Description:</strong>{" "}
               {course.description}
@@ -60,48 +69,34 @@ function LearnMore() {
               <FaClock className={styles.icon} /> <strong>Duration:</strong>{" "}
               {course.duration}
             </div>
-            {/* <div><FaRegCalendarTimes className={styles.icon} /> <strong>Start Date:</strong> {course.date}</div> */}
-            <div className={styles.instructor}>
+            <div>
               <FaUser className={styles.icon} /> <strong>Instructor:</strong>{" "}
               {course.instructor}
             </div>
-            <div>
-              <FaUser className={styles.icon} /> <strong>Skill Level:</strong>
-              <ol className={styles.skillsList}>
-                <li>{course.skillTitle1}</li>
-                <li>{course.skillTitle2}</li>
-                <li>{course.skillTitle3}</li>
-              </ol>
-            </div>
           </div>
 
-          <div className={styles.imageContainer}>
-            <img
-              src={course.imageUrl}
-              alt={course.title}
-              className={styles.image}
-            />
-          </div>
-
+          {/* Syllabus Section */}
           <div className={styles.syllabus}>
             <FaUser className={styles.icon} /> <strong> Syllabus</strong>
-            <ol className={styles.skillsList}>
-              {course.syllabus &&
+            <ol>
+              {course.syllabus && course.syllabus.length > 0 ? (
                 course.syllabus.map((item, index) => (
                   <li key={index}>
-                    {item.title}: {item.description}
-                    {item.topics && (
+                    <strong>{item.title}</strong>
+                    {item.topics && item.topics.length > 0 && (
                       <ul>
-                        {item.topics.map((topic, i) => (
-                          <li key={i}>{topic}</li>
+                        {item.topics.map((topic, topicIndex) => (
+                          <li key={topicIndex}>{topic}</li>
                         ))}
                       </ul>
                     )}
                   </li>
-                ))}
+                ))
+              ) : (
+                <li>No syllabus available.</li>
+              )}
             </ol>
           </div>
-
           <section className={styles.additionalInfoSection}>
             <h2 className={styles.additionalInfoTitle}>What You'll Learn</h2>
             <ul className={styles.learningPoints}>
