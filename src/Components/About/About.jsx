@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import WhyJoin from "../../Components/Home/WhyJoin/WhyJoin";
 import Review from "../Review/Review";
-import styles from "./About.module.css"; 
+import styles from "./About.module.css";
 import Img from "./Image/Mission.jpeg";
 import teamData from "./teamdata";
 import heroimg from "./Image/aboutus.jpg";
@@ -46,7 +46,10 @@ const About = () => {
         <p>
           Nexus Corporate Training Center LLP is Pune’s most innovative IT no.1
           training institute, offering a wide range of specialized courses like
-          Medical Coding, Power BI, AWS, and adding all courese other software
+          Medical Coding, Power BI, AWS, Software Testing, AWS Administrator,
+          Dev-Ops, Data Science, Full Stack Devloper, Big Data, AR Caller/RCM,
+          Java, C# and .NET, Business Analyst, Sales Force Adm/Dev, SQL, Scrum
+          Master, Digital Marketing and Soft Skills courese other software
           courses with placement assistance with live sessions. Our mission is
           to provide learners with industry-relevant skills through hands-on
           training, led by experienced IT instructors. We focus on delivering
