@@ -1,5 +1,12 @@
 import Rushikeshtupekar from "./BlogsHero/Images/Rushikeshtupekar.jpg";
 import LokeshJadhav from "./BlogsHero/Images/LokeshJadhav.jpeg";
+import sneha from "./BlogsHero/Images/sneha.png";
+import AaryanGiri from "./BlogsHero/Images/AaryanGiri.png";
+import AshishAarya from "./BlogsHero/Images/AshishAarya.png";
+import BhushanDeshkar from "./BlogsHero/Images/BhushanDeshkar.png";
+import MilindPatil from "./BlogsHero/Images/MilindPatil.png";
+import SushilShelar from "./BlogsHero/Images/SushilShelar.png";
+
 
 const students = [
   {
@@ -64,8 +71,7 @@ const students = [
   // Data for Student 3: Ramesh Bailal
   {
     id: 3,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywJMP3T99Mfu157cFv5giP7ajIG1rX7Z0rFcB3GPMfXYnO2tszf1I2sLUyCU8M6h4EPc&usqp=CAU",
+    image:AshishAarya,
     name: "Ashish Aarya",
     role: "Senior Analyst",
     course: "AR Caller/RCM",
@@ -95,9 +101,8 @@ const students = [
   // Student 4: Priya Agarwal
   {
     id: 4,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSowGL01pxIiWixYStQ04kDnm2taA9UH1Shhw&s",
-    name: "Aran Giri",
+    image:AaryanGiri,
+    name: "Aaryan Giri",
     role: "AR Associates",
     course: "AR Caller/RCM",
     company: "Access Healthcare",
@@ -126,8 +131,7 @@ const students = [
   // Student 5: Arjun Mehta
   {
     id: 5,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OGWtwGdXPPbXXgcoaUCTAjJaRTNnJPWu5g&s",
+    image:BhushanDeshkar,
     name: "Bhushan Deshkar",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -156,8 +160,8 @@ const students = [
 
   {
     id: 6,
-    name: "Miss Arti Patel",
-    image: "https://nexusctc.com/assets/images/Testmonials/img-00.png",
+    name: "Miss Sneha",
+    image: sneha,
     role: "Software Testing",
     company: "TechCorp",
     package: "6 LPA",
@@ -187,7 +191,7 @@ const students = [
   {
     id: 7,
     name: "Sushil Shelar",
-    image: "https://nexusctc.com/assets/images/Testmonials/img-02.png",
+    image:SushilShelar,
     role: "Software Testing Engineer",
     company: "Data Insights",
     package: "5 LPA",
@@ -217,7 +221,7 @@ const students = [
   {
     id: 8,
     name: "Milind Patil",
-    image: "https://nexusctc.com/assets/images/Testmonials/img-01.png",
+    image:MilindPatil,
     role: "Software Quality Analyst",
     company: "FutureTech",
     package: "4.5 LPA",
