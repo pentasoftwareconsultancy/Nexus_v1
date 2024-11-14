@@ -1,11 +1,11 @@
-import Rushikeshtupekar from "./BlogsHero/Images/Rushikeshtupekar.jpg";
-import LokeshJadhav from "./BlogsHero/Images/LokeshJadhav.jpeg";
-import sneha from "./BlogsHero/Images/sneha.png";
-import AaryanGiri from "./BlogsHero/Images/AaryanGiri.png";
-import AshishAarya from "./BlogsHero/Images/AshishAarya.png";
-import BhushanDeshkar from "./BlogsHero/Images/BhushanDeshkar.png";
-import MilindPatil from "./BlogsHero/Images/MilindPatil.png";
-import SushilShelar from "./BlogsHero/Images/SushilShelar.png";
+import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
+import LokeshJadhav from "./images/LokeshJadhav.jpeg";
+import sneha from "./images/sneha.png";
+import AaryanGiri from "./images/AaryanGiri.png";
+import AshishAarya from "./images/AshishAarya.png";
+import BhushanDeshkar from "./images/BhushanDeshkar.png";
+import MilindPatil from "./images/MilindPatil.png";
+import SushilShelar from "./images/SushilShelar.png";
 
 
 const students = [
