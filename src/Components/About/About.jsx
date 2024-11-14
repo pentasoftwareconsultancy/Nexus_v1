@@ -69,10 +69,9 @@ const About = () => {
             <p>
               At Nexus Corporate Training Center LLP, our vision is to deliver
               accessible, high-quality IT education with placement support,
-              empowering learners in Pune and beyond. Through flexible courses
-              in Medical Coding, Power BI, AWS, AR Calling, and more, we aim to
-              build an inclusive global community that equips students with the
-              skills and connections needed to excel in the dynamic IT industry.
+              empowering learners in Pune and beyond.We aim to build an
+              inclusive global community that equips students with the skills
+              and connections needed to excel in the dynamic IT industry.
             </p>
           </div>
           <div className={styles.image}>

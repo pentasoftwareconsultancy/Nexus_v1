@@ -39,8 +39,8 @@ function LearnMore() {
     <div className={styles.learnMoreContainer}>
       <Helmet>
         <title>{`Nexus Corporate Training Center - ${course.title}`}</title>
-        <meta name="description" content={`Learn more about ${course.title}`} />
-        <meta name="keywords" content="Nexus" />
+        <meta name="description" content={`Learn more about ${course.meta}`} />
+        <meta name="keywords" content={` ${course.keywords}`} />
       </Helmet>
 
       {/* Hero Section */}
