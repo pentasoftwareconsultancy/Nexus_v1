@@ -1,16 +1,17 @@
-import Ashish_Aarya from "./BlogsHero/Images/Ashish_Aarya.png";
-import Bhushan_Deshkar from "./BlogsHero/Images/Bhushan_Deshkar.png";
-import LokeshJadhav from "./BlogsHero/Images/LokeshJadhav.jpeg";
-import Rushikeshtupekar from "./BlogsHero/Images/Rushikeshtupekar.jpg";
-import Sneha from "./BlogsHero/Images/Sneha.png";
-// import Sneha from "./BlogsHero/Images/Sneha.png";
-
+// import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
+// import LokeshJadhav from "./images/LokeshJadhav.jpeg";
+// import sneha from "./images/sneha.png";
+// import AaryanGiri from "./images/AaryanGiri.png";
+// import AshishAarya from "./images/AshishAarya.png";
+// import BhushanDeshkar from "./images/BhushanDeshkar.png";
+// import MilindPatil from "./images/MilindPatil.png";
+// import SushilShelar from "./images/SushilShelar.png";
 
 
 const students = [
   {
     id: 1,
-    image: Rushikeshtupekar,
+    // image: Rushikeshtupekar,
     name: "Rushikesh Tupekar",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -40,7 +41,7 @@ const students = [
   // Data for Student 2: Sham Sharma
   {
     id: 2,
-    image: LokeshJadhav,
+    // image: LokeshJadhav,
     name: "Lokesh Jadhav",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -70,7 +71,7 @@ const students = [
   // Data for Student 3: Ramesh Bailal
   {
     id: 3,
-    image:Ashish_Aarya,
+    // image:Ashish Aarya,
     name: "Ashish Aarya",
     role: "Senior Analyst",
     course: "AR Caller/RCM",
@@ -100,9 +101,8 @@ const students = [
   // Student 4: Priya Agarwal
   {
     id: 4,
-    image:
-    Ashish_Aarya ,
-    name: "Arayan Giri",
+    // image:AaryanGiri,
+    name: "Aaryan Giri",
     role: "AR Associates",
     course: "AR Caller/RCM",
     company: "Access Healthcare",
@@ -131,7 +131,7 @@ const students = [
   // Student 5: Arjun Mehta
   {
     id: 5,
-    image:Bhushan_Deshkar,
+    // image:BhushanDeshkar,
     name: "Bhushan Deshkar",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -161,7 +161,7 @@ const students = [
   {
     id: 6,
     name: "Miss Sneha",
-    image: Sneha,
+    // image: sneha,
     role: "Software Testing",
     company: "TechCorp",
     package: "6 LPA",
@@ -191,7 +191,7 @@ const students = [
   {
     id: 7,
     name: "Sushil Shelar",
-    image: "https://nexusctc.com/assets/images/Testmonials/img-02.png",
+    // image:SushilShelar,
     role: "Software Testing Engineer",
     company: "Data Insights",
     package: "5 LPA",
@@ -221,7 +221,7 @@ const students = [
   {
     id: 8,
     name: "Milind Patil",
-    image: "https://nexusctc.com/assets/images/Testmonials/img-01.png",
+    // image:MilindPatil,
     role: "Software Quality Analyst",
     company: "FutureTech",
     package: "4.5 LPA",
