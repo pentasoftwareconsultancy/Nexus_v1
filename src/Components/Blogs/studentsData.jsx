@@ -1,11 +1,11 @@
 import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
 import LokeshJadhav from "./images/LokeshJadhav.jpeg";
-// import sneha from "./images/sneha.png";
-// import AaryanGiri from "./images/AaryanGiri.png";
-// import AshishAarya from "./images/AshishAarya.png";
-// import BhushanDeshkar from "./images/BhushanDeshkar.png";
-// import MilindPatil from "./images/MilindPatil.png";
-// import SushilShelar from "./images/SushilShelar.png";
+import sneha from "./images/sneha.jpg";
+import AaryanGiri from "./images/AaryanGiri.jpg";
+import AshishAarya from "./images/AshishAarya.jpg";
+import BhushanDeshkar from "./images/BhushanDeshkar.jpg";
+import MilindPatil from "./images/MilindPatil.jpg";
+import SushilShelar from "./images/SushilShelar.jpg";
 
 
 const students = [
@@ -71,7 +71,7 @@ const students = [
   // Data for Student 3: Ramesh Bailal
   {
     id: 3,
-    // image:Ashish Aarya,
+    image:AshishAarya,
     name: "Ashish Aarya",
     role: "Senior Analyst",
     course: "AR Caller/RCM",
@@ -101,7 +101,7 @@ const students = [
   // Student 4: Priya Agarwal
   {
     id: 4,
-    // image:AaryanGiri,
+    image:AaryanGiri,
     name: "Aaryan Giri",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -131,7 +131,7 @@ const students = [
   // Student 5: Arjun Mehta
   {
     id: 5,
-    // image:BhushanDeshkar,
+    image:BhushanDeshkar,
     name: "Bhushan Deshkar",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -161,7 +161,7 @@ const students = [
   {
     id: 6,
     name: "Miss Sneha",
-    // image: sneha,
+    image: sneha,
     role: "Software Testing",
     company: "TechCorp",
     package: "6 LPA",
@@ -191,7 +191,7 @@ const students = [
   {
     id: 7,
     name: "Sushil Shelar",
-    // image:SushilShelar,
+    image:SushilShelar,
     role: "Software Testing Engineer",
     company: "Data Insights",
     package: "5 LPA",
@@ -221,7 +221,7 @@ const students = [
   {
     id: 8,
     name: "Milind Patil",
-    // image:MilindPatil,
+    image:MilindPatil,
     role: "Software Quality Analyst",
     company: "FutureTech",
     package: "4.5 LPA",
