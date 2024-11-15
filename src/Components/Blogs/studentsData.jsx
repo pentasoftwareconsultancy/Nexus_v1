@@ -1,12 +1,11 @@
-import LokeshJadhav from "./images/LokeshJadhav.jpeg";
-import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
-import sneha from "../Gallery/Images/Web_Photos/Students/sneha.jpeg";
 import AaryanGiri from "../Gallery/Images/Web_Photos/Students/ArayanGiri.jpeg";
 import AshishAarya from "../Gallery/Images/Web_Photos/Students/AshishAarya.jpeg";
 import BhushanDeshkar from "../Gallery/Images/Web_Photos/Students/BhushanDeshkar.jpeg";
 import MilindPatil from "../Gallery/Images/Web_Photos/Students/MilindPatil.jpeg";
+import sneha from "../Gallery/Images/Web_Photos/Students/sneha.jpeg";
 import SushilShelar from "../Gallery/Images/Web_Photos/Students/SushilShelar.jpeg";
-import Img4 from '../Gallery/Images/Web_Photos/4.jpeg';
+import LokeshJadhav from "./Gallery/Images/Web_Photos/Students/LokeshJadhav.jpeg";
+import Rushikeshtupekar from "./Gallery/Images/Web_Photos/Students/Rushikeshtupekar.jpg";
 
 
 const students = [
