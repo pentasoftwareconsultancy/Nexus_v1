@@ -1,5 +1,7 @@
 import Rushikeshtupekar from "./BlogsHero/Images/Rushikeshtupekar.jpg";
 import LokeshJadhav from "./BlogsHero/Images/LokeshJadhav.jpeg";
+import Ashish_Aarya from "./BlogsHero/Images/Ashish_Aarya.png";
+import Bhushan_Deshkar from "./BlogsHero/Images/Bhushan_Deshkar.png";
 
 const students = [
   {
@@ -64,8 +66,7 @@ const students = [
   // Data for Student 3: Ramesh Bailal
   {
     id: 3,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywJMP3T99Mfu157cFv5giP7ajIG1rX7Z0rFcB3GPMfXYnO2tszf1I2sLUyCU8M6h4EPc&usqp=CAU",
+    image:Ashish_Aarya,
     name: "Ashish Aarya",
     role: "Senior Analyst",
     course: "AR Caller/RCM",
@@ -126,8 +127,7 @@ const students = [
   // Student 5: Arjun Mehta
   {
     id: 5,
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OGWtwGdXPPbXXgcoaUCTAjJaRTNnJPWu5g&s",
+    image:Bhushan_Deshkar,
     name: "Bhushan Deshkar",
     role: "AR Associates",
     course: "AR Caller/RCM",
