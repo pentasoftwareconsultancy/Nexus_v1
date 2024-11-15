@@ -204,7 +204,7 @@ const courses = [
     skillTitle1: "Statistical Analysis",
     skillTitle2: " Data Visualization",
     skillTitle3: "Machine Learning Algorithms",
-    instructor: "Sagar Solanke",
+    instructor: "Yogil Das",
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1: "Data manipulation and analysis using Python and R.",
