@@ -1,8 +1,8 @@
-import AaryanGiri from "./images/AaryanGiri.png";
-import AshishAarya from "./images/AshishAarya.png";
-import LokeshJadhav from "./images/LokeshJadhav.jpeg";
 import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
-import sneha from "./images/sneha.png";
+import LokeshJadhav from "./images/LokeshJadhav.jpeg";
+// import sneha from "./images/sneha.png";
+// import AaryanGiri from "./images/AaryanGiri.png";
+// import AshishAarya from "./images/AshishAarya.png";
 // import BhushanDeshkar from "./images/BhushanDeshkar.png";
 // import MilindPatil from "./images/MilindPatil.png";
 // import SushilShelar from "./images/SushilShelar.png";
@@ -71,7 +71,7 @@ const students = [
   // Data for Student 3: Ramesh Bailal
   {
     id: 3,
-    image:AshishAarya,
+    // image:Ashish Aarya,
     name: "Ashish Aarya",
     role: "Senior Analyst",
     course: "AR Caller/RCM",
@@ -101,7 +101,7 @@ const students = [
   // Student 4: Priya Agarwal
   {
     id: 4,
-    image:AaryanGiri,
+    // image:AaryanGiri,
     name: "Aaryan Giri",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -161,7 +161,7 @@ const students = [
   {
     id: 6,
     name: "Miss Sneha",
-    image: sneha,
+    // image: sneha,
     role: "Software Testing",
     company: "TechCorp",
     package: "6 LPA",
