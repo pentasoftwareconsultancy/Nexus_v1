@@ -1,5 +1,5 @@
-// import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
-// import LokeshJadhav from "./images/LokeshJadhav.jpeg";
+import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
+import LokeshJadhav from "./images/LokeshJadhav.jpeg";
 // import sneha from "./images/sneha.png";
 // import AaryanGiri from "./images/AaryanGiri.png";
 // import AshishAarya from "./images/AshishAarya.png";
@@ -11,7 +11,7 @@
 const students = [
   {
     id: 1,
-    // image: Rushikeshtupekar,
+    image: Rushikeshtupekar,
     name: "Rushikesh Tupekar",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -41,7 +41,7 @@ const students = [
   // Data for Student 2: Sham Sharma
   {
     id: 2,
-    // image: LokeshJadhav,
+    image: LokeshJadhav,
     name: "Lokesh Jadhav",
     role: "AR Associates",
     course: "AR Caller/RCM",
