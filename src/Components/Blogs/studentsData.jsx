@@ -5,7 +5,7 @@ import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
 // import AshishAarya from "./images/AshishAarya.jpeg";
 // import BhushanDeshkar from "./images/BhushanDeshkar.jpeg";
 // import MilindPatil from "./images/MilindPatil.jpeg";
-// import SushilShelar from "./images/SushilShelar.jpeg";
+import SushilShelar from "../Gallery/Images/Web_Photos/Students/SushilShelar.jpeg";
 import Img4 from '../Gallery/Images/Web_Photos/4.jpeg';
 
 
@@ -192,7 +192,7 @@ const students = [
   {
     id: 7,
     name: "Sushil Shelar",
-    image:Img4,
+    image:SushilShelar,
     role: "Software Testing Engineer",
     company: "Data Insights",
     package: "5 LPA",
