@@ -1,7 +1,11 @@
-import Rushikeshtupekar from "./BlogsHero/Images/Rushikeshtupekar.jpg";
-import LokeshJadhav from "./BlogsHero/Images/LokeshJadhav.jpeg";
 import Ashish_Aarya from "./BlogsHero/Images/Ashish_Aarya.png";
 import Bhushan_Deshkar from "./BlogsHero/Images/Bhushan_Deshkar.png";
+import LokeshJadhav from "./BlogsHero/Images/LokeshJadhav.jpeg";
+import Rushikeshtupekar from "./BlogsHero/Images/Rushikeshtupekar.jpg";
+import Sneha from "./BlogsHero/Images/Sneha.png";
+// import Sneha from "./BlogsHero/Images/Sneha.png";
+
+
 
 const students = [
   {
@@ -97,8 +101,8 @@ const students = [
   {
     id: 4,
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSowGL01pxIiWixYStQ04kDnm2taA9UH1Shhw&s",
-    name: "Aran Giri",
+    Ashish_Aarya ,
+    name: "Arayan Giri",
     role: "AR Associates",
     course: "AR Caller/RCM",
     company: "Access Healthcare",
@@ -156,8 +160,8 @@ const students = [
 
   {
     id: 6,
-    name: "Miss Arti Patel",
-    image: "https://nexusctc.com/assets/images/Testmonials/img-00.png",
+    name: "Miss Sneha",
+    image: Sneha,
     role: "Software Testing",
     company: "TechCorp",
     package: "6 LPA",
