@@ -16,19 +16,21 @@ function LearnMore() {
   const { courseName } = useParams(); // Get course name from URL
   const location = useLocation();
 
-  // Try to get the course from location.state if navigated from within the app
-  let { course } = location.state || {};
+ // Try to get the course from location.state if navigated from within the app
+ let { course } = location.state || {};
 
-  // If course data isn't in location.state, find it in the courses array
-  if (!course) {
-    course = courses.find(
-      (c) => c.title.replace(/\s+/g, "-").toLowerCase() === courseName
-    );
-    if (!course) {
-      // Show an error if course not found
-      return <p>Course not found.</p>;
-    }
-  }
+ // If course data isn't in location.state, find it in the courses array
+ if (!course) {
+   course = courses.find(
+     (c) =>
+       c.title.replace(/\s+/g, "-").replace(/[^\w-]/g, "").toLowerCase() ===
+       courseName
+   );
+   if (!course) {
+     // Show an error if course not found
+     return <p>Course not found.</p>;
+   }
+ }
 
   // Scroll to top when the component is mounted
   useEffect(() => {
@@ -119,7 +121,7 @@ function LearnMore() {
         {/* Right Column - Sticky Fee Structure */}
         <div className={styles.feeColumn}>
           <div className={styles.sticky}>
-            <h2>Course Details</h2>
+            <span>Course Details</span>
             <p>
               <FaUser className={styles.icon} /> <strong>Instructor:</strong>{" "}
               {course.instructor}

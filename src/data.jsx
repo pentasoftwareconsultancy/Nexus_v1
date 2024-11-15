@@ -252,7 +252,7 @@ const courses = [
     skillTitle1: "Front-End Development (HTML, CSS, JavaScript)",
     skillTitle2: "Back-End Development (Node.js, Express)",
     skillTitle3: "Database Management (SQL, MongoDB)",
-    instructor: "Sagar Solanke",
+    instructor: "Shiv Lahane",
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:
@@ -337,7 +337,7 @@ const courses = [
   },
 
   {
-    title: " Medical Coding/Billing ",
+    title: " Medical Coding - Billing ",
     meta: "medical billing course, where you'll learn essential skills in billing processes, coding standards, and insurance claim management. the best medical coding course in Pune to gain essential skills in healthcare documentation and Prepare for a successful career.",
 
     description:
@@ -380,7 +380,7 @@ const courses = [
   },
 
   {
-    title: "AR Caller/RCM",
+    title: "AR Caller RCM",
     keywords: "best ar caller courses in india",
     meta: "the best AR caller courses in India to enhance your skills in customer service, communication, and Prepare for a successful career",
     description:
@@ -578,7 +578,7 @@ const courses = [
   },
 
   {
-    title: "Sales Force Adm/Dev",
+    title: "Sales Force Adm Dev",
     meta: "",
     keywords: "",
     description:
@@ -776,7 +776,7 @@ const courses = [
     skillTitle1: "Communication & Presentation",
     skillTitle2: "Teamwork & Collaboration",
     skillTitle3: "Problem-solving & Critical Thinking",
-    instructor: "Sagar Solanke",
+    instructor: "Prajakta Kulkarni ",
     contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:

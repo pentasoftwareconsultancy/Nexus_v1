@@ -44,6 +44,9 @@
 p {
   font-size: 1rem; /* Responsive font size */
 }
+.para {
+text-align: center;
+}
 
 .footer {
   background-color: #0f0f0f;

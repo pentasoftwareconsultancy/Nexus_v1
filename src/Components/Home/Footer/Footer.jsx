@@ -53,12 +53,12 @@ const Footer = () => {
 
               <img src={logo} alt="Nexus Logo" className={styles.logoImage} />
             </h2>
-            <p className={styles.para}>
+            {/* <p className={styles.para}>
               Nexus - Corporate Training Center is leading IT Training service
               provider mainly provide training of latest technology with real
               time experience. Get connect with us for more details.
-            </p>
-            <p><span>Address: </span>
+            </p> */}
+            <p className={styles.para}><span>Address: </span>
             Office No. 4-B, Second Floor, Ganesham
             Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027
             </p>

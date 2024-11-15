@@ -1,5 +1,5 @@
 import { useState } from "react";
-import BookDemo from './BookDemo/BookDemo';
+// import BookDemo from './BookDemo/BookDemo';
 import logo from "./IMG/NctcLogo.png";
 import styles from "./Navbar.module.css";
 
@@ -28,7 +28,7 @@ const Navbar = () => {
           <li><a href="/successs-stories">Success Stories</a></li>
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/contactUs">Contact Us</a></li>
-          <li><BookDemo /></li>
+          {/* <li><BookDemo /></li> */}
         </ul>
 
         <div className={styles.hamburger} onClick={toggleMenu}>

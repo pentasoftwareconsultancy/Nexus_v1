@@ -12,6 +12,8 @@ function UpcomingBatches() {
     navigate("/learnMore", { state: { course } });
   };
 
+  
+
   return (
     <div className={styles.container}>
 

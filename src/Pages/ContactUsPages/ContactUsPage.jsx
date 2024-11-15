@@ -4,7 +4,8 @@ import ContactUs from '../../Components/ContactUs/ContactUs'
 function ContactUsPage() {
   return (
     <div>
-      <ContactUs/>
+      <ContactUs />
+
     </div>
   )
 }
