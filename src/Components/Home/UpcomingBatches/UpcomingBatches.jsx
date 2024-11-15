@@ -14,6 +14,8 @@ function UpcomingBatches() {
 
   
 
+  
+
   return (
     <div className={styles.container}>
 
