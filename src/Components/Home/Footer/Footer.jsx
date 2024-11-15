@@ -58,9 +58,8 @@ const Footer = () => {
               provider mainly provide training of latest technology with real
               time experience. Get connect with us for more details.
             </p> */}
-            <p className={styles.para}><span>Address: </span>
-            Office No. 4-B, Second Floor, Ganesham
-            Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027
+            <p className={styles.para}><span><i>Address:</i> </span>
+            Office No. 4-B, Second Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027
             </p>
 
            

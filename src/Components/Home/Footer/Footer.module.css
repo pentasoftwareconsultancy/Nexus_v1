@@ -44,8 +44,13 @@
 p {
   font-size: 1rem; /* Responsive font size */
 }
+
 .para {
-text-align: center;
+text-align: justify;
+}
+span{
+font-size: 18px;
+font-weight: bold;
 }
 
 .footer {
