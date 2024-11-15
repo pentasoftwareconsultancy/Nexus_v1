@@ -1,11 +1,12 @@
-import AaryanGiri from "../Gallery/Images/Web_Photos/Students/ArayanGiri.jpeg";
-import AshishAarya from "../Gallery/Images/Web_Photos/Students/AshishAarya.jpeg";
-import BhushanDeshkar from "../Gallery/Images/Web_Photos/Students/BhushanDeshkar.jpeg";
-import MilindPatil from "../Gallery/Images/Web_Photos/Students/MilindPatil.jpeg";
-import sneha from "../Gallery/Images/Web_Photos/Students/sneha.jpeg";
-import SushilShelar from "../Gallery/Images/Web_Photos/Students/SushilShelar.jpeg";
-import LokeshJadhav from "./Gallery/Images/Web_Photos/Students/LokeshJadhav.jpeg";
-import Rushikeshtupekar from "./Gallery/Images/Web_Photos/Students/Rushikeshtupekar.jpg";
+import LokeshJadhav from "./images/LokeshJadhav.jpeg";
+import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
+// import sneha from "./images/sneha.jpeg";
+// import AaryanGiri from "./images/ArayanGiri.jpeg";
+// import AshishAarya from "./images/AshishAarya.jpeg";
+// import BhushanDeshkar from "./images/BhushanDeshkar.jpeg";
+// import MilindPatil from "./images/MilindPatil.jpeg";
+// import SushilShelar from " SushilShelar.jpeg";
+import Img4 from '../Gallery/Images/Web_Photos/4.jpeg';
 
 
 const students = [
@@ -71,7 +72,7 @@ const students = [
   // Data for Student 3: Ramesh Bailal
   {
     id: 3,
-    image:AshishAarya,
+    image:Img4,
     name: "Ashish Aarya",
     role: "Senior Analyst",
     course: "AR Caller/RCM",
@@ -101,7 +102,7 @@ const students = [
   // Student 4: Priya Agarwal
   {
     id: 4,
-    image:AaryanGiri,
+    image:Img4,
     name: "Aaryan Giri",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -131,7 +132,7 @@ const students = [
   // Student 5: Arjun Mehta
   {
     id: 5,
-    image:BhushanDeshkar,
+    image:Img4,
     name: "Bhushan Deshkar",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -161,7 +162,7 @@ const students = [
   {
     id: 6,
     name: "Miss Sneha",
-    image: sneha,
+    image: Img4,
     role: "Software Testing",
     company: "TechCorp",
     package: "6 LPA",
@@ -191,7 +192,7 @@ const students = [
   {
     id: 7,
     name: "Sushil Shelar",
-    image:SushilShelar,
+    image:Img4,
     role: "Software Testing Engineer",
     company: "Data Insights",
     package: "5 LPA",
@@ -221,7 +222,7 @@ const students = [
   {
     id: 8,
     name: "Milind Patil",
-    image:MilindPatil,
+    image:Img4,
     role: "Software Quality Analyst",
     company: "FutureTech",
     package: "4.5 LPA",
