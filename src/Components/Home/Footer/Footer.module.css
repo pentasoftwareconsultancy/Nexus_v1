@@ -120,9 +120,34 @@ font-weight: bold;
   flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
-.right {
-  margin-left: auto; /* Pushes "Made By Nexus" to the right */
+.courseGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px; /* Spacing between items */
 }
+
+.courseLink {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-align: left; /* Align text to the left for better readability */
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.courseLink:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  .courseGrid {
+    grid-template-columns: 1fr; /* Single column for small screens */
+  }
+}
+
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
@@ -144,6 +169,11 @@ font-weight: bold;
     margin-left: 0; /* Resets margin on smaller screens */
     text-align: center; /* Centers text */
   }
+}
+
+.right a {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 480px) {
@@ -170,4 +200,66 @@ font-weight: bold;
   color: white;
   font-size: 20px;
   margin: 15px; 
+}
+
+/* Enhancements for the .right section */
+.right {
+  margin-left: 10rem;
+  text-align: center; /* Centers the text */
+  font-size: 18px; /* Slightly larger font for better readability */
+  color: #f0f0f0; /* Subtle text color */
+  padding: 10px 20px; /* Add padding for a spacious feel */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.right a {
+  color: #fff ; /* Highlight the link */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold for emphasis */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.right a:hover {
+  color: #ffffff; /* Change link color on hover */
+  text-decoration: underline; /* Add underline */
+  transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+/* Footer responsiveness and layout adjustments */
+.footerCredit {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: center; /* Centers content */
+  align-items: center;
+  background: #0f0f0f; /* Dark background */
+  padding: 10px 20px; /* Adjust padding for spacing */
+  text-align: center; /* Center text for smaller devices */
+}
+
+.footerCredit > div {
+  margin: 5px 0; /* Space between lines */
+}
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 768px) {
+  .footerCredit {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .right {
+    margin-top: 10px; /* Add margin for spacing */
+  }
+}
+
+@media (max-width: 480px) {
+  .right {
+    font-size: 16px; /* Smaller font size for mobile */
+    padding: 8px 15px; /* Adjust padding for compact view */
+  }
+
+  .right a {
+    font-size: 14px; /* Smaller font size for link */
+  }
 }
