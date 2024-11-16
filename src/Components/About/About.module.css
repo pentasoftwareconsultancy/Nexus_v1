@@ -295,6 +295,16 @@
   .courseList {
     gap: 20px; /* Space between cards */
   }
+  heroTitle {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+  .visionMissionValues {
+    flex-direction: column; /* Stack elements vertically */
+  }
+  .courseList {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -305,6 +315,16 @@
     flex-direction: column;
     gap: 20px; /* Space between cards */
   }
+  heroTitle {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+  .visionMissionValues {
+    flex-direction: column; /* Stack elements vertically */
+  }
+  .courseList {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -313,5 +333,29 @@
   }
   .courseList {
     gap: 10px; /* Less space between cards */
+  }
+  heroTitle {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+  .visionMissionValues {
+    flex-direction: column; /* Stack elements vertically */
+  }
+  .courseList {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+  .visionMissionValues {
+    flex-direction: column; /* Stack elements vertically */
+  }
+  .courseList {
+    flex-direction: column;
+    gap: 20px;
   }
 }

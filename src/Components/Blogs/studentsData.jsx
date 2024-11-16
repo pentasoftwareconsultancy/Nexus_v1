@@ -1,6 +1,6 @@
 import LokeshJadhav from "./images/LokeshJadhav.jpeg";
 import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
-// import sneha from "./images/sneha.jpeg";
+import sneha from "../Gallery/Images/Web_Photos/Students/Sneha.jpeg";
 // import AaryanGiri from "./images/ArayanGiri.jpeg";
 // import AshishAarya from "./images/AshishAarya.jpeg";
 // import BhushanDeshkar from "./images/BhushanDeshkar.jpeg";
@@ -162,7 +162,7 @@ const students = [
   {
     id: 6,
     name: "Miss Sneha",
-    image: Img4,
+    image: sneha,
     role: "Software Testing",
     company: "TechCorp",
     package: "6 LPA",

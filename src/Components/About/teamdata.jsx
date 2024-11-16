@@ -49,17 +49,17 @@ const teamData = [
       stars: "★★★★★", // Example star rating
       skillTitle: "Medical Coding / Billing",
     },
-    {
-      title: "Rajiv Kumar ",
-      description: "This is a description for Course 3.",
-      duration: "12 weeks",
-      date: "2024-12-01",
-      imageUrl:
-        "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
-      // trending: "Trending",
-      stars: "★★★★★", // Example star rating
-      skillTitle: "AR Caller",
-    },
+    // {
+    //   title: "Rajiv Kumar ",
+    //   description: "This is a description for Course 3.",
+    //   duration: "12 weeks",
+    //   date: "2024-12-01",
+    //   imageUrl:
+    //     "https://www.profilebakery.com/wp-content/uploads/2024/05/Profile-picture-created-with-ai.jpeg",
+    //   // trending: "Trending",
+    //   stars: "★★★★★", // Example star rating
+    //   skillTitle: "AR Caller",
+    // },
     {
       title: "Lekhraj Patil ",
       description: "This is a description for Course 3.",
