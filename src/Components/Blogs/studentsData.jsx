@@ -2,7 +2,7 @@ import AaryanGiri from "../Gallery/Images/Web_Photos/Students/ArayanGiri.jpeg";
 import sneha from "../Gallery/Images/Web_Photos/Students/Sneha.jpeg";
 import LokeshJadhav from "./images/LokeshJadhav.jpeg";
 import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
-// import AshishAarya from "./images/AshishAarya.jpeg";
+import AshishAarya from "../Gallery/Images/Web_Photos/Students/AshishAarya.jpeg";
 // import BhushanDeshkar from "./images/BhushanDeshkar.jpeg";
 // import MilindPatil from "./images/MilindPatil.jpeg";
 // import SushilShelar from " SushilShelar.jpeg";
@@ -72,7 +72,7 @@ const students = [
   // Data for Student 3: Ramesh Bailal
   {
     id: 3,
-    image:Img4,
+    image:AshishAarya,
     name: "Ashish Aarya",
     role: "Senior Analyst",
     course: "AR Caller/RCM",
