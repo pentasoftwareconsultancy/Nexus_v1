@@ -1,7 +1,7 @@
 import LokeshJadhav from "./images/LokeshJadhav.jpeg";
 import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
 import sneha from "../Gallery/Images/Web_Photos/Students/Sneha.jpeg";
-// import AaryanGiri from "./images/ArayanGiri.jpeg";
+import AaryanGiri from "./images/ArayanGiri.jpeg";
 // import AshishAarya from "./images/AshishAarya.jpeg";
 // import BhushanDeshkar from "./images/BhushanDeshkar.jpeg";
 // import MilindPatil from "./images/MilindPatil.jpeg";
@@ -102,7 +102,7 @@ const students = [
   // Student 4: Priya Agarwal
   {
     id: 4,
-    image:Img4,
+    image:AaryanGiri,
     name: "Aaryan Giri",
     role: "AR Associates",
     course: "AR Caller/RCM",
