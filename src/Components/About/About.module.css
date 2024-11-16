@@ -7,6 +7,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden; /* Prevents any unwanted overflow */
 }
 
 .heroImage {
@@ -21,14 +22,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 5rem;
+  font-size: 4rem; /* Adjusted for better responsiveness */
   text-align: center;
 }
 
-.logox {
-  color: #fb7d28;
-  font-family: "Times New Roman", Times, serif;
-}
+  .logox {
+    color: #fb7d28;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 4rem;
+    font-weight: bold;
+  }
 
 .headline {
   text-align: center;
@@ -39,16 +42,15 @@
   min-height: 60vh;
   background-color: #dceafa;
   text-align: left;
-  margin-top: -10px;
+  padding: 2rem; /* Adds padding instead of negative margin */
 }
 
 .aboutUs h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .aboutUs p {
-  margin: 2rem;
-  font-size: 20px;
+  font-size: 1.125rem;
   line-height: 1.5;
   text-align: justify;
 }
@@ -56,28 +58,25 @@
 /* Vision, Mission, Values Section */
 .visionMissionValues {
   margin: 40px 0;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .vision,
 .mission,
 .values {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
+
 .values li {
   margin-left: 15px;
   text-align: justify;
 }
+
 .text {
   flex: 1;
   padding: 20px;
-  text-align: justify;
-}
-
-.text p {
-  font-size: 20px;
-  text-align: justify;
 }
 
 .image {
@@ -85,10 +84,9 @@
 }
 
 .image img {
-  width: 80%;
-  height: 60vh;
-  margin: 50px;
-  /* object-fit: cover; */
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
   border-radius: 15px;
 }
 
@@ -112,34 +110,11 @@
   margin: 0 auto;
 }
 
-.imageContainer {
-  flex: 1;
-}
-
 .imageContainer img {
   width: 100%;
-  height: 50%;
-  max-width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
-}
-
-.textContainer {
-  flex: 1;
-  padding: 0 20px;
-  text-align: left;
-}
-
-.textContainer h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  color: #333;
-}
-
-.textContainer p {
-  font-size: 20px;
-  color: #666;
-  line-height: 1.5;
 }
 
 /* Why Choose Us Section */
@@ -150,43 +125,27 @@
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
-.card {
-  width: 200px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  text-align: center;
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-}
-
 /* Our Team Section */
-/* Team card styles remain unchanged as per your request */
-
-/* Container styling for courses */
 .container {
   background-color: #dceafa;
   padding: 20px;
   min-height: 80vh;
-  gap: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 /* Course list styling */
 .courseList {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px; /* Increased space between cards */
-  justify-content: center; /* Center align cards */
+  gap: 30px;
+  justify-content: center;
 }
 
 /* Course card styling */
@@ -195,21 +154,17 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 350px;
-  text-align: center;
+  width: 320px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
 }
 
-/* Image styling */
 .cardImage {
   width: 100%;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
   position: relative;
 }
 
-/* Trending text on the image */
 .trendingText {
   position: absolute;
   top: 10px;
@@ -221,64 +176,40 @@
   font-weight: bold;
 }
 
-/* Course title styling */
 .courseTitle {
   font-size: 1.2rem;
   margin: 10px 0;
-  font-weight: bold;
 }
 
-/* Stars rating */
 .stars {
   color: #f5c518;
   font-size: 1rem;
 }
 
-/* Skill title cover styling */
 .skillTitle {
   font-size: 1rem;
   color: #333;
-  margin: 10px 0;
 }
 
-/* Course description styling */
 .courseDescription {
   font-size: 0.9rem;
-  margin: 10px 0;
   color: #666;
 }
 
-/* Button container styling */
+/* Button styling */
 .buttonContainer {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
 }
 
-/* Button styling */
-.btn {
-  flex: 1;
-  margin: 0 5px;
-  height: 40px;
-  font-size: 0.9rem;
-  border-radius: 5px;
-  background-color: orange;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
+.btn,
 .btnLearn {
   flex: 1;
   margin: 0 5px;
   height: 40px;
   font-size: 0.9rem;
   border-radius: 5px;
-  background-color: #144c8c;
-  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,76 +217,63 @@
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #e68a00; /* Darker orange for hover effect */
+.btn {
+  background-color: orange;
 }
 
-/* Responsive design for different screen sizes */
+.btnLearn {
+  background-color: #144c8c;
+}
+
+.btn:hover {
+  background-color: #e68a00;
+}
+
+/* Responsive Adjustments */
 @media (max-width: 1200px) {
-  .courseList {
-    gap: 20px; /* Space between cards */
+  .heroTitle {
+    font-size: 3.5rem;
   }
-  heroTitle {
-    font-size: 2rem; /* Smaller font for smaller screens */
-  }
-  .visionMissionValues {
-    flex-direction: column; /* Stack elements vertically */
-  }
-  .courseList {
-    flex-direction: column;
-    gap: 20px;
+  .logox {
+    color: #fb7d28;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
   }
 }
 
 @media (max-width: 900px) {
-  .courseCard {
-    width: 100%; /* Full width for smaller screens */
-  }
-  .courseList {
-    flex-direction: column;
-    gap: 20px; /* Space between cards */
-  }
-  heroTitle {
-    font-size: 2rem; /* Smaller font for smaller screens */
+  .heroTitle {
+    font-size: 2.5rem;
   }
   .visionMissionValues {
-    flex-direction: column; /* Stack elements vertically */
-  }
-  .courseList {
     flex-direction: column;
-    gap: 20px;
+  }
+  .courseCard {
+    width: 90%;
+  }
+  .logox {
+    color: #fb7d28;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
   }
 }
 
 @media (max-width: 600px) {
-  .courseCard {
-    width: 100%; /* Full width for smaller screens */
-  }
-  .courseList {
-    gap: 10px; /* Less space between cards */
-  }
-  heroTitle {
-    font-size: 2rem; /* Smaller font for smaller screens */
-  }
-  .visionMissionValues {
-    flex-direction: column; /* Stack elements vertically */
-  }
-  .courseList {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
-
-
-@media (max-width: 768px) {
   .heroTitle {
-    font-size: 2rem; /* Smaller font for smaller screens */
+    font-size: 2rem;
   }
-  .visionMissionValues {
-    flex-direction: column; /* Stack elements vertically */
+  .courseCard {
+    width: 100%;
   }
-  .courseList {
-    flex-direction: column;
-    gap: 20px;
+  .aboutUs p, .textContainer p {
+    font-size: 1rem;
+  }
+  .logox {
+    color: #fb7d28;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
   }
 }
