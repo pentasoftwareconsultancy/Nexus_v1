@@ -3,10 +3,10 @@ import sneha from "../Gallery/Images/Web_Photos/Students/Sneha.jpeg";
 import LokeshJadhav from "./images/LokeshJadhav.jpeg";
 import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
 import AshishAarya from "../Gallery/Images/Web_Photos/Students/AshishAarya.jpeg";
-// import BhushanDeshkar from "./images/BhushanDeshkar.jpeg";
-// import MilindPatil from "./images/MilindPatil.jpeg";
-// import SushilShelar from " SushilShelar.jpeg";
-import Img4 from '../Gallery/Images/Web_Photos/4.jpeg';
+import BhushanDeshkar from "../Gallery/Images/Web_Photos/Students/BhushanDeshkar.jpeg";
+import MilindPatil from "../Gallery/Images/Web_Photos/Students/MilindPatil.jpeg";
+import SushilShelar from "../Gallery/Images/Web_Photos/Students/SushilShelar.jpeg";
+// import Img4 from '../Gallery/Images/Web_Photos/4.jpeg';
 
 
 const students = [
@@ -132,7 +132,7 @@ const students = [
   // Student 5: Arjun Mehta
   {
     id: 5,
-    image:Img4,
+    image:BhushanDeshkar,
     name: "Bhushan Deshkar",
     role: "AR Associates",
     course: "AR Caller/RCM",
@@ -192,7 +192,7 @@ const students = [
   {
     id: 7,
     name: "Sushil Shelar",
-    image:Img4,
+    image:SushilShelar,
     role: "Software Testing Engineer",
     company: "Data Insights",
     package: "5 LPA",
@@ -222,7 +222,7 @@ const students = [
   {
     id: 8,
     name: "Milind Patil",
-    image:Img4,
+    image:MilindPatil,
     role: "Software Quality Analyst",
     company: "FutureTech",
     package: "4.5 LPA",
