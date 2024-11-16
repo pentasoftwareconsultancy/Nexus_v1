@@ -1,7 +1,7 @@
+import AaryanGiri from "../Gallery/Images/Web_Photos/Students/ArayanGiri.jpeg";
+import sneha from "../Gallery/Images/Web_Photos/Students/Sneha.jpeg";
 import LokeshJadhav from "./images/LokeshJadhav.jpeg";
 import Rushikeshtupekar from "./images/Rushikeshtupekar.jpg";
-import sneha from "../Gallery/Images/Web_Photos/Students/Sneha.jpeg";
-import AaryanGiri from "./images/ArayanGiri.jpeg";
 // import AshishAarya from "./images/AshishAarya.jpeg";
 // import BhushanDeshkar from "./images/BhushanDeshkar.jpeg";
 // import MilindPatil from "./images/MilindPatil.jpeg";
