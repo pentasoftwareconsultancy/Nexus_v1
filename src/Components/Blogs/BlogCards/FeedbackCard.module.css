@@ -1,6 +1,6 @@
 .cardContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Flexible grid for large and medium devices */
   gap: 20px;
   padding: 20px;
   background-color: #f5f7fa;
@@ -22,7 +22,7 @@
 .studentImage {
   width: 100%;
   height: 50vh;
-  object-fit: fill;
+  /* object-fit: cover; Changed from 'fill' to 'cover' for better image cropping */
   border-bottom: 5px solid orangered; /* Accent color */
 }
 
@@ -71,12 +71,73 @@
 }
 
 /* Media queries for responsiveness */
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
   .cardContainer {
-    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* More flexibility on tablets */
   }
 
   .studentImage {
-    height: 150px;
+    height: 40vh; /* Slightly smaller image on medium-sized screens */
+  }
+
+  .studentName {
+    font-size: 1.3rem; /* Slightly smaller text on medium-sized screens */
+  }
+
+  .studentRole {
+    font-size: 0.9rem; /* Smaller text on medium-sized screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    padding: 10px; /* Reduced padding for small devices */
+  }
+
+  .studentImage {
+    height: 200px; /* Smaller images for mobile devices */
+  }
+
+  .studentName {
+    font-size: 1.2rem; /* Even smaller text for small devices */
+  }
+
+  .studentRole {
+    font-size: 0.85rem; /* Smaller text for mobile */
+  }
+
+  .additionalInfo p,
+  .highlights p {
+    font-size: 0.85rem; /* Smaller font size for mobile */
+  }
+
+  .feedback {
+    font-size: 0.9rem; /* Slightly smaller feedback text */
+  }
+}
+
+@media (max-width: 480px) {
+  .cardContainer {
+    padding: 5px; /* Even smaller padding on very small devices */
+  }
+
+  .studentImage {
+    height: 150px; /* Even smaller images for very small screens */
+  }
+
+  .studentName {
+    font-size: 1rem; /* Smallest text size */
+  }
+
+  .studentRole,
+  .additionalInfo p,
+  .highlights p {
+    font-size: 0.8rem; /* Smallest text size for small devices */
+  }
+
+  .feedback {
+    font-size: 0.8rem; /* Smallest text size */
   }
 }

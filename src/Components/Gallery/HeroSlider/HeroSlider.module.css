@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Header section */
-.hero{
+.hero {
     margin-top: 100px;
 }
 
@@ -243,5 +243,100 @@
     }
     to {
         transform: translateX(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero header {
+        padding-left: 20px;
+    }
+
+    .hero header nav a {
+        font-size: 14px;
+    }
+
+    .carousel {
+        height: 70vh; /* Adjust carousel height on smaller screens */
+    }
+
+    .carousel .list .item {
+        width: 150px; /* Smaller item width */
+        height: 200px; /* Smaller item height */
+    }
+
+    .carousel .list .item .content {
+        width: 250px; /* Adjust content width */
+    }
+
+    .content .title {
+        font-size: 50px; /* Adjust title size */
+    }
+
+    .content .name {
+        font-size: 50px; /* Adjust name size */
+    }
+
+    .content .des {
+        font-size: 16px; /* Adjust description size */
+    }
+
+    .arrows {
+        width: 100px; /* Reduce arrow width */
+    }
+
+    .arrows button {
+        width: 30px; /* Smaller buttons */
+        height: 30px; /* Smaller buttons */
+        font-size: 18px; /* Smaller font */
+    }
+
+    .timeRunning {
+        width: 300px; /* Adjust time bar width */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        margin-top: 60px; /* Reduce top margin on small screens */
+    }
+
+    .hero header {
+        padding-left: 10px;
+    }
+
+    .carousel {
+        height: 60vh; /* Adjust carousel height on very small screens */
+    }
+
+    .carousel .list .item {
+        width: 120px; /* Further reduce item width */
+        height: 150px; /* Further reduce item height */
+    }
+
+    .content .title {
+        font-size: 40px; /* Further reduce title size */
+    }
+
+    .content .name {
+        font-size: 40px; /* Further reduce name size */
+    }
+
+    .content .des {
+        font-size: 14px; /* Further reduce description size */
+    }
+
+    .arrows {
+        width: 80px; /* Further reduce arrow width */
+    }
+
+    .arrows button {
+        width: 25px; /* Smaller buttons */
+        height: 25px; /* Smaller buttons */
+        font-size: 16px; /* Smaller font */
+    }
+
+    .timeRunning {
+        width: 200px; /* Adjust time bar width */
     }
 }

@@ -1,11 +1,12 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100vh; /* Full height on large screens */
   margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; /* Prevents overflow issues */
 }
 
 .slider {
@@ -18,17 +19,15 @@
 }
 
 .slide {
-  width: 90%;
+  width: 100%;
   height: 100%;
-  object-fit: fill;
+  /* object-fit: cover; Ensures the image covers the container without distortion */
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
-  transition: opacity 1.5s ease;
-  background-size: cover;
-  background-position: center;
+  transition: opacity 1.5s ease-in-out;
 }
 
 .active {
@@ -36,13 +35,31 @@
 }
 
 @media (max-width: 768px) {
+  /* For tablets and smaller screens */
   .hero {
-    height: 60vh;
+    height: 60vh; /* Reduce height for smaller devices */
+  }
+  .slide {
+    object-fit: cover; /* Ensure images fill the container */
   }
 }
 
 @media (max-width: 480px) {
+  /* For mobile devices */
   .hero {
-    height: 50vh;
+    height: 50vh; /* Further reduce height on very small devices */
+  }
+  .slide {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 320px) {
+  /* For very small devices (e.g., small phones) */
+  .hero {
+    height: 45vh;
+  }
+  .slide {
+    object-fit: cover;
   }
 }

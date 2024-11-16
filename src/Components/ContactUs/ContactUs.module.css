@@ -85,7 +85,6 @@
   color: rgb(13, 13, 164);
   font-size: 17px;
   font-weight: bold;
-
 }
 
 .contactCol a {
@@ -96,10 +95,8 @@
 }
 
 .formContainer {
-  /* background: #fefefe; */
   border-radius: 8px;
   padding: 30px;
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
   margin-top: 20px;
   transition: transform 0.3s ease;
 }
@@ -152,4 +149,103 @@
 
 .formContainer button:hover {
   background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .heroTitle {
+    font-size: 3rem; /* Smaller font size on tablets */
+  }
+
+  .contactSection {
+    flex-direction: column; /* Stack columns on smaller screens */
+    padding: 20px;
+    margin: 40px 0;
+  }
+
+  .contactCol {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .formContainer {
+    padding: 20px;
+  }
+
+  .formContainer h3 {
+    font-size: 1.6rem;
+  }
+
+  .formContainer input,
+  .formContainer textarea {
+    padding: 10px;
+  }
+
+  .formContainer button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem; /* Smaller font size on tablets */
+  }
+
+  .contactSection {
+    padding: 15px;
+  }
+
+  .contactCol {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .formContainer {
+    padding: 15px;
+  }
+
+  .formContainer h3 {
+    font-size: 1.4rem;
+  }
+
+  .formContainer input,
+  .formContainer textarea {
+    padding: 8px;
+  }
+
+  .formContainer button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroTitle {
+    font-size: 2rem; /* Smaller font size on mobile */
+  }
+
+  .contactSection {
+    padding: 10px;
+  }
+
+  .contactCol {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .formContainer {
+    padding: 10px;
+  }
+
+  .formContainer h3 {
+    font-size: 1.2rem;
+  }
+
+  .formContainer input,
+  .formContainer textarea {
+    padding: 6px;
+  }
+
+  .formContainer button {
+    font-size: 0.8rem;
+  }
 }

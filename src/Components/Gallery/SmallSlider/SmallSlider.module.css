@@ -1,53 +1,112 @@
 .sliderContainer {
-    width: 100%;
-    overflow: hidden;
-    padding: 20px 0;
-    margin-top: 10vh;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  margin-top: 10vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.marquee {
+  display: flex;
+  gap: 10px;
+  animation: slide 20s linear infinite;
+  width: 200%; /* Ensure that this is 200% to hold two sets of images */
+}
+
+.reverse {
+  animation-direction: reverse;
+}
+
+.marqueeGroup {
+  display: flex;
+  gap: 10px;
+  width: 100%; /* Each group should take up 100% of the parent marquee's width */
+}
+
+.imageGroup {
+  flex: 1;
+  width: 40vh;
+  height: 300px; /* Fixed height for uniform image size */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the images vertically */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover; /* Make sure the image is scaled correctly */
+}
+
+/* Auto-slide keyframes */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
   }
-  
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  100% {
+    transform: translateX(-50%); /* Slide 50% of the total width to show both sets fully */
   }
-  
-  .marquee {
-    display: flex;
-    gap: 10px;
-    animation: slide 20s linear infinite;
-    /* Extend the width of the entire marquee to make it longer */
-    width: 200%; /* Ensure that this is 200% to hold two sets of images */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .sliderContainer {
+    padding: 15px 0;
+    margin-top: 5vh;
   }
-  
-  .reverse {
-    animation-direction: reverse;
-  }
-  
-  .marqueeGroup {
-    display: flex;
-    gap: 10px;
-    width: 100%; /* Each group should take up 100% of the parent marquee's width */
-  }
-  
+
   .imageGroup {
-    width: 40vh;
-    height: 40vh;
+    width: 30vh; /* Reduce the size of images for tablets */
+    height: 30vh;
   }
-  
-  .image {
-    width: 100%;
-    height: 100%;
-    /* object-fit: cover; */
-    border-radius: 8px;
+
+  .marquee {
+    animation-duration: 25s; /* Slower animation for tablets */
   }
-  
-  /* Auto-slide keyframes */
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%); /* Slide 50% of the total width to show both sets fully */
-    }
+}
+
+@media (max-width: 768px) {
+  .sliderContainer {
+    padding: 10px 0;
+    margin-top: 5vh;
   }
-  
+
+  .wrapper {
+    gap: 15px; /* Reduce the gap for smaller screens */
+  }
+
+  .imageGroup {
+    width: 25vh; /* Reduce image size for smaller screens */
+    height: 25vh;
+  }
+
+  .marquee {
+    animation-duration: 30s; /* Slower animation on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .sliderContainer {
+    padding: 5px 0;
+    margin-top: 3vh;
+  }
+
+  .wrapper {
+    gap: 10px; /* Further reduce gap */
+  }
+
+  .imageGroup {
+    width: 20vh; /* Further reduce image size for mobile screens */
+    height: 20vh;
+  }
+
+  .marquee {
+    animation-duration: 35s; /* Even slower animation for very small screens */
+  }
+}
