@@ -60,7 +60,7 @@ function LearnMore() {
       <div className={styles.content}>
         <div className={styles.detailsColumn}>
           <h1>About {course.title}</h1>
-          <p>{course.description}</p>
+          {/* <p>{course.description}</p> */}
 
           <div className={styles.courseInfo}>
             <div>

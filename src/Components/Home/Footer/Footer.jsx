@@ -5,7 +5,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/f
 import logo from "./Images/NctcLogo.png"; // Import your logo
 // import footerImg from "./Images/pexels-iliescu-victor-95204-306198.jpg";
 
-import footerImg from "./Images/contact-us.jpg"
+import footerImg from "./Images/contact-us.jpg";
 
 const Footer = () => {
   return (
@@ -35,7 +35,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/profile.php?id=100092539515709" target="_blank" rel="noopener noreferrer">
                 <FaFacebookF className={styles.socialIcon} />
               </a>
-              <a href="www.youtube.com/@NexusCorporateTrainingCentre" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@NexusCorporateTrainingCentre" target="_blank" rel="noopener noreferrer">
                 <FaYoutube className={styles.socialIcon} />
               </a>
               <a href="https://www.linkedin.com/in/nexus-corporate-traninig-center-llp-03b14b277/" target="_blank" rel="noopener noreferrer">
@@ -72,7 +72,7 @@ const Footer = () => {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/about">About Us</a></li>
-              <li><a href="/courses">courses</a></li>
+              <li><a href="/courses">Courses</a></li>
               <li><a href="/gallery">Gallery</a></li>
               <li><a href="/successs-stories">Success Stories</a></li>
               <li><a href="/contactUs">Contact Us</a></li>

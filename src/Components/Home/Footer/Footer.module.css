@@ -46,7 +46,7 @@ p {
 }
 
 .para {
-text-align: justify;
+text-align: left;
 }
 span{
 font-size: 18px;
