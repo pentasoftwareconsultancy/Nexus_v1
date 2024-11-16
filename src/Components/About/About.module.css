@@ -229,51 +229,73 @@
   background-color: #e68a00;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 1200px) {
-  .heroTitle {
-    font-size: 3.5rem;
-  }
-  .logox {
-    color: #fb7d28;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 2rem;
-    font-weight: bold;
-  }
+/* Vision, Mission, Values Section */
+.visionMissionValues {
+  margin: 40px 0;
+  font-size: 1rem;
 }
 
+/* Adjust layout for smaller devices */
 @media (max-width: 900px) {
-  .heroTitle {
-    font-size: 2.5rem;
-  }
   .visionMissionValues {
-    flex-direction: column;
+    display: block; /* Stacks the sections vertically */
+    margin: 20px 0; /* Adjust margin for smaller screens */
   }
-  .courseCard {
-    width: 90%;
-  }
-  .logox {
-    color: #fb7d28;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 2rem;
-    font-weight: bold;
-  }
-}
 
-@media (max-width: 600px) {
-  .heroTitle {
-    font-size: 2rem;
+  .vision,
+  .mission,
+  .values {
+    display: block; /* Stack the vision, mission, and values sections vertically */
+    align-items: flex-start;
+    margin-bottom: 20px;
   }
-  .courseCard {
+
+  /* Text and Image in Vision, Mission, Values */
+  .vision .text,
+  .mission .text,
+  .values .text {
+    text-align: center; /* Centers the text */
+    padding: 10px 0;
+  }
+
+  .vision .image,
+  .mission .image,
+  .values .image {
     width: 100%;
+    text-align: center;
   }
-  .aboutUs p, .textContainer p {
+
+  /* Image adjustments */
+  .vision .image img,
+  .mission .image img,
+  .values .image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* Heading and Text styling */
+  .vision h2,
+  .mission h2,
+  .values h2 {
+    font-size: 1.8rem; /* Adjust heading font size for small screens */
+    margin-bottom: 10px;
+  }
+
+  .vision p,
+  .mission p,
+  .values p {
     font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify; /* Adjust text alignment */
   }
-  .logox {
-    color: #fb7d28;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 2rem;
-    font-weight: bold;
+
+  /* Remove the flex layout for mobile devices */
+  .vision,
+  .mission,
+  .values {
+    display: block;
+    text-align: center;
   }
 }
