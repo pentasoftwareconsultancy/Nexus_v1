@@ -10,6 +10,7 @@ import BlogDetaills from "./Components/Blogs/BlogDetails/BlogDetails";
 import LearnMore from "./Components/Home/Course/learnMore/learnMore";
 import GalleryPages from "./Pages/GalleryPages/GalleryPages";
 import HomePage from "./Pages/HomePage/HomePage";
+import GalleryPage from "./Components/Gallery/Slider/GalleryPage";
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
         <Route path="/learnMore/:courseName" element={<LearnMore />} />
         <Route path="/gallery" element={<GalleryPages />} />
         <Route path="/successs-stories" element={<BlogPage />} />
-        <Route path="/blog-details/:id" element={<BlogDetaills />} />
+        <Route path="/BlogDetaills/:id" element={<BlogDetaills />} />
+        <Route path="/gallerypage" element={<GalleryPage />} />
+
       </Routes>
       <Footer />
     </Router>

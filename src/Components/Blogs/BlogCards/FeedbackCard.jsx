@@ -1,14 +1,13 @@
 import { Helmet } from "react-helmet";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom";
 import students from "../studentsData";
 import styles from "./FeedbackCard.module.css";
 
 const FeedbackCard = () => {
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate();
 
-  // Handle click to navigate to the detailed blog page
   const handleCardClick = (id) => {
-    navigate(`/BlogDetaills/${id}`); // Navigate to the student's detailed page
+    navigate(`/BlogDetaills/${id}`); // Ensure the path matches your router setup
   };
 
   return (
@@ -17,14 +16,14 @@ const FeedbackCard = () => {
         <title>
           Nexus Corporate Training Center - Success Stories And Placements
         </title>
-        <meta name="description" content="Know more about Nexus " />
+        <meta name="description" content="Know more about Nexus" />
         <meta name="keywords" content="Nexus" />
       </Helmet>
-      {students.map((student, index) => (
+      {students.map((student) => (
         <div
-          key={index}
+          key={student.id} // Use student.id directly
           className={styles.card}
-          onClick={() => handleCardClick(student.id)} // Add onClick handler here
+          onClick={() => handleCardClick(student.id)} // Pass correct id
         >
           <img
             src={student.image}
@@ -33,7 +32,6 @@ const FeedbackCard = () => {
           />
           <div className={styles.cardContent}>
             <h2 className={styles.studentName}>{student.name}</h2>
-
             <p className={styles.studentRole}>{student.role}</p>
             <div className={styles.additionalInfo}>
               <p>
@@ -47,10 +45,6 @@ const FeedbackCard = () => {
               <p>
                 <strong>Courses:</strong> {student.course}
               </p>
-              {/* <p>
-                <strong>Special Skills:</strong> {student.skills}
-              </p> */}
-              {/* <p className={styles.feedback}>{student.feedback1}</p> */}
             </div>
           </div>
         </div>

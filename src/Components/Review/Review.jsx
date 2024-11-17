@@ -8,7 +8,7 @@ function Review() {
       {/* Success Stories Section */}
       <section className={styles.successStories}>
         <h2>Success Stories</h2>
-        <Carousel
+        <Carousel 
           showThumbs={false}
           infiniteLoop={true}
           autoPlay={true}

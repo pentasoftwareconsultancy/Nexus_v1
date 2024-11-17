@@ -1,61 +1,73 @@
-import React, { useState } from "react";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Slider.module.css";
 
 // Import images
-import Img13 from "../Images/Web_Photos/Akola Manav/13.jpeg";
-import Img19 from "../Images/Web_Photos/Akola Manav/19.jpeg";
 import Img12 from "../Images/Web_Photos/Akola Khandelwal/12.jpeg";
+import Img17 from "../Images/Web_Photos/Akola Khandelwal/17.jpeg";
 import Img18 from "../Images/Web_Photos/Akola Khandelwal/18.jpeg";
 import Img20 from "../Images/Web_Photos/Akola Khandelwal/20.jpeg";
 import Img21 from "../Images/Web_Photos/Akola Khandelwal/21.jpeg";
 import Img22 from "../Images/Web_Photos/Akola Khandelwal/22.jpeg";
 import Img23 from "../Images/Web_Photos/Akola Khandelwal/23.jpeg";
 import Img24 from "../Images/Web_Photos/Akola Khandelwal/24.jpeg";
-import Img17 from "../Images/Web_Photos/Akola Khandelwal/17.jpeg";
 import Img8 from "../Images/Web_Photos/Akola Khandelwal/8.jpeg";
-import Img1 from "../Images/Web_Photos/DY Patil/1.jpeg";
+import Img13 from "../Images/Web_Photos/Akola Manav/13.jpeg";
+import Img16 from "../Images/Web_Photos/Pune/16.jpeg";
 
 function Slider() {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const navigate = useNavigate();
 
-  const row1 = [
-    { src: Img8 },
-    { src: Img17 },
-    { src: Img21 },
-    { src: Img22 },
-    { src: Img23 },
-    { src: Img24 },
-    { src: Img18 },
-    { src: Img20 },
-    { src: Img12 },
-    { src: Img13 },
-    { src: Img19 },
-    { src: Img1 },
+  // Data for locations with images
+  const locations = [
+    {
+      title: "Akola College",
+      images: [
+        { src: Img13, id: 13 },
+        { src: Img8, id: 15 },
+        { src: Img12, id: 15 },
+        { src: Img17, id: 15 },
+        { src: Img18, id: 15 },
+        { src: Img20, id: 15 },
+        { src: Img21, id: 15 },
+        { src: Img22, id: 15 },
+        { src: Img23, id: 15 },
+        { src: Img24, id: 15 },
+
+
+      ],
+    },
+    {
+      title: "Pune College",
+      images: [
+        { src: Img16, id: 16 },
+        { src: Img16, id: 17 },
+        { src: Img16, id: 18 },
+      ],
+    },
   ];
 
-  // Event to toggle display of more photos
-  const togglePhotos = () => {
-    setIsExpanded(!isExpanded);
+  const handleImageClick = (location) => {
+    // Navigate to GalleryPage with the selected location's images
+    navigate("/gallerypage", { state: { location } });
   };
 
   return (
     <div className={styles.sliderContainer}>
-      <div className={styles.circle} onClick={togglePhotos}>
-        <span>+</span>
-      </div>
-      {isExpanded && (
-        <div className={styles.wrapper}>
-          <div className={styles.marquee}>
-            <div className={styles.marqueeGroup}>
-              {row1.map((el, index) => (
-                <div key={index} className={styles.imageGroup}>
-                  <img src={el.src} className={styles.image} alt={`Slide ${index + 1}`} />
-                </div>
-              ))}
-            </div>
-          </div>
+      {locations.map((location, index) => (
+        <div
+          key={index}
+          className={styles.imageWrapper}
+          onClick={() => handleImageClick(location)}
+        >
+          <img
+            src={location.images[0].src}
+            alt={location.title}
+            className={styles.image}
+          />
+          <div className={styles.imageText}>{location.title}</div>
         </div>
-      )}
+      ))}
     </div>
   );
 }

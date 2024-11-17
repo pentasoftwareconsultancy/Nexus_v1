@@ -1,0 +1,27 @@
+.galleryContainer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  h1{
+    margin-top: 60px;
+  }
+  .galleryImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .galleryImage:hover {
+    transform: scale(1.1);
+  }
+  

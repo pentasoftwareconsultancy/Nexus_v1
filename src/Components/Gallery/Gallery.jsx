@@ -62,7 +62,7 @@ function Gallery() {
         </div>
       </div>
 
-      <SmallSlider />
+      {/* <SmallSlider /> */}
     </div>
   );
 }

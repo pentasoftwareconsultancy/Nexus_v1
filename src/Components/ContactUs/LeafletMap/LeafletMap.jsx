@@ -26,8 +26,8 @@ const LeafletMap = () => {
         "Pune Address: Office No. 4-B, Second Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027",
     },
     {
-      position: [20.707228, 77.00296],
-      popupText: "Akola",
+      position: [20.689405307384273, 76.99340465862281],
+      popupText: "Akola Address : Geeta Nagar, Dahigaon Gawade, Akola, Maharashtra",
     },
     {
       position: [19.973966519918175, 73.78741632269774],
