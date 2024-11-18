@@ -34,8 +34,9 @@ const About = () => {
           className={styles.heroImage}
         />
         <h1 className={styles.heroTitle}>
-          About Ne<span className={styles.logox}>X</span>us
+         About Ne<span className={styles.logox}>X</span>us
         </h1>
+
       </section>
 
       {/* About Us Section */}

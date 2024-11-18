@@ -22,8 +22,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 4rem; /* Adjusted for better responsiveness */
+  font-size: 4rem; /* Unified font size */
   text-align: center;
+  opacity: 0; /* Start hidden */
+  animation: fadeIn 1.5s ease-in-out forwards; /* Smooth fade-in */
 }
 
   .logox {
@@ -32,6 +34,15 @@
     font-size: 4rem;
     font-weight: bold;
   }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } 
 
 .headline {
   text-align: center;
