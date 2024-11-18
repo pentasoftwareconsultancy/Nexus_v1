@@ -19,7 +19,7 @@
 .slideText {
   z-index: 12;
   color: #fff;
-  font-size: 48px;
+  font-size: clamp(1.5rem, 4vw, 3rem);
   text-align: center;
   position: absolute;
   top: 50%;
@@ -28,9 +28,6 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   padding: 20px;
   max-width: 80%;
-  white-space: nowrap;
-  overflow: hidden;
-  /* text-overflow: ellipsis; */
 }
 
 /* Styling for <p> Tags */
@@ -178,5 +175,48 @@
 
   .navigationItems a {
     font-size: 0.9rem;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .home {
+    height: 60vh;
+  }
+
+  .slideText {
+    font-size: clamp(1.2rem, 3vw, 2rem);
+  }
+
+  .slideDescription {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    height: 50vh;
+  }
+
+  .slideText {
+    font-size: clamp(1rem, 4vw, 1.5rem);
+  }
+
+  .slideDescription {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    height: 40vh;
+  }
+
+  .slideText {
+    font-size: clamp(0.8rem, 5vw, 1.2rem);
+  }
+
+  .slideDescription {
+    font-size: 0.8rem;
   }
 }
