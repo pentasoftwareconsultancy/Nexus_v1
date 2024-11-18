@@ -63,63 +63,62 @@ const About = () => {
       </section>
 
       {/* Vision, Mission, Values Section */}
-      <section className={styles.visionMissionValues}>
-        <div className={styles.vision}>
-          <div className={styles.text}>
-            <h2>Our Vision</h2>
-            <p>
-              At Nexus Corporate Training Center LLP, our vision is to deliver
-              accessible, high-quality IT education with placement support,
-              empowering learners in Pune and beyond.We aim to build an
-              inclusive global community that equips students with the skills
-              and connections needed to excel in the dynamic IT industry.
-            </p>
-          </div>
-          <div className={styles.image}>
-            <img
-              src="https://www.infoworld.com/wp-content/uploads/2024/06/eye_circuits_system_artificial_intelligence_machine_learning_privacy_by_vijay_patel_gettyimages-936718998_1200x800-100768000-orig.jpg?resize=1024%2C683&quality=50&strip=all"
-              alt="Vision"
-            />
-          </div>
-        </div>
+     {/* Vision, Mission, Values Section */}
+<section className={styles.visionMissionValues}>
+  <div className={styles.vision}>
+    <div className={styles.text}>
+      <h2>Our Vision</h2>
+      <p>
+        At Nexus Corporate Training Center LLP, our vision is to deliver
+        accessible, high-quality IT education with placement support,
+        empowering learners in Pune and beyond. We aim to build an inclusive
+        global community that equips students with the skills and connections
+        needed to excel in the dynamic IT industry.
+      </p>
+    </div>
+    <div className={styles.image}>
+      <img
+        src="https://www.infoworld.com/wp-content/uploads/2024/06/eye_circuits_system_artificial_intelligence_machine_learning_privacy_by_vijay_patel_gettyimages-936718998_1200x800-100768000-orig.jpg?resize=1024%2C683&quality=50&strip=all"
+        alt="Vision"
+      />
+    </div>
+  </div>
 
-        <div className={styles.mission}>
-          <div className={styles.image}>
-            <img src={Img} alt="Mission" />
-          </div>
-          <div className={styles.text}>
-            <h2>Our Mission</h2>
-            <p>
-              Our mission at Nexus Corporate Training Center LLP is to empower
-              learners with job-focused software skills through tailored
-              programs for all experience levels. We aim to equip each student
-              with the knowledge and hands-on training needed to thrive in the
-              IT industry and excel in their careers.
-            </p>
-          </div>
-        </div>
+  <div className={styles.mission}>
+    <div className={styles.image}>
+      <img src={Img} alt="Mission" />
+    </div>
+    <div className={styles.text}>
+      <h2>Our Mission</h2>
+      <p>
+        Our mission at Nexus Corporate Training Center LLP is to empower
+        learners with job-focused software skills through tailored programs
+        for all experience levels. We aim to equip each student with the
+        knowledge and hands-on training needed to thrive in the IT industry
+        and excel in their careers.
+      </p>
+    </div>
+  </div>
 
-        <div className={styles.values}>
-          <div className={styles.text}>
-            <h2>Our Values</h2>
-            <p>
-              {/* At Nexus Corporate Training Center LLP, we are committed to: */}
-              At Nexus Corporate Training Center LLP, our values focus on a
-              learner-centered approach, career success with 100% placement
-              support, continuous improvement through feedback, and a
-              collaborative, inclusive community for students and professionals
-              alike.
-              {/* We empower every learner to achieve success in their IT careers. */}
-            </p>
-          </div>
-          <div className={styles.image}>
-            <img
-              src="https://images.squarespace-cdn.com/content/v1/58fbfecf725e25a3d1966494/1617223162803-MNI0TRV5G87CA86KU8UP/image-asset.jpeg"
-              alt="Values"
-            />
-          </div>
-        </div>
-      </section>
+  <div className={styles.values}>
+    <div className={styles.text}>
+      <h2>Our Values</h2>
+      <p>
+        At Nexus Corporate Training Center LLP, our values focus on a
+        learner-centered approach, career success with 100% placement
+        support, continuous improvement through feedback, and a collaborative,
+        inclusive community for students and professionals alike.
+      </p>
+    </div>
+    <div className={styles.image}>
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/58fbfecf725e25a3d1966494/1617223162803-MNI0TRV5G87CA86KU8UP/image-asset.jpeg"
+        alt="Values"
+      />
+    </div>
+  </div>
+</section>
+
 
       {/* Success Stories Section */}
       <Review />

@@ -313,3 +313,71 @@
     text-align: center;
   }
 }
+
+@media (max-width: 600px) {
+  .aboutUs {
+    padding: 1rem; /* Reduces padding for smaller devices */
+  }
+
+  .aboutUs h2 {
+    font-size: 1.8rem; /* Scales down the font size for the headline */
+  }
+
+  .aboutUs p {
+    font-size: 1rem; /* Adjusts font size for readability on smaller screens */
+    line-height: 1.4; /* Slightly reduces line height for compact spacing */
+  }
+}
+.visionMissionValues {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vision,
+.mission,
+.values {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.text {
+  flex: 1;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .image {
+    display: none; /* Hide images for small devices */
+  }
+
+  .text p {
+    font-size: 0.9rem; /* Adjust font size for small screens */
+    border: 2px solid orange; /* Add border for small screens only */
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
