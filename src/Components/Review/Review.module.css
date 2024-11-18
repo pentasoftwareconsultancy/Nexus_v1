@@ -43,11 +43,14 @@
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
   color: #333;
+  margin-left: 30px;
 }
 
-/* .textContainer p {
-  
-} */
+.textContainer p {
+  text-align: left;
+
+}
+
 .info{
   font-size: 16px;
   color: #272727;
@@ -76,6 +79,7 @@
 
   .textContainer p {
     font-size: 18px; /* Smaller font size for descriptions */
+    text-align: center;
   }
 }
 
@@ -86,5 +90,7 @@
 
   .textContainer p {
     font-size: 16px; /* Further reduce font size for descriptions */
+    text-align: center;
+
   }
 }
