@@ -1,6 +1,5 @@
 import Img13 from "../Images/Web_Photos/Akola Manav/13.jpeg";
 import Img19 from "../Images/Web_Photos/Akola Manav/19.jpeg";
-import Img12 from "../Images/Web_Photos/Akola Khandelwal/12.jpeg";
 import Img18 from "../Images/Web_Photos/Akola Khandelwal/18.jpeg";
 import Img20 from "../Images/Web_Photos/Akola Khandelwal/20.jpeg";
 import Img21 from "../Images/Web_Photos/Akola Khandelwal/21.jpeg";
@@ -24,7 +23,6 @@ function SmallSlider() {
     { src: Img24 },
     { src: Img18 },
     { src: Img20 },
-    { src: Img12 },
     { src: Img13 },
     { src: Img19 },
     { src: Img1 },
