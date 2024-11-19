@@ -22,6 +22,18 @@ import Img14 from "../Images/Web_Photos/Pune/14.jpeg";
 import Img15 from "../Images/Web_Photos/Pune/15.jpeg";
 import Img1 from "../Images/Web_Photos/DY Patil/1.jpeg";
 
+// more Images
+import Img2 from "../Images/Web_Photos/2.jpeg"
+import Img3 from "../Images/Web_Photos/2.jpeg"
+import Img4 from "../Images/Web_Photos/4.jpeg"
+import Img5 from "../Images/Web_Photos/5.jpeg"
+import Img6 from "../Images/Web_Photos/6.jpeg"
+import Img7 from "../Images/Web_Photos/7.jpeg"
+import Img9 from "../Images/Web_Photos/9.jpeg"
+import Img10 from "../Images/Web_Photos/10.jpeg"
+import Img11 from "../Images/Web_Photos/11.jpeg"
+import Img25 from "../Images/Web_Photos/25.jpeg"
+import Img26 from "../Images/Web_Photos/26.jpeg"
 
 function Slider() {
   const navigate = useNavigate();
@@ -31,30 +43,94 @@ function Slider() {
     {
       title: "Akola College",
       images: [
-        { src: Img13, id: 1 },
-        { src: Img8,  id: 2 },
-        { src: Img17, id: 3 },
-        { src: Img18, id: 4 },
-        { src: Img20, id: 5 },
-        { src: Img21, id: 6 },
-        { src: Img22, id: 7 },
-        { src: Img23, id: 8 },
-        { src: Img24, id: 9 },
-        { src: Img19, id: 10 },
+        //Akola 
+        { src: Img13, id: 13 },
+        { src: Img8,  id: 8 },
+        { src: Img17, id: 17 },
+        { src: Img18, id: 18 },
+        { src: Img20, id: 20 },
+        { src: Img21, id: 21 },
+        { src: Img22, id: 22 },
+        { src: Img23, id: 23 },
+        { src: Img24, id: 24 },
+        { src: Img19, id: 19 },
 
+        // Pune 
+        { src: Img1,  id: 1 },
+        { src: Img16, id: 16 },
+        { src: Img14, id: 14 },
+        { src: Img15, id: 15 },
 
-
+        // More Images 
+        { src: Img2, id: 2 },
+        { src: Img3, id: 2 },
+        { src: Img4, id: 2 },
+        { src: Img5, id: 2 },
+        { src: Img6, id: 2 },
+        { src: Img7, id: 2 },
+        { src: Img9, id: 2 },
+        { src: Img10, id: 2 },
+        { src: Img11, id: 2 },
+        { src: Img25, id: 2 },
+        { src: Img26, id: 2 },
       ],
     },
+
     {
       title: "Pune College",
       images: [
-        { src: Img1, id: 11 },
+        // Pune 
+        { src: Img1,  id: 1 },
         { src: Img16, id: 16 },
-        { src: Img14, id: 17 },
-        { src: Img15, id: 18 },
+        { src: Img14, id: 14 },
+        { src: Img15, id: 15 },
+
+        //Akola 
+        { src: Img13, id: 13 },
+        { src: Img8,  id: 8 },
+        { src: Img17, id: 17 },
+        { src: Img18, id: 18 },
+        { src: Img20, id: 20 },
+        { src: Img21, id: 21 },
+        { src: Img22, id: 22 },
+        { src: Img23, id: 23 },
+        { src: Img24, id: 24 },
+        { src: Img19, id: 19 },
+
+         // More Images 
+         { src: Img2, id: 2 },
+         { src: Img3, id: 2 },
+         { src: Img4, id: 2 },
+         { src: Img5, id: 2 },
+         { src: Img6, id: 2 },
+         { src: Img7, id: 2 },
+         { src: Img9, id: 2 },
+         { src: Img10, id: 2 },
+         { src: Img11, id: 2 },
+         { src: Img25, id: 2 },
+         { src: Img26, id: 2 },
       ],
     },
+
+    // {
+    //   title: "D.Y. Patil College",
+    //   images: [
+    //     { src: Img1, id: 11 },
+    //     { src: Img16, id: 16 },
+    //     { src: Img14, id: 17 },
+    //     { src: Img15, id: 18 },
+    //   ],
+    // },
+
+    // {
+    //   title: "Pune College",
+    //   images: [
+    //     { src: Img1, id: 11 },
+    //     { src: Img16, id: 16 },
+    //     { src: Img14, id: 17 },
+    //     { src: Img15, id: 18 },
+    //   ],
+    // },
   ];
 
   const handleImageClick = (location) => {
