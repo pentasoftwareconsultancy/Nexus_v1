@@ -60,7 +60,7 @@ const courses = [
     imageUrl:
       "https://www.liimrasoftacademy.com/wp-content/uploads/2024/02/AWS-CLOUD-ADMINISTRATOR.jpg", // Example image URL
     trending: "Trending",
-    stars: "★★★★☆", // Example star rating
+    stars: "★★★★★", // Example star rating
     skillTitle1: "Cloud Infrastructure Management ",
     skillTitle2: "AWS Security and Compliance",
     skillTitle3: "Cost Optimization Strategies",
@@ -105,7 +105,7 @@ const courses = [
     date: "2024-12-01",
     imageUrl: "https://www.nagarro.com/hubfs/DevOps-with-AI-M-min.jpg",
     trending: "Trending",
-    stars: "★★★☆☆",
+    stars: "★★★★★",
     skillTitle1: "Continuous Integration/Continuous Deployment (CI/CD)",
     skillTitle2: " Infrastructure as Code (IaC)",
     skillTitle3: " Monitoring and Logging",
@@ -198,7 +198,7 @@ const courses = [
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtn5OeXYY8PsnhU537FI_pEC4BVbI3McDdPg&s",
     trending: "New",
-    stars: "★★★★☆", // Example star rating
+    stars: "★★★★★", // Example star rating
     skillTitle1: "Statistical Analysis",
     skillTitle2: " Data Visualization",
     skillTitle3: "Machine Learning Algorithms",
@@ -341,7 +341,7 @@ const courses = [
     imageUrl:
       "https://nividous.com/wp-content/uploads/2022/07/artificial-intelligence-in-medical-billing-an-introduction-nividous.jpg", // Example image URL
     trending: "Trending",
-    stars: "★★★★☆", // Example star rating
+    stars: "★★★★★", // Example star rating
     skillTitle1: "ICD-10 and CPT Coding ",
     skillTitle2: "Medical Billing Procedures",
     skillTitle3: "Healthcare Compliance and Regulations",
@@ -390,7 +390,7 @@ const courses = [
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIWhDDeO5Z2WjH5pz7t4iYjqQjznG-CW_-w&s",
     trending: "Trending",
-    stars: "★★★★☆",
+    stars: "★★★★★",
     skillTitle1: "Medical Billing and Coding ",
     skillTitle2: "Claims Management",
     skillTitle3: "Accounts Receivable Follow-up",
@@ -430,7 +430,7 @@ const courses = [
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1BoiVIU4nLDvc0BBhdPS1zqKurZhiMoodEQ&s", // Use the imported Img variable
     trending: "New",
-    stars: "★★★★☆", // Example star rating
+    stars: "★★★★★", // Example star rating
     skillTitle1: " Object-Oriented Programming (OOP)",
     skillTitle2: " Java Collections Framework",
     skillTitle3: " Exception Handling and Multithreading",
@@ -482,7 +482,7 @@ const courses = [
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4zXpMOlTwWUGsrIWsl5kjZX-VN_AR5p7F2A&s", // Use the imported Img variable
     trending: "New",
-    stars: "★★★★☆", // Example star rating
+    stars: "★★★★★", // Example star rating
     skillTitle1: " ASP.NET Web Development",
     skillTitle2: " C# Programming ",
     skillTitle3: " Database Integration with Entity Framework",
@@ -741,7 +741,7 @@ const courses = [
     imageUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VpF4XXNnpvJSB_KPV6dOVQx2Mmd_kPY3Kg&s", // Example image URL
     trending: "New",
-    stars: "★★★★☆", // Example star rating
+    stars: "★★★★★", // Example star rating
     skillTitle1: " Search Engine Optimization (SEO)",
     skillTitle2: " Social Media Marketing",
     skillTitle3: " Content Marketing and Email Campaigns",
@@ -837,7 +837,7 @@ const courses = [
   //   date: "2024-11-01",
   //   imageUrl: "https://img.freepik.com/free-vector/virtual-reality-glasses-technology_18591-52125.jpg?ga=GA1.1.945694213.1713233522&semt=ais_hybrid", // Example image URL
   //   trending: "Trending",
-  //   stars: "★★★★☆",
+  //   stars: "★★★★★",
   //   skillTitle1: "SAP Financial Accounting (FI)",
   //   skillTitle2: "SAP Materials Management (MM)",
   //   skillTitle3: "SAP Sales and Distribution (SD)",
@@ -888,7 +888,7 @@ const courses = [
   //   date: "2024-12-01",
   //   imageUrl: "https://www.damcogroup.com/wp-content/uploads/2023/12/python-for-ai-and-ml.jpg", // Use the imported Img variable
   //   trending: "New",
-  //   stars: "★★★★☆", // Example star rating
+  //   stars: "★★★★★", // Example star rating
   //   skillTitle1: "Basic Syntax and Data Types",
   //   skillTitle2: " Control Structures and Functions",
   //   skillTitle3: " Object-Oriented Programming",

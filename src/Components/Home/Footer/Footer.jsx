@@ -1,7 +1,7 @@
-import styles from "./Footer.module.css";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import courses from "../../../data"; // Import courses data
+import styles from "./Footer.module.css";
 import logo from "./Images/NctcLogo.png"; // Import your logo
 import footerImg from "./Images/contact-us.jpg";
 
@@ -100,7 +100,7 @@ const Footer = () => {
                 <a href="/gallery">Gallery</a>
               </li>
               <li>
-                <a href="/success-stories">Success Stories</a>
+                <a href="/successs-stories">Success Stories</a>
               </li>
               <li>
                 <a href="/contactUs">Contact Us</a>
