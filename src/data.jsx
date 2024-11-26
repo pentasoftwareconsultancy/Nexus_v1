@@ -53,8 +53,7 @@ const courses = [
     title: "AWS Administrator",
     keywords: "AWS Solution Architect course",
     meta: "This AWS Solution Architect course prepares you to pass the AWS certification by mastering AWS services and cloud computing skills. ",
-    description:
-      "managing and operating AWS cloud infrastructure, focusing on deploying, managing, and troubleshooting AWS services.",
+    description:"Master cloud computing with the AWS Solution Architect course, designed for beginners and professionals. Learn to design, implement, and manage scalable systems on AWS through expert-led training and hands-on projects. This comprehensive course covers core AWS services, architecture best practices, and security. Earn your certification with the AWS Solution Architect course and advance your career in cloud technology.",
     duration: "3 months",
     date: "2024-12-01",
     imageUrl:
@@ -150,8 +149,7 @@ const courses = [
     title: "Power BI",
     keywords: "best course for power bi",
     meta: "Enhance your data analytics skills with the best course for Power BI training at Nexus Corporate Training Institute, Pune.",
-    description:
-      "data modeling, visualization, and reporting to transform raw data into actionable insights",
+    description:"Unlock data insights with the best course for Power BI and master data visualization, reporting, and dashboard creation. This comprehensive course covers Power BI tools, DAX, and data modeling, designed for beginners and professionals. Learn through real-world projects and earn certification from the best course for Power BI, advancing your career in data analytics and business intelligence.",
     duration: "3 Months",
     date: "2024-10-01",
     imageUrl: Image, // Example image URL
@@ -191,8 +189,7 @@ const courses = [
     title: "Data Science",
     keywords: "Best data science certifications course",
     meta: "The Best data science certification course with Job assistance and 100% job placement in the IT field with high packages.",
-    description:
-      "This course provides a comprehensive introduction to data science, covering essential tools and techniques for data analysis, visualization, and machine learning..",
+    description:"Advance your career with the best data science certifications course, designed to enhance your skills in data analysis, machine learning, and visualization. Learn Python, R, SQL, and more through hands-on projects and expert-led modules. Earn a globally recognized certification from the best data science certifications course and open doors to lucrative opportunities in the data-driven world.",
     duration: "3 Months",
     date: "2024-12-01",
     imageUrl:
@@ -475,8 +472,7 @@ const courses = [
   {
     title: "C# and .NET",
     meta: "Join the best Java course online to master programming, OOP, and advanced Java skills for developers with nexus corporate training institute.",
-    description:
-      "Master .NET development to build dynamic web, desktop, and mobile applications, leveraging the powerful features of the .NET framework.",
+    description:"Earn a C# certification Microsoft and enhance your programming skills with hands-on learning. This certification course covers essential C# concepts, object-oriented programming, data handling, and application development. Gain expertise in creating efficient, scalable solutions with C#. Completing the C# certification Microsoft will validate your skills and boost your career in software development and application design.",
     duration: "3 Months",
     date: "2024-12-01",
     imageUrl:
@@ -579,8 +575,7 @@ const courses = [
     title: "Sales Force Adm Dev",
     meta: "",
     keywords: "",
-    description:
-      " manage and customize Salesforce applications, focusing on both administrative tasks and development capabilities.",
+    description:"Advance your career with a Salesforce course online with certificate and master Salesforce CRM, administration, and development. This online course equips you with practical skills through expert-led training and hands-on projects. Earn a globally recognized certificate upon completion. Enroll in the Salesforce course online with certificate to boost your professional opportunities in the growing Salesforce ecosystem.",
     duration: "3 Months",
     date: "2024-12-01",
     imageUrl:
