@@ -43,10 +43,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Hands-on projects to apply testing concepts in real-world scenarios",
-    keyfeatures2: "Access to industry-standard testing tools and software",
-    keyfeatures3:
-      "Comprehensive assessments to evaluate learning progress and understanding",
+      "Key Features of the Best Software Testing Course Online: Comprehensive Curriculum: Covers manual testing, automation testing, and advanced testing methodologies. Live Interactive Classes: Real-time classes with industry experts to ensure interactive learning. Hands-on Training: Work on live projects to gain practical experience. Certification: Earn a recognized certification upon course completion. Job Placement Assistance: Support for resume building, interview preparation, and job placements. Industry-Relevant Tools: Training with tools like Selenium, JIRA, TestNG, and more. Flexible Learning Options: Choose between weekday or weekend batches as per your schedule. Doubt Resolution: Regular doubt-clearing sessions and 1-on-1 mentorship. Experienced Faculty: Learn from certified professionals with extensive industry experience. Career Guidance: Personalized career counseling to help you plan your career path in software testing.",
+
   },
 
   {
@@ -426,11 +424,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:
-      "Core Java concepts, including classes, objects, inheritance, and polymorphism.",
-    learningPoint2:
-      "Utilizing the Java Collections Framework for efficient data management.",
-    learningPoint3:
-      "Implementing error handling and multithreading for concurrent applications.",
+      "What You Will Learn in the Java Course: Java Basics: Understand Java syntax, data types, and control structures. Object-Oriented Programming (OOP): Master classes, objects, inheritance, polymorphism, and encapsulation. Data Structures and Algorithms: Learn about arrays, lists, stacks, queues, and search/sort algorithms. Exception Handling: Handle runtime errors effectively with try-catch blocks. Multithreading and Concurrency: Write efficient, parallel programs using threads. File Handling: Manage and manipulate files using Java’s I/O libraries. Web Development: Build dynamic web applications using Java frameworks like Spring and JSP. Database Integration: Work with JDBC to connect and interact with relational databases. API Development: Learn RESTful API creation and integration. Enterprise Applications: Develop robust, scalable enterprise solutions using Spring Boot and Hibernate.",
+
     syllabus: [
       {
         title: "Java Syllabus",
@@ -455,10 +450,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Hands-on coding exercises and projects to build real-world applications.",
-    keyfeatures2: "Comprehensive assessments and quizzes to track progress.",
-    keyfeatures3:
-      "Access to resources and community support for problem-solving.  ",
+      "Key Features of the Best Java Course Online: Comprehensive Curriculum: Covers Java syntax, OOP principles, data handling, multithreading, and advanced frameworks like Spring and Hibernate. Expert-Led Training: Learn from experienced Java professionals with real-world insights. Hands-on Projects: Work on real-world applications to enhance your programming skills. Certification: Receive a recognized certificate upon successful course completion. 100% Job Assistance: Guidance for resume building, interview preparation, and job placement. Flexible Learning Options: Choose from live sessions, video tutorials, or self-paced learning. Interactive Learning: Participate in Q&A sessions, coding challenges, and mentorship programs. Lifetime Access: Access recorded sessions and updated course materials anytime. Tool and Framework Training: Master IDEs like IntelliJ/Eclipse and frameworks like Spring Boot and Hibernate. Career-Oriented Approach: Tailored to prepare you for roles in web development, software engineering, and enterprise application development.",
+ 
   },
   {
     title: "C# and .NET",
@@ -580,10 +573,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:
-      "Configuration and customization of Salesforce platforms to meet business needs",
-    learningPoint2: "Development of applications using Apex and Visualforce",
-    learningPoint3:
-      "Best practices for data management and security within Salesforce",
+      "What You Will Learn in the Salesforce Course Online: Salesforce CRM Basics: Understand the fundamentals of Salesforce CRM and its role in businesses. Administration Essentials: Learn to configure, manage, and optimize Salesforce environments. Data Management: Master techniques for importing, exporting, and handling data efficiently. Customization: Create custom objects, fields, workflows, and automation. User Management: Manage users, roles, and permissions within Salesforce. Apex Programming: Introduction to Salesforce’s programming language for development. Visualforce Pages: Build interactive interfaces for enhanced user experiences. Reports and Dashboards: Generate insightful analytics to drive business decisions. Integration Basics: Understand how to integrate Salesforce with other platforms and tools. Exam Preparation: Get ready for Salesforce certification exams with practice tests and guidance",
+    
     syllabus: [
       {
         title: "Sales Force Adm/Dev Syllabus",
@@ -607,11 +598,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Hands-on labs for practical experience with Salesforce tools and features",
-    keyfeatures2:
-      "Real-world case studies to understand best practices and solutions",
-    keyfeatures3:
-      "Certification preparation to help you pass Salesforce Admin and Developer exams",
+      "Full Curriculum: Salesforce CRM, administration and development. Trainer Led: Interactive sessions with certified Salesforce trainers. Hands on Projects: Practical projects to apply what you learn. Global Certificate: Get a certificate upon completion to prove your skills. 100% Job Support: Resume building, mock interviews and job placement. Flexible Learning: Self paced or instructor led classes to fit your schedule. Lifetime Access: Access course materials and recordings after course completion. Doubts Clearing: Trainers available for queries. Industry Tools: Training on tools and platforms used in Salesforce. Beginner to Pro: For newbies and pros alike.",
+  
   },
 
   {
