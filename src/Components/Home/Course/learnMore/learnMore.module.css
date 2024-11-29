@@ -59,6 +59,22 @@
   animation: fadeIn 1s ease-in-out forwards;
 }
 
+/* Description Section */
+.detailsColumn .courseInfo div {
+  text-align: justify;
+}
+
+/* What You'll Learn Section */
+.additionalInfoSection .learningPoints {
+  text-align: justify;
+}
+
+/* Key Features Section */
+.additionalInfoSection .learningPoints {
+  text-align: justify;
+}
+
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -114,6 +130,7 @@
 .additionalInfoSection {
   background-color: #e8f3ff;
   padding: 20px;
+  justify-content: center;
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
@@ -124,8 +141,12 @@
 }
 
 .learningPoints {
+  justify-content: center;
   list-style-type: disc;
   padding-left: 20px;
+}
+.learningPoints ul{
+  justify-content: center;
 }
 
 ol {

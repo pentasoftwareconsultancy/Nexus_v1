@@ -103,8 +103,8 @@ function LearnMore() {
             <h2 className={styles.additionalInfoTitle}>What You'll Learn</h2>
             <ul className={styles.learningPoints}>
               <li>{course.learningPoint1}</li>
-              <li>{course.learningPoint2}</li>
-              <li>{course.learningPoint3}</li>
+              {/* <li>{course.learningPoint2}</li>
+              <li>{course.learningPoint3}</li> */}
             </ul>
           </section>
 
@@ -112,8 +112,8 @@ function LearnMore() {
             <h2 className={styles.additionalInfoTitle}>Key Features</h2>
             <ul className={styles.learningPoints}>
               <li>{course.keyfeatures1}</li>
-              <li>{course.keyfeatures2}</li>
-              <li>{course.keyfeatures3}</li>
+              {/* <li>{course.keyfeatures2}</li>
+              <li>{course.keyfeatures3}</li> */}
             </ul>
           </section>
         </div>

@@ -66,9 +66,8 @@ const courses = [
     instructor: "Lekharaj Sir",
     contact: "9545450788 / 9545450677",
     fees: "35000",
-    learningPoint1: "Setting up and managing AWS environments",
-    learningPoint2: "Securing AWS resources and managing user permissions",
-    learningPoint3: "Optimizing cloud resources and reducing costs",
+    learningPoint1: "What You’ll Learn AWS 101: Cloud computing and AWS services. AWS Core Services: Infrastructure and API services (EC2, S3, IAM, RDS, Lambda, etc.) Networking and Security: Building a secure and scalable VPC. Storage: S3, Glacier, EBS. Database: RDS, DynamoDB, Redshift. Scaling and Monitoring: Auto-scaling, load balancing, CloudWatch. Architecting on AWS: Building fault-tolerant and cost-effective.",
+    
     syllabus: [
       {
         title: "AWS Administrator Syllabus",
@@ -90,9 +89,8 @@ const courses = [
         ],
       },
     ],
-    keyfeatures1: "Hands-on experience with AWS management tools",
-    keyfeatures2: "Real-world projects for cloud infrastructure setup",
-    keyfeatures3: "AWS best practices for security and cost optimization",
+    keyfeatures1: "Key Features Comprehensive AWS Solution Architect training aligned with certification standards. Sessions designed for beginners and professionals. Hands-on labs and projects for real-world cloud computing experience. A description of the essential AWS including EC2, S3, RDS, and VPC. Training in cloud architecture best practices and scalability. Focus on security, compliance, and disaster recovery strategies. Preparation for the AWS Certified Solutions Architect Associate exam. Flexible learning options: classroom and online sessions available. Lifetime access to course resources and update. Job support with resume building and job placement.",
+  
   },
 
   {
@@ -161,9 +159,8 @@ const courses = [
     instructor: "Ajay Sir",
     contact: "9545450788 / 9545450677",
     fees: "35000",
-    learningPoint1: "Build and optimize data models for reporting.",
-    learningPoint2: "Create compelling visuals and dashboards with Power BI.",
-    learningPoint3: "Use DAX to perform complex data calculations.",
+    learningPoint1: "Unlock data insights with the best course for Power BI and master data visualization, reporting, and dashboard creation. This comprehensive course covers Power BI tools, DAX, and data modeling, designed for beginners and professionals. Learn through real-world projects and earn certification from the best course for Power BI, advancing your career in data analytics and business intelligence.",
+  
     syllabus: [
       {
         title: "Power BI Syllabus",
@@ -180,9 +177,8 @@ const courses = [
         ],
       },
     ],
-    keyfeatures1: "Hands-on project-based learning.",
-    keyfeatures2: "Industry-relevant case studies.",
-    keyfeatures3: "Certification upon course completion.",
+    keyfeatures1: "All-encompassing Power BI training for both beginners and experienced users. Interactive learning experiences with real-life projects. Comprehensive knowledge of data visualization, reporting, and dashboard creation. Proficiency in DAX (Data Analysis Expressions) for advanced data analysis. Data modeling from different data sources and their integration training. Connect with skilled trainers who are also sector-based professionals. Classroom-based as well as online learning options that are interactive. Earn a certification post course that helps you to progress professionally. Flexible schedules designed to meet the needs of working professionals. Unlimited access to study materials and course updates for a lifetime.",
+
   },
 
   {
@@ -202,10 +198,8 @@ const courses = [
     instructor: "Yogil Das",
     contact: "9545450788 / 9545450677",
     fees: "35000",
-    learningPoint1: "Data manipulation and analysis using Python and R.",
-    learningPoint2: "Techniques for visualizing data to derive insights.",
-    learningPoint3:
-      "Implementation of machine learning algorithms for predictive modeling.",
+    learningPoint1: "What You Will Learn Power BI: Get the big picture of tools and their usage in data analytics. Data Preparation: The cleaning, transforming, and loading of data into Power BI. Data Modeling: The creation of relationships and the interpretation of schema structures. DAX Formulas: The writing of expressions for calculated fields and measures. Data Visualization: Designing dynamic, interactive, and eye-catching dashboards. Power BI Desktop: High-level techniques for report generation. Power BI Service: Power BI projects that you can share and collaborate on. Integration: Power BI being connected to Excel, SQL, and other data sources. Advanced Analytics: AI and machine learning tools in Power BI. Best Practices: Guidelines for speeding up and ensuring the correctness of the report.",
+
     syllabus: [
       {
         title: "Data Science Syllabus",
@@ -225,11 +219,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Hands-on projects to apply data science concepts in real-world scenarios.",
-    keyfeatures2:
-      "Access to datasets for practical experience in data analysis and machine learning.",
-    keyfeatures3:
-      "Guidance on building a portfolio to showcase data science skills to potential employers.",
+      "Recognized globally with a certification. 100% job placement assistance that comes with opportunities in the IT field. Hands-on projects which help to build real experience. Comprehensive curriculum includes Python, R, SQL, and machine learning. Advanced modules on data visualization and predictive analytics. Training given by industry experts with several years of experience. Available in flexible learning options- classroom and online modes High paying job opportunities are available after certification. Networking opportunities through industry professionals and alumni. Lifetime access to resources and post-course support.",
+
   },
 
   {
