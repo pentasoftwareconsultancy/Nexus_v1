@@ -157,7 +157,7 @@ const courses = [
     instructor: "Ajay Sir",
     contact: "9545450788 / 9545450677",
     fees: "35000",
-    learningPoint1: "Unlock data insights with the best course for Power BI and master data visualization, reporting, and dashboard creation. This comprehensive course covers Power BI tools, DAX, and data modeling, designed for beginners and professionals. Learn through real-world projects and earn certification from the best course for Power BI, advancing your career in data analytics and business intelligence.",
+    learningPoint1: "What You Will Learn Power BI: Get the big picture of tools and their usage in data analytics. Data Preparation: The cleaning, transforming, and loading of data into Power BI. Data Modeling: The creation of relationships and the interpretation of schema structures. DAX Formulas: The writing of expressions for calculated fields and measures. Data Visualization: Designing dynamic, interactive, and eye-catching dashboards. Power BI Desktop: High-level techniques for report generation. Power BI Service: Power BI projects that you can share and collaborate on. Integration: Power BI being connected to Excel, SQL, and other data sources. Advanced Analytics: AI and machine learning tools in Power BI. Best Practices: Guidelines for speeding up and ensuring the correctness of the report.",
   
     syllabus: [
       {
@@ -175,7 +175,7 @@ const courses = [
         ],
       },
     ],
-    keyfeatures1: "All-encompassing Power BI training for both beginners and experienced users. Interactive learning experiences with real-life projects. Comprehensive knowledge of data visualization, reporting, and dashboard creation. Proficiency in DAX (Data Analysis Expressions) for advanced data analysis. Data modeling from different data sources and their integration training. Connect with skilled trainers who are also sector-based professionals. Classroom-based as well as online learning options that are interactive. Earn a certification post course that helps you to progress professionally. Flexible schedules designed to meet the needs of working professionals. Unlimited access to study materials and course updates for a lifetime.",
+    keyfeatures1: "Key Features All-encompassing Power BI training for both beginners and experienced users. Interactive learning experiences with real-life projects. Comprehensive knowledge of data visualization, reporting, and dashboard creation. Proficiency in DAX (Data Analysis Expressions) for advanced data analysis. Data modeling from different data sources and their integration training. Connect with skilled trainers who are also sector-based professionals. Classroom-based as well as online learning options that are interactive. Earn a certification post course that helps you to progress professionally. Flexible schedules designed to meet the needs of working professionals. Unlimited access to study materials and course updates for a lifetime.",
 
   },
 
@@ -470,11 +470,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:
-      "Learn to create scalable web applications using ASP.NET MVC and Web API.",
-    learningPoint2:
-      "Develop proficiency in C# for building robust software solutions.",
-    learningPoint3:
-      "Implement data access and manipulation using Entity Framework and SQL Server.",
+      "What You Will Learn: Introduction to C# Programming: Understand the basic syntax and structure of C#. Learn how to use variables, operators, and control flow statements in C#. Object-Oriented Programming (OOP): Master the key principles of OOP, including classes, objects, inheritance, polymorphism, and encapsulation. Learn how to design and implement scalable, reusable code using OOP techniques. Data Handling in C#: Work with different data types, collections (lists, dictionaries), and data structures. Learn how to handle input and output operations effectively and perform data validation. Exception Handling and Debugging: Understand error handling in C# using try-catch blocks. Learn how to debug your code and resolve common issues using Visual Studio tools. Building Applications with .NET Framework: Explore how to build applications using the .NET framework, including both console applications and desktop applications (WPF). Gain experience using ASP.NET for web development and creating dynamic web applications. Working with Databases: Learn how to connect your C# applications to databases (SQL Server) and execute CRUD (Create, Read, Update, Delete) operations. Understand ADO.NET and Entity Framework for data access in .NET applications. Advanced C# Concepts: Dive into advanced topics like delegates, events, lambda expressions, and LINQ (Language Integrated Query). Understand asynchronous programming using async/await in C# for handling I/O-bound operations. Creating Scalable Applications: Learn how to create efficient and scalable applications with good design patterns. Understand memory management, garbage collection, and performance optimization in C#. Unit Testing and Test-Driven Development (TDD): Learn how to write unit tests using frameworks like NUnit and MSTest. Understand the principles of test-driven development and its role in writing maintainable code. Final Project and Portfolio Building: Work on a real-world project to apply all the concepts learned during the course. Build a portfolio of C# applications that you can showcase to potential employers.",
+ 
     syllabus: [
       {
         title: "C# and .NET Syllabus",
@@ -497,11 +494,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Hands-on projects that simulate real-world application development.",
-    keyfeatures2:
-      "Comprehensive training on the latest .NET technologies and tools.",
-    keyfeatures3:
-      "Career support including resume building and interview preparation.",
+      "Key Highlights: Comprehensive Curriculum: Learn essential C# concepts, object-oriented programming (OOP), and advanced application development techniques. Hands-On Learning: Gain practical experience through coding exercises, projects, and real-world scenarios to build your portfolio. Microsoft Certification: Upon completion, earn a recognized Microsoft certification that validates your C# programming skills. Career Advancement: Equip yourself with the skills needed for roles such as Software Developer, Application Developer, and .NET Developer. Industry-Relevant Skills: Master C# programming, data handling, and building scalable, maintainable solutions for real-world applications. Experienced Instructors: Learn from expert trainers with extensive experience in C# and .NET technologies. Job-Ready Skills: Focus on developing applications using C#, ASP.NET, and related tools, preparing you for software development roles in various industries.",
+   
   },
   {
     title: "Business Analyst",
