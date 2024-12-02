@@ -108,11 +108,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:
-      "Key DevOps concepts and methodologies to enhance collaboration across teams.",
-    learningPoint2:
-      "Tools and techniques for automating the software delivery process.",
-    learningPoint3:
-      "Strategies for monitoring applications and infrastructure to ensure performance and reliability.",
+      "What You Will Learn in the DevOps Course: DevOps Fundamentals: Understand the core principles, benefits, and practices of DevOps. Version Control: Learn Git and GitHub for efficient source code management. CI/CD Pipelines: Build and manage continuous integration and deployment pipelines using Jenkins and GitLab. Containerization with Docker: Create and manage containers to streamline application deployment. Orchestration with Kubernetes: Automate deployment, scaling, and management of containerized applications. Cloud Integration: Work with AWS, Azure, or Google Cloud to deploy and manage applications. Configuration Management: Automate infrastructure provisioning and management using Ansible or Chef. Monitoring and Logging: Use tools like Prometheus, Grafana, and ELK Stack for system monitoring and logging. Infrastructure as Code (IaC): Learn Terraform to manage infrastructure as code for scalable environments. DevOps Best Practices: Master agile methodologies, workflow automation, and collaboration techniques.",
+
     syllabus: [
       {
         title: "Dev-Ops Syllabus ",
@@ -134,11 +131,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Hands-on labs to practice real-world DevOps tools and techniques.",
-    keyfeatures2:
-      "Collaborative projects to foster teamwork between development and operations.",
-    keyfeatures3:
-      "Insights from industry professionals on DevOps best practices and emerging trends.",
+      "Key Features of the Best Online Course for DevOps: Comprehensive Curriculum: Covers DevOps fundamentals, CI/CD pipelines, containerization, cloud integration, and monitoring tools. Expert-Led Training: Learn from industry-certified DevOps professionals with real-world experience. Hands-on Projects: Work on live projects to apply DevOps concepts and tools. Certification: Earn a recognized DevOps certification to boost your career prospects. 100% Job Assistance: Includes resume building, interview preparation, and placement support. Flexible Learning Options: Choose from self-paced, live sessions, or hybrid learning modes. Tool Proficiency: Master popular DevOps tools like Docker, Kubernetes, Jenkins, Git, Ansible, and Terraform. Interactive Learning: Regular doubt-clearing sessions, mentorship, and Q&A forums. Lifetime Access: Access course materials, recordings, and resources anytime. Career-Oriented Approach: Focus on industry trends to prepare for roles like DevOps Engineer, Cloud Engineer, and Automation Specialist.",
+
   },
 
   {
@@ -223,8 +217,8 @@ const courses = [
 
   {
     title: "Full Stack Devloper ",
-    meta: "",
-    keywords: "",
+    meta: "Enroll in our free Full Stack Web Development course with certification. Gain hands-on skills in HTML, CSS, JavaScript, Node.js, and more.",
+    keywords: "full stack web development course free with certification",
     description:"your web development career with a full stack web development course free with certification! This course covers both front-end and back-end development, teaching you essential technologies like HTML, CSS, JavaScript, React, Node.js, and databases. You'll gain hands-on experience building dynamic, responsive websites and web applications. With expert guidance, interactive exercises, and real-world projects, you’ll develop the skills needed to become a proficient full stack developer. Upon completion, earn a free certification to showcase your expertise to potential employers. Whether you're a beginner or looking to upskill, this full stack web development course free with certification is your gateway to a successful career in tech!",
     duration: "6 Months",
     date: "2024-12-01",
@@ -239,11 +233,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:
-      "Create responsive user interfaces and implement intuitive designs.",
-    learningPoint2:
-      "Develop server-side applications and RESTful APIs for seamless functionality.",
-    learningPoint3:
-      "Manage databases effectively, ensuring data integrity and security.",
+      "What You Will Learn in the Full Stack Web Development Course: Front-End Development: Master HTML, CSS, and JavaScript to create dynamic and visually appealing web pages. React.js: Learn how to build interactive user interfaces using the React JavaScript framework. Back-End Development with Node.js: Understand how to build server-side applications with Node.js and Express.js. Database Management: Learn how to interact with databases such as MongoDB to store and retrieve data. Web Application Deployment: Get hands-on experience deploying web applications to the cloud using platforms like Heroku or AWS. RESTful APIs: Learn how to build and consume RESTful APIs for better interaction between front-end and back-end systems. Responsive Web Design: Create websites that work on any screen size by learning responsive design principles. JavaScript Frameworks: Work with popular JavaScript frameworks like React to develop efficient, scalable web applications. Version Control & Collaboration: Learn Git for version control and how to collaborate with other developers using GitHub. Best Practices for Coding: Understand industry standards and best practices for clean, maintainable code.",
+ 
     syllabus: [
       {
         title: "Full Stack Devloper Syllabus",
@@ -262,16 +253,14 @@ const courses = [
         ],
       },
     ],
-    keyfeatures1: "Hands-on projects that simulate real-world scenarios.",
-    keyfeatures2:
-      "Comprehensive curriculum covering the latest frameworks and technologies.",
-    keyfeatures3: "Job placement assistance and portfolio development support.",
+    keyfeatures1: "Key Features of the Full Stack Web Development Course: Comprehensive Curriculum: Covers both front-end and back-end development with technologies like HTML, CSS, JavaScript, React, Node.js, and databases. Free Certification: Earn a free certificate upon completion to showcase your skills and enhance your resume. Hands-On Experience: Work on real-world projects and exercises to gain practical experience in full stack development. Interactive Lessons: Participate in engaging lessons with live coding sessions and exercises. Industry-Relevant Tools: Learn and work with tools and frameworks that are currently used by developers in the industry. Expert Mentorship: Get guidance from experienced instructors who will help you troubleshoot and improve your coding skills. Responsive Web Design: Learn how to create websites that are mobile-friendly and responsive across devices. Back-End Development: Gain proficiency in back-end technologies such as Node.js, Express, and databases like MongoDB. Version Control: Understand how to use Git and GitHub for code versioning and collaboration. Job-Ready Skills: Complete projects that demonstrate your ability to build functional, full-featured websites and web applications, preparing you for real-world development roles.",
+
   },
 
   {
     title: "Big Data",
-    meta: "",
-    keywords: "",
+    meta: "The best Big Data courses is Master Data Analytics, Hadoop, and Spark to accelerate your data science and tech career.",
+    keywords: "Best Big data course",
     description:"Unlock new career opportunities with the best Big Data course! This course provides a deep dive into the world of Big Data technologies, covering essential tools and platforms like Hadoop, Spark, NoSQL databases, and data processing frameworks. You’ll learn how to handle large datasets, implement data pipelines, and utilize machine learning algorithms to gain insights. With expert instructors, hands-on projects, and real-world case studies, the best Big Data course equips you with the skills to work with complex data sets and make data-driven decisions. Whether you're new to data science or looking to expand your skills, this course will set you up for success in the booming Big Data industry. Enroll today!",
     duration: "3 Months",
     date: "2024-12-01",
@@ -286,11 +275,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:
-      "Understand the architecture and components of Big Data ecosystems.",
-    learningPoint2:
-      "Implement data processing pipelines to handle large volumes of data.",
-    learningPoint3:
-      "Analyze and visualize complex datasets to derive actionable insights.",
+      "What You Will Learn: Introduction to Big Data: Understand the fundamentals of Big Data, its importance, and applications across various industries. Learn about Big Data ecosystems and how they handle large volumes of data. Hadoop and MapReduce: Master Hadoop, the leading framework for managing and processing large datasets. Learn the MapReduce programming model and how it processes data in a distributed environment. Spark and Real-Time Data Processing: Learn Apache Spark, a powerful tool for real-time data processing and analytics. Understand how to process Big Data in memory and speed up data analytics. NoSQL Databases: Get hands-on experience with NoSQL databases like MongoDB and Cassandra, ideal for handling unstructured data. Learn when and how to use NoSQL databases for Big Data storage and retrieval. Data Pipelines and ETL Processes: Learn how to design and implement data pipelines to move data efficiently from one place to another. Understand ETL (Extract, Transform, Load) processes to clean and prepare data for analysis. Data Analytics and Visualization: Master the tools and techniques needed to analyze large datasets and extract meaningful insights. Learn data visualization methods to present your findings in a clear and impactful way. Machine Learning with Big Data: Learn how to apply machine learning algorithms to Big Data sets for predictive analytics. Understand the challenges and opportunities of using machine learning in Big Data environments. Data Security and Privacy: Understand the importance of data security in Big Data environments and how to protect sensitive information. Learn about privacy regulations and compliance standards for handling Big Data. Big Data in Cloud Environments: Learn how to use cloud platforms (AWS, Google Cloud, Azure) to store, process, and analyze Big Data. Understand the scalability and cost-efficiency of cloud solutions for Big Data management. Capstone Project: Apply everything you’ve learned in a final project that simulates real-world Big Data challenges. Develop a full-scale Big Data solution, demonstrating your ability to handle large datasets and use analytics tools effectively.",
+   
     syllabus: [
       {
         title: "Big Data Syllabus",
@@ -312,10 +298,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Real-world projects using industry-standard tools and frameworks.",
-    keyfeatures2: "Comprehensive training on data management and analytics.",
-    keyfeatures3:
-      "Guidance on career opportunities and job placement in the Big Data field.",
+      "Key Highlights: Comprehensive Coverage: Learn the latest Big Data tools and technologies including Hadoop, Spark, and NoSQL databases. Hands-on Learning: Gain practical experience through projects and real-world case studies, making you job-ready. Expert Instructors: Learn from professionals with industry experience who will guide you through complex Big Data concepts. Data Processing Techniques: Understand how to manage large datasets, implement data pipelines, and analyze Big Data using machine learning. Career Advancement: Equip yourself with in-demand skills that are essential for data scientists, analysts, and tech professionals. Industry-Relevant Curriculum: Stay ahead with the most current Big Data trends and platforms, including Hadoop, Spark, and data analytics tools. Certification: Receive a recognized certificate that demonstrates your expertise in Big Data technologies. Real-World Applications: Learn how to apply Big Data concepts in various industries such as healthcare, finance, and e-commerce.",
+
   },
 
   {
@@ -334,9 +318,8 @@ const courses = [
     instructor: "Manisha Mam",
     contact: "9545450788 / 9545450677",
     fees: "30000",
-    learningPoint1: "Understanding medical terminologies and coding standards",
-    learningPoint2: "Processing insurance claims and billing",
-    learningPoint3: "Ensuring compliance with healthcare regulations",
+    learningPoint1: "What You Will Learn in the Best Medical Coding Course: Medical Terminology: Understand common medical terms, anatomy, and diseases relevant to coding. ICD-10 Coding: Master the ICD-10 coding system for diagnoses and medical conditions. CPT and HCPCS Coding: Learn how to code medical procedures and services using the CPT and HCPCS systems. Medical Billing and Coding Process: Gain an understanding of the complete billing and coding cycle in healthcare settings. Compliance and Regulations: Learn about HIPAA regulations, insurance billing policies, and coding standards. Coding Guidelines: Understand coding conventions, sequencing rules, and guidelines for accurate documentation. Error Prevention and Quality Assurance: Learn to identify coding errors, prevent denials, and ensure accurate claims submission. Hands-On Coding: Practice coding real patient data and medical records through assignments and case studies. Coding Software: Get trained on industry-standard coding software to streamline coding processes. Career Preparation: Receive guidance on preparing for certifications like CPC (Certified Professional Coder) and job search strategies in the healthcare coding field.",
+
     syllabus: [
       {
         title: "Medical Coding/Billing",
@@ -360,10 +343,8 @@ const courses = [
         ],
       },
     ],
-    keyfeatures1: "Hands-on training in coding and billing software",
-    keyfeatures2: "Real-world case studies to enhance practical knowledge",
-    keyfeatures3:
-      "Comprehensive understanding of healthcare insurance policies and claim processes",
+    keyfeatures1: "Key Features of the Best Medical Coding Course in Pune: In-Depth Curriculum: Covers essential topics like ICD-10, CPT, HCPCS coding systems, and medical terminology. Expert Trainers: Learn from experienced instructors with deep knowledge of the healthcare coding industry. Hands-On Training: Apply coding techniques to real-world medical cases and gain practical experience. Certification: Receive a recognized certification upon course completion to enhance your career prospects. Interactive Learning: Engage in live sessions, discussions, and quizzes to reinforce key concepts. Industry-Relevant Knowledge: Stay updated with the latest medical coding standards and industry practices. Job Placement Assistance: Access career support services, including resume building, interview prep, and job placement help. Practical Case Studies: Work through real-world case studies to understand the challenges and solutions in medical coding. Flexible Learning: Learn at your own pace with access to online materials and recorded sessions. Comprehensive Study Materials: Get access to textbooks, coding manuals, and additional resources to support your learning.",
+
   },
 
   {
@@ -383,9 +364,8 @@ const courses = [
     instructor: "John Doe",
     contact: "9545450788 / 9545450677",
     fees: "15,000",
-    learningPoint1: "Handling insurance claims and denials",
-    learningPoint2: "Managing accounts receivables and collections",
-    learningPoint3: "Understanding the revenue cycle in healthcare",
+    learningPoint1: "What You Will Learn in the AR Caller Course: Understanding AR in Healthcare: Learn the basics of accounts receivables and its role in the healthcare industry. Medical Billing and Coding: Understand medical billing terminology, coding systems, and insurance claim processes. Insurance Claims: Master the process of verifying and submitting insurance claims, including follow-up procedures. Patient Payment Follow-Ups: Learn effective communication techniques to follow up on unpaid claims and patient accounts. Dispute Resolution: Handle discrepancies in payments, claims denials, and issues with insurance providers. HIPAA Compliance: Understand healthcare data privacy laws and how to protect patient information. Effective Communication: Develop excellent phone etiquette, negotiation skills, and conflict resolution techniques. Documentation and Reporting: Learn how to accurately document AR activities and prepare reports for billing departments. Handling Difficult Situations: Gain strategies for managing irate patients and insurance companies professionally. Preparing for Employment: Receive guidance on career pathways, job expectations, and interviews in the AR caller field.",
+   
     syllabus: [
       {
         title: "AR Caller/RCM Syllabus",
@@ -401,9 +381,8 @@ const courses = [
         ],
       },
     ],
-    keyfeatures1: "Real-time case studies for better understanding",
-    keyfeatures2: "Hands-on practice with billing software",
-    keyfeatures3: "Industry-standard tools and techniques for AR follow-up",
+    keyfeatures1: "Key Features of the Best AR Caller Courses in India: Comprehensive Curriculum: Covers accounts receivables, medical billing, insurance claims, and patient payment processes. Expert Instructors: Learn from industry professionals with hands-on experience in healthcare billing and AR calling. Real-World Scenarios: Gain practical experience through case studies, role-playing, and interactive exercises. Certification: Earn a recognized certification upon course completion to enhance your credentials. Hands-On Training: Apply theoretical knowledge to real-world AR caller tasks in a healthcare setting. Customer Service Skills: Master communication techniques, conflict resolution, and professionalism when interacting with insurance companies and patients. Job Placement Assistance: Receive career support with resume building, interview preparation, and job placement assistance. Industry-Relevant Knowledge: Stay updated with the latest trends in healthcare billing, insurance policies, and AR practices. Flexible Learning: Access online classes, allowing you to learn at your own pace and convenience. Practical Tools: Learn to use industry-standard billing and AR management software commonly used in healthcare settings.",
+  
   },
 
   {
@@ -515,11 +494,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "40000",
     learningPoint1:
-      "Techniques for eliciting and documenting business requirements from stakeholders.",
-    learningPoint2:
-      "Utilizing data analysis tools to interpret and visualize data for informed decision-making.",
-    learningPoint3:
-      "Strategies for effective communication and collaboration with project teams and stakeholders.",
+      "What You Will Learn in the Business Analyst Course: Business Analysis Basics: Understand roles, responsibilities, and methodologies like Agile and Waterfall. Requirement Gathering and Elicitation: Learn techniques like interviews, surveys, and workshops. Data Analysis and Reporting: Master data modeling, analysis, and visualization using tools like Excel and Tableau. Project Management Fundamentals: Understand workflows, scope management, and stakeholder communication. SQL for Business Analysts: Learn querying techniques for extracting insights from databases. Process Improvement: Analyze and optimize business processes using tools like BPMN and flowcharts. Risk Analysis and Management: Identify and mitigate project risks effectively. Communication and Documentation: Create effective business cases, reports, and presentations. Case Studies and Capstone Projects: Work on real-world scenarios to apply theoretical concepts. Preparation for Certifications: Guidance for certifications like CBAP, CCBA, or PMI-PBA.",
+
     syllabus: [
       {
         title: "Business Analyst Syllabus",
@@ -542,17 +518,13 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Case studies and real-world scenarios to apply business analysis concepts.",
-    keyfeatures2:
-      "Hands-on exercises using popular data analysis tools and software.",
-    keyfeatures3:
-      "Networking opportunities with industry professionals and peers for knowledge sharing.",
+"Key Features of the Business Analyst Course in Pune: Comprehensive Curriculum: Covers business analysis fundamentals, requirement gathering, project management, and data visualization. Industry-Recognized Certification: Receive a certification to enhance your professional credentials. Expert Trainers: Learn from experienced business analysts with practical industry knowledge. Hands-on Training: Gain experience with real-world case studies and interactive projects. Practical Tools: Learn tools like Excel, Tableau, Power BI, and SQL for effective data analysis. Live and Interactive Sessions: Engage in Q&A, mentorship, and scenario-based learning. 100% Job Assistance: Resume building, interview preparation, and placement support included. Flexible Learning Options: Online and offline sessions tailored to your convenience. Business Communication Skills: Enhance your ability to present data and insights effectively. Career-Oriented Focus: Tailored for aspiring or experienced business analysts seeking to improve their roles in IT, finance, or consulting."
   },
 
   {
     title: "Sales Force Adm Dev",
-    meta: "",
-    keywords: "",
+    meta: "Salesforce course online with a CRM, administration, and development certificate through practical sessions. and help with finding a job.",
+    keywords: "Salesforce course online with certificate",
     description:"Advance your career with a Salesforce course online with certificate and master Salesforce CRM, administration, and development. This online course equips you with practical skills through expert-led training and hands-on projects. Earn a globally recognized certificate upon completion. Enroll in the Salesforce course online with certificate to boost your professional opportunities in the growing Salesforce ecosystem.",
     duration: "3 Months",
     date: "2024-12-01",
@@ -614,9 +586,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:
-      "Effective communication techniques in professional settings",
-    learningPoint2: "Building strong teamwork and leadership skills",
-    learningPoint3: "Enhancing emotional intelligence and adaptability",
+      "Key Features of the Online SQL/PLSQL Course with Certificate: Comprehensive Curriculum: Covers SQL basics, advanced queries, PL/SQL programming, and database management. Industry-Recognized Certification: Receive a certificate upon course completion to validate your expertise. Interactive Training: Live sessions, recorded lectures, and practical exercises to enhance learning. Hands-on Projects: Gain experience through real-world scenarios and database implementation projects. Expert Instructors: Learn from industry professionals with years of database management experience. Performance Optimization: Understand indexing, query optimization, and tuning techniques. Database Security: Learn user management, access control, and data encryption practices. Flexible Learning: Self-paced and instructor-led options to accommodate your schedule. Career Guidance: Job assistance, resume building, and interview preparation included. Lifetime Access: Access course materials and resources even after course completion",
+
     syllabus: [
       {
         title: "SQL Syllabus",
@@ -645,10 +616,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Interactive role-playing and case studies for real-world scenarios",
-    keyfeatures2: "Personalized feedback on presentations and teamwork",
-    keyfeatures3:
-      "Practical exercises to improve leadership and emotional intelligence",
+      "What You Will Learn in the SQL/PLSQL Course: SQL Basics: Understand database structures, DDL, DML, and DCL commands. Advanced SQL: Learn joins, subqueries, set operations, and analytical functions. PL/SQL Programming: Write stored procedures, functions, triggers, and packages for database applications. Database Design: Understand normalization, ER diagrams, and schema design principles. Data Manipulation: Perform CRUD operations, bulk loading, and data transformation. Performance Tuning: Optimize queries and improve database performance using indexes and partitions. Error Handling: Use exception handling to debug and manage errors in PL/SQL programs. Database Security: Implement user authentication, roles, and privileges to secure data. Real-World Applications: Work on projects to develop and manage complex databases. Preparation for Certifications: Get ready for SQL and PL/SQL certifications like Oracle Certified Associate.",
+
   },
 
   {
@@ -669,9 +638,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "35000",
     learningPoint1:
-      "Effective communication techniques in professional settings",
-    learningPoint2: "Building strong teamwork and leadership skills",
-    learningPoint3: "Enhancing emotional intelligence and adaptability",
+      "What You Will Learn in the Scrum Master Training: Agile Methodologies: Understand the core principles of Agile and its benefits for project management. Scrum Framework: Learn about Scrum roles, including Scrum Master, Product Owner, and Development Team. Scrum Events: Master Sprint Planning, Daily Stand-ups, Sprint Reviews, and Retrospectives. Scrum Artifacts: Understand Product Backlogs, Sprint Backlogs, and Increments. Facilitation Skills: Learn how to lead Scrum ceremonies and guide teams effectively. Agile Tools: Gain experience with tools like Jira, Trello, and Confluence for project tracking and collaboration. Conflict Resolution: Manage team conflicts and foster collaboration for successful project delivery. Scaled Agile Frameworks: Introduction to SAFe and managing large-scale Agile projects. Metrics and Reporting: Use Agile metrics like velocity, burn-down charts, and cumulative flow diagrams. Real-World Applications: Apply Scrum practices in simulated environments to prepare for actual projects.",
+
     syllabus: [
       {
         title: "Scrum Master Syllabus",
@@ -693,10 +661,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Interactive role-playing and case studies for real-world scenarios",
-    keyfeatures2: "Personalized feedback on presentations and teamwork",
-    keyfeatures3:
-      "Practical exercises to improve leadership and emotional intelligence",
+      "Key Features of the Scrum Master Training in Pune: Comprehensive Agile Training: Covers Scrum principles, roles, artifacts, and ceremonies in detail. Expert-Led Sessions: Learn from certified Scrum Masters and Agile professionals with industry experience. Hands-On Practice: Work on real-world Agile projects and simulations to gain practical skills. Certification Preparation: Prepare for globally recognized Scrum certifications like CSM or PSM. Case Studies: Analyze real-world scenarios to understand Agile transformations and project delivery. Interactive Learning: Engage in live discussions, Q&A sessions, and group activities. Career Guidance: Resume building, interview preparation, and job assistance included. Flexible Learning Options: Online and classroom training tailored to your schedule. Comprehensive Course Materials: Access to templates, guides, and additional resources for Scrum practices. Industry-Relevant Focus: Learn the skills required to excel in Agile environments across various industries.",
+   
   },
 
   {
@@ -717,11 +683,8 @@ const courses = [
     contact: "9545450788 / 9545450677 ",
     fees: "15000",
     learningPoint1:
-      "Strategies for optimizing websites to rank higher in search engine results.",
-    learningPoint2:
-      "Techniques for creating and managing effective social media marketing campaigns.",
-    learningPoint3:
-      "Best practices for developing content that attracts and retains customers.",
+      "What You Will Learn in the Digital Marketing Course: SEO Fundamentals: Learn on-page, off-page, and technical SEO strategies to improve website ranking and organic traffic. Social Media Marketing: Understand how to create and implement strategies on platforms like Facebook, Instagram, and LinkedIn. Content Marketing: Learn how to create engaging content and leverage blogging, video marketing, and podcasts. PPC Advertising: Master paid advertising techniques on Google Ads and social media platforms to drive targeted traffic. Email Marketing: Learn how to build effective email campaigns, segment audiences, and track performance. Digital Analytics: Gain expertise in tools like Google Analytics to measure, analyze, and optimize digital marketing campaigns. E-commerce Marketing: Learn strategies to market e-commerce platforms, drive traffic, and convert visitors into buyers. Mobile Marketing: Understand how to leverage mobile marketing strategies, including SMS and app marketing. Affiliate Marketing: Discover the basics of affiliate marketing and how to earn revenue through partnerships. Marketing Automation: Learn how to automate digital marketing campaigns and workflows to increase efficiency and productivity.",
+
     syllabus: [
       {
         title: "Digital Marketing Syllabus",
@@ -744,16 +707,14 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Hands-on projects to implement digital marketing strategies in real-world scenarios.",
-    keyfeatures2: "Case studies from successful digital marketing campaigns.",
-    keyfeatures3:
-      "Insights from industry experts and guest speakers on current trends and best practices.",
+      "Key Features of the Best Digital Marketing Course: Comprehensive Curriculum: Covers SEO, SEM, content marketing, social media strategies, email marketing, analytics, and more. Hands-On Training: Gain practical experience through real-world projects, campaigns, and case studies. Expert Instructors: Learn from industry professionals with extensive experience in digital marketing. 100% Job Assistance: Receive job placement assistance, including resume building, interview preparation, and job referrals. Certification: Earn a globally recognized certification upon completion to boost your resume. Live Sessions and Interactive Learning: Participate in live classes, discussions, and interactive quizzes for better understanding. Industry-Relevant Tools: Get hands-on experience with top digital marketing tools like Google Analytics, SEMrush, HubSpot, and more. Social Media Marketing: Master strategies for platforms like Facebook, Instagram, LinkedIn, and Twitter to grow your brand's online presence. SEO & SEM Mastery: Learn the latest SEO and SEM techniques to improve website ranking and visibility on search engines. Analytics & Reporting: Understand how to track, analyze, and optimize digital campaigns to ensure measurable success.",
+
   },
 
   {
     title: "Soft Skills",
-    meta: "",
-    keywords:"",
+    meta: "the best soft skills to showcase on your resume to impress hiring managers. Highlight communication, teamwork, problem-solving, and more.",
+    keywords:"best soft skills for resume​",
     description:"Highlighting the best soft skills for your resume can significantly enhance your job prospects and demonstrate your ability to thrive in any workplace. Key soft skills include communication, problem-solving, leadership, adaptability, and teamwork. These skills show that you can collaborate effectively, handle challenges, and communicate clearly with colleagues and clients. Time management, critical thinking, and emotional intelligence are also highly valued by employers. Showcasing these best soft skills for your resume will set you apart from other candidates, as they reflect your ability to contribute to a positive and productive work environment. Make sure to emphasize these skills when applying for your next job!", 
     duration: "1 Months",
     date: "2024-12-01",
@@ -768,9 +729,8 @@ const courses = [
     contact: "9545450788 / 9545450677",
     fees: "30000",
     learningPoint1:
-      "Effective communication techniques in professional settings",
-    learningPoint2: "Building strong teamwork and leadership skills",
-    learningPoint3: "Enhancing emotional intelligence and adaptability",
+      "What You Will Learn: Effective Communication: Learn how to express yourself clearly and confidently in both verbal and written formats. Master listening skills to improve understanding and relationships. Teamwork & Collaboration: Understand how to work efficiently with others, manage conflicts, and contribute to team success. Learn how to build rapport and trust among team members. Problem-Solving & Critical Thinking: Develop the ability to analyze situations, identify solutions, and make decisions. Learn techniques for overcoming challenges and thinking creatively. Leadership & Motivation: Learn how to inspire and guide others, even in non-managerial roles. Understand the principles of delegation and motivating team members. Adaptability & Flexibility: Learn how to manage change and remain effective in dynamic work environments. Develop a growth mindset that embraces new opportunities and challenges. Time Management: Master techniques for prioritizing tasks, setting goals, and maintaining focus. Learn how to stay organized and meet deadlines. Emotional Intelligence: Gain an understanding of emotional awareness, empathy, and managing your emotions in the workplace. Learn how emotional intelligence can enhance interpersonal relationships and teamwork. Conflict Resolution: Learn how to handle disagreements professionally and negotiate mutually beneficial solutions. Understand the different conflict resolution styles and when to use them. Creativity & Innovation: Foster a creative mindset that allows you to approach problems and tasks with fresh perspectives. Learn techniques to inspire innovative thinking in yourself and your team. Networking & Relationship Building: Develop skills to network effectively and build meaningful professional relationships. Learn how to maintain long-lasting connections in your industry.",
+
     syllabus: [
       {
         title: "Soft Skills Syllabus",
@@ -792,10 +752,8 @@ const courses = [
       },
     ],
     keyfeatures1:
-      "Interactive role-playing and case studies for real-world scenarios",
-    keyfeatures2: "Personalized feedback on presentations and teamwork",
-    keyfeatures3:
-      "Practical exercises to improve leadership and emotional intelligence",
+      "Key Highlights: Comprehensive Soft Skills Coverage: Learn the core soft skills that are highly valued across industries. Real-Life Applications: Gain practical knowledge and tips on how to apply soft skills effectively in the workplace. Expert Guidance: Learn from experienced professionals and trainers who will provide you with insights into improving your soft skills. Interactive Learning: Engage in activities, discussions, and role-playing scenarios to strengthen your communication, teamwork, and problem-solving abilities. Career Advancement: Improve your employability and job prospects by mastering soft skills that are often a key factor in hiring decisions. Certification: Receive a recognized certificate to showcase your soft skills on your resume, improving your career opportunities. Personal Development: Build confidence, enhance your interpersonal abilities, and develop emotional intelligence to navigate workplace dynamics. Flexible Learning: Online learning options allow you to study at your own pace and convenience.",
+
   },
 
   // {
