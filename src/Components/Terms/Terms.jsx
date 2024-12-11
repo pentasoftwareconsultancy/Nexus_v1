@@ -5,8 +5,7 @@ function Terms() {
     <div>
       <section className={styles.termsSection}>
         <h2>
-          Please read the Terms and Conditions (T&Cs) carefully before enrolling
-          in the course
+         Terms and Conditions (T&Cs)
         </h2>
         <ul>
           <li>

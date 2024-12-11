@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import { useParams, useLocation } from "react-router-dom";
 import {
   FaBook,
   FaClock,
@@ -8,6 +7,7 @@ import {
   FaRupeeSign,
   FaUser,
 } from "react-icons/fa";
+import { useLocation, useParams } from "react-router-dom";
 import courses from "../../../../data"; // Import the courses data directly
 import Tearms from "../../../Terms/Terms";
 import styles from "./learnMore.module.css";
@@ -59,7 +59,7 @@ function LearnMore() {
       {/* Main Content - Course Details */}
       <div className={styles.content}>
         <div className={styles.detailsColumn}>
-          <h1>About {course.title}</h1>
+          <h2>About {course.title}</h2>
           {/* <p>{course.description}</p> */}
 
           <div className={styles.courseInfo}>
