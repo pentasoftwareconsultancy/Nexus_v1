@@ -30,7 +30,7 @@ const Footer = () => {
         <div className={styles.overlayText}>
           <p>Nexus - Corporate Training Center</p>
           <p>+91 9545450788 / +91 9545450677</p>
-          <p>contact@Nexus-CTC-LLP</p>
+          <p>Email : nexusCTC2020@gmail.com</p>
           <p>
             Office No. 4-B, Second Floor, Ganesham Commercial -A, Survey No.
             21/18-21/24, BRTS Road, Pimple Saudagar, Pune- 411027

@@ -39,6 +39,8 @@ function UpcomingBatches() {
               <th>Fees</th>
               <th>Contact</th>
               <th>Know More</th>
+              {/* <th>Know More</th> */}
+
             </tr>
           </thead>
           <tbody>
@@ -48,6 +50,8 @@ function UpcomingBatches() {
                 <td>{course.duration}</td>
                 <td>{course.fees}</td>
                 <td>{course.contact}</td>
+                {/* <td>{course.fees}</td> */}
+
                 <td>
                   <button onClick={() => handleRowClick(course)}>See More</button>
                 </td>

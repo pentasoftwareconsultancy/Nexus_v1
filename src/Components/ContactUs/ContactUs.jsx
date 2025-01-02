@@ -1,6 +1,8 @@
 import styles from "./ContactUs.module.css";
 import LeafletMap from "./LeafletMap/LeafletMap";
 import { Helmet } from "react-helmet";
+import Img from "./image/contactUs.jpg";
+
 
 const ContactUs = () => {
   return (
@@ -13,7 +15,7 @@ const ContactUs = () => {
 
       <section className={styles.heroSection}>
         <img
-          src="https://cdn.leonardo.ai/users/1d4ba5ac-caad-4968-8a76-5fcff230733f/generations/10c58bd4-986f-4cb0-bb57-ec0e4985d14b/Leonardo_Kino_XL_dark_black_ai_images_for_technology_in_websit_1.jpg"
+          src={Img}
           alt="Hero"
           className={styles.heroImage}
         />
