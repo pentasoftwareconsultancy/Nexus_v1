@@ -42,6 +42,8 @@ const courses = [
         ],
       },
     ],
+    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. Software Testing Syllbus.pdf", 
+
     keyfeatures1:
       "Key Features of the Best Software Testing Course Online: Comprehensive Curriculum: Covers manual testing, automation testing, and advanced testing methodologies. Live Interactive Classes: Real-time classes with industry experts to ensure interactive learning. Hands-on Training: Work on live projects to gain practical experience. Certification: Earn a recognized certification upon course completion. Job Placement Assistance: Support for resume building, interview preparation, and job placements. Industry-Relevant Tools: Training with tools like Selenium, JIRA, TestNG, and more. Flexible Learning Options: Choose between weekday or weekend batches as per your schedule. Doubt Resolution: Regular doubt-clearing sessions and 1-on-1 mentorship. Experienced Faculty: Learn from certified professionals with extensive industry experience. Career Guidance: Personalized career counseling to help you plan your career path in software testing.",
 
@@ -87,6 +89,8 @@ const courses = [
         ],
       },
     ],
+    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. AWS Syllbus.pdf", // Path to the syllabus PDF
+
     keyfeatures1: "Key Features Comprehensive AWS Solution Architect training aligned with certification standards. Sessions designed for beginners and professionals. Hands-on labs and projects for real-world cloud computing experience. A description of the essential AWS including EC2, S3, RDS, and VPC. Training in cloud architecture best practices and scalability. Focus on security, compliance, and disaster recovery strategies. Preparation for the AWS Certified Solutions Architect Associate exam. Flexible learning options: classroom and online sessions available. Lifetime access to course resources and update. Job support with resume building and job placement.",
   
   },
@@ -130,6 +134,8 @@ const courses = [
         ],
       },
     ],
+    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. DevOps Syllbus.pdf", // Path to the syllabus PDF
+
     keyfeatures1:
       "Key Features of the Best Online Course for DevOps: Comprehensive Curriculum: Covers DevOps fundamentals, CI/CD pipelines, containerization, cloud integration, and monitoring tools. Expert-Led Training: Learn from industry-certified DevOps professionals with real-world experience. Hands-on Projects: Work on live projects to apply DevOps concepts and tools. Certification: Earn a recognized DevOps certification to boost your career prospects. 100% Job Assistance: Includes resume building, interview preparation, and placement support. Flexible Learning Options: Choose from self-paced, live sessions, or hybrid learning modes. Tool Proficiency: Master popular DevOps tools like Docker, Kubernetes, Jenkins, Git, Ansible, and Terraform. Interactive Learning: Regular doubt-clearing sessions, mentorship, and Q&A forums. Lifetime Access: Access course materials, recordings, and resources anytime. Career-Oriented Approach: Focus on industry trends to prepare for roles like DevOps Engineer, Cloud Engineer, and Automation Specialist.",
 
@@ -169,6 +175,8 @@ const courses = [
         ],
       },
     ],
+    pdfPath: "../public/PDF/Nexus Corporate Traning Centre.  Power Bi Syllbus.pdf", // Path to the syllabus PDF
+
     keyfeatures1: "Key Features All-encompassing Power BI training for both beginners and experienced users. Interactive learning experiences with real-life projects. Comprehensive knowledge of data visualization, reporting, and dashboard creation. Proficiency in DAX (Data Analysis Expressions) for advanced data analysis. Data modeling from different data sources and their integration training. Connect with skilled trainers who are also sector-based professionals. Classroom-based as well as online learning options that are interactive. Earn a certification post course that helps you to progress professionally. Flexible schedules designed to meet the needs of working professionals. Unlimited access to study materials and course updates for a lifetime.",
 
   },
@@ -210,6 +218,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
       "Recognized globally with a certification. 100% job placement assistance that comes with opportunities in the IT field. Hands-on projects which help to build real experience. Comprehensive curriculum includes Python, R, SQL, and machine learning. Advanced modules on data visualization and predictive analytics. Training given by industry experts with several years of experience. Available in flexible learning options- classroom and online modes High paying job opportunities are available after certification. Networking opportunities through industry professionals and alumni. Lifetime access to resources and post-course support.",
 
@@ -253,6 +263,8 @@ const courses = [
         ],
       },
     ],
+    pdfPath: "../public/PDF/Nexus Corporate Traning Centre.Full Stack Developer  Syllbus.pdf", // Path to the syllabus PDF
+
     keyfeatures1: "Key Features of the Full Stack Web Development Course: Comprehensive Curriculum: Covers both front-end and back-end development with technologies like HTML, CSS, JavaScript, React, Node.js, and databases. Free Certification: Earn a free certificate upon completion to showcase your skills and enhance your resume. Hands-On Experience: Work on real-world projects and exercises to gain practical experience in full stack development. Interactive Lessons: Participate in engaging lessons with live coding sessions and exercises. Industry-Relevant Tools: Learn and work with tools and frameworks that are currently used by developers in the industry. Expert Mentorship: Get guidance from experienced instructors who will help you troubleshoot and improve your coding skills. Responsive Web Design: Learn how to create websites that are mobile-friendly and responsive across devices. Back-End Development: Gain proficiency in back-end technologies such as Node.js, Express, and databases like MongoDB. Version Control: Understand how to use Git and GitHub for code versioning and collaboration. Job-Ready Skills: Complete projects that demonstrate your ability to build functional, full-featured websites and web applications, preparing you for real-world development roles.",
 
   },
@@ -297,6 +309,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
       "Key Highlights: Comprehensive Coverage: Learn the latest Big Data tools and technologies including Hadoop, Spark, and NoSQL databases. Hands-on Learning: Gain practical experience through projects and real-world case studies, making you job-ready. Expert Instructors: Learn from professionals with industry experience who will guide you through complex Big Data concepts. Data Processing Techniques: Understand how to manage large datasets, implement data pipelines, and analyze Big Data using machine learning. Career Advancement: Equip yourself with in-demand skills that are essential for data scientists, analysts, and tech professionals. Industry-Relevant Curriculum: Stay ahead with the most current Big Data trends and platforms, including Hadoop, Spark, and data analytics tools. Certification: Receive a recognized certificate that demonstrates your expertise in Big Data technologies. Real-World Applications: Learn how to apply Big Data concepts in various industries such as healthcare, finance, and e-commerce.",
 
@@ -343,6 +357,8 @@ const courses = [
         ],
       },
     ],
+    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. Medical Coding Syllbus.pdf", // Path to the syllabus PDF
+
     keyfeatures1: "Key Features of the Best Medical Coding Course in Pune: In-Depth Curriculum: Covers essential topics like ICD-10, CPT, HCPCS coding systems, and medical terminology. Expert Trainers: Learn from experienced instructors with deep knowledge of the healthcare coding industry. Hands-On Training: Apply coding techniques to real-world medical cases and gain practical experience. Certification: Receive a recognized certification upon course completion to enhance your career prospects. Interactive Learning: Engage in live sessions, discussions, and quizzes to reinforce key concepts. Industry-Relevant Knowledge: Stay updated with the latest medical coding standards and industry practices. Job Placement Assistance: Access career support services, including resume building, interview prep, and job placement help. Practical Case Studies: Work through real-world case studies to understand the challenges and solutions in medical coding. Flexible Learning: Learn at your own pace with access to online materials and recorded sessions. Comprehensive Study Materials: Get access to textbooks, coding manuals, and additional resources to support your learning.",
 
   },
@@ -381,6 +397,8 @@ const courses = [
         ],
       },
     ],
+    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. AR Caller Syllbus.pdf", // Path to the syllabus PDF
+
     keyfeatures1: "Key Features of the Best AR Caller Courses in India: Comprehensive Curriculum: Covers accounts receivables, medical billing, insurance claims, and patient payment processes. Expert Instructors: Learn from industry professionals with hands-on experience in healthcare billing and AR calling. Real-World Scenarios: Gain practical experience through case studies, role-playing, and interactive exercises. Certification: Earn a recognized certification upon course completion to enhance your credentials. Hands-On Training: Apply theoretical knowledge to real-world AR caller tasks in a healthcare setting. Customer Service Skills: Master communication techniques, conflict resolution, and professionalism when interacting with insurance companies and patients. Job Placement Assistance: Receive career support with resume building, interview preparation, and job placement assistance. Industry-Relevant Knowledge: Stay updated with the latest trends in healthcare billing, insurance policies, and AR practices. Flexible Learning: Access online classes, allowing you to learn at your own pace and convenience. Practical Tools: Learn to use industry-standard billing and AR management software commonly used in healthcare settings.",
   
   },
@@ -428,6 +446,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
       "Key Features of the Best Java Course Online: Comprehensive Curriculum: Covers Java syntax, OOP principles, data handling, multithreading, and advanced frameworks like Spring and Hibernate. Expert-Led Training: Learn from experienced Java professionals with real-world insights. Hands-on Projects: Work on real-world applications to enhance your programming skills. Certification: Receive a recognized certificate upon successful course completion. 100% Job Assistance: Guidance for resume building, interview preparation, and job placement. Flexible Learning Options: Choose from live sessions, video tutorials, or self-paced learning. Interactive Learning: Participate in Q&A sessions, coding challenges, and mentorship programs. Lifetime Access: Access recorded sessions and updated course materials anytime. Tool and Framework Training: Master IDEs like IntelliJ/Eclipse and frameworks like Spring Boot and Hibernate. Career-Oriented Approach: Tailored to prepare you for roles in web development, software engineering, and enterprise application development.",
  
@@ -472,6 +492,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
       "Key Highlights: Comprehensive Curriculum: Learn essential C# concepts, object-oriented programming (OOP), and advanced application development techniques. Hands-On Learning: Gain practical experience through coding exercises, projects, and real-world scenarios to build your portfolio. Microsoft Certification: Upon completion, earn a recognized Microsoft certification that validates your C# programming skills. Career Advancement: Equip yourself with the skills needed for roles such as Software Developer, Application Developer, and .NET Developer. Industry-Relevant Skills: Master C# programming, data handling, and building scalable, maintainable solutions for real-world applications. Experienced Instructors: Learn from expert trainers with extensive experience in C# and .NET technologies. Job-Ready Skills: Focus on developing applications using C#, ASP.NET, and related tools, preparing you for software development roles in various industries.",
    
@@ -517,6 +539,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
 "Key Features of the Business Analyst Course in Pune: Comprehensive Curriculum: Covers business analysis fundamentals, requirement gathering, project management, and data visualization. Industry-Recognized Certification: Receive a certification to enhance your professional credentials. Expert Trainers: Learn from experienced business analysts with practical industry knowledge. Hands-on Training: Gain experience with real-world case studies and interactive projects. Practical Tools: Learn tools like Excel, Tableau, Power BI, and SQL for effective data analysis. Live and Interactive Sessions: Engage in Q&A, mentorship, and scenario-based learning. 100% Job Assistance: Resume building, interview preparation, and placement support included. Flexible Learning Options: Online and offline sessions tailored to your convenience. Business Communication Skills: Enhance your ability to present data and insights effectively. Career-Oriented Focus: Tailored for aspiring or experienced business analysts seeking to improve their roles in IT, finance, or consulting."
   },
@@ -563,6 +587,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
       "Full Curriculum: Salesforce CRM, administration and development. Trainer Led: Interactive sessions with certified Salesforce trainers. Hands on Projects: Practical projects to apply what you learn. Global Certificate: Get a certificate upon completion to prove your skills. 100% Job Support: Resume building, mock interviews and job placement. Flexible Learning: Self paced or instructor led classes to fit your schedule. Lifetime Access: Access course materials and recordings after course completion. Doubts Clearing: Trainers available for queries. Industry Tools: Training on tools and platforms used in Salesforce. Beginner to Pro: For newbies and pros alike.",
   
@@ -615,6 +641,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
       "What You Will Learn in the SQL/PLSQL Course: SQL Basics: Understand database structures, DDL, DML, and DCL commands. Advanced SQL: Learn joins, subqueries, set operations, and analytical functions. PL/SQL Programming: Write stored procedures, functions, triggers, and packages for database applications. Database Design: Understand normalization, ER diagrams, and schema design principles. Data Manipulation: Perform CRUD operations, bulk loading, and data transformation. Performance Tuning: Optimize queries and improve database performance using indexes and partitions. Error Handling: Use exception handling to debug and manage errors in PL/SQL programs. Database Security: Implement user authentication, roles, and privileges to secure data. Real-World Applications: Work on projects to develop and manage complex databases. Preparation for Certifications: Get ready for SQL and PL/SQL certifications like Oracle Certified Associate.",
 
@@ -660,6 +688,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
       "Key Features of the Scrum Master Training in Pune: Comprehensive Agile Training: Covers Scrum principles, roles, artifacts, and ceremonies in detail. Expert-Led Sessions: Learn from certified Scrum Masters and Agile professionals with industry experience. Hands-On Practice: Work on real-world Agile projects and simulations to gain practical skills. Certification Preparation: Prepare for globally recognized Scrum certifications like CSM or PSM. Case Studies: Analyze real-world scenarios to understand Agile transformations and project delivery. Interactive Learning: Engage in live discussions, Q&A sessions, and group activities. Career Guidance: Resume building, interview preparation, and job assistance included. Flexible Learning Options: Online and classroom training tailored to your schedule. Comprehensive Course Materials: Access to templates, guides, and additional resources for Scrum practices. Industry-Relevant Focus: Learn the skills required to excel in Agile environments across various industries.",
    
@@ -706,6 +736,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: "", // Path to the syllabus PDF
+
     keyfeatures1:
       "Key Features of the Best Digital Marketing Course: Comprehensive Curriculum: Covers SEO, SEM, content marketing, social media strategies, email marketing, analytics, and more. Hands-On Training: Gain practical experience through real-world projects, campaigns, and case studies. Expert Instructors: Learn from industry professionals with extensive experience in digital marketing. 100% Job Assistance: Receive job placement assistance, including resume building, interview preparation, and job referrals. Certification: Earn a globally recognized certification upon completion to boost your resume. Live Sessions and Interactive Learning: Participate in live classes, discussions, and interactive quizzes for better understanding. Industry-Relevant Tools: Get hands-on experience with top digital marketing tools like Google Analytics, SEMrush, HubSpot, and more. Social Media Marketing: Master strategies for platforms like Facebook, Instagram, LinkedIn, and Twitter to grow your brand's online presence. SEO & SEM Mastery: Learn the latest SEO and SEM techniques to improve website ranking and visibility on search engines. Analytics & Reporting: Understand how to track, analyze, and optimize digital campaigns to ensure measurable success.",
 
@@ -751,6 +783,8 @@ const courses = [
         ],
       },
     ],
+    // pdfPath: ""
+
     keyfeatures1:
       "Key Highlights: Comprehensive Soft Skills Coverage: Learn the core soft skills that are highly valued across industries. Real-Life Applications: Gain practical knowledge and tips on how to apply soft skills effectively in the workplace. Expert Guidance: Learn from experienced professionals and trainers who will provide you with insights into improving your soft skills. Interactive Learning: Engage in activities, discussions, and role-playing scenarios to strengthen your communication, teamwork, and problem-solving abilities. Career Advancement: Improve your employability and job prospects by mastering soft skills that are often a key factor in hiring decisions. Certification: Receive a recognized certificate to showcase your soft skills on your resume, improving your career opportunities. Personal Development: Build confidence, enhance your interpersonal abilities, and develop emotional intelligence to navigate workplace dynamics. Flexible Learning: Online learning options allow you to study at your own pace and convenience.",
 

@@ -11,6 +11,7 @@ import { useLocation, useParams } from "react-router-dom";
 import courses from "../../../../data"; // Import the courses data directly
 import Tearms from "../../../Terms/Terms";
 import styles from "./learnMore.module.css";
+import PDF from "../../../../../public/PDF/PDF"
 
 function LearnMore() {
   const { courseName } = useParams(); // Get course name from URL
@@ -78,27 +79,34 @@ function LearnMore() {
           </div>
 
           {/* Syllabus Section */}
-          <div className={styles.syllabus}>
-            <FaUser className={styles.icon} /> <strong> Syllabus</strong>
-            <ol>
-              {course.syllabus && course.syllabus.length > 0 ? (
-                course.syllabus.map((item, index) => (
-                  <li key={index}>
-                    <strong>{item.title}</strong>
-                    {item.topics && item.topics.length > 0 && (
-                      <ul>
-                        {item.topics.map((topic, topicIndex) => (
-                          <li key={topicIndex}>{topic}</li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
-                ))
-              ) : (
-                <li>No syllabus available.</li>
-              )}
-            </ol>
-          </div>
+          <div className={styles.learnMore}>
+      <div className={styles.syllabus}>
+        <FaUser className={styles.icon} /> <strong>Syllabus</strong>
+        <ol>
+          {course.syllabus && course.syllabus.length > 0 ? (
+            course.syllabus.map((item, index) => (
+              <li key={index}>
+                <strong>{item.title}</strong>
+                {item.topics && item.topics.length > 0 && (
+                  <ul>
+                    {item.topics.map((topic, topicIndex) => (
+                      <li key={topicIndex}>{topic}</li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))
+          ) : (
+            <li>No syllabus available.</li>
+          )}
+        </ol>
+        {/* Add the Download PDF button */}   
+            {course.pdfPath && (
+         <PDF filePath={course.pdfPath} fileName={`${course.title} Syllabus.pdf`} />
+
+        )}      
+        </div>
+    </div>
           <section className={styles.additionalInfoSection}>
             <h2 className={styles.additionalInfoTitle}>What You'll Learn</h2>
             <ul className={styles.learningPoints}>
