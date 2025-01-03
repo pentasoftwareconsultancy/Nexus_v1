@@ -101,10 +101,10 @@ function LearnMore() {
           )}
         </ol>
         {/* Add the Download PDF button */}   
-            {course.pdfPath && (
-         <PDF filePath={course.pdfPath} fileName={`${course.title} Syllabus.pdf`} />
-
-        )}      
+        {course.pdfPath && (
+           <PDF filePath={course.pdfPath} fileName={`${course.title} Syllabus.pdf`} />
+        )}
+     
         </div>
     </div>
           <section className={styles.additionalInfoSection}>

@@ -42,7 +42,7 @@ const courses = [
         ],
       },
     ],
-    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. Software Testing Syllbus.pdf", 
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Software_Testing_Syllbus.pdf",
 
     keyfeatures1:
       "Key Features of the Best Software Testing Course Online: Comprehensive Curriculum: Covers manual testing, automation testing, and advanced testing methodologies. Live Interactive Classes: Real-time classes with industry experts to ensure interactive learning. Hands-on Training: Work on live projects to gain practical experience. Certification: Earn a recognized certification upon course completion. Job Placement Assistance: Support for resume building, interview preparation, and job placements. Industry-Relevant Tools: Training with tools like Selenium, JIRA, TestNG, and more. Flexible Learning Options: Choose between weekday or weekend batches as per your schedule. Doubt Resolution: Regular doubt-clearing sessions and 1-on-1 mentorship. Experienced Faculty: Learn from certified professionals with extensive industry experience. Career Guidance: Personalized career counseling to help you plan your career path in software testing.",
