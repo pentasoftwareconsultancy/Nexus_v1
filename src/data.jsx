@@ -89,7 +89,7 @@ const courses = [
         ],
       },
     ],
-    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. AWS Syllbus.pdf", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_AWS_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1: "Key Features Comprehensive AWS Solution Architect training aligned with certification standards. Sessions designed for beginners and professionals. Hands-on labs and projects for real-world cloud computing experience. A description of the essential AWS including EC2, S3, RDS, and VPC. Training in cloud architecture best practices and scalability. Focus on security, compliance, and disaster recovery strategies. Preparation for the AWS Certified Solutions Architect Associate exam. Flexible learning options: classroom and online sessions available. Lifetime access to course resources and update. Job support with resume building and job placement.",
   
@@ -134,7 +134,7 @@ const courses = [
         ],
       },
     ],
-    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. DevOps Syllbus.pdf", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_DevOps_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
       "Key Features of the Best Online Course for DevOps: Comprehensive Curriculum: Covers DevOps fundamentals, CI/CD pipelines, containerization, cloud integration, and monitoring tools. Expert-Led Training: Learn from industry-certified DevOps professionals with real-world experience. Hands-on Projects: Work on live projects to apply DevOps concepts and tools. Certification: Earn a recognized DevOps certification to boost your career prospects. 100% Job Assistance: Includes resume building, interview preparation, and placement support. Flexible Learning Options: Choose from self-paced, live sessions, or hybrid learning modes. Tool Proficiency: Master popular DevOps tools like Docker, Kubernetes, Jenkins, Git, Ansible, and Terraform. Interactive Learning: Regular doubt-clearing sessions, mentorship, and Q&A forums. Lifetime Access: Access course materials, recordings, and resources anytime. Career-Oriented Approach: Focus on industry trends to prepare for roles like DevOps Engineer, Cloud Engineer, and Automation Specialist.",
@@ -175,7 +175,7 @@ const courses = [
         ],
       },
     ],
-    pdfPath: "../public/PDF/Nexus Corporate Traning Centre.  Power Bi Syllbus.pdf", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Power_Bi_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1: "Key Features All-encompassing Power BI training for both beginners and experienced users. Interactive learning experiences with real-life projects. Comprehensive knowledge of data visualization, reporting, and dashboard creation. Proficiency in DAX (Data Analysis Expressions) for advanced data analysis. Data modeling from different data sources and their integration training. Connect with skilled trainers who are also sector-based professionals. Classroom-based as well as online learning options that are interactive. Earn a certification post course that helps you to progress professionally. Flexible schedules designed to meet the needs of working professionals. Unlimited access to study materials and course updates for a lifetime.",
 
@@ -263,7 +263,7 @@ const courses = [
         ],
       },
     ],
-    pdfPath: "../public/PDF/Nexus Corporate Traning Centre.Full Stack Developer  Syllbus.pdf", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Full_Stack_Developer_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1: "Key Features of the Full Stack Web Development Course: Comprehensive Curriculum: Covers both front-end and back-end development with technologies like HTML, CSS, JavaScript, React, Node.js, and databases. Free Certification: Earn a free certificate upon completion to showcase your skills and enhance your resume. Hands-On Experience: Work on real-world projects and exercises to gain practical experience in full stack development. Interactive Lessons: Participate in engaging lessons with live coding sessions and exercises. Industry-Relevant Tools: Learn and work with tools and frameworks that are currently used by developers in the industry. Expert Mentorship: Get guidance from experienced instructors who will help you troubleshoot and improve your coding skills. Responsive Web Design: Learn how to create websites that are mobile-friendly and responsive across devices. Back-End Development: Gain proficiency in back-end technologies such as Node.js, Express, and databases like MongoDB. Version Control: Understand how to use Git and GitHub for code versioning and collaboration. Job-Ready Skills: Complete projects that demonstrate your ability to build functional, full-featured websites and web applications, preparing you for real-world development roles.",
 
@@ -357,7 +357,7 @@ const courses = [
         ],
       },
     ],
-    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. Medical Coding Syllbus.pdf", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Medical_Coding_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1: "Key Features of the Best Medical Coding Course in Pune: In-Depth Curriculum: Covers essential topics like ICD-10, CPT, HCPCS coding systems, and medical terminology. Expert Trainers: Learn from experienced instructors with deep knowledge of the healthcare coding industry. Hands-On Training: Apply coding techniques to real-world medical cases and gain practical experience. Certification: Receive a recognized certification upon course completion to enhance your career prospects. Interactive Learning: Engage in live sessions, discussions, and quizzes to reinforce key concepts. Industry-Relevant Knowledge: Stay updated with the latest medical coding standards and industry practices. Job Placement Assistance: Access career support services, including resume building, interview prep, and job placement help. Practical Case Studies: Work through real-world case studies to understand the challenges and solutions in medical coding. Flexible Learning: Learn at your own pace with access to online materials and recorded sessions. Comprehensive Study Materials: Get access to textbooks, coding manuals, and additional resources to support your learning.",
 
@@ -397,7 +397,7 @@ const courses = [
         ],
       },
     ],
-    pdfPath: "../public/PDF/Nexus Corporate Traning Centre. AR Caller Syllbus.pdf", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_AR_Caller_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1: "Key Features of the Best AR Caller Courses in India: Comprehensive Curriculum: Covers accounts receivables, medical billing, insurance claims, and patient payment processes. Expert Instructors: Learn from industry professionals with hands-on experience in healthcare billing and AR calling. Real-World Scenarios: Gain practical experience through case studies, role-playing, and interactive exercises. Certification: Earn a recognized certification upon course completion to enhance your credentials. Hands-On Training: Apply theoretical knowledge to real-world AR caller tasks in a healthcare setting. Customer Service Skills: Master communication techniques, conflict resolution, and professionalism when interacting with insurance companies and patients. Job Placement Assistance: Receive career support with resume building, interview preparation, and job placement assistance. Industry-Relevant Knowledge: Stay updated with the latest trends in healthcare billing, insurance policies, and AR practices. Flexible Learning: Access online classes, allowing you to learn at your own pace and convenience. Practical Tools: Learn to use industry-standard billing and AR management software commonly used in healthcare settings.",
   
