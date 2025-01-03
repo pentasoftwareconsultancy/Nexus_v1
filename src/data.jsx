@@ -218,7 +218,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: "", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Certificate_Course_in_Data_Science_Syllabus.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
       "Recognized globally with a certification. 100% job placement assistance that comes with opportunities in the IT field. Hands-on projects which help to build real experience. Comprehensive curriculum includes Python, R, SQL, and machine learning. Advanced modules on data visualization and predictive analytics. Training given by industry experts with several years of experience. Available in flexible learning options- classroom and online modes High paying job opportunities are available after certification. Networking opportunities through industry professionals and alumni. Lifetime access to resources and post-course support.",
