@@ -446,7 +446,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: "", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Java_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
       "Key Features of the Best Java Course Online: Comprehensive Curriculum: Covers Java syntax, OOP principles, data handling, multithreading, and advanced frameworks like Spring and Hibernate. Expert-Led Training: Learn from experienced Java professionals with real-world insights. Hands-on Projects: Work on real-world applications to enhance your programming skills. Certification: Receive a recognized certificate upon successful course completion. 100% Job Assistance: Guidance for resume building, interview preparation, and job placement. Flexible Learning Options: Choose from live sessions, video tutorials, or self-paced learning. Interactive Learning: Participate in Q&A sessions, coding challenges, and mentorship programs. Lifetime Access: Access recorded sessions and updated course materials anytime. Tool and Framework Training: Master IDEs like IntelliJ/Eclipse and frameworks like Spring Boot and Hibernate. Career-Oriented Approach: Tailored to prepare you for roles in web development, software engineering, and enterprise application development.",
