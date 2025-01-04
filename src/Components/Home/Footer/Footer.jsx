@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/f
 import { useNavigate } from "react-router-dom";
 import courses from "../../../data"; // Import courses data
 import styles from "./Footer.module.css";
-import logo from "./Images/NctcLogo.png"; // Import your logo
+import logo from "./Images/NexusLogo.png"; // Import your logo
 import footerImg from "./Images/contact-us.jpg";
 
 const Footer = () => {

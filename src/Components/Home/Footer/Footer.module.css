@@ -22,7 +22,7 @@
 .logoImage {
   width: 150px; /* Adjust the width of the logo */
   height: auto; /* Ensures the logo maintains aspect ratio */
-  margin-left: 10px; /* Adds spacing between the logo and text */
+  margin-left: 1px; /* Adds spacing between the logo and text*/
 }
 
 .overlayText {
@@ -46,7 +46,7 @@ p {
 }
 
 .para {
-text-align: left;
+text-align: justify;
 }
 span{
 font-size: 18px;
