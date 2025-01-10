@@ -1,6 +1,6 @@
 import { useState } from "react";
 // import BookDemo from './BookDemo/BookDemo';
-import logo from "./IMG/NexusLogo.png";
+import logo from "./IMG/NexusctcLogo.png";
 import styles from "./Navbar.module.css";
 
 

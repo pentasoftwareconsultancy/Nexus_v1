@@ -43,10 +43,11 @@
 }
 
 .logo img {
-  max-height: 40px; /* Set a maximum height for the logo */
+  max-height: 50px; /* Set a maximum height for the logo */
   width: auto;      /* Maintain aspect ratio */
   display: block;
 }
+
 .hamburger {
   display: none;
   flex-direction: column;
