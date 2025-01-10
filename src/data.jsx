@@ -309,8 +309,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: "", // Path to the syllabus PDF
-
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Big_data_Syllbus.pdf", // Path to the syllabus PDF
     keyfeatures1:
       "Key Highlights: Comprehensive Coverage: Learn the latest Big Data tools and technologies including Hadoop, Spark, and NoSQL databases. Hands-on Learning: Gain practical experience through projects and real-world case studies, making you job-ready. Expert Instructors: Learn from professionals with industry experience who will guide you through complex Big Data concepts. Data Processing Techniques: Understand how to manage large datasets, implement data pipelines, and analyze Big Data using machine learning. Career Advancement: Equip yourself with in-demand skills that are essential for data scientists, analysts, and tech professionals. Industry-Relevant Curriculum: Stay ahead with the most current Big Data trends and platforms, including Hadoop, Spark, and data analytics tools. Certification: Receive a recognized certificate that demonstrates your expertise in Big Data technologies. Real-World Applications: Learn how to apply Big Data concepts in various industries such as healthcare, finance, and e-commerce.",
 
@@ -539,7 +538,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: "", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Business_Analysts_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
 "Key Features of the Business Analyst Course in Pune: Comprehensive Curriculum: Covers business analysis fundamentals, requirement gathering, project management, and data visualization. Industry-Recognized Certification: Receive a certification to enhance your professional credentials. Expert Trainers: Learn from experienced business analysts with practical industry knowledge. Hands-on Training: Gain experience with real-world case studies and interactive projects. Practical Tools: Learn tools like Excel, Tableau, Power BI, and SQL for effective data analysis. Live and Interactive Sessions: Engage in Q&A, mentorship, and scenario-based learning. 100% Job Assistance: Resume building, interview preparation, and placement support included. Flexible Learning Options: Online and offline sessions tailored to your convenience. Business Communication Skills: Enhance your ability to present data and insights effectively. Career-Oriented Focus: Tailored for aspiring or experienced business analysts seeking to improve their roles in IT, finance, or consulting."
@@ -587,7 +586,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: "", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Salesforce_Administrator_and_Developer_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
       "Full Curriculum: Salesforce CRM, administration and development. Trainer Led: Interactive sessions with certified Salesforce trainers. Hands on Projects: Practical projects to apply what you learn. Global Certificate: Get a certificate upon completion to prove your skills. 100% Job Support: Resume building, mock interviews and job placement. Flexible Learning: Self paced or instructor led classes to fit your schedule. Lifetime Access: Access course materials and recordings after course completion. Doubts Clearing: Trainers available for queries. Industry Tools: Training on tools and platforms used in Salesforce. Beginner to Pro: For newbies and pros alike.",
@@ -641,7 +640,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: "", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_SQL_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
       "What You Will Learn in the SQL/PLSQL Course: SQL Basics: Understand database structures, DDL, DML, and DCL commands. Advanced SQL: Learn joins, subqueries, set operations, and analytical functions. PL/SQL Programming: Write stored procedures, functions, triggers, and packages for database applications. Database Design: Understand normalization, ER diagrams, and schema design principles. Data Manipulation: Perform CRUD operations, bulk loading, and data transformation. Performance Tuning: Optimize queries and improve database performance using indexes and partitions. Error Handling: Use exception handling to debug and manage errors in PL/SQL programs. Database Security: Implement user authentication, roles, and privileges to secure data. Real-World Applications: Work on projects to develop and manage complex databases. Preparation for Certifications: Get ready for SQL and PL/SQL certifications like Oracle Certified Associate.",
@@ -783,7 +782,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: ""
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Softskill_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
       "Key Highlights: Comprehensive Soft Skills Coverage: Learn the core soft skills that are highly valued across industries. Real-Life Applications: Gain practical knowledge and tips on how to apply soft skills effectively in the workplace. Expert Guidance: Learn from experienced professionals and trainers who will provide you with insights into improving your soft skills. Interactive Learning: Engage in activities, discussions, and role-playing scenarios to strengthen your communication, teamwork, and problem-solving abilities. Career Advancement: Improve your employability and job prospects by mastering soft skills that are often a key factor in hiring decisions. Certification: Receive a recognized certificate to showcase your soft skills on your resume, improving your career opportunities. Personal Development: Build confidence, enhance your interpersonal abilities, and develop emotional intelligence to navigate workplace dynamics. Flexible Learning: Online learning options allow you to study at your own pace and convenience.",
