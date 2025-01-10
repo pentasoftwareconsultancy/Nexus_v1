@@ -687,7 +687,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: "", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_ Scrum_Master_Syllbus.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
       "Key Features of the Scrum Master Training in Pune: Comprehensive Agile Training: Covers Scrum principles, roles, artifacts, and ceremonies in detail. Expert-Led Sessions: Learn from certified Scrum Masters and Agile professionals with industry experience. Hands-On Practice: Work on real-world Agile projects and simulations to gain practical skills. Certification Preparation: Prepare for globally recognized Scrum certifications like CSM or PSM. Case Studies: Analyze real-world scenarios to understand Agile transformations and project delivery. Interactive Learning: Engage in live discussions, Q&A sessions, and group activities. Career Guidance: Resume building, interview preparation, and job assistance included. Flexible Learning Options: Online and classroom training tailored to your schedule. Comprehensive Course Materials: Access to templates, guides, and additional resources for Scrum practices. Industry-Relevant Focus: Learn the skills required to excel in Agile environments across various industries.",
@@ -735,7 +735,7 @@ const courses = [
         ],
       },
     ],
-    // pdfPath: "", // Path to the syllabus PDF
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Digital_Marketing.pdf", // Path to the syllabus PDF
 
     keyfeatures1:
       "Key Features of the Best Digital Marketing Course: Comprehensive Curriculum: Covers SEO, SEM, content marketing, social media strategies, email marketing, analytics, and more. Hands-On Training: Gain practical experience through real-world projects, campaigns, and case studies. Expert Instructors: Learn from industry professionals with extensive experience in digital marketing. 100% Job Assistance: Receive job placement assistance, including resume building, interview preparation, and job referrals. Certification: Earn a globally recognized certification upon completion to boost your resume. Live Sessions and Interactive Learning: Participate in live classes, discussions, and interactive quizzes for better understanding. Industry-Relevant Tools: Get hands-on experience with top digital marketing tools like Google Analytics, SEMrush, HubSpot, and more. Social Media Marketing: Master strategies for platforms like Facebook, Instagram, LinkedIn, and Twitter to grow your brand's online presence. SEO & SEM Mastery: Learn the latest SEO and SEM techniques to improve website ranking and visibility on search engines. Analytics & Reporting: Understand how to track, analyze, and optimize digital campaigns to ensure measurable success.",
