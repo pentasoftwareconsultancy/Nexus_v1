@@ -789,6 +789,67 @@ const courses = [
 
   },
 
+  {
+    title: "MERN Stack Developer",
+    meta: "Master the MERN Stack and become a full-stack web developer with expertise in MongoDB, Express.js, React.js, and Node.js.",
+    keywords: "MERN Stack Developer course, full-stack web development, MongoDB, Express.js, React.js, Node.js",
+    description: "The MERN Stack Developer course equips you with the skills to build robust, scalable web applications using MongoDB, Express.js, React.js, and Node.js. Learn to create dynamic frontends, manage backend operations, and integrate databases seamlessly. With a focus on real-world projects, you'll gain hands-on experience in building end-to-end applications. This course is ideal for aspiring full-stack developers looking to advance their careers in the tech industry. By the end of this course, you will have the confidence to create and deploy web applications, making you a valuable asset to any organization.",
+    duration: "3 Months",
+    date: "2024-12-01",
+    imageUrl: "https://img.freepik.com/free-vector/programmer-concept-illustration_114360-4531.jpg",
+    trending: "Popular",
+    stars: "★★★★★",
+    skillTitle1: "Frontend Development with React.js",
+    skillTitle2: "Backend Development with Node.js",
+    skillTitle3: "Database Management with MongoDB",
+    instructor: "Rahul Desai",
+    contact: "9876543210 / 9876543220",
+    fees: "45000",
+    learningPoint1: `
+      What You Will Learn:
+      - React.js: Build responsive and dynamic user interfaces with React.js, utilizing hooks, components, and state management.
+      - Node.js: Develop server-side applications using Node.js, including API creation and integration.
+      - MongoDB: Learn to structure and manage data efficiently with MongoDB, implementing CRUD operations.
+      - Express.js: Understand how to build scalable server-side applications with Express.js.
+      - RESTful APIs: Gain expertise in designing and developing RESTful APIs for seamless frontend-backend integration.
+      - Authentication & Security: Implement user authentication, secure your applications, and manage authorization.
+      - Deployment: Learn to deploy your applications on platforms like Heroku, Vercel, or AWS.
+      - Project Development: Work on real-world projects to build a portfolio showcasing your MERN stack expertise.
+    `,
+    syllabus: [
+      {
+        title: "MERN Stack Developer Syllabus",
+        topics: [
+          "Introduction to Full-Stack Development",
+          "HTML, CSS, and JavaScript Fundamentals",
+          "Getting Started with React.js",
+          "State Management and React Hooks",
+          "Node.js Basics and Express.js Framework",
+          "Building RESTful APIs",
+          "MongoDB Basics and Data Modeling",
+          "Frontend-Backend Integration",
+          "User Authentication and Authorization",
+          "File Uploads and Media Handling",
+          "Testing and Debugging MERN Applications",
+          "Deployment and Hosting Techniques",
+          "Capstone Project: End-to-End Application Development",
+        ],
+      },
+    ],
+    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_MERN_Stack.pdf",
+    keyfeatures1: `
+      Key Highlights:
+      - Comprehensive MERN Stack Coverage: Master all aspects of full-stack development using MongoDB, Express.js, React.js, and Node.js.
+      - Real-World Projects: Gain hands-on experience by working on practical projects, including an end-to-end application.
+      - Expert Mentorship: Learn from experienced developers with industry insights and best practices.
+      - Career-Focused Learning: Improve your employability with a portfolio of full-stack applications and a recognized certification.
+      - Interactive Sessions: Participate in live coding, Q&A, and interactive discussions for better learning outcomes.
+      - Flexible Learning Options: Choose between online and offline learning modes to suit your schedule.
+      - Lifetime Access: Access course materials and resources anytime for future reference.
+      - Certification: Earn a professional certificate to showcase your expertise in the MERN stack.
+    `,
+  }
+  
   // {
   //   title: "SAP",
   //   description: "focusing on integrating various business processes such as finance, sales, logistics, and human resources.",
