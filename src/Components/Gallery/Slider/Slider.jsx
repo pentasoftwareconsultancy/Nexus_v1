@@ -75,6 +75,51 @@ import Img98 from "../Images/Web_Photos/Navsahydri/98.jpeg";
 import Img99 from "../Images/Web_Photos/Navsahydri/99.jpeg";
 
 
+
+// Events 
+import ev1 from "../Images/Events/1 (1).jpeg";
+import ev10 from "../Images/Events/1 (10).jpeg";
+import ev11 from "../Images/Events/1 (11).jpeg";
+import ev12 from "../Images/Events/1 (12).jpeg";
+import ev13 from "../Images/Events/1 (13).jpeg";
+import ev14 from "../Images/Events/1 (14).jpeg";
+import ev15 from "../Images/Events/1 (15).jpeg";
+import ev16 from "../Images/Events/1 (16).jpeg";
+import ev17 from "../Images/Events/1 (17).jpeg";
+import ev18 from "../Images/Events/1 (18).jpeg";
+import ev19 from "../Images/Events/1 (19).jpeg";
+import ev20 from "../Images/Events/1 (21).jpeg";
+import ev3 from "../Images/Events/1 (3).jpeg";
+import ev4 from "../Images/Events/1 (4).jpeg";
+import ev5 from "../Images/Events/1 (5).jpeg";
+import ev6 from "../Images/Events/1 (6).jpeg";
+import ev7 from "../Images/Events/1 (7).jpeg";
+import ev8 from "../Images/Events/1 (8).jpeg";
+import ev9 from "../Images/Events/1 (9).jpeg";
+
+import ev21 from "../Images/Events/1 (22).jpeg";
+import ev22 from "../Images/Events/1 (23).jpeg";
+import ev23 from "../Images/Events/1 (24).jpeg";
+import ev24 from "../Images/Events/1 (25).jpeg";
+import ev25 from "../Images/Events/1 (26).jpeg";
+import ev26 from "../Images/Events/1 (27).jpeg";
+import ev27 from "../Images/Events/1 (28).jpeg";
+import ev28 from "../Images/Events/1 (29).jpeg";
+import ev29 from "../Images/Events/1 (30).jpeg";
+
+import ev30 from "../Images/Events/1 (31).jpeg";
+import ev31 from "../Images/Events/1 (32).jpeg";
+import ev32 from "../Images/Events/1 (33).jpeg";
+import ev33 from "../Images/Events/1 (34).jpeg";
+import ev34 from "../Images/Events/1 (35).jpeg";
+import ev35 from "../Images/Events/1 (36).jpeg";
+import ev36 from "../Images/Events/1 (37).jpeg";
+import ev37 from "../Images/Events/1 (38).jpeg";
+import ev38 from "../Images/Events/1 (39).jpeg";
+import ev39 from "../Images/Events/1 (40).jpeg";
+
+
+
 function Slider() {
   const navigate = useNavigate();
 
@@ -84,35 +129,51 @@ function Slider() {
       title: "Events",
       images: [
         //Akola 
-        { src: Img13, id: 13 },
-        { src: Img8,  id: 8 },
-        { src: Img17, id: 17 },
-        { src: Img18, id: 18 },
-        { src: Img20, id: 20 },
-        { src: Img21, id: 21 },
-        { src: Img22, id: 22 },
-        { src: Img23, id: 23 },
-        { src: Img24, id: 24 },
-        { src: Img19, id: 19 },
+        { src: ev1, id: 13 },
+        { src: ev3, id: 17 },
+        { src: ev4, id: 18 },
+        { src: ev5, id: 20 },
+        { src: ev6, id: 21 },
+        { src: ev7, id: 22 },
+        { src: ev8, id: 23 },
+        { src: ev9, id: 24 },
+        { src: ev10, id: 19 },
 
         // Pune 
-        { src: Img1,  id: 1 },
-        { src: Img16, id: 16 },
-        { src: Img14, id: 14 },
-        { src: Img15, id: 15 },
+        { src: ev11,  id: 1 },
+        { src: ev12, id: 16 },
+        { src: ev13, id: 14 },
+        { src: ev14, id: 15 },
 
         // More Images 
-        { src: Img2, id: 2 },
-        { src: Img3, id: 2 },
-        { src: Img4, id: 2 },
-        { src: Img5, id: 2 },
-        { src: Img6, id: 2 },
-        { src: Img7, id: 2 },
-        { src: Img9, id: 2 },
-        { src: Img10, id: 2 },
-        { src: Img11, id: 2 },
-        { src: Img25, id: 2 },
-        { src: Img26, id: 2 },
+        { src: ev15, id: 2 },
+        { src: ev16, id: 2 },
+        { src: ev17, id: 2 },
+        { src: ev18, id: 2 },
+        { src: ev19, id: 2 },
+        // { src: ev20, id: 2 },
+
+        // { src: ev21, id: 2 },
+        { src: ev22, id: 2 },
+        { src: ev23, id: 2 },
+        { src: ev24, id: 2 },
+        { src: ev25, id: 2 },
+        { src: ev26, id: 2 },
+        { src: ev27, id: 2 },
+        // { src: ev28, id: 2 },
+        // { src: ev29, id: 2 },
+
+        // { src: ev30, id: 2 },
+        // { src: ev31, id: 2 },
+        // { src: ev32, id: 2 },
+        // { src: ev33, id: 2 },
+        { src: ev34, id: 2 },
+        { src: ev35, id: 2 },
+        { src: ev36, id: 2 },
+        { src: ev37, id: 2 },
+        // { src: ev38, id: 2 },
+        // { src: ev39, id: 2 },
+
       ],
     },
 
