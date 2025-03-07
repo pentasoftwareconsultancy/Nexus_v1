@@ -36,7 +36,6 @@ import Img9 from "../Images/Web_Photos/9.jpeg";
 
 // more images 
 
-import Img12 from "../Images/Web_Photos/Navsahydri/12.jpeg";
 import Img29 from "../Images/Web_Photos/Asian/29.jpeg";
 import Img35 from "../Images/Web_Photos/Asian/35.jpeg";
 import Img36 from "../Images/Web_Photos/Asian/36.jpeg";
@@ -59,15 +58,7 @@ import Img67 from "../Images/Web_Photos/Asian/67.jpeg";
 import Img68 from "../Images/Web_Photos/Asian/68.jpeg";
 import Img69 from "../Images/Web_Photos/Asian/69.jpeg";
 import Img70 from "../Images/Web_Photos/Asian/70.jpeg";
-import Img71 from "../Images/Web_Photos/Asian/71.jpeg";
-import Img72 from "../Images/Web_Photos/Asian/72.jpeg";
 import Img78 from "../Images/Web_Photos/Asian/78.jpeg";
-import Img84 from "../Images/Web_Photos/Navsahydri/84.jpeg";
-import Img86 from "../Images/Web_Photos/Navsahydri/86.jpeg";
-import Img90 from "../Images/Web_Photos/Navsahydri/90.jpeg";
-import Img94 from "../Images/Web_Photos/Navsahydri/94.jpeg";
-import Img98 from "../Images/Web_Photos/Navsahydri/98.jpeg";
-import Img99 from "../Images/Web_Photos/Navsahydri/99.jpeg";
 import Img100 from "../Images/Web_Photos/Navsahydri/100.jpeg";
 import Img101 from "../Images/Web_Photos/Navsahydri/101.jpeg";
 import Img103 from "../Images/Web_Photos/Navsahydri/103.jpeg";
@@ -75,6 +66,13 @@ import Img104 from "../Images/Web_Photos/Navsahydri/104.jpeg";
 import Img105 from "../Images/Web_Photos/Navsahydri/105.jpeg";
 import Img108 from "../Images/Web_Photos/Navsahydri/108.jpeg";
 import Img109 from "../Images/Web_Photos/Navsahydri/109.jpeg";
+import Img12 from "../Images/Web_Photos/Navsahydri/12.jpeg";
+import Img84 from "../Images/Web_Photos/Navsahydri/84.jpeg";
+import Img86 from "../Images/Web_Photos/Navsahydri/86.jpeg";
+import Img90 from "../Images/Web_Photos/Navsahydri/90.jpeg";
+import Img94 from "../Images/Web_Photos/Navsahydri/94.jpeg";
+import Img98 from "../Images/Web_Photos/Navsahydri/98.jpeg";
+import Img99 from "../Images/Web_Photos/Navsahydri/99.jpeg";
 
 
 function Slider() {
@@ -82,6 +80,43 @@ function Slider() {
 
   // Data for locations with images
   const locations = [
+    {
+      title: "Events",
+      images: [
+        //Akola 
+        { src: Img13, id: 13 },
+        { src: Img8,  id: 8 },
+        { src: Img17, id: 17 },
+        { src: Img18, id: 18 },
+        { src: Img20, id: 20 },
+        { src: Img21, id: 21 },
+        { src: Img22, id: 22 },
+        { src: Img23, id: 23 },
+        { src: Img24, id: 24 },
+        { src: Img19, id: 19 },
+
+        // Pune 
+        { src: Img1,  id: 1 },
+        { src: Img16, id: 16 },
+        { src: Img14, id: 14 },
+        { src: Img15, id: 15 },
+
+        // More Images 
+        { src: Img2, id: 2 },
+        { src: Img3, id: 2 },
+        { src: Img4, id: 2 },
+        { src: Img5, id: 2 },
+        { src: Img6, id: 2 },
+        { src: Img7, id: 2 },
+        { src: Img9, id: 2 },
+        { src: Img10, id: 2 },
+        { src: Img11, id: 2 },
+        { src: Img25, id: 2 },
+        { src: Img26, id: 2 },
+      ],
+    },
+
+
     {
       title: "Akola College",
       images: [
@@ -205,6 +240,199 @@ function Slider() {
 
       ],
     },
+
+    {
+      title: "Manav College Of Engineering, Akola ",
+      images: [
+        { src: Img109, id: 18 },
+        { src: Img12, id: 11 },
+        { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img99, id: 18 },
+        { src: Img100, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img104, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img105, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "Shankarlal Khandelwal, Akola ",
+      images: [
+        { src: Img100, id: 18 },
+
+        { src: Img12, id: 11 },
+        { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img99, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img104, id: 18 },
+        { src: Img105, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img109, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "G.S. College, Khamgaon",
+      images: [
+        // { src: Img12, id: 11 },
+        // { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img99, id: 18 },
+        { src: Img100, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img104, id: 18 },
+        { src: Img105, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img109, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "Shree Goraksha College of Pharmacy and Research Center, Aurangabad",
+      images: [
+        { src: Img104, id: 11 },
+        { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img99, id: 18 },
+        { src: Img100, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img105, id: 18 },
+        { src: Img12, id: 18 },
+        { src: Img109, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "D Y Patil Talegoan, with Devcons placement",
+      images: [
+        { src: Img99, id: 11 },
+        { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img12, id: 18 },
+        { src: Img100, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img104, id: 18 },
+        { src: Img105, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img109, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "Genba Sopanrao Moze College of Engineering Balewadi, Pune ",
+      images: [
+        { src: Img17, id: 11 },
+        { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img99, id: 18 },
+        { src: Img100, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img104, id: 18 },
+        { src: Img105, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img109, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "Pankaj Laddhad Institute of Technology and Management Studies- [PLITMS], Buldhana",
+      images: [
+        { src: Img18, id: 11 },
+        { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img99, id: 18 },
+        { src: Img100, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img104, id: 18 },
+        { src: Img105, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img109, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "Mahatma Gandhi Pharmacy, Nashik ",
+      images: [
+        { src: Img2, id: 11 },
+        { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img99, id: 18 },
+        { src: Img100, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img104, id: 18 },
+        { src: Img105, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img109, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "Sangli Pharmacy",
+      images: [
+        { src: Img19, id: 11 },
+        { src: Img84, id: 16 },
+        { src: Img86, id: 17 },
+        { src: Img90, id: 18 },
+        { src: Img94, id: 18 },
+        { src: Img98, id: 18 },
+        { src: Img99, id: 18 },
+        { src: Img100, id: 18 },
+        { src: Img101, id: 18 },
+        { src: Img103, id: 18 },
+        { src: Img104, id: 18 },
+        { src: Img105, id: 18 },
+        { src: Img108, id: 18 },
+        { src: Img109, id: 18 },
+
+      ],
+    },
+
+
+
   ];
 
   const handleImageClick = (location) => {
