@@ -53,9 +53,8 @@ const ContactUs = () => {
               </p>
 
               <p>
-                <i>C] Akola Address :</i> Our Address Office No. 4-B, Second
-                Floor, Ganesham Commercial -A, Survey No. 21/18-21/24, BRTS
-                Road, Pimple Saudagar, Pune- 411027
+                <i>C] Akola Address :</i>Lotus Green Address: Geeta Nagar, Dahigaon Gawande,
+               Akola, Maharashtra 444002
               </p>
             </li>
           </ul>
