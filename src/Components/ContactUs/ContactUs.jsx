@@ -34,7 +34,7 @@ const ContactUs = () => {
           <ul>
             <li>
               <span>Mail ID:</span>
-              <a href="mailto:contact@Nexus-CTC-LLP">contact@Nexus-CTC-LLP</a>
+              <a href="mailto:contact@Nexus-CTC-LLP">nexusctc2020@gmail.com</a>
             </li>
             <li>
               <span>Contact Us:</span> +91 9112100663
