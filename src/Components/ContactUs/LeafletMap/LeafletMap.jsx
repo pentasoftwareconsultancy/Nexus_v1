@@ -27,7 +27,7 @@ const LeafletMap = () => {
     },
     {
       position: [20.689405307384273, 76.99340465862281],
-      popupText: "Akola Address : Geeta Nagar, Dahigaon Gawade, Akola, Maharashtra",
+      popupText: "Lotus Green Address: Geeta Nagar, Dahigaon Gawande, Akola, Maharashtra 444002",
     },
     {
       position: [19.973966519918175, 73.78741632269774],
