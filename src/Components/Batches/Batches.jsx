@@ -6,6 +6,8 @@ import UpcomingBatches from "../Home/UpcomingBatches/UpcomingBatches";
 import WhyJoin from "../Home/WhyJoin/WhyJoin";
 import Terms from "../Terms/Terms";
 import styles from "./Batches.module.css";
+import Img from "./image/courses.jpg";
+
 
 function Batches() {
   return (
@@ -23,7 +25,7 @@ function Batches() {
 
       <section className={styles.heroSection}>
         <img
-          src="https://www.newjobs.ai/assets/front/img/Data_Science.jpg"
+          src={Img}
           alt="Hero"
           className={styles.heroImage}
         />
