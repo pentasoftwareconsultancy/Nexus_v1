@@ -6,7 +6,7 @@ import UpcomingBatches from "../Home/UpcomingBatches/UpcomingBatches";
 import WhyJoin from "../Home/WhyJoin/WhyJoin";
 import Terms from "../Terms/Terms";
 import styles from "./Batches.module.css";
-import Img from "./image/courses.jpg";
+// import Img from "./image/courses.jpg";
 
 
 function Batches() {
@@ -25,7 +25,7 @@ function Batches() {
 
       <section className={styles.heroSection}>
         <img
-          src={Img}
+          src="https://t4.ftcdn.net/jpg/03/23/82/99/360_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"
           alt="Hero"
           className={styles.heroImage}
         />
