@@ -8,10 +8,6 @@ import Terms from "../Terms/Terms";
 import styles from "./Batches.module.css";
 // import Img from "./image/courses.jpg";
 
-
-
-
-
 function Batches() {
   return (
     <div>
