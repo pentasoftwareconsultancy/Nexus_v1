@@ -30,7 +30,7 @@ function Batches() {
 
         <h1 className={styles.heroTitle}> Our Courses </h1>
       </section> */}
-      <Course />
+      {/* <Course /> */}
 
       <UpcomingBatches />
 
