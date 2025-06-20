@@ -21,7 +21,7 @@ function Batches() {
         <meta name="keywords" content="best IT courses for beginners" />
       </Helmet>
 
-      {/* <section className={styles.heroSection}>
+      <section className={styles.heroSection}>
         <img
           src="https://t4.ftcdn.net/jpg/03/23/82/99/360_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"
           alt="Hero"
@@ -29,8 +29,8 @@ function Batches() {
         />
 
         <h1 className={styles.heroTitle}> Our Courses </h1>
-      </section> */}
-      {/* <Course /> */}
+      </section>
+      <Course />
 
       <UpcomingBatches />
 
