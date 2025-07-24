@@ -1,53 +1,53 @@
 import Image from "./Components/Home/Course/Images/PowerBi.webp";
 const courses = [
-  {
-    title: "Software Testing",
-    keywords: "best course for power bi",
-    meta: "best software testing course online with certification as well as job placement. Join now and enhance your career opportunities in IT sector.",
-    description:"Looking to enhance your skills with the best software training institute in Pune? Our institute offers comprehensive software testing courses designed to meet industry standards and equip you with hands-on experience. With expert trainers, real-world projects, and a proven track record of student success, we ensure you gain the knowledge and confidence needed to excel in the competitive tech landscape. Whether you're a fresher or an experienced professional, our software testing courses cater to all levels. Join the best software training institute in Pune today and take the first step toward a rewarding career in software testing.",
-    duration: "3 Months",
-    date: "2024-12-01",
-    imageUrl:
-      "https://techvify-software.com/wp-content/uploads/2023/09/artificial-intelligence-in-software-testing-e1695786456860.webp", // Example image URL
-    // imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
-    trending: "New",
-    stars: "★★★★★", // Example star rating
-    skillTitle1: "Test Planning & Design",
-    skillTitle2: "Automation Testing",
-    skillTitle3: "Defect Tracking & Management",
-    instructor: "Abhijeet Kumar",
-    contact: "9545450788 / 9545450677",
-    fees: "35000",
-    learningPoint1:
-      "Key concepts and types of software testing (manual and automated)",
-    learningPoint2: "Effective test planning, design, and execution",
-    learningPoint3: "Use of testing tools for automation and defect tracking",
-    syllabus: [
-      {
-        title: "Software Testing",
-        topics: [
-          "Introduction to Software Testing",
-          "Testing Fundamentals",
-          "Manual Testing Basics",
-          "Advanced Manual Testing",
-          "Automation Testing – Fundamentals",
-          "Advanced Automation Testing",
-          "Performance Testing",
-          "API Testing",
-          "Test Management Tools",
-          "Security Testing",
-          "Mobile Testing",
-          "Advanced Testing Concepts",
-          "Software Testing Certifications (Optional)",
-        ],
-      },
-    ],
-    pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Software_Testing_Syllbus.pdf",
+  // {
+  //   title: "Software Testing",
+  //   keywords: "best course for power bi",
+  //   meta: "best software testing course online with certification as well as job placement. Join now and enhance your career opportunities in IT sector.",
+  //   description:"Looking to enhance your skills with the best software training institute in Pune? Our institute offers comprehensive software testing courses designed to meet industry standards and equip you with hands-on experience. With expert trainers, real-world projects, and a proven track record of student success, we ensure you gain the knowledge and confidence needed to excel in the competitive tech landscape. Whether you're a fresher or an experienced professional, our software testing courses cater to all levels. Join the best software training institute in Pune today and take the first step toward a rewarding career in software testing.",
+  //   duration: "3 Months",
+  //   date: "2024-12-01",
+  //   imageUrl:
+  //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzzoePLBSvGa2pYF1vb7Fgkr254xsRkEjq8g&s", // Example image URL
+  //   // imageUrl: "https://pixelplex.io/wp-content/uploads/2021/01/artificial-intelligence-applications-in-healthcare-main-image-1600.jpg", // Example image URL
+  //   trending: "New",
+  //   stars: "★★★★★", // Example star rating
+  //   skillTitle1: "Test Planning & Design",
+  //   skillTitle2: "Automation Testing",
+  //   skillTitle3: "Defect Tracking & Management",
+  //   instructor: "Abhijeet Kumar",
+  //   contact: "9545450788 / 9545450677",
+  //   fees: "35000",
+  //   learningPoint1:
+  //     "Key concepts and types of software testing (manual and automated)",
+  //   learningPoint2: "Effective test planning, design, and execution",
+  //   learningPoint3: "Use of testing tools for automation and defect tracking",
+  //   syllabus: [
+  //     {
+  //       title: "Software Testing",
+  //       topics: [
+  //         "Introduction to Software Testing",
+  //         "Testing Fundamentals",
+  //         "Manual Testing Basics",
+  //         "Advanced Manual Testing",
+  //         "Automation Testing – Fundamentals",
+  //         "Advanced Automation Testing",
+  //         "Performance Testing",
+  //         "API Testing",
+  //         "Test Management Tools",
+  //         "Security Testing",
+  //         "Mobile Testing",
+  //         "Advanced Testing Concepts",
+  //         "Software Testing Certifications (Optional)",
+  //       ],
+  //     },
+  //   ],
+  //   pdfPath: "/PDF/Nexus_Corporate_Traning_Centre_Software_Testing_Syllbus.pdf",
 
-    keyfeatures1:
-      "Key Features of the Best Software Testing Course Online: Comprehensive Curriculum: Covers manual testing, automation testing, and advanced testing methodologies. Live Interactive Classes: Real-time classes with industry experts to ensure interactive learning. Hands-on Training: Work on live projects to gain practical experience. Certification: Earn a recognized certification upon course completion. Job Placement Assistance: Support for resume building, interview preparation, and job placements. Industry-Relevant Tools: Training with tools like Selenium, JIRA, TestNG, and more. Flexible Learning Options: Choose between weekday or weekend batches as per your schedule. Doubt Resolution: Regular doubt-clearing sessions and 1-on-1 mentorship. Experienced Faculty: Learn from certified professionals with extensive industry experience. Career Guidance: Personalized career counseling to help you plan your career path in software testing.",
+  //   keyfeatures1:
+  //     "Key Features of the Best Software Testing Course Online: Comprehensive Curriculum: Covers manual testing, automation testing, and advanced testing methodologies. Live Interactive Classes: Real-time classes with industry experts to ensure interactive learning. Hands-on Training: Work on live projects to gain practical experience. Certification: Earn a recognized certification upon course completion. Job Placement Assistance: Support for resume building, interview preparation, and job placements. Industry-Relevant Tools: Training with tools like Selenium, JIRA, TestNG, and more. Flexible Learning Options: Choose between weekday or weekend batches as per your schedule. Doubt Resolution: Regular doubt-clearing sessions and 1-on-1 mentorship. Experienced Faculty: Learn from certified professionals with extensive industry experience. Career Guidance: Personalized career counseling to help you plan your career path in software testing.",
 
-  },
+  // },
 
   {
     title: "AWS Administrator",
