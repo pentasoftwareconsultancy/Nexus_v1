@@ -34,6 +34,25 @@ import Img6 from "../Images/Web_Photos/6.jpeg";
 import Img7 from "../Images/Web_Photos/7.jpeg";
 import Img9 from "../Images/Web_Photos/9.jpeg";
 
+// Raisoni college kharadi
+import r1 from "../Images/Web_Photos/Raisoni college kharadi/1.jpeg";
+import r2 from "../Images/Web_Photos/Raisoni college kharadi/2.jpeg";
+import r3 from "../Images/Web_Photos/Raisoni college kharadi/3 (1).jpeg";
+import r12 from "../Images/Web_Photos/Raisoni college kharadi/3 (10).jpeg";
+import r13 from "../Images/Web_Photos/Raisoni college kharadi/3 (11).jpeg";
+import r14 from "../Images/Web_Photos/Raisoni college kharadi/3 (12).jpeg";
+import r15 from "../Images/Web_Photos/Raisoni college kharadi/3 (13).jpeg";
+import r4 from "../Images/Web_Photos/Raisoni college kharadi/3 (2).jpeg";
+import r5 from "../Images/Web_Photos/Raisoni college kharadi/3 (3).jpeg";
+import r6 from "../Images/Web_Photos/Raisoni college kharadi/3 (4).jpeg";
+import r7 from "../Images/Web_Photos/Raisoni college kharadi/3 (5).jpeg";
+import r8 from "../Images/Web_Photos/Raisoni college kharadi/3 (6).jpeg";
+import r9 from "../Images/Web_Photos/Raisoni college kharadi/3 (7).jpeg";
+import r10 from "../Images/Web_Photos/Raisoni college kharadi/3 (8).jpeg";
+import r11 from "../Images/Web_Photos/Raisoni college kharadi/3 (9).jpeg";
+
+
+
 // more images 
 
 import Img29 from "../Images/Web_Photos/Asian/29.jpeg";
@@ -88,7 +107,6 @@ import ev16 from "../Images/Events/1 (16).jpeg";
 import ev17 from "../Images/Events/1 (17).jpeg";
 import ev18 from "../Images/Events/1 (18).jpeg";
 import ev19 from "../Images/Events/1 (19).jpeg";
-import ev20 from "../Images/Events/1 (21).jpeg";
 import ev3 from "../Images/Events/1 (3).jpeg";
 import ev4 from "../Images/Events/1 (4).jpeg";
 import ev5 from "../Images/Events/1 (5).jpeg";
@@ -97,26 +115,17 @@ import ev7 from "../Images/Events/1 (7).jpeg";
 import ev8 from "../Images/Events/1 (8).jpeg";
 import ev9 from "../Images/Events/1 (9).jpeg";
 
-import ev21 from "../Images/Events/1 (22).jpeg";
 import ev22 from "../Images/Events/1 (23).jpeg";
 import ev23 from "../Images/Events/1 (24).jpeg";
 import ev24 from "../Images/Events/1 (25).jpeg";
 import ev25 from "../Images/Events/1 (26).jpeg";
 import ev26 from "../Images/Events/1 (27).jpeg";
 import ev27 from "../Images/Events/1 (28).jpeg";
-import ev28 from "../Images/Events/1 (29).jpeg";
-import ev29 from "../Images/Events/1 (30).jpeg";
 
-import ev30 from "../Images/Events/1 (31).jpeg";
-import ev31 from "../Images/Events/1 (32).jpeg";
-import ev32 from "../Images/Events/1 (33).jpeg";
-import ev33 from "../Images/Events/1 (34).jpeg";
 import ev34 from "../Images/Events/1 (35).jpeg";
 import ev35 from "../Images/Events/1 (36).jpeg";
 import ev36 from "../Images/Events/1 (37).jpeg";
 import ev37 from "../Images/Events/1 (38).jpeg";
-import ev38 from "../Images/Events/1 (39).jpeg";
-import ev39 from "../Images/Events/1 (40).jpeg";
 
 
 
@@ -488,6 +497,30 @@ function Slider() {
         { src: Img105, id: 18 },
         { src: Img108, id: 18 },
         { src: Img109, id: 18 },
+
+      ],
+    },
+
+    {
+      title: "Raisoni college kharadi",
+      images: [
+        { src: r1, id: 11 },
+        { src: r2, id: 16 },
+        { src: r3, id: 17 },
+        { src: r4, id: 18 },
+        { src: r5, id: 18 },
+        { src: r6, id: 18 },
+        { src: r7, id: 18 },
+        { src: r8, id: 18 },
+        { src: r9, id: 18 },
+        { src: r10, id: 18 },   
+        { src: r11, id: 18 },
+        { src: r12, id: 18 },
+        { src: r13, id: 18 },
+        { src: r14, id: 18 },
+        { src: r15, id: 18 },
+        // { src: r16, id: 18 },
+        
 
       ],
     },
